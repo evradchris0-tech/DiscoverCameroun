@@ -1,0 +1,85 @@
+{
+  "@@locale": "fr",
+  "appTitle": "Discover Cameroon",
+  "navHome": "Accueil",
+  "navExperiences": "Expériences",
+  "navMap": "Carte",
+  "navFavorites": "Favoris",
+
+  "homeEyebrow": "GUIDE TOURISTIQUE",
+  "homeTitle": "Découvrez\nle Cameroun",
+  "homeDestinationsToExplore": "{count} destinations à explorer",
+  "searchHint": "Rechercher une destination...",
+  "destinationsCount": "{count, plural, =0{Aucune destination} =1{1 destination} other{{count} destinations}}",
+  "emptyNoDestinations": "Aucune destination trouvée",
+  "filterAll": "Tout",
+
+  "emergencyTooltip": "Numéros d'urgence",
+  "aboutContent": "Guide touristique des destinations camerounaises.\n\nProjet Flutter de démonstration.",
+  "actionClose": "Fermer",
+
+  "mapTitle": "Carte du Cameroun",
+  "mapFilterTooltip": "Filtrer par catégorie",
+
+  "favoritesTitle": "Mes Favoris",
+  "favoritesEmptyTitle": "Aucun favori pour l'instant",
+  "favoritesEmptyHint": "Appuyez sur le signet d'une destination pour la sauvegarder.",
+
+  "experiencesTitle": "Expériences",
+  "experiencesEmpty": "Aucune expérience",
+
+  "emergencyTitle": "Numéros d'urgence",
+  "emergencyBanner": "Appuyez sur un contact pour appeler immédiatement. Vérifiez les numéros locaux à votre arrivée.",
+  "emergencyNational": "Urgences nationales",
+  "emergencyRegional": "Contacts régionaux",
+
+  "guidesTitle": "Guides · {name}",
+  "guidesEmpty": "Aucun guide référencé pour le moment.",
+
+  "sectionAbout": "À propos",
+  "sectionActivities": "Activités",
+  "sectionLocation": "Localisation",
+  "sectionPracticalInfo": "Infos pratiques",
+  "sectionHowToGet": "Comment s'y rendre",
+  "sectionTips": "Conseils & recommandations",
+  "sectionSeason": "Saison appropriée",
+  "sectionEntryFee": "Prix d'entrée",
+  "sectionGuides": "Guides locaux",
+  "sectionExperiences": "Expériences à vivre",
+  "sectionWhereToSleep": "Où dormir",
+  "sectionWhereToEat": "Où manger",
+
+  "actionBack": "Retour",
+  "actionCall": "Appeler",
+  "actionWhatsApp": "WhatsApp",
+  "actionDirections": "Itinéraire",
+  "actionSeeAll": "Voir tout",
+
+  "tooltipCopy": "Copier les infos",
+  "tooltipAddFav": "Ajouter aux favoris",
+  "tooltipRemoveFav": "Retirer des favoris",
+  "snackCopied": "Copié dans le presse-papiers",
+  "snackCallFailed": "Impossible de lancer l'appel",
+  "snackWhatsappUnavailable": "WhatsApp n'est pas disponible",
+
+  "labelFree": "Gratuit",
+  "labelFrom": "dès",
+  "labelPerNight": "/ nuit",
+  "labelPerDay": "/ jour",
+  "ratingNew": "Nouveau",
+
+  "altitudeLabel": "Altitude : {value} m",
+  "routeFromYou": "{distance} · {duration} depuis vous",
+  "routeByCar": "en voiture",
+
+  "mapRecenter": "Recentrer",
+  "mapMyLocation": "Ma position",
+  "mapZoomIn": "Zoom avant",
+  "mapZoomOut": "Zoom arrière",
+  "actionView": "Voir",
+
+  "sectionRegions": "Découvrir le Cameroun par région",
+  "sectionPopularStays": "Séjours populaires",
+  "priceFrom": "À partir de {price}",
+  "regionDestinationsCount": "{count, plural, one{{count} destination} other{{count} destinations}}"
+}

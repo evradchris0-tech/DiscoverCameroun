@@ -1,0 +1,42 @@
+[
+  {
+    "id": "police",
+    "label": "Police secours",
+    "number": "117",
+    "scope": "national"
+  },
+  {
+    "id": "pompiers",
+    "label": "Sapeurs-pompiers",
+    "number": "118",
+    "scope": "national"
+  },
+  {
+    "id": "gendarmerie",
+    "label": "Gendarmerie nationale",
+    "number": "113",
+    "scope": "national"
+  },
+  {
+    "id": "samu",
+    "label": "Urgences médicales (SAMU)",
+    "number": "119",
+    "scope": "national"
+  },
+  {
+    "id": "hopital_kribi",
+    "label": "Hôpital de district de Kribi",
+    "number": "+237200000001",
+    "scope": "regional",
+    "region": "Région du Sud",
+    "notes": "Numéro indicatif à valider."
+  },
+  {
+    "id": "hopital_limbe",
+    "label": "Limbe Regional Hospital",
+    "number": "+237200000002",
+    "scope": "regional",
+    "region": "Région du Sud-Ouest",
+    "notes": "Numéro indicatif à valider."
+  }
+]

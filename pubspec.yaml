@@ -1,0 +1,46 @@
+name: discover_cameroon
+description: "Guide touristique des destinations camerounaises — projet de démonstration Flutter."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.0.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Internationalisation (FR / EN)
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.3.3
+  google_fonts: ^6.2.1
+
+  # State management global
+  flutter_riverpod: ^2.5.1
+
+  # Carte interactive OpenStreetMap
+  flutter_map: ^6.1.0
+  latlong2: ^0.9.0
+
+  # Liens externes : appel téléphonique, WhatsApp, itinéraire Maps
+  url_launcher: ^6.3.0
+
+  # Géolocalisation + calcul d'itinéraire (temps de trajet via OSRM)
+  geolocator: ^13.0.0
+  http: ^1.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true # active la génération des localisations (gen-l10n)
+  assets:
+    - assets/images/
+    - assets/data/

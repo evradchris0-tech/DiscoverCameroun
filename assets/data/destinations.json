@@ -1,0 +1,1144 @@
+[
+  {
+    "id": "kribi",
+    "name": "Kribi",
+    "titre_accroche": "Où l'océan embrasse la forêt équatoriale",
+    "duree": "3 jours / 2 nuits",
+    "prix_appel": 65000,
+    "description": "La cité balnéaire par excellence. Kribi offre de magnifiques plages de sable fin, des hôtels de luxe, et l'incroyable spectacle des chutes de la Lobé se jetant directement dans l'océan Atlantique. Dégustez-y des fruits de mer fraîchement pêchés.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Pierre_1_g%C3%AEtes_kribi_02.jpg/1280px-Pierre_1_g%C3%AEtes_kribi_02.jpg",
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Pierre_1_g%C3%AEtes_kribi_02.jpg/1280px-Pierre_1_g%C3%AEtes_kribi_02.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Phare_de_KRIBI._13.jpg/1280px-Phare_de_KRIBI._13.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Phare_de_KRIBI._01.jpg/1280px-Phare_de_KRIBI._01.jpg"
+    ],
+    "category": "plage",
+    "region": "Région du Sud",
+    "latitude": 2.9391,
+    "longitude": 9.9074,
+    "activities": [
+      "Plage",
+      "Gastronomie marine",
+      "Visite des chutes"
+    ]
+  },
+  {
+    "id": "limbe",
+    "name": "Limbe",
+    "titre_accroche": "Là où la lave volcanique rencontre l'Atlantique",
+    "duree": "2 jours / 1 nuit",
+    "prix_appel": 45000,
+    "description": "Bordée par l'océan Atlantique au pied du Mont Cameroun, Limbe est célèbre pour ses plages de sable noir volcanique, son Jardin Botanique historique et son centre de réhabilitation de la faune sauvage.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Limb%C3%A9_-Cameroun_-_environs.JPG/1280px-Limb%C3%A9_-Cameroun_-_environs.JPG",
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Limb%C3%A9_-Cameroun_-_environs.JPG/1280px-Limb%C3%A9_-Cameroun_-_environs.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Limb%C3%A9_%28Cameroun%29_-_plage_volcanique.JPG/1280px-Limb%C3%A9_%28Cameroun%29_-_plage_volcanique.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Limb%C3%A9_%28Cameroun%29_-_baignade_dans_l%27oc%C3%A9an.JPG/1280px-Limb%C3%A9_%28Cameroun%29_-_baignade_dans_l%27oc%C3%A9an.JPG"
+    ],
+    "category": "plage",
+    "region": "Région du Sud-Ouest",
+    "latitude": 4.011,
+    "longitude": 9.2266,
+    "activities": [
+      "Jardin botanique",
+      "Plage volcanique",
+      "Sauvegarde animale"
+    ]
+  },
+  {
+    "id": "douala",
+    "name": "Douala",
+    "titre_accroche": "Le cœur battant de l'économie africaine centrale",
+    "duree": "2 jours / 1 nuit",
+    "prix_appel": 35000,
+    "description": "Capitale économique bouillonnante, Douala est le carrefour d'affaires du pays. Découvrez son port tentaculaire, sa vie nocturne électrique, et son melting-pot culturel unique.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/A%C3%A9roport_de_Douala_%28cameroun%29.jpg/1280px-A%C3%A9roport_de_Douala_%28cameroun%29.jpg",
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/A%C3%A9roport_de_Douala_%28cameroun%29.jpg/1280px-A%C3%A9roport_de_Douala_%28cameroun%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Manifestation_post_electorale_du_26_octobre_2025_%C3%A0_Douala_au_Cameroun_06.jpg/1280px-Manifestation_post_electorale_du_26_octobre_2025_%C3%A0_Douala_au_Cameroun_06.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Quarter_Bali_%C3%A0_Douala_Cameroun.jpg/1280px-Quarter_Bali_%C3%A0_Douala_Cameroun.jpg"
+    ],
+    "category": "ville",
+    "region": "Région du Littoral",
+    "latitude": 4.0511,
+    "longitude": 9.7679,
+    "activities": [
+      "Shopping",
+      "Affaires",
+      "Vie nocturne"
+    ]
+  },
+  {
+    "id": "yaounde",
+    "name": "Yaoundé",
+    "titre_accroche": "Sept collines, mille histoires, une capitale",
+    "duree": "2 jours / 1 nuit",
+    "prix_appel": 40000,
+    "description": "La ville aux sept collines. Yaoundé, capitale politique, allie avec élégance modernité institutionnelle et vallées verdoyantes. Explorez le Mont Fébé, le Musée National et le Palais des Congrès.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Primature_Yaound%C3%A9_Cameroun.jpg/1280px-Primature_Yaound%C3%A9_Cameroun.jpg",
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Primature_Yaound%C3%A9_Cameroun.jpg/1280px-Primature_Yaound%C3%A9_Cameroun.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Centre_ville_Yaound%C3%A9_Cameroun.jpg/1280px-Centre_ville_Yaound%C3%A9_Cameroun.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/1/10/Yaound%C3%A9_1.jpg"
+    ],
+    "category": "ville",
+    "region": "Région du Centre",
+    "latitude": 3.848,
+    "longitude": 11.5021,
+    "activities": [
+      "Culture",
+      "Musées",
+      "Gastronomie"
+    ]
+  },
+  {
+    "id": "bamenda",
+    "name": "Bamenda",
+    "titre_accroche": "L'air des hauts-plateaux, la douceur de l'artisanat",
+    "duree": "3 jours / 2 nuits",
+    "prix_appel": 55000,
+    "description": "Perchée dans les hautes terres, Bamenda offre des paysages montagneux spectaculaires, un climat frais exceptionnel et une richesse artisanale reconnue dans tout le bassin anglophone.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/Bamenda_OSM_01.png",
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/9/91/Bamenda_OSM_01.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/PWD_de_Bamenda_Finale_Coupe_du_Cameroun_2022.jpg/1280px-PWD_de_Bamenda_Finale_Coupe_du_Cameroun_2022.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/PWD_de_Bamenda_Vainqueur_de_la_Coupe_du_Cameroun_2022.jpg/1280px-PWD_de_Bamenda_Vainqueur_de_la_Coupe_du_Cameroun_2022.jpg"
+    ],
+    "category": "montagne",
+    "region": "Région du Nord-Ouest",
+    "altitude": 1640,
+    "latitude": 5.9631,
+    "longitude": 10.1591,
+    "activities": [
+      "Randonnée",
+      "Artisanat",
+      "Culture locale"
+    ]
+  },
+  {
+    "id": "waza",
+    "name": "Parc National de Waza",
+    "titre_accroche": "Le dernier sanctuaire sauvage de l'Extrême-Nord",
+    "duree": "3 jours / 2 nuits",
+    "prix_appel": 95000,
+    "description": "L'un des sanctuaires fauniques les plus emblématiques d'Afrique centrale. Observez lions, girafes, éléphants et autruches au cœur de la savane de l'Extrême-Nord.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Vue_depuis_le_campement_du_parc_de_Waza_en_mars_1973.jpg/1280px-Vue_depuis_le_campement_du_parc_de_Waza_en_mars_1973.jpg",
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Vue_depuis_le_campement_du_parc_de_Waza_en_mars_1973.jpg/1280px-Vue_depuis_le_campement_du_parc_de_Waza_en_mars_1973.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Campement_du_parc_de_Waza_en_d%C3%A9cembre_1973.jpg/1280px-Campement_du_parc_de_Waza_en_d%C3%A9cembre_1973.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Bain_des_%C3%A9l%C3%A9phants%2C_parc_de_Waza%2C_Nord_Cameroun_%2825963018142%29.jpg/1280px-Bain_des_%C3%A9l%C3%A9phants%2C_parc_de_Waza%2C_Nord_Cameroun_%2825963018142%29.jpg"
+    ],
+    "category": "parc",
+    "region": "Région de l'Extrême-Nord",
+    "latitude": 11.3747,
+    "longitude": 14.6443,
+    "activities": [
+      "Safari photo",
+      "Observation de la faune"
+    ]
+  },
+  {
+    "id": "foumban",
+    "name": "Foumban",
+    "titre_accroche": "La cité royale des arts et du génie Bamoun",
+    "duree": "2 jours / 1 nuit",
+    "prix_appel": 48000,
+    "description": "Ville historique, Foumban est la cité des arts et le siège du célèbre royaume Bamoun. Le Palais des Rois Bamouns et les ruelles des artisans fondeurs sont des trésors culturels inestimables.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Bamun_sultan_palace.jpg",
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/a7/Bamun_sultan_palace.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Masque_Bamoun_nku_ngem-Foumban-Mus%C3%A9e_du_quai_Branly_%282%29.jpg/1280px-Masque_Bamoun_nku_ngem-Foumban-Mus%C3%A9e_du_quai_Branly_%282%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Masque_Bamoun_de_la_soci%C3%A9t%C3%A9_secr%C3%A8te_Mbansie-Foumban_%282%29.jpg/1280px-Masque_Bamoun_de_la_soci%C3%A9t%C3%A9_secr%C3%A8te_Mbansie-Foumban_%282%29.jpg"
+    ],
+    "category": "ville",
+    "region": "Région de l'Ouest",
+    "altitude": 1200,
+    "latitude": 5.7289,
+    "longitude": 10.8997,
+    "activities": [
+      "Histoire",
+      "Artisanat d'art",
+      "Palais royal"
+    ]
+  },
+  {
+    "id": "mont_cameroun",
+    "name": "Mont Cameroun",
+    "titre_accroche": "Touchez le toit de l'Afrique de l'Ouest à 4040m",
+    "duree": "5 jours / 4 nuits",
+    "prix_appel": 120000,
+    "description": "Le célèbre \"Char des Dieux\", culminant à 4 040 m d'altitude. Ce volcan majestueux toujours en activité constitue un défi exaltant pour les trekkeurs et alpinistes du monde entier.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Mont_Cameroun_2018.jpg/1280px-Mont_Cameroun_2018.jpg",
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Mont_Cameroun_2018.jpg/1280px-Mont_Cameroun_2018.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Mont-Cameroun_%28cropped%29.jpg/1280px-Mont-Cameroun_%28cropped%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Sommet_Mont_Cameroun_01.jpg/1280px-Sommet_Mont_Cameroun_01.jpg"
+    ],
+    "category": "montagne",
+    "region": "Région du Sud-Ouest",
+    "altitude": 4040,
+    "latitude": 4.2045,
+    "longitude": 9.1732,
+    "activities": [
+      "Trekking",
+      "Ascension",
+      "Volcanologie"
+    ]
+  },
+  {
+    "id": "ekom_nkam",
+    "name": "Chutes d'Ekom Nkam",
+    "titre_accroche": "Le décor de Tarzan, 80m de chute en pleine forêt",
+    "duree": "1 jour",
+    "prix_appel": 25000,
+    "description": "Perdues au cœur d'une forêt dense et exubérante, ces chutes spectaculaires de 80 mètres de haut ont notamment servi de décor au film Tarzan.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Chutes_d%27Ekom_Nkam.jpg/1280px-Chutes_d%27Ekom_Nkam.jpg",
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Chutes_d%27Ekom_Nkam.jpg/1280px-Chutes_d%27Ekom_Nkam.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Les_Chutes_d%27Ekom-Nkam-Melong_05.jpg/1280px-Les_Chutes_d%27Ekom-Nkam-Melong_05.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Les_Chutes_d%27Ekom-Nkam-Melong_15.jpg/1280px-Les_Chutes_d%27Ekom-Nkam-Melong_15.jpg"
+    ],
+    "category": "foret",
+    "region": "Région du Littoral",
+    "latitude": 4.9083,
+    "longitude": 9.8708,
+    "activities": [
+      "Excursion en forêt",
+      "Photographie",
+      "Nature"
+    ]
+  },
+  {
+    "id": "buea",
+    "name": "Buéa",
+    "titre_accroche": "L'élégance coloniale sur les pentes d'un volcan actif",
+    "duree": "2 jours / 1 nuit",
+    "prix_appel": 42000,
+    "description": "Ancienne capitale de l'ère coloniale allemande nichée sur les pentes du Mont Cameroun. Buea possède un climat exceptionnellement doux et des monuments historiques authentiques.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Buea_from_Fako.jpg/1280px-Buea_from_Fako.jpg",
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Buea_from_Fako.jpg/1280px-Buea_from_Fako.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Buea_et_le_Mont_Cameroun_banner.jpg/1280px-Buea_et_le_Mont_Cameroun_banner.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/f/f9/Buea.jpg"
+    ],
+    "category": "ville",
+    "region": "Région du Sud-Ouest",
+    "altitude": 870,
+    "latitude": 4.1553,
+    "longitude": 9.2435,
+    "activities": [
+      "Histoire coloniale",
+      "Climat doux",
+      "Point de départ trekking"
+    ]
+  },
+  {
+    "id": "rhumsiki",
+    "name": "Pics de Rhumsiki",
+    "titre_accroche": "Un décor lunaire sorti d'une autre planète",
+    "duree": "2 jours / 1 nuit",
+    "prix_appel": 58000,
+    "description": "Décor lunaire inoubliable des monts Mandara. Le village de Rhumsiki offre des paysages dominés par des pics volcaniques dressés vers le ciel en pleine harmonie avec l'artisanat local.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Les_monts_Kapsiki_dans_l%27Extr%C3%AAme_nord.jpg/1280px-Les_monts_Kapsiki_dans_l%27Extr%C3%AAme_nord.jpg",
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Les_monts_Kapsiki_dans_l%27Extr%C3%AAme_nord.jpg/1280px-Les_monts_Kapsiki_dans_l%27Extr%C3%AAme_nord.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Les_monts_Kapsiki_dans_l%27Extr%C3%AAme_nord3.jpg/1280px-Les_monts_Kapsiki_dans_l%27Extr%C3%AAme_nord3.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Les_monts_Kapsiki_dans_l%27Extr%C3%AAme_nord2.jpg/1280px-Les_monts_Kapsiki_dans_l%27Extr%C3%AAme_nord2.jpg"
+    ],
+    "category": "montagne",
+    "region": "Région de l'Extrême-Nord",
+    "latitude": 10.5694,
+    "longitude": 13.5822,
+    "activities": [
+      "Tourisme pittoresque",
+      "Découverte culturelle",
+      "Paysages"
+    ]
+  },
+  {
+    "id": "korup",
+    "name": "Parc National de Korup",
+    "titre_accroche": "La plus ancienne forêt tropicale d'Afrique vous attend",
+    "duree": "4 jours / 3 nuits",
+    "prix_appel": 85000,
+    "description": "L'une des plus anciennes forêts tropicales pluviales d'Afrique. Korup est le paradis des botanistes et abrite une biodiversité unique au monde incluant des ponts suspendus vertigineux.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Korup_National_Park%2C_Cameroon_01.jpg/1280px-Korup_National_Park%2C_Cameroon_01.jpg",
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Korup_National_Park%2C_Cameroon_01.jpg/1280px-Korup_National_Park%2C_Cameroon_01.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Korup_National_Park%2C_Cameroon_02.jpg/1280px-Korup_National_Park%2C_Cameroon_02.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Korup_National_Park%2C_Cameroon_06.jpg/1280px-Korup_National_Park%2C_Cameroon_06.jpg"
+    ],
+    "category": "foret",
+    "region": "Région du Sud-Ouest",
+    "latitude": 5.0667,
+    "longitude": 8.8667,
+    "activities": [
+      "Randonnée forestière",
+      "Botanique",
+      "Pont suspendu"
+    ]
+  },
+  {
+    "id": "ebogo",
+    "name": "Site Écotouristique d'Ebogo",
+    "titre_accroche": "Glissez en pirogue entre les racines géantes du Nyong",
+    "duree": "1 jour",
+    "prix_appel": 18000,
+    "description": "Promenade apaisante en pirogue sur le majestueux fleuve Nyong. Ce havre de paix permet d'observer une forêt luxuriante et l'impressionnant \"arbre millénaire\".",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Site_%C3%A9cotouristique_d%27Ebogo%2C_Cameroun.jpg/1280px-Site_%C3%A9cotouristique_d%27Ebogo%2C_Cameroun.jpg",
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Site_%C3%A9cotouristique_d%27Ebogo%2C_Cameroun.jpg/1280px-Site_%C3%A9cotouristique_d%27Ebogo%2C_Cameroun.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Vue_des_bungalows%2C_Site_%C3%A9cotouristique_d%27Ebogo%2C_Cameroun.jpg/1280px-Vue_des_bungalows%2C_Site_%C3%A9cotouristique_d%27Ebogo%2C_Cameroun.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Arbre_mill%C3%A9naire_KOSSIPO%2C_Site_%C3%A9cotouristique_d%27Ebogo%2C_Cameroun.jpg/1280px-Arbre_mill%C3%A9naire_KOSSIPO%2C_Site_%C3%A9cotouristique_d%27Ebogo%2C_Cameroun.jpg"
+    ],
+    "category": "foret",
+    "region": "Région du Centre",
+    "latitude": 3.3986,
+    "longitude": 11.4552,
+    "activities": [
+      "Pirogue",
+      "Détente",
+      "Botanique"
+    ]
+  },
+  {
+    "id": "garoua",
+    "name": "Garoua",
+    "titre_accroche": "La porte d'or vers les grands parcs du septentrion",
+    "duree": "2 jours / 1 nuit",
+    "prix_appel": 38000,
+    "description": "Capitale du Nord, ville ensoleillée aux grandes artères bordées de margousiers. Point de départ stratégique pour les grands parcs nationaux (Bénoué, Bouba Ndjida).",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Biblioth%C3%A8que_alliance_Fran%C3%A7aise_Cameroun_de_Garoua.jpg",
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/c/c0/Biblioth%C3%A8que_alliance_Fran%C3%A7aise_Cameroun_de_Garoua.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Boucarou_%C3%A0_l%27Alliance_Fran%C3%A7aise_de_Garoua.jpg/1280px-Boucarou_%C3%A0_l%27Alliance_Fran%C3%A7aise_de_Garoua.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/9/98/Marche_Garoua_Nord_Cameroon.jpg"
+    ],
+    "category": "ville",
+    "region": "Région du Nord",
+    "latitude": 9.3,
+    "longitude": 13.3958,
+    "activities": [
+      "Marché de l'artisanat",
+      "Culture nordique"
+    ]
+  },
+  {
+    "id": "maroua",
+    "name": "Maroua",
+    "titre_accroche": "Le souk infini aux mille couleurs au pied des Mandara",
+    "duree": "2 jours / 1 nuit",
+    "prix_appel": 45000,
+    "description": "Nichée au pied des monts Mandara, Maroua est fameuse pour son marché artisanal tentaculaire, ses tanneurs traditionnels et sa bouillonnante ambiance sahélienne.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/VUE_DE_MAROUA_DU_MONT_MAYO_IB%C3%89_%28EXTR%C3%8AME-NORD_CAMEROUN%29.jpg/1280px-VUE_DE_MAROUA_DU_MONT_MAYO_IB%C3%89_%28EXTR%C3%8AME-NORD_CAMEROUN%29.jpg",
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/VUE_DE_MAROUA_DU_MONT_MAYO_IB%C3%89_%28EXTR%C3%8AME-NORD_CAMEROUN%29.jpg/1280px-VUE_DE_MAROUA_DU_MONT_MAYO_IB%C3%89_%28EXTR%C3%8AME-NORD_CAMEROUN%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/March%C3%A9_de_Maroua_en_mars_1973_%283%29.jpg/1280px-March%C3%A9_de_Maroua_en_mars_1973_%283%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/March%C3%A9_de_Maroua_en_mars_1973_%281%29.jpg/1280px-March%C3%A9_de_Maroua_en_mars_1973_%281%29.jpg"
+    ],
+    "category": "ville",
+    "region": "Région de l'Extrême-Nord",
+    "latitude": 10.596,
+    "longitude": 14.316,
+    "activities": [
+      "Artisanat",
+      "Maroquinerie",
+      "Culture sahélienne"
+    ]
+  },
+  {
+    "id": "dschang",
+    "name": "Dschang",
+    "titre_accroche": "Un lac de cratère, un musée, une brise perpétuellement fraîche",
+    "duree": "2 jours / 1 nuit",
+    "prix_appel": 52000,
+    "description": "Ancienne station climatique. Dschang conjugue une topographie vallonnée, un climat frais constant et un superbe Musée des Civilisations posé au bord d'un lac de cratère.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Sortie_chefferie_de_For%C3%A9k%C3%A9-Dschang_%C3%A0_l%27Ouest_Cameroun.jpg/1280px-Sortie_chefferie_de_For%C3%A9k%C3%A9-Dschang_%C3%A0_l%27Ouest_Cameroun.jpg",
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Sortie_chefferie_de_For%C3%A9k%C3%A9-Dschang_%C3%A0_l%27Ouest_Cameroun.jpg/1280px-Sortie_chefferie_de_For%C3%A9k%C3%A9-Dschang_%C3%A0_l%27Ouest_Cameroun.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Entr%C3%A9e_chefferie_de_For%C3%A9k%C3%A9-Dschang_%C3%A0_l%27Ouest_Cameroun.jpg/1280px-Entr%C3%A9e_chefferie_de_For%C3%A9k%C3%A9-Dschang_%C3%A0_l%27Ouest_Cameroun.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Dschang_Lake_in_Cameroon.jpg/1280px-Dschang_Lake_in_Cameroon.jpg"
+    ],
+    "category": "montagne",
+    "region": "Région de l'Ouest",
+    "altitude": 1380,
+    "latitude": 5.4452,
+    "longitude": 10.0535,
+    "activities": [
+      "Musée",
+      "Climat frais",
+      "Lac de cratère"
+    ]
+  },
+  {
+    "id": "lac_ossa",
+    "name": "Reserve du Lac Ossa",
+    "titre_accroche": "Nagez (presque) avec les derniers lamantins du Cameroun",
+    "duree": "2 jours / 1 nuit",
+    "prix_appel": 55000,
+    "description": "Vaste complexe de lacs naturels près d'Edéa, cette réserve est incontournable pour l'observation des lamantins (sirènes d'eau douce) dans un cadre fluvial paisible.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Lac_Ossa_-_R%C3%A9serve_de_faune_du_Lac_Ossa_-_R%C3%A9gion_du_Littoral_-_Cameroun.jpg/1280px-Lac_Ossa_-_R%C3%A9serve_de_faune_du_Lac_Ossa_-_R%C3%A9gion_du_Littoral_-_Cameroun.jpg",
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Lac_Ossa_-_R%C3%A9serve_de_faune_du_Lac_Ossa_-_R%C3%A9gion_du_Littoral_-_Cameroun.jpg/1280px-Lac_Ossa_-_R%C3%A9serve_de_faune_du_Lac_Ossa_-_R%C3%A9gion_du_Littoral_-_Cameroun.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Lever_du_Soleil_au_Lac_Ossa_-_Reserve_de_Faune_du_Lac_Ossa_-_Littoral_-_Cameroun.jpg/1280px-Lever_du_Soleil_au_Lac_Ossa_-_Reserve_de_Faune_du_Lac_Ossa_-_Littoral_-_Cameroun.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Lac_Ossa_aerial_view-_R%C3%A9serve_de_faune_du_Lac_Ossa_-_R%C3%A9gion_du_Littoral_-_Cameroun.jpg/1280px-Lac_Ossa_aerial_view-_R%C3%A9serve_de_faune_du_Lac_Ossa_-_R%C3%A9gion_du_Littoral_-_Cameroun.jpg"
+    ],
+    "category": "parc",
+    "region": "Région du Littoral",
+    "latitude": 3.8203,
+    "longitude": 10.0558,
+    "activities": [
+      "Observation des lamantins",
+      "Excursion fluviale",
+      "Nature"
+    ]
+  },
+  {
+    "id": "ngaoundere",
+    "name": "Ngaoundéré",
+    "titre_accroche": "Le charme du Lamido sur le plateau mystique de l'Adamaoua",
+    "duree": "2 jours / 1 nuit",
+    "prix_appel": 48000,
+    "description": "Point de jonction ferroviaire entre le Nord et le Sud. Située sur le vaste plateau de l'Adamaoua, elle surprend par le charme du palais de son Lamido et des lacs tectoniques voisins.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Ngaoundere_Cameroun_gare_banner.jpg/1280px-Ngaoundere_Cameroun_gare_banner.jpg",
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Ngaoundere_Cameroun_gare_banner.jpg/1280px-Ngaoundere_Cameroun_gare_banner.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/WL-Cameroun-Sur_la_piste_Ngaound%C3%A9r%C3%A9-Idool-Balam.jpg/1280px-WL-Cameroun-Sur_la_piste_Ngaound%C3%A9r%C3%A9-Idool-Balam.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/WL-Cameroun-Sur_la_piste_Ngaound%C3%A9r%C3%A9-Idool-Balam_2.jpg/1280px-WL-Cameroun-Sur_la_piste_Ngaound%C3%A9r%C3%A9-Idool-Balam_2.jpg"
+    ],
+    "category": "ville",
+    "region": "Région de l'Adamaoua",
+    "altitude": 1120,
+    "latitude": 7.32,
+    "longitude": 13.5833,
+    "activities": [
+      "Chefferie",
+      "Voyage en train",
+      "Lacs Tison/Mbalang"
+    ]
+  },
+  {
+    "id": "boubandjida",
+    "name": "Parc National de Bouba Ndjida",
+    "titre_accroche": "À la rencontre de l'éland de Derby, roi des antilopes d'Afrique",
+    "duree": "4 jours / 3 nuits",
+    "prix_appel": 110000,
+    "description": "Le royaume des élands de Derby. Bien que reculé, ce parc nordique est l'un des mieux conservés pour l'observation du gros gibier et des grands félins du Cameroun.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Bouba_Njida_%286841416170%29.jpg/1280px-Bouba_Njida_%286841416170%29.jpg",
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Bouba_Njida_%286841416170%29.jpg/1280px-Bouba_Njida_%286841416170%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/5/5b/Bouba_Njida_%286987538703%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Bouba_Njida_%286987538807%29.jpg/1280px-Bouba_Njida_%286987538807%29.jpg"
+    ],
+    "category": "parc",
+    "region": "Région du Nord",
+    "latitude": 8.634,
+    "longitude": 14.6534,
+    "activities": [
+      "Safari immersion",
+      "Tracking d'animaux sauvages"
+    ]
+  },
+  {
+    "id": "campomaan",
+    "name": "Parc National de Campo Ma'an",
+    "titre_accroche": "De l'océan à la forêt dense, un seul parc unique au monde",
+    "duree": "3 jours / 2 nuits",
+    "prix_appel": 75000,
+    "description": "Un incroyable parc qui s'étend de l'océan aux forêts tropicales. L'habitat privilégié de gorilles, chimpanzés et éléphants de forêt, non loin des plages du sud.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Peters_Duiker_%28Cephalophus_callipygus%29_from_behind%2C_Campo_Maan_National_Park.jpg/1280px-Peters_Duiker_%28Cephalophus_callipygus%29_from_behind%2C_Campo_Maan_National_Park.jpg",
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Peters_Duiker_%28Cephalophus_callipygus%29_from_behind%2C_Campo_Maan_National_Park.jpg/1280px-Peters_Duiker_%28Cephalophus_callipygus%29_from_behind%2C_Campo_Maan_National_Park.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/9/98/20160719_OSM-CampoMaan.png",
+      "https://upload.wikimedia.org/wikipedia/commons/7/79/Habituation_des_Gorilles.jpg"
+    ],
+    "category": "foret",
+    "region": "Région du Sud",
+    "latitude": 2.3482,
+    "longitude": 10.0249,
+    "activities": [
+      "Pistage de gorilles",
+      "Biodiversité tropicale"
+    ]
+  },
+  {
+    "id": "reserve_dja",
+    "name": "Réserve de Faune du Dja",
+    "titre_accroche": "L'UNESCO protège cette boucle de forêt primaire éternelle",
+    "duree": "5 jours / 4 nuits",
+    "prix_appel": 98000,
+    "description": "Inscrite au patrimoine mondial de l'UNESCO, cette boucle du grand fleuve Dja abrite des forêts primaires vierges quasi intactes et les riches traditions du peuple Baka.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Dja_Faunal_Reserve-109435.jpg/1280px-Dja_Faunal_Reserve-109435.jpg",
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Dja_Faunal_Reserve-109435.jpg/1280px-Dja_Faunal_Reserve-109435.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Dja_Faunal_Reserve-109441.jpg/1280px-Dja_Faunal_Reserve-109441.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Dja_Faunal_Reserve-109434.jpg/1280px-Dja_Faunal_Reserve-109434.jpg"
+    ],
+    "category": "foret",
+    "region": "Région de l'Est",
+    "latitude": 3.0033,
+    "longitude": 13.0,
+    "activities": [
+      "Découverte Pygmées Baka",
+      "Forêt primaire UNESCO"
+    ]
+  },
+  {
+    "id": "lac_tison",
+    "name": "Lac Tison",
+    "titre_accroche": "Un cratère d'un bleu intense, une paix sans fond",
+    "duree": "1 jour",
+    "prix_appel": 22000,
+    "description": "Merveille du plateau de l'Adamaoua. Un lac de cratère tranquille cerné par de majestueux conifères, offrant un cadre idéal pour la déconnexion et le pique-nique.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/LAC_TISON_8.jpg/1280px-LAC_TISON_8.jpg",
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/LAC_TISON_8.jpg/1280px-LAC_TISON_8.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/LAC_TISON.jpg/1280px-LAC_TISON.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/LAC_TISON_4.jpg/1280px-LAC_TISON_4.jpg"
+    ],
+    "category": "parc",
+    "region": "Région de l'Adamaoua",
+    "altitude": 1150,
+    "latitude": 7.2185,
+    "longitude": 13.563,
+    "activities": [
+      "Détente",
+      "Pique-nique",
+      "Photographie"
+    ]
+  },
+  {
+    "id": "bafoussam",
+    "name": "Bafoussam",
+    "titre_accroche": "Le royaume Bamiléké et ses majestueuses cases royales",
+    "duree": "2 jours / 1 nuit",
+    "prix_appel": 43000,
+    "description": "Cœur économique de la région de l'Ouest, reconnue pour ses grandes chefferies traditionnelles aux grandes cases majestueuses et sa fière organisation sociale Bamiléké.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Coiffe-Bafoussam_%281%29.jpg/1280px-Coiffe-Bafoussam_%281%29.jpg",
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Coiffe-Bafoussam_%281%29.jpg/1280px-Coiffe-Bafoussam_%281%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Coiffe-Bafoussam_%282%29.jpg/1280px-Coiffe-Bafoussam_%282%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Rue_Bafoussam_%28Cameroun%29.jpg/1280px-Rue_Bafoussam_%28Cameroun%29.jpg"
+    ],
+    "category": "ville",
+    "region": "Région de l'Ouest",
+    "altitude": 1520,
+    "latitude": 5.4777,
+    "longitude": 10.4173,
+    "activities": [
+      "Culture Bamiléké",
+      "Visite de Chefferies"
+    ]
+  },
+  {
+    "id": "chutes_lobe",
+    "name": "Chutes de la Lobé",
+    "titre_accroche": "Le seul fleuve au monde qui chute directement dans la mer",
+    "duree": "1 jour",
+    "prix_appel": 28000,
+    "description": "Le seul endroit au monde où un fleuve imposant chute somptueusement de la forêt directement dans l'océan Atlantique. Une curiosité de la nature inoubliable.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Les_chutes_de_la_lob%C3%A9_kribi_cameroon1.jpg/1280px-Les_chutes_de_la_lob%C3%A9_kribi_cameroon1.jpg",
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Les_chutes_de_la_lob%C3%A9_kribi_cameroon1.jpg/1280px-Les_chutes_de_la_lob%C3%A9_kribi_cameroon1.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Les_Chutes_De_La_Lobe.jpg/1280px-Les_Chutes_De_La_Lobe.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/WL-Cameroun-Kribi-Pirogue_aux_chutes_de_la_Lob%C3%A9.jpg/1280px-WL-Cameroun-Kribi-Pirogue_aux_chutes_de_la_Lob%C3%A9.jpg"
+    ],
+    "category": "plage",
+    "region": "Région du Sud",
+    "latitude": 2.89,
+    "longitude": 9.8943,
+    "activities": [
+      "Pirogue",
+      "Pêcheurs locaux",
+      "Baignade"
+    ]
+  },
+  {
+    "id": "lobeke",
+    "name": "Parc National de Lobéké",
+    "titre_accroche": "La dernière frontière verte du bassin du Congo",
+    "duree": "7 jours / 6 nuits",
+    "prix_appel": 145000,
+    "description": "Une plongée fantastique à l'extrême Sud-Est, au cœur du bassin du Congo. Parfait pour les puristes de l'écotourisme souhaitant traquer les gorilles de plaine et buffles forestiers.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Buffle_dans_le_Parc_National_de_Lob%C3%A9k%C3%A9.jpg",
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/3d/Buffle_dans_le_Parc_National_de_Lob%C3%A9k%C3%A9.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/a/a8/Vipere_dans_le_Parc_National_de_Lob%C3%A9k%C3%A9.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/c/c2/Clairi%C3%A8re_dans_le_Parc_National_de_Lob%C3%A9k%C3%A9.JPG"
+    ],
+    "category": "foret",
+    "region": "Région de l'Est",
+    "latitude": 2.3789,
+    "longitude": 15.9387,
+    "activities": [
+      "Pistage intensif",
+      "Survie en forêt",
+      "Faune rare"
+    ]
+  },
+  {
+    "id": "gorges_kola",
+    "name": "Gorges de Kola",
+    "titre_accroche": "Quand la rivière sculpte la roche basaltique pendant des millénaires",
+    "duree": "2 jours / 1 nuit",
+    "prix_appel": 50000,
+    "description": "Splendide caprice géologique du Nord-Cameroun où l'eau de la rivière Mayo-Louti a poli des roches basaltiques sur des dizaines de mètres, sculptant des canyons vertigineux.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Gorges_de_Kola%2C_Mayo_Louti%2C_Cameroun.jpg/1280px-Gorges_de_Kola%2C_Mayo_Louti%2C_Cameroun.jpg",
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Gorges_de_Kola%2C_Mayo_Louti%2C_Cameroun.jpg/1280px-Gorges_de_Kola%2C_Mayo_Louti%2C_Cameroun.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Gorge_de_Kola_dans_le_Nord_au_Cameroun_01.jpg/1280px-Gorge_de_Kola_dans_le_Nord_au_Cameroun_01.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/8/83/Gorge_de_Kola_dans_le_Nord_au_Cameroun_05.jpg"
+    ],
+    "category": "montagne",
+    "region": "Région du Nord",
+    "latitude": 9.7718,
+    "longitude": 13.9785,
+    "activities": [
+      "Spéléologie",
+      "Escalade",
+      "Découverte géologique"
+    ]
+  },
+  {
+    "id": "chefferie_bafut",
+    "name": "Chefferie de Bafut",
+    "titre_accroche": "Entrez dans le palais du Fon, gardien d'un empire millénaire",
+    "duree": "1 jour",
+    "prix_appel": 20000,
+    "description": "Un palais traditionnel extraordinaire et imposant aux toits de chaume abritant le Fon (chef) de Bafut, gardien d'une des chefferies les plus réputées d'Afrique centrale.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/06/BAFUT_PALACE_-_HUT_FOR_THE_TALKING_DRUM.JPG",
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/0/06/BAFUT_PALACE_-_HUT_FOR_THE_TALKING_DRUM.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Cam4332_Bafut.jpg/1280px-Cam4332_Bafut.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Cam4331_Bafut.jpg/1280px-Cam4331_Bafut.jpg"
+    ],
+    "category": "ville",
+    "region": "Région du Nord-Ouest",
+    "latitude": 6.0886,
+    "longitude": 10.1118,
+    "activities": [
+      "Histoire royale",
+      "Culture tribale",
+      "Danse de l'Abia"
+    ]
+  },
+  {
+    "id": "lac_awing",
+    "name": "Lac Awing",
+    "titre_accroche": "Un lac sacré d'azur gardé par les esprits ancestraux",
+    "duree": "2 jours / 1 nuit",
+    "prix_appel": 38000,
+    "description": "Lac de cratère sacré d'un bleu azur saisissant situé sur des hauts-plateaux froids. Très apaisant, entouré de mythes et de rituels ancestraux, c'est le joyau naturel de la région de Bamenda.",
+    "imageUrl": "https://loremflickr.com/800/600/africa,safari?lock=82",
+    "imageUrls": [
+      "https://loremflickr.com/800/600/africa,safari?lock=82",
+      "https://loremflickr.com/800/600/africa,safari?lock=83",
+      "https://loremflickr.com/800/600/africa,safari?lock=84"
+    ],
+    "category": "parc",
+    "region": "Région du Nord-Ouest",
+    "latitude": 5.8697,
+    "longitude": 10.2741,
+    "activities": [
+      "Méditation",
+      "Découverte",
+      "Randonnée lacustre"
+    ]
+  },
+  {
+    "id": "menchum_falls",
+    "name": "Chutes de la Menchum",
+    "titre_accroche": "La puissance brute d'une chute qui rugit en saison des pluies",
+    "duree": "1 jour",
+    "prix_appel": 22000,
+    "description": "Des chutes au débit rugissant et extrêmement imposant, particulièrement pendant la saison des pluies. Situées sur la route de Wum, elles sont l'une des visions les plus spectaculaires de la région.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Chute_de_menchum.jpg",
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/5/5a/Chute_de_menchum.jpg",
+      "https://loremflickr.com/800/600/africa,forest?lock=85",
+      "https://loremflickr.com/800/600/africa,forest?lock=86"
+    ],
+    "category": "foret",
+    "region": "Région du Nord-Ouest",
+    "latitude": 6.257,
+    "longitude": 10.038,
+    "activities": [
+      "Paysages sauvages",
+      "Photographie Nature"
+    ]
+  },
+  {
+    "id": "lacs_jumeaux",
+    "name": "Lacs Jumeaux du Manengouba",
+    "titre_accroche": "Au sommet du Manengouba, deux lacs, deux légendes",
+    "duree": "3 jours / 2 nuits",
+    "prix_appel": 68000,
+    "description": "Deux majestueux lacs de caldeira situés au sommet du mystique Mont Manengouba. Le \"lac Mâle\" bleu profond et ardu, et le \"lac Femelle\" vert, plat et accueillant.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Randonn%C3%A9e_%C3%A0_Mbouroukou.jpg/1280px-Randonn%C3%A9e_%C3%A0_Mbouroukou.jpg",
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Randonn%C3%A9e_%C3%A0_Mbouroukou.jpg/1280px-Randonn%C3%A9e_%C3%A0_Mbouroukou.jpg",
+      "https://loremflickr.com/800/600/africa,mountain?lock=88",
+      "https://loremflickr.com/800/600/africa,mountain?lock=89"
+    ],
+    "category": "montagne",
+    "region": "Région du Littoral",
+    "altitude": 2000,
+    "latitude": 5.0315,
+    "longitude": 9.8329,
+    "activities": [
+      "Ascension",
+      "Trekking mythique",
+      "Camping"
+    ]
+  },
+  {
+    "id": "palais_kings_bell",
+    "name": "La Pagode (Palais des Rois Bell)",
+    "titre_accroche": "L'architecture coloniale qui raconte l'épopée des rois Sawa",
+    "duree": "1 jour",
+    "prix_appel": 15000,
+    "description": "Situé au quartier Bonanjo (Douala), l'ancien palais royal aux allures de pagode est un édifice de l'époque allemande qui rappelle le passé monarchique et singulier des Sawa et de Manga Bell.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Palais_des_rois_Bell_-_Douala.jpg/1280px-Palais_des_rois_Bell_-_Douala.jpg",
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Palais_des_rois_Bell_-_Douala.jpg/1280px-Palais_des_rois_Bell_-_Douala.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/5/52/The_Palace_of_the_King_of_the_Cameroons.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Ars%26Urbis_International_Workshop_-_Emiliano_Gandolfi_176.JPG/1280px-Ars%26Urbis_International_Workshop_-_Emiliano_Gandolfi_176.JPG"
+    ],
+    "category": "ville",
+    "region": "Région du Littoral",
+    "latitude": 4.0416,
+    "longitude": 9.6865,
+    "activities": [
+      "Histoire de Douala",
+      "Architecture coloniale"
+    ]
+  },
+  {
+    "id": "musee_national",
+    "name": "Musée National",
+    "titre_accroche": "L'ancienne présidence qui garde la mémoire d'une nation",
+    "duree": "1 jour",
+    "prix_appel": 18000,
+    "description": "Ancienne présidence au cœur de Yaoundé aujourd'hui transformée en l'ultime conservatoire de la mémoire nationale du Cameroun avec ses archives, masques et grandes fresques.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Mus%C3%A9e_National_du_Cameroun_03.JPG/1280px-Mus%C3%A9e_National_du_Cameroun_03.JPG",
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Mus%C3%A9e_National_du_Cameroun_03.JPG/1280px-Mus%C3%A9e_National_du_Cameroun_03.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Mus%C3%A9e_National_du_Cameroun_02.JPG/1280px-Mus%C3%A9e_National_du_Cameroun_02.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Mus%C3%A9e_National_du_Cameroun_01.JPG/1280px-Mus%C3%A9e_National_du_Cameroun_01.JPG"
+    ],
+    "category": "ville",
+    "region": "Région du Centre",
+    "latitude": 3.8682,
+    "longitude": 11.5165,
+    "activities": [
+      "Culture générale",
+      "Histoire politique"
+    ]
+  },
+  {
+    "id": "kousseri",
+    "name": "Kousséri",
+    "titre_accroche": "Le passage entre deux mondes au bord du fleuve Logone",
+    "duree": "1 jour",
+    "prix_appel": 25000,
+    "description": "Ville de commerce et d'échanges interfrontaliers, située juste en face de la bouillonnante N'Djamena (Tchad) à laquelle elle est séparée par le fleuve Logone, en plein cœur du Sahel.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Wahid_at_sultanate_of_Kouss%C3%A9ri.JPG",
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/3c/Wahid_at_sultanate_of_Kouss%C3%A9ri.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/1/1e/Sao_culture%2C_cork._Terracotta._Kousseri_%2C_Cameroon._Mus%C3%A9um_de_La_Rochelle.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/3/33/CM-Kousseri.png"
+    ],
+    "category": "ville",
+    "region": "Région de l'Extrême-Nord",
+    "latitude": 12.0768,
+    "longitude": 15.0306,
+    "activities": [
+      "Commerce sahélien",
+      "Berges du Logone"
+    ]
+  },
+  {
+    "id": "bertoua",
+    "name": "Bertoua",
+    "titre_accroche": "La porte d'entrée du grand Est mystérieux et forestier",
+    "duree": "2 jours / 1 nuit",
+    "prix_appel": 42000,
+    "description": "Capitale pionnière de l'Est forestier, passage obligé pour l'or, le bois de mahogany et les sentiers mystérieux des populations primitives qui sillonnent la frontière est.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/Alliance_Voyage_Bertoua.jpg",
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/10/Alliance_Voyage_Bertoua.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Plaque_Bertoua.jpg/1280px-Plaque_Bertoua.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Entr%C3%A9e_Prison_centrale_Bertoua.jpg/1280px-Entr%C3%A9e_Prison_centrale_Bertoua.jpg"
+    ],
+    "category": "ville",
+    "region": "Région de l'Est",
+    "latitude": 4.5833,
+    "longitude": 13.6833,
+    "activities": [
+      "Exploration forestière",
+      "Bases routières"
+    ]
+  },
+  {
+    "id": "mont_oku",
+    "name": "Mont Oku",
+    "titre_accroche": "Le miel blanc le plus rare du monde pousse dans ce cratère",
+    "duree": "3 jours / 2 nuits",
+    "prix_appel": 72000,
+    "description": "L'un des sommets volcaniques les plus spectaculaires de l'Afrique (3 011m) doté en son cratère du précieux Lac Oku et flanqué d'une forêt de nuages luxuriante productrice d'un miel blanc mondialement prisé.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Lake_Oku_Cameroon.jpg/1280px-Lake_Oku_Cameroon.jpg",
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Lake_Oku_Cameroon.jpg/1280px-Lake_Oku_Cameroon.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Mount_Oku-Teine.JPG/1280px-Mount_Oku-Teine.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Mount_Oku-Sankaku.JPG/1280px-Mount_Oku-Sankaku.JPG"
+    ],
+    "category": "montagne",
+    "region": "Région du Nord-Ouest",
+    "altitude": 3011,
+    "latitude": 6.2081,
+    "longitude": 10.4578,
+    "activities": [
+      "Dégustation miel blanc",
+      "Endémisme aviaire",
+      "Trekking"
+    ]
+  },
+  {
+    "id": "chutes_metche",
+    "name": "Chutes de la Métché",
+    "titre_accroche": "L'eau purificatrice sacrée des traditions Bamiléké",
+    "duree": "1 jour",
+    "prix_appel": 20000,
+    "description": "Lieu de rites et de sacrifices purificatoires entouré d'un décor naturel abrupt et très respecté des locaux. Son voile d'eau constant apporte de la magie à cette route de l'Ouest.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Chutes_de_la_M%C3%A9tch%C3%A9_-_1.jpg/1280px-Chutes_de_la_M%C3%A9tch%C3%A9_-_1.jpg",
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Chutes_de_la_M%C3%A9tch%C3%A9_-_1.jpg/1280px-Chutes_de_la_M%C3%A9tch%C3%A9_-_1.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Chutes_de_la_M%C3%A9tchi%C3%A9-2.jpg/1280px-Chutes_de_la_M%C3%A9tchi%C3%A9-2.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Les_chutes_de_la_metch%C3%A9.jpg/1280px-Les_chutes_de_la_metch%C3%A9.jpg"
+    ],
+    "category": "foret",
+    "region": "Région de l'Ouest",
+    "latitude": 5.5397,
+    "longitude": 10.3344,
+    "activities": [
+      "Découverte de tradition",
+      "Cascades"
+    ]
+  },
+  {
+    "id": "benoue",
+    "name": "Parc National de la Bénoué",
+    "titre_accroche": "Les girafes boivent au fleuve au coucher du soleil doré",
+    "duree": "4 jours / 3 nuits",
+    "prix_appel": 105000,
+    "description": "Réserve de biosphère de l'UNESCO enclavée sur l'unique route rejoignant l'Adamaoua au Nord. Peuplée de girafes à foison et de majestueux éléphants longeant le lit du fleuve Bénoué en saison sèche.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Site_touristique_au_parc_national_de_la_b%C3%A9nou%C3%A9_au_cameroun_07.jpg/1280px-Site_touristique_au_parc_national_de_la_b%C3%A9nou%C3%A9_au_cameroun_07.jpg",
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Site_touristique_au_parc_national_de_la_b%C3%A9nou%C3%A9_au_cameroun_07.jpg/1280px-Site_touristique_au_parc_national_de_la_b%C3%A9nou%C3%A9_au_cameroun_07.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Les_touristes_au_parc_national_de_la_b%C3%A9nou%C3%A9_au_Cameroun_05.jpg/1280px-Les_touristes_au_parc_national_de_la_b%C3%A9nou%C3%A9_au_Cameroun_05.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Les_touristes_au_parc_national_de_la_b%C3%A9nou%C3%A9_au_Cameroun_10.jpg/1280px-Les_touristes_au_parc_national_de_la_b%C3%A9nou%C3%A9_au_Cameroun_10.jpg"
+    ],
+    "category": "parc",
+    "region": "Région du Nord",
+    "latitude": 8.3585,
+    "longitude": 13.8048,
+    "activities": [
+      "Safari exceptionnel",
+      "Pêche au Campement",
+      "Faune fluviale"
+    ]
+  },
+  {
+    "id": "mont_koupe",
+    "name": "Mont Koupé",
+    "titre_accroche": "Les oiseaux les plus rares de la planète nichent sur ces pentes",
+    "duree": "3 jours / 2 nuits",
+    "prix_appel": 78000,
+    "description": "Une grande montagne mystique (2 064m) reconnue spirituellement par le peuple Bakossi et renommée internationalement pour sa forêt primaire gorgée d'oiseaux très rares.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Mount_Kupe_Muanenguba.jpeg",
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/9/9b/Mount_Kupe_Muanenguba.jpeg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Diospyros_kupensis-NMNH-01268602.jpg/1280px-Diospyros_kupensis-NMNH-01268602.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Schaueria_populifolia-NMNH-02874032.jpg/1280px-Schaueria_populifolia-NMNH-02874032.jpg"
+    ],
+    "category": "montagne",
+    "region": "Région du Sud-Ouest",
+    "altitude": 2064,
+    "latitude": 4.809,
+    "longitude": 9.7198,
+    "activities": [
+      "Birdwatching",
+      "Récits traditionnels Bakossi",
+      "Ascension"
+    ]
+  },
+  {
+    "id": "lac_baleng",
+    "name": "Lac Baleng",
+    "titre_accroche": "Les offrandes parlent aux ancêtres dans ce lac de cratère obscur",
+    "duree": "1 jour",
+    "prix_appel": 22000,
+    "description": "Lac de cratère sacré d'une couleur très obscure logé en cuvette près de Bafoussam. Le site est un haut lieu de recueil et d'offrandes divinatoires dans le strict respect de la chefferie Baleng.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Lac_de_Baleng_en_mars_1973.jpg/1280px-Lac_de_Baleng_en_mars_1973.jpg",
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Lac_de_Baleng_en_mars_1973.jpg/1280px-Lac_de_Baleng_en_mars_1973.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Lac_Baleng_3.jpg/1280px-Lac_Baleng_3.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Lac_Baleng_-_8.jpg/1280px-Lac_Baleng_-_8.jpg"
+    ],
+    "category": "parc",
+    "region": "Région de l'Ouest",
+    "latitude": 5.5186,
+    "longitude": 10.4286,
+    "activities": [
+      "Méditation spirituelle",
+      "Vue panoramique"
+    ]
+  },
+  {
+    "id": "sangmelima",
+    "name": "Sangmélima",
+    "titre_accroche": "Le carrefour parfumé de cacao du grand Sud forestier",
+    "duree": "2 jours / 1 nuit",
+    "prix_appel": 38000,
+    "description": "Véritable ville carrefour florissant aux abords de la réserve du Dja, fière de son atmosphère sylvicole locale. Elle rayonne des richesses du grand sud forestier et de la chaleur de ses habitants.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Champ_de_past%C3%A8ques_Sangm%C3%A9lima.jpg",
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/ab/Champ_de_past%C3%A8ques_Sangm%C3%A9lima.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Sangmelima_Cameroon.jpg/1280px-Sangmelima_Cameroon.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/3/3d/Sangmelima_SU0201.png"
+    ],
+    "category": "ville",
+    "region": "Région du Sud",
+    "latitude": 2.9333,
+    "longitude": 11.9833,
+    "activities": [
+      "Gastronomie du Centre-Sud",
+      "Escales forestières"
+    ]
+  },
+  {
+    "id": "akok_bekoe",
+    "name": "Grottes d'Akok Bekoe",
+    "titre_accroche": "Des cavernes chargées d'énergie mystique et d'histoire sacrée",
+    "duree": "1 jour",
+    "prix_appel": 20000,
+    "description": "Immense complexe de cavernes mystiques non loin de Mbalmayo qui servirait de refuge ancien et de sanctuaire mystique pour les dignitaires du Sud. Les parois sont chargées d'énergie ancestrale.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Grotte_d%27Akok_Bekoe20.jpg/1280px-Grotte_d%27Akok_Bekoe20.jpg",
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Grotte_d%27Akok_Bekoe20.jpg/1280px-Grotte_d%27Akok_Bekoe20.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/7/78/Akok_Bekoe.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Akok_Bekoe8.jpg/1280px-Akok_Bekoe8.jpg"
+    ],
+    "category": "foret",
+    "region": "Région du Centre",
+    "latitude": 3.395,
+    "longitude": 11.3321,
+    "activities": [
+      "Exploration de cavités",
+      "Récits mythologiques"
+    ]
+  },
+  {
+    "id": "ebolowa",
+    "name": "Ebolowa",
+    "titre_accroche": "Là où les collines verdoyantes sentent le cacao frais",
+    "duree": "2 jours / 1 nuit",
+    "prix_appel": 35000,
+    "description": "Bordée au cœur de la ceinture de cacao, Ebolowa ravira par le charme typique des centres urbains du sud, dotée d'un festival agropastoral historique (Comice) impressionnant.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wiki_Weekend_Ebolowa%2C_Sud._23.jpg/1280px-Wiki_Weekend_Ebolowa%2C_Sud._23.jpg",
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wiki_Weekend_Ebolowa%2C_Sud._23.jpg/1280px-Wiki_Weekend_Ebolowa%2C_Sud._23.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Wiki_Weekend_Ebolowa%2C_Sud._21.jpg/1280px-Wiki_Weekend_Ebolowa%2C_Sud._21.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Wiki_Weekend_Ebolowa%2C_Sud._22.jpg/1280px-Wiki_Weekend_Ebolowa%2C_Sud._22.jpg"
+    ],
+    "category": "ville",
+    "region": "Région du Sud",
+    "latitude": 2.9167,
+    "longitude": 11.15,
+    "activities": [
+      "Agriculture locale",
+      "Tourisme rural",
+      "Cacao"
+    ]
+  },
+  {
+    "id": "banyo",
+    "name": "Mayo Banyo",
+    "titre_accroche": "Le paradis pastoral méconnu des bergers Foulbé en altitude",
+    "duree": "3 jours / 2 nuits",
+    "prix_appel": 58000,
+    "description": "Territoire de vastes étendues, surplombé par des chaînes de massifs verdoyants. La chefferie Foulbé et ses montagnes environnantes font de cet espace un paradis pastoral méconnu du tourisme de masse.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/CM-Mayo-Banyo.png",
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/d/d9/CM-Mayo-Banyo.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Troupeau_des_boeufs_en_paturage_Mayo_Banyo_%281%29.jpg/1280px-Troupeau_des_boeufs_en_paturage_Mayo_Banyo_%281%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Troupeau_des_boeufs_en_paturage_Mayo_Banyo_%282%29.jpg/1280px-Troupeau_des_boeufs_en_paturage_Mayo_Banyo_%282%29.jpg"
+    ],
+    "category": "montagne",
+    "region": "Région de l'Adamaoua",
+    "altitude": 1210,
+    "latitude": 6.7562,
+    "longitude": 11.8153,
+    "activities": [
+      "Elevage",
+      "Culture Foulbé",
+      "Campement de berger"
+    ]
+  },
+  {
+    "id": "pitoa",
+    "name": "Pitoa",
+    "titre_accroche": "Le plus grand marché à bétail du Cameroun septentrional",
+    "duree": "1 jour",
+    "prix_appel": 25000,
+    "description": "Célèbre pour son énorme marché aux bestiaux bi-hebdomadaire. Les éleveurs Peuls de toute la sous-région convergent vers ce bourg sahélien dans un festival de couleurs, poussières et marchandages.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Table_montagneuse_de_Pitoa.jpg/1280px-Table_montagneuse_de_Pitoa.jpg",
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Table_montagneuse_de_Pitoa.jpg/1280px-Table_montagneuse_de_Pitoa.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/d/d6/Boulgou_in_Pitoa.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Cache-sexe_Fali-Mus%C3%A9e_d%27Angoul%C3%AAme.jpg/1280px-Cache-sexe_Fali-Mus%C3%A9e_d%27Angoul%C3%AAme.jpg"
+    ],
+    "category": "ville",
+    "region": "Région du Nord",
+    "latitude": 9.3905,
+    "longitude": 13.5218,
+    "activities": [
+      "Marché de bétail authentique",
+      "Immersion totale Sahélienne"
+    ]
+  },
+  {
+    "id": "meiganga",
+    "name": "Meiganga",
+    "titre_accroche": "La fusion culturelle inédite au carrefour des ethnies",
+    "duree": "2 jours / 1 nuit",
+    "prix_appel": 40000,
+    "description": "Lieu de transition culturelle sur le plateau humide, dominé par le peuple Gbaya. Il y règne une fusion atypique entre traditions de savane bovine et le monde rural du centre forestier naissant.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/20160719_OSM-Meiganga.png",
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/f3/20160719_OSM-Meiganga.png",
+      "https://upload.wikimedia.org/wikipedia/commons/1/1f/CM-Meiganga.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Lac_Tison_1.jpg/1280px-Lac_Tison_1.jpg"
+    ],
+    "category": "ville",
+    "region": "Région de l'Adamaoua",
+    "latitude": 6.5167,
+    "longitude": 14.3,
+    "activities": [
+      "Transition culturelle",
+      "Artisanat Gbaya"
+    ]
+  },
+  {
+    "id": "plage_yoyo",
+    "name": "Plage de Yoyo",
+    "titre_accroche": "Une plage vierge nichée entre forêt équatoriale et océan infini",
+    "duree": "2 jours / 1 nuit",
+    "prix_appel": 55000,
+    "description": "Immense étendue de sable immaculé au bord de l'océan nichée entre la dense forêt équatoriale et l'estuaire de la Sanaga. Un havre balnéaire très isolé et infiniment vierge loin des villes.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Plage_de_Yoyo_Beach_-_Parc_National_de_Douala_-_Edea_-_Littoral_-_Cameroun.jpg/1280px-Plage_de_Yoyo_Beach_-_Parc_National_de_Douala_-_Edea_-_Littoral_-_Cameroun.jpg",
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Plage_de_Yoyo_Beach_-_Parc_National_de_Douala_-_Edea_-_Littoral_-_Cameroun.jpg/1280px-Plage_de_Yoyo_Beach_-_Parc_National_de_Douala_-_Edea_-_Littoral_-_Cameroun.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Plage_de_Yoyo.jpg/1280px-Plage_de_Yoyo.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Plage_de_Yoyo1.jpg/1280px-Plage_de_Yoyo1.jpg"
+    ],
+    "category": "plage",
+    "region": "Région du Littoral",
+    "latitude": 3.5133,
+    "longitude": 9.6105,
+    "activities": [
+      "Détente ultime",
+      "Surf",
+      "Evasion solitaire"
+    ]
+  },
+  {
+    "id": "monument_reunification",
+    "name": "Monument de la Réunification",
+    "titre_accroche": "L'acier forgé qui unit deux peuples en une seule nation",
+    "duree": "1 jour",
+    "prix_appel": 12000,
+    "description": "L'œuvre la plus imposante de la capitale avec ses spirales complexes, témoignage éclatant en l'honneur de la réunification historique entre le Cameroun francophone et anglophone de 1961.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Monument_Reunification_4.JPG/1280px-Monument_Reunification_4.JPG",
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Monument_Reunification_4.JPG/1280px-Monument_Reunification_4.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Quartier_general.jpg/1280px-Quartier_general.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Yaound%C3%A9_du_monument_de_la_r%C3%A9unification_1.jpg/1280px-Yaound%C3%A9_du_monument_de_la_r%C3%A9unification_1.jpg"
+    ],
+    "category": "ville",
+    "region": "Région du Centre",
+    "latitude": 3.8645,
+    "longitude": 11.5165,
+    "activities": [
+      "Architecture",
+      "Mémoire nationale"
+    ]
+  },
+  {
+    "id": "bana",
+    "name": "Haut-Plateau de Bana",
+    "titre_accroche": "Le petit Paris bamiléké à 1450m, entre villas et panoramas",
+    "duree": "2 jours / 1 nuit",
+    "prix_appel": 48000,
+    "description": "On le surnomme \"le petit Paris\". Un domaine très prisé du peuple bamiléké qui abrite de gigantesques villas spectaculaires dans un climat très frais avec vue plongeante sur des vallées immenses.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Hauts_plateaux_de_l%27ouest_cameroun.jpg/1280px-Hauts_plateaux_de_l%27ouest_cameroun.jpg",
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Hauts_plateaux_de_l%27ouest_cameroun.jpg/1280px-Hauts_plateaux_de_l%27ouest_cameroun.jpg",
+      "https://loremflickr.com/800/600/africa,mountain?lock=142",
+      "https://loremflickr.com/800/600/africa,mountain?lock=143"
+    ],
+    "category": "montagne",
+    "region": "Région de l'Ouest",
+    "altitude": 1450,
+    "latitude": 5.161,
+    "longitude": 10.2763,
+    "activities": [
+      "Tourisme de luxe",
+      "Excursions panoramiques"
+    ]
+  },
+  {
+    "id": "campement_rhino",
+    "name": "Campement des Éléphants",
+    "titre_accroche": "Dormez à 50m des éléphants d'Afrique sous les étoiles",
+    "duree": "3 jours / 2 nuits",
+    "prix_appel": 92000,
+    "description": "Bases d'écotourisme intégrées en brousse dense où le frisson de croiser les immenses pachydermes d'Afrique croise le rituel local de l'immersion dans les terres préservées.",
+    "imageUrl": "https://loremflickr.com/800/600/africa,safari?lock=145",
+    "imageUrls": [
+      "https://loremflickr.com/800/600/africa,safari?lock=145",
+      "https://loremflickr.com/800/600/africa,safari?lock=146",
+      "https://loremflickr.com/800/600/africa,safari?lock=147"
+    ],
+    "category": "parc",
+    "region": "Région du Nord",
+    "latitude": 8.8753,
+    "longitude": 14.1205,
+    "activities": [
+      "Nuit en campement",
+      "Aventure faunique"
+    ]
+  },
+  {
+    "id": "faro",
+    "name": "Réserve du Faro",
+    "titre_accroche": "La savane la plus sauvage, hors des sentiers du tourisme de masse",
+    "duree": "4 jours / 3 nuits",
+    "prix_appel": 88000,
+    "description": "Dans un cadre spectaculaire de montagnes rocheuses et d'arbustes épineux, la réserve de faune du Faro garantit une aventure très sauvage hors des sentiers battus de la savane du grand Nord.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b1/20160720_OSM-Faro.png",
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/b/b1/20160720_OSM-Faro.png",
+      "https://loremflickr.com/800/600/africa,safari?lock=148",
+      "https://loremflickr.com/800/600/africa,safari?lock=149"
+    ],
+    "category": "parc",
+    "region": "Région du Nord",
+    "latitude": 8.3585,
+    "longitude": 12.87,
+    "activities": [
+      "Expédition sahélo-soudanienne",
+      "Botanique sèche"
+    ]
+  }
+]

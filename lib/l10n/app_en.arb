@@ -1,0 +1,110 @@
+{
+  "@@locale": "en",
+  "appTitle": "Discover Cameroon",
+  "navHome": "Home",
+  "navExperiences": "Experiences",
+  "navMap": "Map",
+  "navFavorites": "Favourites",
+
+  "homeEyebrow": "TOURIST GUIDE",
+  "homeTitle": "Discover\nCameroon",
+  "homeDestinationsToExplore": "{count} destinations to explore",
+  "@homeDestinationsToExplore": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "searchHint": "Search a destination...",
+  "destinationsCount": "{count, plural, =0{No destination} =1{1 destination} other{{count} destinations}}",
+  "@destinationsCount": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "emptyNoDestinations": "No destination found",
+  "filterAll": "All",
+
+  "emergencyTooltip": "Emergency numbers",
+  "aboutContent": "Tourist guide to Cameroonian destinations.\n\nFlutter demonstration project.",
+  "actionClose": "Close",
+
+  "mapTitle": "Map of Cameroon",
+  "mapFilterTooltip": "Filter by category",
+
+  "favoritesTitle": "My Favourites",
+  "favoritesEmptyTitle": "No favourites yet",
+  "favoritesEmptyHint": "Tap the bookmark on a destination to save it.",
+
+  "experiencesTitle": "Experiences",
+  "experiencesEmpty": "No experience",
+
+  "emergencyTitle": "Emergency numbers",
+  "emergencyBanner": "Tap a contact to call immediately. Check local numbers on arrival.",
+  "emergencyNational": "National emergencies",
+  "emergencyRegional": "Regional contacts",
+
+  "guidesTitle": "Guides · {name}",
+  "@guidesTitle": {
+    "placeholders": { "name": { "type": "String" } }
+  },
+  "guidesEmpty": "No guide listed yet.",
+
+  "sectionAbout": "About",
+  "sectionActivities": "Activities",
+  "sectionLocation": "Location",
+  "sectionPracticalInfo": "Practical info",
+  "sectionHowToGet": "How to get there",
+  "sectionTips": "Tips & recommendations",
+  "sectionSeason": "Best season",
+  "sectionEntryFee": "Entry fee",
+  "sectionGuides": "Local guides",
+  "sectionExperiences": "Experiences to live",
+  "sectionWhereToSleep": "Where to sleep",
+  "sectionWhereToEat": "Where to eat",
+
+  "actionBack": "Back",
+  "actionCall": "Call",
+  "actionWhatsApp": "WhatsApp",
+  "actionDirections": "Directions",
+  "actionSeeAll": "See all",
+
+  "tooltipCopy": "Copy info",
+  "tooltipAddFav": "Add to favourites",
+  "tooltipRemoveFav": "Remove from favourites",
+  "snackCopied": "Copied to clipboard",
+  "snackCallFailed": "Unable to start the call",
+  "snackWhatsappUnavailable": "WhatsApp is not available",
+
+  "labelFree": "Free",
+  "labelFrom": "from",
+  "labelPerNight": "/ night",
+  "labelPerDay": "/ day",
+  "ratingNew": "New",
+
+  "altitudeLabel": "Altitude: {value} m",
+  "@altitudeLabel": {
+    "placeholders": { "value": { "type": "int" } }
+  },
+
+  "routeFromYou": "{distance} · {duration} from you",
+  "@routeFromYou": {
+    "placeholders": {
+      "distance": { "type": "String" },
+      "duration": { "type": "String" }
+    }
+  },
+  "routeByCar": "by car",
+
+  "mapRecenter": "Recenter",
+  "mapMyLocation": "My location",
+  "mapZoomIn": "Zoom in",
+  "mapZoomOut": "Zoom out",
+  "actionView": "View",
+
+  "sectionRegions": "Discover Cameroon by region",
+  "sectionPopularStays": "Popular stays",
+  "priceFrom": "From {price}",
+  "@priceFrom": {
+    "placeholders": { "price": { "type": "String" } }
+  },
+  "regionDestinationsCount": "{count, plural, one{{count} destination} other{{count} destinations}}",
+  "@regionDestinationsCount": {
+    "placeholders": { "count": { "type": "int" } }
+  }
+}

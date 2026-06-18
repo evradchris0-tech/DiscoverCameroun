@@ -1,0 +1,44 @@
+[
+  {
+    "id": "resto_kribi_belle_plage",
+    "name": "Restaurant La Belle Plage",
+    "photoPaths": ["assets/images/restaurants/belle_plage.png"],
+    "cuisines": ["Camerounaise", "Fruits de mer", "Grillades"],
+    "signatureDishes": ["Poisson braisé", "Crevettes grillées", "Bobolo"],
+    "priceRange": "€€",
+    "rating": 4.6,
+    "address": "Front de mer, Kribi",
+    "latitude": 2.9385,
+    "longitude": 9.9081,
+    "phone": "+237620000001",
+    "destinationId": "kribi"
+  },
+  {
+    "id": "resto_limbe_hot_spot",
+    "name": "Hot Spot Down Beach",
+    "photoPaths": ["assets/images/restaurants/hotspot.png"],
+    "cuisines": ["Camerounaise", "Fruits de mer"],
+    "signatureDishes": ["Poisson pepe soup", "Plantain", "Eru"],
+    "priceRange": "€",
+    "rating": 4.3,
+    "address": "Down Beach, Limbe",
+    "latitude": 4.0030,
+    "longitude": 9.2015,
+    "phone": "+237620000002",
+    "destinationId": "limbe"
+  },
+  {
+    "id": "resto_douala_fokou",
+    "name": "Chez Fokou",
+    "photoPaths": ["assets/images/restaurants/fokou.png"],
+    "cuisines": ["Camerounaise"],
+    "signatureDishes": ["Ndolè", "Poulet DG", "Miondo"],
+    "priceRange": "€€",
+    "rating": 4.5,
+    "address": "Akwa, Douala",
+    "latitude": 4.0489,
+    "longitude": 9.7010,
+    "phone": "+237620000003",
+    "destinationId": "douala"
+  }
+]

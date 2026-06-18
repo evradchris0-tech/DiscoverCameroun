@@ -1,0 +1,62 @@
+[
+  {
+    "id": "acc_kribi_tara",
+    "name": "Tara Plage Hôtel",
+    "type": "hotel",
+    "photoPaths": ["assets/images/accommodations/tara.png"],
+    "priceFrom": 35000,
+    "currency": "XAF",
+    "rating": 4.5,
+    "address": "Bord de mer, Kribi",
+    "latitude": 2.9378,
+    "longitude": 9.9089,
+    "amenities": ["Wifi", "Piscine", "Restaurant", "Plage privée"],
+    "phone": "+237610000001",
+    "destinationId": "kribi"
+  },
+  {
+    "id": "acc_kribi_ilomba",
+    "name": "Ilomba Resort",
+    "type": "residence",
+    "photoPaths": ["assets/images/accommodations/ilomba.png"],
+    "priceFrom": 25000,
+    "currency": "XAF",
+    "rating": 4.2,
+    "address": "Route de la Lobé, Kribi",
+    "latitude": 2.9201,
+    "longitude": 9.9105,
+    "amenities": ["Wifi", "Climatisation", "Parking"],
+    "phone": "+237610000002",
+    "destinationId": "kribi"
+  },
+  {
+    "id": "acc_limbe_seme",
+    "name": "Seme Beach Hôtel",
+    "type": "hotel",
+    "photoPaths": ["assets/images/accommodations/seme.png"],
+    "priceFrom": 40000,
+    "currency": "XAF",
+    "rating": 4.4,
+    "address": "Down Beach, Limbe",
+    "latitude": 4.0025,
+    "longitude": 9.2010,
+    "amenities": ["Wifi", "Piscine", "Plage de sable noir", "Restaurant"],
+    "phone": "+237610000003",
+    "destinationId": "limbe"
+  },
+  {
+    "id": "acc_waza_campement",
+    "name": "Campement de Waza",
+    "type": "campement",
+    "photoPaths": ["assets/images/accommodations/waza_camp.png"],
+    "priceFrom": 20000,
+    "currency": "XAF",
+    "rating": 3.9,
+    "address": "Abords du parc, Waza",
+    "latitude": 11.3920,
+    "longitude": 14.6600,
+    "amenities": ["Restauration", "Guide sur place"],
+    "phone": "+237610000004",
+    "destinationId": "waza"
+  }
+]

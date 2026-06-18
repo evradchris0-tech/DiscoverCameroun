@@ -1,0 +1,79 @@
+[
+  {
+    "id": "exp_kribi_poisson",
+    "title": "Atelier poisson braisé sur la plage",
+    "type": "culinaire",
+    "description": "Apprenez à préparer le poisson braisé camerounais avec un pêcheur local : choix du poisson, marinade aux épices, cuisson au feu de bois. Dégustation face à l'océan.",
+    "photoPaths": ["assets/images/experiences/poisson.png"],
+    "duration": "3 h",
+    "price": 8000,
+    "currency": "XAF",
+    "destinationId": "kribi"
+  },
+  {
+    "id": "exp_kribi_pirogue",
+    "title": "Sortie en pirogue aux chutes de la Lobé",
+    "type": "nature",
+    "description": "Remontez la Lobé en pirogue traditionnelle jusqu'aux chutes qui se jettent dans l'océan, à la rencontre des communautés de pêcheurs.",
+    "photoPaths": ["assets/images/experiences/pirogue.png"],
+    "duration": "2 h",
+    "price": 6000,
+    "currency": "XAF",
+    "destinationId": "kribi"
+  },
+  {
+    "id": "exp_limbe_botanique",
+    "title": "Visite guidée du Jardin botanique (1892)",
+    "type": "nature",
+    "description": "Parcourez l'un des plus anciens jardins botaniques d'Afrique avec un guide naturaliste : plantes médicinales, arbres centenaires et histoire coloniale.",
+    "photoPaths": ["assets/images/experiences/botanique.png"],
+    "duration": "1 h 30",
+    "price": 5000,
+    "currency": "XAF",
+    "destinationId": "limbe"
+  },
+  {
+    "id": "exp_douala_ndole",
+    "title": "Cours de cuisine : le ndolè",
+    "type": "culinaire",
+    "description": "Cuisinez le plat emblématique de Douala — ndolè aux crevettes et viande — avec une cuisinière locale, du marché à l'assiette.",
+    "photoPaths": ["assets/images/experiences/ndole.png"],
+    "duration": "3 h",
+    "price": 10000,
+    "currency": "XAF",
+    "destinationId": "douala"
+  },
+  {
+    "id": "exp_yaounde_musee",
+    "title": "Parcours art & histoire au Musée national",
+    "type": "peinture",
+    "description": "Découverte commentée des collections d'art camerounais et rencontre avec un artiste peintre local dans son atelier.",
+    "photoPaths": ["assets/images/experiences/musee.png"],
+    "duration": "2 h",
+    "price": 7000,
+    "currency": "XAF",
+    "destinationId": "yaounde"
+  },
+  {
+    "id": "exp_bamenda_paniers",
+    "title": "Atelier vannerie « paniers souvenir mboa »",
+    "type": "atelier_vannerie",
+    "description": "Initiez-vous au tressage traditionnel des Grassfields auprès d'artisans : repartez avec votre propre panier « souvenir mboa » fabriqué à la main.",
+    "photoPaths": ["assets/images/experiences/paniers.png"],
+    "duration": "2 h 30",
+    "price": 9000,
+    "currency": "XAF",
+    "destinationId": "bamenda"
+  },
+  {
+    "id": "exp_waza_safari",
+    "title": "Safari guidé au lever du jour",
+    "type": "nature",
+    "description": "Safari matinal en 4x4 avec un guide agréé à la recherche des lions, éléphants et girafes autour des points d'eau de la savane.",
+    "photoPaths": ["assets/images/experiences/safari.png"],
+    "duration": "4 h",
+    "price": 20000,
+    "currency": "XAF",
+    "destinationId": "waza"
+  }
+]

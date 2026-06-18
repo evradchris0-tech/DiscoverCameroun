@@ -1,0 +1,41 @@
+[
+  {
+    "id": "guide_kribi_paul",
+    "name": "Paul Ngoma",
+    "photoPath": "assets/images/guides/paul.png",
+    "languages": ["Français", "Anglais"],
+    "specialties": ["Plages", "Chutes de la Lobé", "Pêche"],
+    "phone": "+237600000001",
+    "whatsapp": "+237600000001",
+    "rating": 4.8,
+    "pricePerDay": 15000,
+    "bio": "Natif de Kribi, Paul accompagne les visiteurs sur les plages et les chutes depuis 10 ans. Spécialiste des sorties en pirogue.",
+    "destinationIds": ["kribi"]
+  },
+  {
+    "id": "guide_limbe_grace",
+    "name": "Grace Mbella",
+    "photoPath": "assets/images/guides/grace.png",
+    "languages": ["Anglais", "Français", "Pidgin"],
+    "specialties": ["Mont Cameroun", "Jardin botanique", "Faune"],
+    "phone": "+237600000002",
+    "whatsapp": "+237600000002",
+    "rating": 4.9,
+    "pricePerDay": 18000,
+    "bio": "Guide certifiée du Sud-Ouest, Grace connaît les sentiers du Mont Cameroun et l'histoire du jardin botanique de Limbe.",
+    "destinationIds": ["limbe"]
+  },
+  {
+    "id": "guide_waza_ali",
+    "name": "Ali Bakari",
+    "photoPath": "assets/images/guides/ali.png",
+    "languages": ["Français", "Fulfulde", "Anglais"],
+    "specialties": ["Safari", "Ornithologie", "Savane"],
+    "phone": "+237600000003",
+    "whatsapp": "+237600000003",
+    "rating": 4.7,
+    "pricePerDay": 25000,
+    "bio": "Guide agréé du parc de Waza, Ali repère lions et éléphants comme personne. Indispensable pour un safari réussi.",
+    "destinationIds": ["waza"]
+  }
+]

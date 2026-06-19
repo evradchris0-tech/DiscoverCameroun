@@ -75,6 +75,10 @@ class AppTypography {
   static TextStyle get headingLarge =>
       serif(fontSize: 26, fontWeight: FontWeight.w700, height: 1.2);
 
+  /// Titre intermédiaire (bottom-sheets, modales). Couleur à fournir au point d'appel.
+  static TextStyle get headingMedium =>
+      serif(fontSize: 22, fontWeight: FontWeight.w700, height: 1.2);
+
   /// Titre de section (« À propos », « Activités », « Localisation »).
   static TextStyle get sectionTitle => serif(
       fontSize: 18, fontWeight: FontWeight.w700, color: AppColors.textDark);

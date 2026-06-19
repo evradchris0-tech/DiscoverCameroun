@@ -289,4 +289,37 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get restaurantsEmpty => 'No restaurant listed.';
+
+  @override
+  String get sectionReviews => 'Reviews & Ratings';
+
+  @override
+  String get reviewsEmpty => 'No reviews yet';
+
+  @override
+  String get reviewsEmptyHint => 'Be the first to share your experience!';
+
+  @override
+  String get reviewWriteButton => 'Leave a review';
+
+  @override
+  String get reviewAddButton => 'Add a review';
+
+  @override
+  String get reviewAuthorHint => 'Your name / nickname';
+
+  @override
+  String get reviewCommentHint => 'Your experience…';
+
+  @override
+  String get reviewPublish => 'Publish review';
+
+  @override
+  String get reviewDelete => 'Delete';
+
+  @override
+  String get reviewMeLabel => 'Me';
+
+  @override
+  String get reviewNoteLabel => 'Rating';
 }

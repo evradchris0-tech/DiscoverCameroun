@@ -601,6 +601,72 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'No restaurant listed.'**
   String get restaurantsEmpty;
+
+  /// No description provided for @sectionReviews.
+  ///
+  /// In en, this message translates to:
+  /// **'Reviews & Ratings'**
+  String get sectionReviews;
+
+  /// No description provided for @reviewsEmpty.
+  ///
+  /// In en, this message translates to:
+  /// **'No reviews yet'**
+  String get reviewsEmpty;
+
+  /// No description provided for @reviewsEmptyHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Be the first to share your experience!'**
+  String get reviewsEmptyHint;
+
+  /// No description provided for @reviewWriteButton.
+  ///
+  /// In en, this message translates to:
+  /// **'Leave a review'**
+  String get reviewWriteButton;
+
+  /// No description provided for @reviewAddButton.
+  ///
+  /// In en, this message translates to:
+  /// **'Add a review'**
+  String get reviewAddButton;
+
+  /// No description provided for @reviewAuthorHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Your name / nickname'**
+  String get reviewAuthorHint;
+
+  /// No description provided for @reviewCommentHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Your experience…'**
+  String get reviewCommentHint;
+
+  /// No description provided for @reviewPublish.
+  ///
+  /// In en, this message translates to:
+  /// **'Publish review'**
+  String get reviewPublish;
+
+  /// No description provided for @reviewDelete.
+  ///
+  /// In en, this message translates to:
+  /// **'Delete'**
+  String get reviewDelete;
+
+  /// No description provided for @reviewMeLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Me'**
+  String get reviewMeLabel;
+
+  /// No description provided for @reviewNoteLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Rating'**
+  String get reviewNoteLabel;
 }
 
 class _AppLocalizationsDelegate

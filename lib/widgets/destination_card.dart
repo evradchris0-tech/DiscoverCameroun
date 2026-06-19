@@ -2,9 +2,11 @@
 // Concept mis en avant : widget stateless avec Hero pour partager l'animation d'image avec DetailScreen.
 
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../enums/destination_category.dart';
 import '../models/destination.dart';
+import '../providers/reviews_provider.dart';
 import '../theme/app_colors.dart';
 import '../theme/app_radius.dart';
 import '../theme/app_spacing.dart';
@@ -12,7 +14,7 @@ import '../theme/app_typography.dart';
 import '../theme/category_style.dart';
 import 'smart_image.dart';
 
-class DestinationCard extends StatelessWidget {
+class DestinationCard extends ConsumerWidget {
   final Destination destination;
   final void Function(Destination) onTap;
 
@@ -23,8 +25,9 @@ class DestinationCard extends StatelessWidget {
   });
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
     final colorScheme = Theme.of(context).colorScheme;
+    final avgRating = ref.watch(averageRatingProvider(destination.id));
 
     return Padding(
       padding: const EdgeInsets.symmetric(
@@ -96,6 +99,25 @@ class DestinationCard extends StatelessWidget {
                           overflow: TextOverflow.ellipsis,
                           style: AppTypography.cardBody,
                         ),
+
+                        // Note moyenne (si des avis existent)
+                        if (avgRating > 0) ...[
+                          const SizedBox(height: AppSpacing.xs),
+                          Row(
+                            children: [
+                              const Icon(Icons.star,
+                                  size: 12, color: AppColors.gold),
+                              const SizedBox(width: 3),
+                              Text(
+                                avgRating.toStringAsFixed(1),
+                                style: AppTypography.caption.copyWith(
+                                  color: AppColors.gold,
+                                  fontWeight: FontWeight.w700,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ],
                       ],
                     ),
                   ),

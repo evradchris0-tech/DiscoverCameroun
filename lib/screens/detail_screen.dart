@@ -18,6 +18,7 @@ import '../theme/app_spacing.dart';
 import '../theme/app_typography.dart';
 import '../theme/category_style.dart';
 import '../widgets/destination_practical_info.dart';
+import '../widgets/destination_reviews.dart';
 import '../widgets/destination_rubrics.dart';
 import '../widgets/image_gallery.dart';
 import '../widgets/like_button.dart';
@@ -255,6 +256,14 @@ class DetailScreen extends ConsumerWidget {
 
                   // Rubriques : guides, expériences, hébergements, restaurants
                   DestinationRubrics(destination: destination),
+
+                  const SizedBox(height: AppSpacing.xxl),
+
+                  // Avis & Notes
+                  DestinationReviews(
+                    destinationId: destination.id,
+                    destinationName: destination.name,
+                  ),
 
                   const SizedBox(height: AppSpacing.xxl),
 

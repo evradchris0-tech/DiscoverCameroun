@@ -289,4 +289,38 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get restaurantsEmpty => 'Aucun restaurant référencé.';
+
+  @override
+  String get sectionReviews => 'Avis & Notes';
+
+  @override
+  String get reviewsEmpty => 'Aucun avis pour le moment';
+
+  @override
+  String get reviewsEmptyHint =>
+      'Soyez le premier à partager votre expérience !';
+
+  @override
+  String get reviewWriteButton => 'Laisser un avis';
+
+  @override
+  String get reviewAddButton => 'Ajouter un avis';
+
+  @override
+  String get reviewAuthorHint => 'Votre prénom / pseudo';
+
+  @override
+  String get reviewCommentHint => 'Votre expérience…';
+
+  @override
+  String get reviewPublish => 'Publier l\'avis';
+
+  @override
+  String get reviewDelete => 'Supprimer';
+
+  @override
+  String get reviewMeLabel => 'Moi';
+
+  @override
+  String get reviewNoteLabel => 'Note';
 }

@@ -40,4 +40,7 @@ class AppRadius {
 
   /// `BorderRadius.circular(AppRadius.button)` prêt à l'emploi.
   static BorderRadius get buttonBorder => BorderRadius.circular(button);
+
+  /// `BorderRadius.circular(AppRadius.button)` pour les champs de saisie.
+  static BorderRadius get inputBorder => BorderRadius.circular(button);
 }

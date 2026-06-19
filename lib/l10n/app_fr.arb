@@ -99,5 +99,17 @@
   "tabRestaurants": "Restaurants",
   "tabGuides": "Guides",
   "accommodationsEmpty": "Aucun hébergement référencé.",
-  "restaurantsEmpty": "Aucun restaurant référencé."
+  "restaurantsEmpty": "Aucun restaurant référencé.",
+
+  "sectionReviews": "Avis & Notes",
+  "reviewsEmpty": "Aucun avis pour le moment",
+  "reviewsEmptyHint": "Soyez le premier \u00e0 partager votre expérience !",
+  "reviewWriteButton": "Laisser un avis",
+  "reviewAddButton": "Ajouter un avis",
+  "reviewAuthorHint": "Votre prénom / pseudo",
+  "reviewCommentHint": "Votre expérience\u2026",
+  "reviewPublish": "Publier l'avis",
+  "reviewDelete": "Supprimer",
+  "reviewMeLabel": "Moi",
+  "reviewNoteLabel": "Note"
 }

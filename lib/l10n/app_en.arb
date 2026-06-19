@@ -124,5 +124,17 @@
   "tabRestaurants": "Restaurants",
   "tabGuides": "Guides",
   "accommodationsEmpty": "No accommodation listed.",
-  "restaurantsEmpty": "No restaurant listed."
+  "restaurantsEmpty": "No restaurant listed.",
+
+  "sectionReviews": "Reviews & Ratings",
+  "reviewsEmpty": "No reviews yet",
+  "reviewsEmptyHint": "Be the first to share your experience!",
+  "reviewWriteButton": "Leave a review",
+  "reviewAddButton": "Add a review",
+  "reviewAuthorHint": "Your name / nickname",
+  "reviewCommentHint": "Your experience\u2026",
+  "reviewPublish": "Publish review",
+  "reviewDelete": "Delete",
+  "reviewMeLabel": "Me",
+  "reviewNoteLabel": "Rating"
 }

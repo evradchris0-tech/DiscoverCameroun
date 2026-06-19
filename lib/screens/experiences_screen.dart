@@ -13,7 +13,8 @@ import '../theme/app_typography.dart';
 import '../widgets/experience_card.dart';
 
 class ExperiencesView extends ConsumerStatefulWidget {
-  const ExperiencesView({super.key});
+  final String query;
+  const ExperiencesView({super.key, this.query = ''});
 
   @override
   ConsumerState<ExperiencesView> createState() => _ExperiencesViewState();
@@ -31,10 +32,13 @@ class _ExperiencesViewState extends ConsumerState<ExperiencesView> {
       loading: () => const Center(child: CircularProgressIndicator()),
       error: (e, _) => Center(child: Text('Erreur : $e')),
       data: (all) {
+        final q = widget.query.trim().toLowerCase();
         final types = all.map((e) => e.type).toSet().toList();
-        final filtered = _filter == null
-            ? all
-            : all.where((e) => e.type == _filter).toList();
+        final filtered = all.where((e) {
+          final matchesType = _filter == null || e.type == _filter;
+          final matchesQuery = q.isEmpty || e.title.toLowerCase().contains(q);
+          return matchesType && matchesQuery;
+        }).toList();
 
         return Column(
           crossAxisAlignment: CrossAxisAlignment.start,

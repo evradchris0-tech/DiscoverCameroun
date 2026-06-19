@@ -488,6 +488,12 @@ abstract class AppLocalizations {
   /// **'View'**
   String get actionView;
 
+  /// No description provided for @actionShare.
+  ///
+  /// In en, this message translates to:
+  /// **'Share'**
+  String get actionShare;
+
   /// No description provided for @sectionRegions.
   ///
   /// In en, this message translates to:
@@ -511,6 +517,18 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'{count, plural, one{{count} destination} other{{count} destinations}}'**
   String regionDestinationsCount(int count);
+
+  /// No description provided for @allDestinationsTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'All destinations'**
+  String get allDestinationsTitle;
+
+  /// No description provided for @menuTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Menu'**
+  String get menuTitle;
 
   /// No description provided for @navProfile.
   ///
@@ -560,6 +578,54 @@ abstract class AppLocalizations {
   /// **'About'**
   String get profileAbout;
 
+  /// No description provided for @profileMyFavorites.
+  ///
+  /// In en, this message translates to:
+  /// **'My favourites'**
+  String get profileMyFavorites;
+
+  /// No description provided for @profileHelp.
+  ///
+  /// In en, this message translates to:
+  /// **'Help & contact'**
+  String get profileHelp;
+
+  /// No description provided for @profileShare.
+  ///
+  /// In en, this message translates to:
+  /// **'Share the app'**
+  String get profileShare;
+
+  /// No description provided for @profileGroupAccount.
+  ///
+  /// In en, this message translates to:
+  /// **'My space'**
+  String get profileGroupAccount;
+
+  /// No description provided for @profileGroupPreferences.
+  ///
+  /// In en, this message translates to:
+  /// **'Preferences'**
+  String get profileGroupPreferences;
+
+  /// No description provided for @profileGroupSupport.
+  ///
+  /// In en, this message translates to:
+  /// **'Help & info'**
+  String get profileGroupSupport;
+
+  /// No description provided for @shareAppText.
+  ///
+  /// In en, this message translates to:
+  /// **'Discover Cameroon with KmerTour — the tourist guide to the country\'s 50 destinations.'**
+  String get shareAppText;
+
+  /// No description provided for @shareDestinationText.
+  ///
+  /// In en, this message translates to:
+  /// **'{name} ({region}) — discovered on KmerTour.'**
+  String shareDestinationText(String name, String region);
+
   /// No description provided for @sectionSponsors.
   ///
   /// In en, this message translates to:
@@ -571,6 +637,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Discover'**
   String get navDiscover;
+
+  /// No description provided for @searchGeneric.
+  ///
+  /// In en, this message translates to:
+  /// **'Search…'**
+  String get searchGeneric;
 
   /// No description provided for @tabHotels.
   ///

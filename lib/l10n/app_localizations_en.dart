@@ -224,6 +224,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get actionView => 'View';
 
   @override
+  String get actionShare => 'Share';
+
+  @override
   String get sectionRegions => 'Explore KmerTour by region';
 
   @override
@@ -244,6 +247,12 @@ class AppLocalizationsEn extends AppLocalizations {
     );
     return '$_temp0';
   }
+
+  @override
+  String get allDestinationsTitle => 'All destinations';
+
+  @override
+  String get menuTitle => 'Menu';
 
   @override
   String get navProfile => 'Profile';
@@ -270,10 +279,40 @@ class AppLocalizationsEn extends AppLocalizations {
   String get profileAbout => 'About';
 
   @override
+  String get profileMyFavorites => 'My favourites';
+
+  @override
+  String get profileHelp => 'Help & contact';
+
+  @override
+  String get profileShare => 'Share the app';
+
+  @override
+  String get profileGroupAccount => 'My space';
+
+  @override
+  String get profileGroupPreferences => 'Preferences';
+
+  @override
+  String get profileGroupSupport => 'Help & info';
+
+  @override
+  String get shareAppText =>
+      'Discover Cameroon with KmerTour — the tourist guide to the country\'s 50 destinations.';
+
+  @override
+  String shareDestinationText(String name, String region) {
+    return '$name ($region) — discovered on KmerTour.';
+  }
+
+  @override
   String get sectionSponsors => 'Our partners';
 
   @override
   String get navDiscover => 'Discover';
+
+  @override
+  String get searchGeneric => 'Search…';
 
   @override
   String get tabHotels => 'Hotels';

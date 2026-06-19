@@ -71,10 +71,14 @@ class AppTheme {
       chipTheme: ChipThemeData(
         backgroundColor: AppColors.surface,
         selectedColor: AppColors.primary,
+        // Texte BLANC quand le chip est sélectionné, foncé sinon.
         labelStyle: AppTypography.sans(
-            fontSize: 13,
-            fontWeight: FontWeight.w500,
-            color: AppColors.textDark),
+            fontSize: 13, fontWeight: FontWeight.w500).copyWith(
+          color: WidgetStateColor.resolveWith((states) =>
+              states.contains(WidgetState.selected)
+                  ? Colors.white
+                  : AppColors.textDark),
+        ),
         secondaryLabelStyle: AppTypography.sans(
             fontSize: 13, fontWeight: FontWeight.w600, color: Colors.white),
         side: const BorderSide(color: AppColors.outline),

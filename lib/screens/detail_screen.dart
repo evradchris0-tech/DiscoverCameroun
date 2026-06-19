@@ -6,6 +6,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_map/flutter_map.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:latlong2/latlong.dart';
+import 'package:share_plus/share_plus.dart';
 
 import '../core/launcher.dart';
 import '../enums/destination_category.dart';
@@ -77,19 +78,37 @@ class DetailScreen extends ConsumerWidget {
           ),
         ),
         actions: [
-          // Bouton « copier les infos » (presse-papiers)
-          IconButton(
-            icon: const Icon(Icons.copy),
-            onPressed: () => _copyToClipboard(context),
-            tooltip: l10n.tooltipCopy,
-          ),
-          // Bouton favori géré par Riverpod
-          IconButton(
-            icon: Icon(
-                isFavorite ? Icons.bookmark : Icons.bookmark_border),
-            onPressed: () =>
-                ref.read(favoritesProvider.notifier).toggle(destination.id),
-            tooltip: isFavorite ? l10n.tooltipRemoveFav : l10n.tooltipAddFav,
+          // Menu 3 points : partager / copier / signet (évite de surcharger l'en-tête)
+          PopupMenuButton<String>(
+            icon: const Icon(Icons.more_vert),
+            onSelected: (value) {
+              switch (value) {
+                case 'share':
+                  Share.share(l10n.shareDestinationText(
+                      destination.name, destination.region));
+                case 'copy':
+                  _copyToClipboard(context);
+                case 'fav':
+                  ref.read(favoritesProvider.notifier).toggle(destination.id);
+              }
+            },
+            itemBuilder: (context) => [
+              PopupMenuItem(
+                value: 'share',
+                child: _MenuRow(icon: Icons.share_outlined, label: l10n.actionShare),
+              ),
+              PopupMenuItem(
+                value: 'copy',
+                child: _MenuRow(icon: Icons.copy, label: l10n.tooltipCopy),
+              ),
+              PopupMenuItem(
+                value: 'fav',
+                child: _MenuRow(
+                  icon: isFavorite ? Icons.bookmark : Icons.bookmark_border,
+                  label: isFavorite ? l10n.tooltipRemoveFav : l10n.tooltipAddFav,
+                ),
+              ),
+            ],
           ),
         ],
       ),
@@ -298,6 +317,26 @@ class DetailScreen extends ConsumerWidget {
           ],
         ),
       ),
+    );
+  }
+}
+
+class _MenuRow extends StatelessWidget {
+  final IconData icon;
+  final String label;
+
+  const _MenuRow({required this.icon, required this.label});
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      children: [
+        Icon(icon, size: 20, color: AppColors.primary),
+        const SizedBox(width: AppSpacing.md),
+        Text(label,
+            style: AppTypography.sans(
+                fontSize: 14, color: AppColors.textDark)),
+      ],
     );
   }
 }

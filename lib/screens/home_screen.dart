@@ -20,6 +20,7 @@ import '../widgets/popular_stay_card.dart';
 import '../widgets/section_header.dart';
 import '../widgets/smart_image.dart';
 import '../widgets/sponsor_card.dart';
+import 'all_destinations_screen.dart';
 import 'detail_screen.dart';
 import 'emergency_screen.dart';
 
@@ -51,60 +52,17 @@ class HomeScreen extends ConsumerWidget {
     );
   }
 
-  void _showAboutDialog(BuildContext context) {
-    final l10n = AppLocalizations.of(context);
-    showDialog(
-      context: context,
-      builder: (context) => AlertDialog(
-        shape: RoundedRectangleBorder(borderRadius: AppRadius.cardBorder),
-        title: Text(l10n.appTitle, style: AppTypography.dialogTitle),
-        content: Text(l10n.aboutContent, style: AppTypography.sans(height: 1.5)),
-        actions: [
-          TextButton(
-            onPressed: () => Navigator.pop(context),
-            child: Text(l10n.actionClose),
-          ),
-        ],
-      ),
-    );
-  }
-
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final l10n = AppLocalizations.of(context);
     final filteredAsync = ref.watch(filteredDestinationsProvider);
     final totalCount = ref.watch(destinationsProvider).valueOrNull?.length ?? 0;
     final query = ref.watch(searchQueryProvider);
-    final locale = ref.watch(localeProvider);
 
     return Scaffold(
-      appBar: AppBar(
-        title: Text(l10n.appTitle),
-        centerTitle: true,
-        actions: [
-          TextButton(
-            onPressed: () => ref.read(localeProvider.notifier).toggle(),
-            style: TextButton.styleFrom(foregroundColor: Colors.white),
-            child: Text(
-              locale.languageCode.toUpperCase(),
-              style: AppTypography.sans(
-                  fontSize: 13, fontWeight: FontWeight.w700, color: Colors.white),
-            ),
-          ),
-          IconButton(
-            icon: const Icon(Icons.emergency_outlined, size: 22),
-            tooltip: l10n.emergencyTooltip,
-            onPressed: () => Navigator.push(
-              context,
-              MaterialPageRoute(builder: (_) => const EmergencyScreen()),
-            ),
-          ),
-          IconButton(
-            icon: const Icon(Icons.info_outline, size: 22),
-            onPressed: () => _showAboutDialog(context),
-          ),
-        ],
-      ),
+      // Toutes les actions du header sont déplacées dans le menu burger (drawer).
+      appBar: AppBar(title: Text(l10n.appTitle), centerTitle: true),
+      drawer: const _HomeDrawer(),
       body: CustomScrollView(
         slivers: [
           SliverToBoxAdapter(
@@ -129,7 +87,15 @@ class HomeScreen extends ConsumerWidget {
           SliverToBoxAdapter(
             child: Padding(
               padding: const EdgeInsets.only(top: AppSpacing.sm),
-              child: SectionHeader(title: l10n.sectionPopularStays),
+              child: SectionHeader(
+                title: l10n.sectionPopularStays,
+                actionLabel: l10n.actionSeeAll,
+                onAction: () => Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (_) => const AllDestinationsScreen()),
+                ),
+              ),
             ),
           ),
 
@@ -150,26 +116,31 @@ class HomeScreen extends ConsumerWidget {
                 ),
               ),
             ],
-            data: (filtered) => filtered.isEmpty
-                ? [const SliverToBoxAdapter(child: _EmptyState())]
-                : [
-                    SliverPadding(
-                      padding: const EdgeInsets.only(top: AppSpacing.xs),
-                      sliver: SliverList(
-                        delegate: SliverChildBuilderDelegate(
-                          (context, index) => AnimatedListItem(
-                            index: index,
-                            key: ValueKey(filtered[index].id),
-                            child: PopularStayCard(
-                              destination: filtered[index],
-                              onTap: (d) => _navigateToDetail(context, d),
-                            ),
-                          ),
-                          childCount: filtered.length,
+            data: (filtered) {
+              if (filtered.isEmpty) {
+                return [const SliverToBoxAdapter(child: _EmptyState())];
+              }
+              // Aperçu borné : on n'affiche que les premiers (« Voir tout » pour le reste).
+              final shown = filtered.take(6).toList();
+              return [
+                SliverPadding(
+                  padding: const EdgeInsets.only(top: AppSpacing.xs),
+                  sliver: SliverList(
+                    delegate: SliverChildBuilderDelegate(
+                      (context, index) => AnimatedListItem(
+                        index: index,
+                        key: ValueKey(shown[index].id),
+                        child: PopularStayCard(
+                          destination: shown[index],
+                          onTap: (d) => _navigateToDetail(context, d),
                         ),
                       ),
+                      childCount: shown.length,
                     ),
-                  ],
+                  ),
+                ),
+              ];
+            },
           ),
 
           // Partenaires / sponsors (modèle de revenus)
@@ -178,6 +149,123 @@ class HomeScreen extends ConsumerWidget {
 
           const SliverToBoxAdapter(child: SizedBox(height: AppSpacing.xxl)),
         ],
+      ),
+    );
+  }
+}
+
+class _HomeDrawer extends ConsumerWidget {
+  const _HomeDrawer();
+
+  void _showAbout(BuildContext context) {
+    final l10n = AppLocalizations.of(context);
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        shape: RoundedRectangleBorder(borderRadius: AppRadius.cardBorder),
+        title: Text(l10n.appTitle, style: AppTypography.dialogTitle),
+        content: Text(l10n.aboutContent, style: AppTypography.sans(height: 1.5)),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context),
+            child: Text(l10n.actionClose),
+          ),
+        ],
+      ),
+    );
+  }
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final l10n = AppLocalizations.of(context);
+    final locale = ref.watch(localeProvider);
+
+    return Drawer(
+      child: SafeArea(
+        child: Column(
+          children: [
+            // En-tête de marque
+            Container(
+              width: double.infinity,
+              padding: const EdgeInsets.all(AppSpacing.xl),
+              decoration: const BoxDecoration(
+                gradient: LinearGradient(
+                  begin: Alignment.topLeft,
+                  end: Alignment.bottomRight,
+                  colors: [AppColors.primary, AppColors.primaryLight],
+                ),
+              ),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  SizedBox(
+                    height: 48,
+                    child: Image.asset('assets/images/kmertour_logo.png',
+                        fit: BoxFit.contain, alignment: Alignment.centerLeft),
+                  ),
+                  const SizedBox(height: AppSpacing.md),
+                  Text(l10n.appTitle,
+                      style: AppTypography.serif(
+                          fontSize: 20,
+                          fontWeight: FontWeight.w700,
+                          color: Colors.white)),
+                  const SizedBox(height: AppSpacing.xxs),
+                  Text(l10n.homeEyebrow,
+                      style: AppTypography.eyebrow
+                          .copyWith(color: AppColors.gold)),
+                ],
+              ),
+            ),
+            // Options (anciennes actions du header)
+            ListTile(
+              leading: const Icon(Icons.language, color: AppColors.primary),
+              title: Text(l10n.profileLanguage),
+              trailing: Text(locale.languageCode.toUpperCase(),
+                  style: AppTypography.sans(
+                      fontWeight: FontWeight.w700, color: AppColors.primary)),
+              onTap: () => ref.read(localeProvider.notifier).toggle(),
+            ),
+            ListTile(
+              leading:
+                  const Icon(Icons.explore_outlined, color: AppColors.primary),
+              title: Text(l10n.allDestinationsTitle),
+              onTap: () {
+                Navigator.pop(context);
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (_) => const AllDestinationsScreen()),
+                );
+              },
+            ),
+            ListTile(
+              leading: const Icon(Icons.emergency_outlined,
+                  color: AppColors.danger),
+              title: Text(l10n.emergencyTitle),
+              onTap: () {
+                Navigator.pop(context);
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (_) => const EmergencyScreen()),
+                );
+              },
+            ),
+            ListTile(
+              leading: const Icon(Icons.info_outline, color: AppColors.primary),
+              title: Text(l10n.profileAbout),
+              onTap: () {
+                Navigator.pop(context);
+                _showAbout(context);
+              },
+            ),
+            const Spacer(),
+            Padding(
+              padding: const EdgeInsets.all(AppSpacing.lg),
+              child: Text('${l10n.appTitle} · v1.0.0',
+                  style: AppTypography.caption),
+            ),
+          ],
+        ),
       ),
     );
   }

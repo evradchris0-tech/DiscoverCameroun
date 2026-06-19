@@ -29,6 +29,9 @@ dependencies:
   # Liens externes : appel téléphonique, WhatsApp, itinéraire Maps
   url_launcher: ^6.3.0
 
+  # Partage natif (destinations, application)
+  share_plus: ^10.1.4
+
   # Géolocalisation + calcul d'itinéraire (temps de trajet via OSRM)
   geolocator: ^13.0.0
   http: ^1.2.0

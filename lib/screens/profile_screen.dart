@@ -1,9 +1,12 @@
-// NOTE : Onglet « Profil » — épuré : en-tête, statistiques, préférences et infos.
-// Concept mis en avant : ConsumerWidget qui agrège les providers existants (langue, favoris).
+// NOTE : Onglet « Profil » — épuré et structuré : en-tête, stats, et sections
+// groupées (Mon espace, Préférences, Aide & infos) à la manière des apps modernes.
+// Concept mis en avant : ConsumerWidget agrégeant les providers (langue, favoris).
 
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:share_plus/share_plus.dart';
 
+import '../core/launcher.dart';
 import '../l10n/app_localizations.dart';
 import '../providers/destinations_provider.dart';
 import '../providers/favorites_provider.dart';
@@ -13,9 +16,12 @@ import '../theme/app_radius.dart';
 import '../theme/app_spacing.dart';
 import '../theme/app_typography.dart';
 import 'emergency_screen.dart';
+import 'favorites_screen.dart';
 
 class ProfileScreen extends ConsumerWidget {
   const ProfileScreen({super.key});
+
+  static const _supportPhone = '+237655746714';
 
   void _showAbout(BuildContext context) {
     final l10n = AppLocalizations.of(context);
@@ -66,8 +72,7 @@ class ProfileScreen extends ConsumerWidget {
                 const SizedBox(height: AppSpacing.md),
                 Text(l10n.profileTraveler, style: AppTypography.sectionTitle),
                 const SizedBox(height: AppSpacing.xxs),
-                Text(l10n.profileTagline,
-                    style: AppTypography.caption),
+                Text(l10n.profileTagline, style: AppTypography.caption),
               ],
             ),
           ),
@@ -98,7 +103,24 @@ class ProfileScreen extends ConsumerWidget {
 
           const SizedBox(height: AppSpacing.xl),
 
-          // Options
+          // --- Mon espace ---
+          _GroupTitle(l10n.profileGroupAccount),
+          _Card(children: [
+            _Tile(
+              icon: Icons.bookmark_outline,
+              label: l10n.profileMyFavorites,
+              trailing: _Pill(text: '$favorites'),
+              onTap: () => Navigator.push(
+                context,
+                MaterialPageRoute(builder: (_) => const FavoritesScreen()),
+              ),
+            ),
+          ]),
+
+          const SizedBox(height: AppSpacing.lg),
+
+          // --- Préférences ---
+          _GroupTitle(l10n.profileGroupPreferences),
           _Card(children: [
             _Tile(
               icon: Icons.language,
@@ -106,7 +128,13 @@ class ProfileScreen extends ConsumerWidget {
               trailing: _Pill(text: locale.languageCode.toUpperCase()),
               onTap: () => ref.read(localeProvider.notifier).toggle(),
             ),
-            const Divider(height: 1),
+          ]),
+
+          const SizedBox(height: AppSpacing.lg),
+
+          // --- Aide & infos ---
+          _GroupTitle(l10n.profileGroupSupport),
+          _Card(children: [
             _Tile(
               icon: Icons.emergency_outlined,
               iconColor: AppColors.danger,
@@ -118,6 +146,19 @@ class ProfileScreen extends ConsumerWidget {
             ),
             const Divider(height: 1),
             _Tile(
+              icon: Icons.support_agent,
+              label: l10n.profileHelp,
+              onTap: () => AppLauncher.whatsapp(_supportPhone,
+                  message: 'Bonjour, j\'ai besoin d\'aide sur KmerTour.'),
+            ),
+            const Divider(height: 1),
+            _Tile(
+              icon: Icons.share_outlined,
+              label: l10n.profileShare,
+              onTap: () => Share.share(l10n.shareAppText),
+            ),
+            const Divider(height: 1),
+            _Tile(
               icon: Icons.info_outline,
               label: l10n.profileAbout,
               onTap: () => _showAbout(context),
@@ -126,12 +167,32 @@ class ProfileScreen extends ConsumerWidget {
 
           const SizedBox(height: AppSpacing.xxl),
 
-          // Pied de page
           Center(
-            child: Text('${l10n.appTitle} · v1.0.0',
-                style: AppTypography.caption),
+            child:
+                Text('${l10n.appTitle} · v1.0.0', style: AppTypography.caption),
           ),
         ],
+      ),
+    );
+  }
+}
+
+class _GroupTitle extends StatelessWidget {
+  final String text;
+  const _GroupTitle(this.text);
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.only(
+          left: AppSpacing.xs, bottom: AppSpacing.sm),
+      child: Text(
+        text.toUpperCase(),
+        style: AppTypography.sans(
+            fontSize: 11,
+            fontWeight: FontWeight.w700,
+            letterSpacing: 0.5,
+            color: AppColors.textLight),
       ),
     );
   }

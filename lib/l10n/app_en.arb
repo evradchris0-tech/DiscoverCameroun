@@ -97,6 +97,7 @@
   "mapZoomOut": "Zoom out",
   "mapLayers": "Map type",
   "actionView": "View",
+  "actionShare": "Share",
 
   "sectionRegions": "Explore KmerTour by region",
   "sectionPopularStays": "Popular stays",
@@ -109,6 +110,8 @@
     "placeholders": { "count": { "type": "int" } }
   },
 
+  "allDestinationsTitle": "All destinations",
+  "menuTitle": "Menu",
   "navProfile": "Profile",
   "profileTitle": "Profile",
   "profileTraveler": "Traveller",
@@ -117,9 +120,21 @@
   "statFavorites": "Favorites",
   "profileLanguage": "Language",
   "profileAbout": "About",
+  "profileMyFavorites": "My favourites",
+  "profileHelp": "Help & contact",
+  "profileShare": "Share the app",
+  "profileGroupAccount": "My space",
+  "profileGroupPreferences": "Preferences",
+  "profileGroupSupport": "Help & info",
+  "shareAppText": "Discover Cameroon with KmerTour — the tourist guide to the country's 50 destinations.",
+  "shareDestinationText": "{name} ({region}) — discovered on KmerTour.",
+  "@shareDestinationText": {
+    "placeholders": { "name": { "type": "String" }, "region": { "type": "String" } }
+  },
 
   "sectionSponsors": "Our partners",
   "navDiscover": "Discover",
+  "searchGeneric": "Search…",
   "tabHotels": "Hotels",
   "tabRestaurants": "Restaurants",
   "tabGuides": "Guides",

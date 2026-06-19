@@ -5,7 +5,6 @@ import 'package:flutter/material.dart';
 import '../l10n/app_localizations.dart';
 import 'catalog_screen.dart';
 import 'home_screen.dart';
-import 'favorites_screen.dart';
 import 'map_screen.dart';
 import 'profile_screen.dart';
 
@@ -24,7 +23,6 @@ class _MainScreenState extends State<MainScreen> {
     HomeScreen(),
     CatalogScreen(),
     MapScreen(),
-    FavoritesScreen(),
     ProfileScreen(),
   ];
 
@@ -55,11 +53,6 @@ class _MainScreenState extends State<MainScreen> {
             icon: const Icon(Icons.map_outlined),
             activeIcon: const Icon(Icons.map),
             label: l10n.navMap,
-          ),
-          BottomNavigationBarItem(
-            icon: const Icon(Icons.bookmark_border),
-            activeIcon: const Icon(Icons.bookmark),
-            label: l10n.navFavorites,
           ),
           BottomNavigationBarItem(
             icon: const Icon(Icons.person_outline),

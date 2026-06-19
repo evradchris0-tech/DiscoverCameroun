@@ -224,6 +224,9 @@ class AppLocalizationsFr extends AppLocalizations {
   String get actionView => 'Voir';
 
   @override
+  String get actionShare => 'Partager';
+
+  @override
   String get sectionRegions => 'Découvrir le Cameroun par région';
 
   @override
@@ -244,6 +247,12 @@ class AppLocalizationsFr extends AppLocalizations {
     );
     return '$_temp0';
   }
+
+  @override
+  String get allDestinationsTitle => 'Toutes les destinations';
+
+  @override
+  String get menuTitle => 'Menu';
 
   @override
   String get navProfile => 'Profil';
@@ -270,10 +279,40 @@ class AppLocalizationsFr extends AppLocalizations {
   String get profileAbout => 'À propos';
 
   @override
+  String get profileMyFavorites => 'Mes favoris';
+
+  @override
+  String get profileHelp => 'Aide & contact';
+
+  @override
+  String get profileShare => 'Partager l\'application';
+
+  @override
+  String get profileGroupAccount => 'Mon espace';
+
+  @override
+  String get profileGroupPreferences => 'Préférences';
+
+  @override
+  String get profileGroupSupport => 'Aide & infos';
+
+  @override
+  String get shareAppText =>
+      'Découvre le Cameroun avec KmerTour — le guide touristique des 50 destinations du pays.';
+
+  @override
+  String shareDestinationText(String name, String region) {
+    return '$name ($region) — à découvrir sur KmerTour.';
+  }
+
+  @override
   String get sectionSponsors => 'Nos partenaires';
 
   @override
   String get navDiscover => 'Découvrir';
+
+  @override
+  String get searchGeneric => 'Rechercher…';
 
   @override
   String get tabHotels => 'Hôtels';

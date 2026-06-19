@@ -165,6 +165,10 @@ class _MapScreenState extends ConsumerState<MapScreen>
                   initialZoom: _initialZoom,
                   minZoom: _minZoom,
                   maxZoom: _maxZoom,
+                  // On bloque la rotation (pas de 360 à deux doigts).
+                  interactionOptions: const InteractionOptions(
+                    flags: InteractiveFlag.all & ~InteractiveFlag.rotate,
+                  ),
                   onTap: (_, __) => setState(() => _selected = null),
                 ),
                 children: [

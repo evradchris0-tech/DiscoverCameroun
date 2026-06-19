@@ -101,7 +101,7 @@ abstract class AppLocalizations {
   /// No description provided for @appTitle.
   ///
   /// In en, this message translates to:
-  /// **'Discover Cameroon'**
+  /// **'KmerTour'**
   String get appTitle;
 
   /// No description provided for @navHome.
@@ -491,7 +491,7 @@ abstract class AppLocalizations {
   /// No description provided for @sectionRegions.
   ///
   /// In en, this message translates to:
-  /// **'Discover Cameroon by region'**
+  /// **'Explore KmerTour by region'**
   String get sectionRegions;
 
   /// No description provided for @sectionPopularStays.
@@ -667,6 +667,78 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Rating'**
   String get reviewNoteLabel;
+
+  /// No description provided for @bookingTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Book'**
+  String get bookingTitle;
+
+  /// No description provided for @bookingStepWho.
+  ///
+  /// In en, this message translates to:
+  /// **'Your details'**
+  String get bookingStepWho;
+
+  /// No description provided for @bookingStepWhen.
+  ///
+  /// In en, this message translates to:
+  /// **'Dates & details'**
+  String get bookingStepWhen;
+
+  /// No description provided for @bookingStepConfirm.
+  ///
+  /// In en, this message translates to:
+  /// **'Confirmation'**
+  String get bookingStepConfirm;
+
+  /// No description provided for @bookingNext.
+  ///
+  /// In en, this message translates to:
+  /// **'Next'**
+  String get bookingNext;
+
+  /// No description provided for @bookingBack.
+  ///
+  /// In en, this message translates to:
+  /// **'Back'**
+  String get bookingBack;
+
+  /// No description provided for @bookingModify.
+  ///
+  /// In en, this message translates to:
+  /// **'← Edit'**
+  String get bookingModify;
+
+  /// No description provided for @bookingSendWhatsApp.
+  ///
+  /// In en, this message translates to:
+  /// **'Send via WhatsApp'**
+  String get bookingSendWhatsApp;
+
+  /// No description provided for @bookingButtonLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Book'**
+  String get bookingButtonLabel;
+
+  /// No description provided for @bookingGuideButtonLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Book this guide'**
+  String get bookingGuideButtonLabel;
+
+  /// No description provided for @bookingSnackSuccess.
+  ///
+  /// In en, this message translates to:
+  /// **'Request sent via WhatsApp!'**
+  String get bookingSnackSuccess;
+
+  /// No description provided for @bookingSnackNoWhatsApp.
+  ///
+  /// In en, this message translates to:
+  /// **'WhatsApp is not available on this device.'**
+  String get bookingSnackNoWhatsApp;
 }
 
 class _AppLocalizationsDelegate

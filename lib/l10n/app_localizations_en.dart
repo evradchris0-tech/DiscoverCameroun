@@ -9,7 +9,7 @@ class AppLocalizationsEn extends AppLocalizations {
   AppLocalizationsEn([String locale = 'en']) : super(locale);
 
   @override
-  String get appTitle => 'Discover Cameroon';
+  String get appTitle => 'KmerTour';
 
   @override
   String get navHome => 'Home';
@@ -224,7 +224,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get actionView => 'View';
 
   @override
-  String get sectionRegions => 'Discover Cameroon by region';
+  String get sectionRegions => 'Explore KmerTour by region';
 
   @override
   String get sectionPopularStays => 'Popular stays';
@@ -322,4 +322,41 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get reviewNoteLabel => 'Rating';
+
+  @override
+  String get bookingTitle => 'Book';
+
+  @override
+  String get bookingStepWho => 'Your details';
+
+  @override
+  String get bookingStepWhen => 'Dates & details';
+
+  @override
+  String get bookingStepConfirm => 'Confirmation';
+
+  @override
+  String get bookingNext => 'Next';
+
+  @override
+  String get bookingBack => 'Back';
+
+  @override
+  String get bookingModify => '← Edit';
+
+  @override
+  String get bookingSendWhatsApp => 'Send via WhatsApp';
+
+  @override
+  String get bookingButtonLabel => 'Book';
+
+  @override
+  String get bookingGuideButtonLabel => 'Book this guide';
+
+  @override
+  String get bookingSnackSuccess => 'Request sent via WhatsApp!';
+
+  @override
+  String get bookingSnackNoWhatsApp =>
+      'WhatsApp is not available on this device.';
 }

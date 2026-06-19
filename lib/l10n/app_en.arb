@@ -136,5 +136,18 @@
   "reviewPublish": "Publish review",
   "reviewDelete": "Delete",
   "reviewMeLabel": "Me",
-  "reviewNoteLabel": "Rating"
+  "reviewNoteLabel": "Rating",
+
+  "bookingTitle": "Book",
+  "bookingStepWho": "Your details",
+  "bookingStepWhen": "Dates & details",
+  "bookingStepConfirm": "Confirmation",
+  "bookingNext": "Next",
+  "bookingBack": "Back",
+  "bookingModify": "← Edit",
+  "bookingSendWhatsApp": "Send via WhatsApp",
+  "bookingButtonLabel": "Book",
+  "bookingGuideButtonLabel": "Book this guide",
+  "bookingSnackSuccess": "Request sent via WhatsApp!",
+  "bookingSnackNoWhatsApp": "WhatsApp is not available on this device."
 }

@@ -53,8 +53,13 @@ class DestinationRubrics extends ConsumerWidget {
                             )
                         : null,
                   ),
-                  children:
-                      list.take(2).map((g) => GuideCard(guide: g)).toList(),
+                  children: list
+                      .take(2)
+                      .map((g) => GuideCard(
+                            guide: g,
+                            destinationName: destination.name,
+                          ))
+                      .toList(),
                 ),
           orElse: () => const SizedBox.shrink(),
         ),
@@ -66,7 +71,10 @@ class DestinationRubrics extends ConsumerWidget {
               : _Section(
                   header: SectionHeader(title: l10n.sectionExperiences),
                   children: list
-                      .map((e) => ExperienceCard(experience: e))
+                      .map((e) => ExperienceCard(
+                            experience: e,
+                            destinationName: destination.name,
+                          ))
                       .toList(),
                 ),
           orElse: () => const SizedBox.shrink(),
@@ -79,7 +87,10 @@ class DestinationRubrics extends ConsumerWidget {
               : _Section(
                   header: SectionHeader(title: l10n.sectionWhereToSleep),
                   children: list
-                      .map((a) => AccommodationCard(accommodation: a))
+                      .map((a) => AccommodationCard(
+                            accommodation: a,
+                            destinationName: destination.name,
+                          ))
                       .toList(),
                 ),
           orElse: () => const SizedBox.shrink(),

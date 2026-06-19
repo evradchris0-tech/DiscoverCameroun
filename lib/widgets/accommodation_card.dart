@@ -7,17 +7,24 @@ import '../core/format.dart';
 import '../core/launcher.dart';
 import '../l10n/app_localizations.dart';
 import '../models/accommodation.dart';
+import '../models/booking_request.dart';
 import '../theme/app_colors.dart';
 import '../theme/app_radius.dart';
 import '../theme/app_spacing.dart';
 import '../theme/app_typography.dart';
+import 'booking_sheet.dart';
 import 'rating_stars.dart';
 import 'route_info.dart';
 
 class AccommodationCard extends StatelessWidget {
   final Accommodation accommodation;
+  final String destinationName;
 
-  const AccommodationCard({super.key, required this.accommodation});
+  const AccommodationCard({
+    super.key,
+    required this.accommodation,
+    this.destinationName = '',
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -115,6 +122,27 @@ class AccommodationCard extends StatelessWidget {
               ),
             ],
           ]),
+          const SizedBox(height: AppSpacing.sm),
+          // Bouton Réserver
+          SizedBox(
+            width: double.infinity,
+            child: ElevatedButton.icon(
+              onPressed: () => showBookingSheet(
+                context,
+                type: BookingType.accommodation,
+                itemName: a.name,
+                destinationName: destinationName,
+              ),
+              icon: const Icon(Icons.bookmark_add_outlined, size: 16),
+              label: const Text('Réserver'),
+              style: ElevatedButton.styleFrom(
+                backgroundColor: AppColors.gold,
+                foregroundColor: Colors.white,
+                shape: RoundedRectangleBorder(
+                    borderRadius: AppRadius.buttonBorder),
+              ),
+            ),
+          ),
         ],
       ),
     );

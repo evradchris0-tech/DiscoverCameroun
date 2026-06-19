@@ -4,17 +4,24 @@
 import 'package:flutter/material.dart';
 
 import '../core/format.dart';
+import '../models/booking_request.dart';
 import '../models/tourist_experience.dart';
 import '../theme/app_colors.dart';
 import '../theme/app_radius.dart';
 import '../theme/app_spacing.dart';
 import '../theme/app_typography.dart';
+import 'booking_sheet.dart';
 import 'smart_image.dart';
 
 class ExperienceCard extends StatelessWidget {
   final TouristExperience experience;
+  final String destinationName;
 
-  const ExperienceCard({super.key, required this.experience});
+  const ExperienceCard({
+    super.key,
+    required this.experience,
+    this.destinationName = '',
+  });
 
   IconData get _icon {
     switch (experience.type) {
@@ -109,6 +116,27 @@ class ExperienceCard extends StatelessWidget {
                   Text(experience.description,
                       style: AppTypography.cardBody),
                 ],
+                const SizedBox(height: AppSpacing.md),
+                // Bouton Réserver
+                SizedBox(
+                  width: double.infinity,
+                  child: ElevatedButton.icon(
+                    onPressed: () => showBookingSheet(
+                      context,
+                      type: BookingType.experience,
+                      itemName: experience.title,
+                      destinationName: destinationName,
+                    ),
+                    icon: const Icon(Icons.bookmark_add_outlined, size: 16),
+                    label: const Text('Réserver'),
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: AppColors.gold,
+                      foregroundColor: Colors.white,
+                      shape: RoundedRectangleBorder(
+                          borderRadius: AppRadius.buttonBorder),
+                    ),
+                  ),
+                ),
               ],
             ),
           ),

@@ -6,18 +6,25 @@ import 'package:flutter/material.dart';
 import '../core/format.dart';
 import '../core/launcher.dart';
 import '../l10n/app_localizations.dart';
+import '../models/booking_request.dart';
 import '../models/tour_guide.dart';
 import '../theme/app_colors.dart';
 import '../theme/app_radius.dart';
 import '../theme/app_spacing.dart';
 import '../theme/app_typography.dart';
+import 'booking_sheet.dart';
 import 'rating_stars.dart';
 import 'smart_image.dart';
 
 class GuideCard extends StatelessWidget {
   final TourGuide guide;
+  final String destinationName;
 
-  const GuideCard({super.key, required this.guide});
+  const GuideCard({
+    super.key,
+    required this.guide,
+    this.destinationName = '',
+  });
 
   Future<void> _call(BuildContext context) async {
     final ok = await AppLauncher.call(guide.phone);
@@ -126,6 +133,27 @@ class GuideCard extends StatelessWidget {
                 ),
               ),
             ],
+          ),
+          const SizedBox(height: AppSpacing.sm),
+          // Bouton Réserver un guide
+          SizedBox(
+            width: double.infinity,
+            child: ElevatedButton.icon(
+              onPressed: () => showBookingSheet(
+                context,
+                type: BookingType.guide,
+                itemName: guide.name,
+                destinationName: destinationName,
+              ),
+              icon: const Icon(Icons.bookmark_add_outlined, size: 16),
+              label: const Text('Réserver ce guide'),
+              style: ElevatedButton.styleFrom(
+                backgroundColor: AppColors.gold,
+                foregroundColor: Colors.white,
+                shape: RoundedRectangleBorder(
+                    borderRadius: AppRadius.buttonBorder),
+              ),
+            ),
           ),
         ],
       ),

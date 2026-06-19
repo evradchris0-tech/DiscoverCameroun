@@ -111,5 +111,18 @@
   "reviewPublish": "Publier l'avis",
   "reviewDelete": "Supprimer",
   "reviewMeLabel": "Moi",
-  "reviewNoteLabel": "Note"
+  "reviewNoteLabel": "Note",
+
+  "bookingTitle": "Réserver",
+  "bookingStepWho": "Vos coordonnées",
+  "bookingStepWhen": "Dates & détails",
+  "bookingStepConfirm": "Confirmation",
+  "bookingNext": "Suivant",
+  "bookingBack": "Retour",
+  "bookingModify": "← Modifier",
+  "bookingSendWhatsApp": "Envoyer via WhatsApp",
+  "bookingButtonLabel": "Réserver",
+  "bookingGuideButtonLabel": "Réserver ce guide",
+  "bookingSnackSuccess": "Demande envoyée via WhatsApp !",
+  "bookingSnackNoWhatsApp": "WhatsApp n'est pas disponible sur cet appareil."
 }

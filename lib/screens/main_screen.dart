@@ -3,10 +3,11 @@
 
 import 'package:flutter/material.dart';
 import '../l10n/app_localizations.dart';
+import 'catalog_screen.dart';
 import 'home_screen.dart';
-import 'experiences_screen.dart';
 import 'favorites_screen.dart';
 import 'map_screen.dart';
+import 'profile_screen.dart';
 
 class MainScreen extends StatefulWidget {
   const MainScreen({super.key});
@@ -21,9 +22,10 @@ class _MainScreenState extends State<MainScreen> {
   // IndexedStack garde tous les écrans en mémoire pour ne pas les reconstruire à chaque onglet.
   static const List<Widget> _screens = [
     HomeScreen(),
-    ExperiencesScreen(),
+    CatalogScreen(),
     MapScreen(),
     FavoritesScreen(),
+    ProfileScreen(),
   ];
 
   @override
@@ -47,7 +49,7 @@ class _MainScreenState extends State<MainScreen> {
           BottomNavigationBarItem(
             icon: const Icon(Icons.explore_outlined),
             activeIcon: const Icon(Icons.explore),
-            label: l10n.navExperiences,
+            label: l10n.navDiscover,
           ),
           BottomNavigationBarItem(
             icon: const Icon(Icons.map_outlined),
@@ -58,6 +60,11 @@ class _MainScreenState extends State<MainScreen> {
             icon: const Icon(Icons.bookmark_border),
             activeIcon: const Icon(Icons.bookmark),
             label: l10n.navFavorites,
+          ),
+          BottomNavigationBarItem(
+            icon: const Icon(Icons.person_outline),
+            activeIcon: const Icon(Icons.person),
+            label: l10n.navProfile,
           ),
         ],
       ),

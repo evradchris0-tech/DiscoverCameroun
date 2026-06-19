@@ -95,6 +95,7 @@
   "mapMyLocation": "My location",
   "mapZoomIn": "Zoom in",
   "mapZoomOut": "Zoom out",
+  "mapLayers": "Map type",
   "actionView": "View",
 
   "sectionRegions": "Discover Cameroon by region",
@@ -106,5 +107,22 @@
   "regionDestinationsCount": "{count, plural, one{{count} destination} other{{count} destinations}}",
   "@regionDestinationsCount": {
     "placeholders": { "count": { "type": "int" } }
-  }
+  },
+
+  "navProfile": "Profile",
+  "profileTitle": "Profile",
+  "profileTraveler": "Traveller",
+  "profileTagline": "Explore Cameroon",
+  "statDestinations": "Destinations",
+  "statFavorites": "Favorites",
+  "profileLanguage": "Language",
+  "profileAbout": "About",
+
+  "sectionSponsors": "Our partners",
+  "navDiscover": "Discover",
+  "tabHotels": "Hotels",
+  "tabRestaurants": "Restaurants",
+  "tabGuides": "Guides",
+  "accommodationsEmpty": "No accommodation listed.",
+  "restaurantsEmpty": "No restaurant listed."
 }

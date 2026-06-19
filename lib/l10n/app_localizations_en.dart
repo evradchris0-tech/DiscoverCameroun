@@ -218,6 +218,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get mapZoomOut => 'Zoom out';
 
   @override
+  String get mapLayers => 'Map type';
+
+  @override
   String get actionView => 'View';
 
   @override
@@ -241,4 +244,49 @@ class AppLocalizationsEn extends AppLocalizations {
     );
     return '$_temp0';
   }
+
+  @override
+  String get navProfile => 'Profile';
+
+  @override
+  String get profileTitle => 'Profile';
+
+  @override
+  String get profileTraveler => 'Traveller';
+
+  @override
+  String get profileTagline => 'Explore Cameroon';
+
+  @override
+  String get statDestinations => 'Destinations';
+
+  @override
+  String get statFavorites => 'Favorites';
+
+  @override
+  String get profileLanguage => 'Language';
+
+  @override
+  String get profileAbout => 'About';
+
+  @override
+  String get sectionSponsors => 'Our partners';
+
+  @override
+  String get navDiscover => 'Discover';
+
+  @override
+  String get tabHotels => 'Hotels';
+
+  @override
+  String get tabRestaurants => 'Restaurants';
+
+  @override
+  String get tabGuides => 'Guides';
+
+  @override
+  String get accommodationsEmpty => 'No accommodation listed.';
+
+  @override
+  String get restaurantsEmpty => 'No restaurant listed.';
 }

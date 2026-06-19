@@ -7,6 +7,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../models/accommodation.dart';
 import '../models/emergency_contact.dart';
 import '../models/restaurant.dart';
+import '../models/sponsor.dart';
 import '../models/tour_guide.dart';
 import '../models/tourist_experience.dart';
 import 'repository_providers.dart';
@@ -31,6 +32,10 @@ final experiencesProvider = FutureProvider<List<TouristExperience>>(
 
 final emergencyContactsProvider = FutureProvider<List<EmergencyContact>>(
   (ref) => ref.watch(emergencyRepositoryProvider).getAll(),
+);
+
+final sponsorsProvider = FutureProvider<List<Sponsor>>(
+  (ref) => ref.watch(sponsorRepositoryProvider).getAll(),
 );
 
 // --- Variantes filtrées par destination ----------------------------------

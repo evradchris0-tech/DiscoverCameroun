@@ -1,0 +1,37 @@
+[
+  {
+    "id": "elites_voyage",
+    "name": "Elites Voyage",
+    "category": "Tourisme & Voyages",
+    "description": "Nous créons des séjours romantiques inoubliables, 100% personnalisables.",
+    "imageUrl": "https://loremflickr.com/600/400/travel,africa?lock=71"
+  },
+  {
+    "id": "brasseries_cameroun",
+    "name": "Brasseries du Cameroun",
+    "category": "Boissons & Brasserie",
+    "description": "Depuis 1948, la passion du goût camerounais. Castle, Mutzig, 33 Export.",
+    "imageUrl": "https://loremflickr.com/600/400/beer?lock=72"
+  },
+  {
+    "id": "crtv",
+    "name": "CRTV",
+    "category": "Médias & Communication",
+    "description": "La voix et le regard du Cameroun, partout dans le monde depuis 1987.",
+    "imageUrl": "https://loremflickr.com/600/400/tv,studio?lock=73"
+  },
+  {
+    "id": "mont_cameroun_expeditions",
+    "name": "Mont Cameroun Expeditions",
+    "category": "Aventure & Montagne",
+    "description": "Atteignez le toit de l'Afrique de l'Ouest. Le Mont Cameroun, 4 095 m.",
+    "imageUrl": "https://loremflickr.com/600/400/mountain,hiking?lock=74"
+  },
+  {
+    "id": "mtn_cameroon",
+    "name": "MTN Cameroon",
+    "category": "Télécommunications",
+    "description": "Connecter le Cameroun, partout, et faire grandir le numérique local.",
+    "imageUrl": "https://loremflickr.com/600/400/telecom,antenna?lock=75"
+  }
+]

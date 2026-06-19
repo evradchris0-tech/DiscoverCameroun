@@ -20,6 +20,39 @@
       "Plage",
       "Gastronomie marine",
       "Visite des chutes"
+    ],
+    "bestSeasons": [
+      "saison_seche",
+      "petite_saison_pluies"
+    ],
+    "seasonAdvice": "Idéal de novembre à février : mer calme, ciel dégagé et chaleur agréable. Évitez juillet-août, pic des pluies.",
+    "entryFee": {
+      "isFree": false,
+      "residentPrice": 500,
+      "nonResidentPrice": 1000,
+      "childPrice": 300,
+      "currency": "XAF",
+      "notes": "Accès plage ; certains sites privés facturent un supplément."
+    },
+    "tips": [
+      "Négociez le prix du poisson grillé et des pirogues avant de monter.",
+      "Protégez-vous du soleil : la côte est très ensoleillée à midi.",
+      "Prévoyez des espèces (FCFA) : les paiements par carte sont rares hors des grandes villes."
+    ],
+    "transportOptions": [
+      {
+        "mode": "bus",
+        "description": "En car depuis Yaoundé (agences : Touristique Express, Général Voyages…).",
+        "indicativePrice": "3 000 – 12 000 FCFA",
+        "duration": "~4 – 8 h selon la distance",
+        "tips": "Réservez la veille en haute saison."
+      },
+      {
+        "mode": "moto_taxi",
+        "description": "Pour les derniers kilomètres et se déplacer sur place.",
+        "indicativePrice": "200 – 1 000 FCFA",
+        "tips": "Négociez avant de monter ; casque conseillé."
+      }
     ]
   },
   {
@@ -43,6 +76,39 @@
       "Jardin botanique",
       "Plage volcanique",
       "Sauvegarde animale"
+    ],
+    "bestSeasons": [
+      "saison_seche",
+      "petite_saison_pluies"
+    ],
+    "seasonAdvice": "Idéal de novembre à février : mer calme, ciel dégagé et chaleur agréable. Évitez juillet-août, pic des pluies.",
+    "entryFee": {
+      "isFree": false,
+      "residentPrice": 500,
+      "nonResidentPrice": 1000,
+      "childPrice": 300,
+      "currency": "XAF",
+      "notes": "Accès plage ; certains sites privés facturent un supplément."
+    },
+    "tips": [
+      "Négociez le prix du poisson grillé et des pirogues avant de monter.",
+      "Protégez-vous du soleil : la côte est très ensoleillée à midi.",
+      "Prévoyez des espèces (FCFA) : les paiements par carte sont rares hors des grandes villes."
+    ],
+    "transportOptions": [
+      {
+        "mode": "bus",
+        "description": "En car depuis Douala (agences : Touristique Express, Général Voyages…).",
+        "indicativePrice": "3 000 – 12 000 FCFA",
+        "duration": "~4 – 8 h selon la distance",
+        "tips": "Réservez la veille en haute saison."
+      },
+      {
+        "mode": "moto_taxi",
+        "description": "Pour les derniers kilomètres et se déplacer sur place.",
+        "indicativePrice": "200 – 1 000 FCFA",
+        "tips": "Négociez avant de monter ; casque conseillé."
+      }
     ]
   },
   {
@@ -66,6 +132,36 @@
       "Shopping",
       "Affaires",
       "Vie nocturne"
+    ],
+    "bestSeasons": [
+      "saison_seche",
+      "petite_saison_pluies"
+    ],
+    "seasonAdvice": "Agréable toute l'année ; la saison sèche (nov.-févr.) facilite les déplacements.",
+    "entryFee": {
+      "isFree": true,
+      "currency": "XAF",
+      "notes": "Ville en accès libre ; musées et sites payants séparément."
+    },
+    "tips": [
+      "Privilégiez les taxis identifiés et évitez d'exhiber des objets de valeur.",
+      "Goûtez la street-food locale dans les quartiers animés en soirée.",
+      "Prévoyez des espèces (FCFA) : les paiements par carte sont rares hors des grandes villes."
+    ],
+    "transportOptions": [
+      {
+        "mode": "bus",
+        "description": "En car depuis Douala (agences : Touristique Express, Général Voyages…).",
+        "indicativePrice": "3 000 – 12 000 FCFA",
+        "duration": "~4 – 8 h selon la distance",
+        "tips": "Réservez la veille en haute saison."
+      },
+      {
+        "mode": "moto_taxi",
+        "description": "Pour les derniers kilomètres et se déplacer sur place.",
+        "indicativePrice": "200 – 1 000 FCFA",
+        "tips": "Négociez avant de monter ; casque conseillé."
+      }
     ]
   },
   {
@@ -89,6 +185,36 @@
       "Culture",
       "Musées",
       "Gastronomie"
+    ],
+    "bestSeasons": [
+      "saison_seche",
+      "petite_saison_pluies"
+    ],
+    "seasonAdvice": "Agréable toute l'année ; la saison sèche (nov.-févr.) facilite les déplacements.",
+    "entryFee": {
+      "isFree": true,
+      "currency": "XAF",
+      "notes": "Ville en accès libre ; musées et sites payants séparément."
+    },
+    "tips": [
+      "Privilégiez les taxis identifiés et évitez d'exhiber des objets de valeur.",
+      "Goûtez la street-food locale dans les quartiers animés en soirée.",
+      "Prévoyez des espèces (FCFA) : les paiements par carte sont rares hors des grandes villes."
+    ],
+    "transportOptions": [
+      {
+        "mode": "bus",
+        "description": "En car depuis Yaoundé (agences : Touristique Express, Général Voyages…).",
+        "indicativePrice": "3 000 – 12 000 FCFA",
+        "duration": "~4 – 8 h selon la distance",
+        "tips": "Réservez la veille en haute saison."
+      },
+      {
+        "mode": "moto_taxi",
+        "description": "Pour les derniers kilomètres et se déplacer sur place.",
+        "indicativePrice": "200 – 1 000 FCFA",
+        "tips": "Négociez avant de monter ; casque conseillé."
+      }
     ]
   },
   {
@@ -113,6 +239,36 @@
       "Randonnée",
       "Artisanat",
       "Culture locale"
+    ],
+    "bestSeasons": [
+      "saison_seche",
+      "petite_saison_pluies"
+    ],
+    "seasonAdvice": "De novembre à février : sentiers secs et panoramas dégagés. La brume domine en saison des pluies.",
+    "entryFee": {
+      "isFree": true,
+      "currency": "XAF",
+      "notes": "Accès libre ; guide d'ascension payant (négociable sur place)."
+    },
+    "tips": [
+      "Prévoyez de bonnes chaussures et de l'eau ; un guide local est recommandé.",
+      "Les matinées sont les plus dégagées pour les panoramas.",
+      "Prévoyez des espèces (FCFA) : les paiements par carte sont rares hors des grandes villes."
+    ],
+    "transportOptions": [
+      {
+        "mode": "bus",
+        "description": "En car depuis Douala (agences : Touristique Express, Général Voyages…).",
+        "indicativePrice": "3 000 – 12 000 FCFA",
+        "duration": "~4 – 8 h selon la distance",
+        "tips": "Réservez la veille en haute saison."
+      },
+      {
+        "mode": "moto_taxi",
+        "description": "Pour les derniers kilomètres et se déplacer sur place.",
+        "indicativePrice": "200 – 1 000 FCFA",
+        "tips": "Négociez avant de monter ; casque conseillé."
+      }
     ]
   },
   {
@@ -135,6 +291,45 @@
     "activities": [
       "Safari photo",
       "Observation de la faune"
+    ],
+    "bestSeasons": [
+      "saison_seche"
+    ],
+    "seasonAdvice": "La saison sèche (déc.-avr.) concentre la faune autour des points d'eau — meilleure période pour le safari.",
+    "entryFee": {
+      "isFree": false,
+      "residentPrice": 3000,
+      "nonResidentPrice": 5000,
+      "childPrice": 1500,
+      "currency": "XAF",
+      "notes": "Guide obligatoire pour le safari ; véhicule 4x4 conseillé."
+    },
+    "tips": [
+      "Réservez un guide agréé à l'entrée et partez tôt le matin.",
+      "Jumelles et appareil photo avec zoom recommandés pour la faune.",
+      "Prévoyez des espèces (FCFA) : les paiements par carte sont rares hors des grandes villes."
+    ],
+    "transportOptions": [
+      {
+        "mode": "avion",
+        "description": "Vols Camair-Co vers Garoua ou Maroua, puis route.",
+        "indicativePrice": "depuis 80 000 FCFA",
+        "duration": "~1 h 30 de vol",
+        "tips": "Option la plus rapide pour le Grand Nord."
+      },
+      {
+        "mode": "bus",
+        "description": "En car depuis Douala (agences : Touristique Express, Général Voyages…).",
+        "indicativePrice": "3 000 – 12 000 FCFA",
+        "duration": "~4 – 8 h selon la distance",
+        "tips": "Réservez la veille en haute saison."
+      },
+      {
+        "mode": "moto_taxi",
+        "description": "Pour les derniers kilomètres et se déplacer sur place.",
+        "indicativePrice": "200 – 1 000 FCFA",
+        "tips": "Négociez avant de monter ; casque conseillé."
+      }
     ]
   },
   {
@@ -159,6 +354,36 @@
       "Histoire",
       "Artisanat d'art",
       "Palais royal"
+    ],
+    "bestSeasons": [
+      "saison_seche",
+      "petite_saison_pluies"
+    ],
+    "seasonAdvice": "Agréable toute l'année ; la saison sèche (nov.-févr.) facilite les déplacements.",
+    "entryFee": {
+      "isFree": true,
+      "currency": "XAF",
+      "notes": "Ville en accès libre ; musées et sites payants séparément."
+    },
+    "tips": [
+      "Privilégiez les taxis identifiés et évitez d'exhiber des objets de valeur.",
+      "Goûtez la street-food locale dans les quartiers animés en soirée.",
+      "Prévoyez des espèces (FCFA) : les paiements par carte sont rares hors des grandes villes."
+    ],
+    "transportOptions": [
+      {
+        "mode": "bus",
+        "description": "En car depuis Douala (agences : Touristique Express, Général Voyages…).",
+        "indicativePrice": "3 000 – 12 000 FCFA",
+        "duration": "~4 – 8 h selon la distance",
+        "tips": "Réservez la veille en haute saison."
+      },
+      {
+        "mode": "moto_taxi",
+        "description": "Pour les derniers kilomètres et se déplacer sur place.",
+        "indicativePrice": "200 – 1 000 FCFA",
+        "tips": "Négociez avant de monter ; casque conseillé."
+      }
     ]
   },
   {
@@ -183,6 +408,36 @@
       "Trekking",
       "Ascension",
       "Volcanologie"
+    ],
+    "bestSeasons": [
+      "saison_seche",
+      "petite_saison_pluies"
+    ],
+    "seasonAdvice": "De novembre à février : sentiers secs et panoramas dégagés. La brume domine en saison des pluies.",
+    "entryFee": {
+      "isFree": true,
+      "currency": "XAF",
+      "notes": "Accès libre ; guide d'ascension payant (négociable sur place)."
+    },
+    "tips": [
+      "Prévoyez de bonnes chaussures et de l'eau ; un guide local est recommandé.",
+      "Les matinées sont les plus dégagées pour les panoramas.",
+      "Prévoyez des espèces (FCFA) : les paiements par carte sont rares hors des grandes villes."
+    ],
+    "transportOptions": [
+      {
+        "mode": "bus",
+        "description": "En car depuis Douala (agences : Touristique Express, Général Voyages…).",
+        "indicativePrice": "3 000 – 12 000 FCFA",
+        "duration": "~4 – 8 h selon la distance",
+        "tips": "Réservez la veille en haute saison."
+      },
+      {
+        "mode": "moto_taxi",
+        "description": "Pour les derniers kilomètres et se déplacer sur place.",
+        "indicativePrice": "200 – 1 000 FCFA",
+        "tips": "Négociez avant de monter ; casque conseillé."
+      }
     ]
   },
   {
@@ -206,6 +461,39 @@
       "Excursion en forêt",
       "Photographie",
       "Nature"
+    ],
+    "bestSeasons": [
+      "saison_seche",
+      "petite_saison_pluies"
+    ],
+    "seasonAdvice": "Saison sèche pour des pistes praticables ; les cascades sont plus spectaculaires en fin de saison des pluies.",
+    "entryFee": {
+      "isFree": false,
+      "residentPrice": 1000,
+      "nonResidentPrice": 2000,
+      "childPrice": 500,
+      "currency": "XAF",
+      "notes": "Droit d'entrée du site ; guide recommandé."
+    },
+    "tips": [
+      "Vêtements qui sèchent vite et anti-moustiques indispensables.",
+      "Un guide est conseillé pour ne pas se perdre sur les pistes.",
+      "Prévoyez des espèces (FCFA) : les paiements par carte sont rares hors des grandes villes."
+    ],
+    "transportOptions": [
+      {
+        "mode": "bus",
+        "description": "En car depuis Douala (agences : Touristique Express, Général Voyages…).",
+        "indicativePrice": "3 000 – 12 000 FCFA",
+        "duration": "~4 – 8 h selon la distance",
+        "tips": "Réservez la veille en haute saison."
+      },
+      {
+        "mode": "moto_taxi",
+        "description": "Pour les derniers kilomètres et se déplacer sur place.",
+        "indicativePrice": "200 – 1 000 FCFA",
+        "tips": "Négociez avant de monter ; casque conseillé."
+      }
     ]
   },
   {
@@ -230,6 +518,36 @@
       "Histoire coloniale",
       "Climat doux",
       "Point de départ trekking"
+    ],
+    "bestSeasons": [
+      "saison_seche",
+      "petite_saison_pluies"
+    ],
+    "seasonAdvice": "Agréable toute l'année ; la saison sèche (nov.-févr.) facilite les déplacements.",
+    "entryFee": {
+      "isFree": true,
+      "currency": "XAF",
+      "notes": "Ville en accès libre ; musées et sites payants séparément."
+    },
+    "tips": [
+      "Privilégiez les taxis identifiés et évitez d'exhiber des objets de valeur.",
+      "Goûtez la street-food locale dans les quartiers animés en soirée.",
+      "Prévoyez des espèces (FCFA) : les paiements par carte sont rares hors des grandes villes."
+    ],
+    "transportOptions": [
+      {
+        "mode": "bus",
+        "description": "En car depuis Douala (agences : Touristique Express, Général Voyages…).",
+        "indicativePrice": "3 000 – 12 000 FCFA",
+        "duration": "~4 – 8 h selon la distance",
+        "tips": "Réservez la veille en haute saison."
+      },
+      {
+        "mode": "moto_taxi",
+        "description": "Pour les derniers kilomètres et se déplacer sur place.",
+        "indicativePrice": "200 – 1 000 FCFA",
+        "tips": "Négociez avant de monter ; casque conseillé."
+      }
     ]
   },
   {
@@ -253,6 +571,42 @@
       "Tourisme pittoresque",
       "Découverte culturelle",
       "Paysages"
+    ],
+    "bestSeasons": [
+      "saison_seche"
+    ],
+    "seasonAdvice": "De novembre à février : sentiers secs et panoramas dégagés. La brume domine en saison des pluies.",
+    "entryFee": {
+      "isFree": true,
+      "currency": "XAF",
+      "notes": "Accès libre ; guide d'ascension payant (négociable sur place)."
+    },
+    "tips": [
+      "Prévoyez de bonnes chaussures et de l'eau ; un guide local est recommandé.",
+      "Les matinées sont les plus dégagées pour les panoramas.",
+      "Prévoyez des espèces (FCFA) : les paiements par carte sont rares hors des grandes villes."
+    ],
+    "transportOptions": [
+      {
+        "mode": "avion",
+        "description": "Vols Camair-Co vers Garoua ou Maroua, puis route.",
+        "indicativePrice": "depuis 80 000 FCFA",
+        "duration": "~1 h 30 de vol",
+        "tips": "Option la plus rapide pour le Grand Nord."
+      },
+      {
+        "mode": "bus",
+        "description": "En car depuis Douala (agences : Touristique Express, Général Voyages…).",
+        "indicativePrice": "3 000 – 12 000 FCFA",
+        "duration": "~4 – 8 h selon la distance",
+        "tips": "Réservez la veille en haute saison."
+      },
+      {
+        "mode": "moto_taxi",
+        "description": "Pour les derniers kilomètres et se déplacer sur place.",
+        "indicativePrice": "200 – 1 000 FCFA",
+        "tips": "Négociez avant de monter ; casque conseillé."
+      }
     ]
   },
   {
@@ -276,6 +630,39 @@
       "Randonnée forestière",
       "Botanique",
       "Pont suspendu"
+    ],
+    "bestSeasons": [
+      "saison_seche",
+      "petite_saison_pluies"
+    ],
+    "seasonAdvice": "Saison sèche pour des pistes praticables ; les cascades sont plus spectaculaires en fin de saison des pluies.",
+    "entryFee": {
+      "isFree": false,
+      "residentPrice": 1000,
+      "nonResidentPrice": 2000,
+      "childPrice": 500,
+      "currency": "XAF",
+      "notes": "Droit d'entrée du site ; guide recommandé."
+    },
+    "tips": [
+      "Vêtements qui sèchent vite et anti-moustiques indispensables.",
+      "Un guide est conseillé pour ne pas se perdre sur les pistes.",
+      "Prévoyez des espèces (FCFA) : les paiements par carte sont rares hors des grandes villes."
+    ],
+    "transportOptions": [
+      {
+        "mode": "bus",
+        "description": "En car depuis Douala (agences : Touristique Express, Général Voyages…).",
+        "indicativePrice": "3 000 – 12 000 FCFA",
+        "duration": "~4 – 8 h selon la distance",
+        "tips": "Réservez la veille en haute saison."
+      },
+      {
+        "mode": "moto_taxi",
+        "description": "Pour les derniers kilomètres et se déplacer sur place.",
+        "indicativePrice": "200 – 1 000 FCFA",
+        "tips": "Négociez avant de monter ; casque conseillé."
+      }
     ]
   },
   {
@@ -299,6 +686,39 @@
       "Pirogue",
       "Détente",
       "Botanique"
+    ],
+    "bestSeasons": [
+      "saison_seche",
+      "petite_saison_pluies"
+    ],
+    "seasonAdvice": "Saison sèche pour des pistes praticables ; les cascades sont plus spectaculaires en fin de saison des pluies.",
+    "entryFee": {
+      "isFree": false,
+      "residentPrice": 1000,
+      "nonResidentPrice": 2000,
+      "childPrice": 500,
+      "currency": "XAF",
+      "notes": "Droit d'entrée du site ; guide recommandé."
+    },
+    "tips": [
+      "Vêtements qui sèchent vite et anti-moustiques indispensables.",
+      "Un guide est conseillé pour ne pas se perdre sur les pistes.",
+      "Prévoyez des espèces (FCFA) : les paiements par carte sont rares hors des grandes villes."
+    ],
+    "transportOptions": [
+      {
+        "mode": "bus",
+        "description": "En car depuis Yaoundé (agences : Touristique Express, Général Voyages…).",
+        "indicativePrice": "3 000 – 12 000 FCFA",
+        "duration": "~4 – 8 h selon la distance",
+        "tips": "Réservez la veille en haute saison."
+      },
+      {
+        "mode": "moto_taxi",
+        "description": "Pour les derniers kilomètres et se déplacer sur place.",
+        "indicativePrice": "200 – 1 000 FCFA",
+        "tips": "Négociez avant de monter ; casque conseillé."
+      }
     ]
   },
   {
@@ -321,6 +741,42 @@
     "activities": [
       "Marché de l'artisanat",
       "Culture nordique"
+    ],
+    "bestSeasons": [
+      "saison_seche"
+    ],
+    "seasonAdvice": "Agréable toute l'année ; la saison sèche (nov.-févr.) facilite les déplacements.",
+    "entryFee": {
+      "isFree": true,
+      "currency": "XAF",
+      "notes": "Ville en accès libre ; musées et sites payants séparément."
+    },
+    "tips": [
+      "Privilégiez les taxis identifiés et évitez d'exhiber des objets de valeur.",
+      "Goûtez la street-food locale dans les quartiers animés en soirée.",
+      "Prévoyez des espèces (FCFA) : les paiements par carte sont rares hors des grandes villes."
+    ],
+    "transportOptions": [
+      {
+        "mode": "avion",
+        "description": "Vols Camair-Co vers Garoua ou Maroua, puis route.",
+        "indicativePrice": "depuis 80 000 FCFA",
+        "duration": "~1 h 30 de vol",
+        "tips": "Option la plus rapide pour le Grand Nord."
+      },
+      {
+        "mode": "bus",
+        "description": "En car depuis Douala (agences : Touristique Express, Général Voyages…).",
+        "indicativePrice": "3 000 – 12 000 FCFA",
+        "duration": "~4 – 8 h selon la distance",
+        "tips": "Réservez la veille en haute saison."
+      },
+      {
+        "mode": "moto_taxi",
+        "description": "Pour les derniers kilomètres et se déplacer sur place.",
+        "indicativePrice": "200 – 1 000 FCFA",
+        "tips": "Négociez avant de monter ; casque conseillé."
+      }
     ]
   },
   {
@@ -344,6 +800,42 @@
       "Artisanat",
       "Maroquinerie",
       "Culture sahélienne"
+    ],
+    "bestSeasons": [
+      "saison_seche"
+    ],
+    "seasonAdvice": "Agréable toute l'année ; la saison sèche (nov.-févr.) facilite les déplacements.",
+    "entryFee": {
+      "isFree": true,
+      "currency": "XAF",
+      "notes": "Ville en accès libre ; musées et sites payants séparément."
+    },
+    "tips": [
+      "Privilégiez les taxis identifiés et évitez d'exhiber des objets de valeur.",
+      "Goûtez la street-food locale dans les quartiers animés en soirée.",
+      "Prévoyez des espèces (FCFA) : les paiements par carte sont rares hors des grandes villes."
+    ],
+    "transportOptions": [
+      {
+        "mode": "avion",
+        "description": "Vols Camair-Co vers Garoua ou Maroua, puis route.",
+        "indicativePrice": "depuis 80 000 FCFA",
+        "duration": "~1 h 30 de vol",
+        "tips": "Option la plus rapide pour le Grand Nord."
+      },
+      {
+        "mode": "bus",
+        "description": "En car depuis Douala (agences : Touristique Express, Général Voyages…).",
+        "indicativePrice": "3 000 – 12 000 FCFA",
+        "duration": "~4 – 8 h selon la distance",
+        "tips": "Réservez la veille en haute saison."
+      },
+      {
+        "mode": "moto_taxi",
+        "description": "Pour les derniers kilomètres et se déplacer sur place.",
+        "indicativePrice": "200 – 1 000 FCFA",
+        "tips": "Négociez avant de monter ; casque conseillé."
+      }
     ]
   },
   {
@@ -368,6 +860,36 @@
       "Musée",
       "Climat frais",
       "Lac de cratère"
+    ],
+    "bestSeasons": [
+      "saison_seche",
+      "petite_saison_pluies"
+    ],
+    "seasonAdvice": "De novembre à février : sentiers secs et panoramas dégagés. La brume domine en saison des pluies.",
+    "entryFee": {
+      "isFree": true,
+      "currency": "XAF",
+      "notes": "Accès libre ; guide d'ascension payant (négociable sur place)."
+    },
+    "tips": [
+      "Prévoyez de bonnes chaussures et de l'eau ; un guide local est recommandé.",
+      "Les matinées sont les plus dégagées pour les panoramas.",
+      "Prévoyez des espèces (FCFA) : les paiements par carte sont rares hors des grandes villes."
+    ],
+    "transportOptions": [
+      {
+        "mode": "bus",
+        "description": "En car depuis Douala (agences : Touristique Express, Général Voyages…).",
+        "indicativePrice": "3 000 – 12 000 FCFA",
+        "duration": "~4 – 8 h selon la distance",
+        "tips": "Réservez la veille en haute saison."
+      },
+      {
+        "mode": "moto_taxi",
+        "description": "Pour les derniers kilomètres et se déplacer sur place.",
+        "indicativePrice": "200 – 1 000 FCFA",
+        "tips": "Négociez avant de monter ; casque conseillé."
+      }
     ]
   },
   {
@@ -391,6 +913,38 @@
       "Observation des lamantins",
       "Excursion fluviale",
       "Nature"
+    ],
+    "bestSeasons": [
+      "saison_seche"
+    ],
+    "seasonAdvice": "La saison sèche (déc.-avr.) concentre la faune autour des points d'eau — meilleure période pour le safari.",
+    "entryFee": {
+      "isFree": false,
+      "residentPrice": 3000,
+      "nonResidentPrice": 5000,
+      "childPrice": 1500,
+      "currency": "XAF",
+      "notes": "Guide obligatoire pour le safari ; véhicule 4x4 conseillé."
+    },
+    "tips": [
+      "Réservez un guide agréé à l'entrée et partez tôt le matin.",
+      "Jumelles et appareil photo avec zoom recommandés pour la faune.",
+      "Prévoyez des espèces (FCFA) : les paiements par carte sont rares hors des grandes villes."
+    ],
+    "transportOptions": [
+      {
+        "mode": "bus",
+        "description": "En car depuis Douala (agences : Touristique Express, Général Voyages…).",
+        "indicativePrice": "3 000 – 12 000 FCFA",
+        "duration": "~4 – 8 h selon la distance",
+        "tips": "Réservez la veille en haute saison."
+      },
+      {
+        "mode": "moto_taxi",
+        "description": "Pour les derniers kilomètres et se déplacer sur place.",
+        "indicativePrice": "200 – 1 000 FCFA",
+        "tips": "Négociez avant de monter ; casque conseillé."
+      }
     ]
   },
   {
@@ -415,6 +969,42 @@
       "Chefferie",
       "Voyage en train",
       "Lacs Tison/Mbalang"
+    ],
+    "bestSeasons": [
+      "saison_seche"
+    ],
+    "seasonAdvice": "Agréable toute l'année ; la saison sèche (nov.-févr.) facilite les déplacements.",
+    "entryFee": {
+      "isFree": true,
+      "currency": "XAF",
+      "notes": "Ville en accès libre ; musées et sites payants séparément."
+    },
+    "tips": [
+      "Privilégiez les taxis identifiés et évitez d'exhiber des objets de valeur.",
+      "Goûtez la street-food locale dans les quartiers animés en soirée.",
+      "Prévoyez des espèces (FCFA) : les paiements par carte sont rares hors des grandes villes."
+    ],
+    "transportOptions": [
+      {
+        "mode": "avion",
+        "description": "Vols Camair-Co vers Garoua ou Maroua, puis route.",
+        "indicativePrice": "depuis 80 000 FCFA",
+        "duration": "~1 h 30 de vol",
+        "tips": "Option la plus rapide pour le Grand Nord."
+      },
+      {
+        "mode": "bus",
+        "description": "En car depuis Yaoundé (agences : Touristique Express, Général Voyages…).",
+        "indicativePrice": "3 000 – 12 000 FCFA",
+        "duration": "~4 – 8 h selon la distance",
+        "tips": "Réservez la veille en haute saison."
+      },
+      {
+        "mode": "moto_taxi",
+        "description": "Pour les derniers kilomètres et se déplacer sur place.",
+        "indicativePrice": "200 – 1 000 FCFA",
+        "tips": "Négociez avant de monter ; casque conseillé."
+      }
     ]
   },
   {
@@ -437,6 +1027,45 @@
     "activities": [
       "Safari immersion",
       "Tracking d'animaux sauvages"
+    ],
+    "bestSeasons": [
+      "saison_seche"
+    ],
+    "seasonAdvice": "La saison sèche (déc.-avr.) concentre la faune autour des points d'eau — meilleure période pour le safari.",
+    "entryFee": {
+      "isFree": false,
+      "residentPrice": 3000,
+      "nonResidentPrice": 5000,
+      "childPrice": 1500,
+      "currency": "XAF",
+      "notes": "Guide obligatoire pour le safari ; véhicule 4x4 conseillé."
+    },
+    "tips": [
+      "Réservez un guide agréé à l'entrée et partez tôt le matin.",
+      "Jumelles et appareil photo avec zoom recommandés pour la faune.",
+      "Prévoyez des espèces (FCFA) : les paiements par carte sont rares hors des grandes villes."
+    ],
+    "transportOptions": [
+      {
+        "mode": "avion",
+        "description": "Vols Camair-Co vers Garoua ou Maroua, puis route.",
+        "indicativePrice": "depuis 80 000 FCFA",
+        "duration": "~1 h 30 de vol",
+        "tips": "Option la plus rapide pour le Grand Nord."
+      },
+      {
+        "mode": "bus",
+        "description": "En car depuis Douala (agences : Touristique Express, Général Voyages…).",
+        "indicativePrice": "3 000 – 12 000 FCFA",
+        "duration": "~4 – 8 h selon la distance",
+        "tips": "Réservez la veille en haute saison."
+      },
+      {
+        "mode": "moto_taxi",
+        "description": "Pour les derniers kilomètres et se déplacer sur place.",
+        "indicativePrice": "200 – 1 000 FCFA",
+        "tips": "Négociez avant de monter ; casque conseillé."
+      }
     ]
   },
   {
@@ -459,6 +1088,39 @@
     "activities": [
       "Pistage de gorilles",
       "Biodiversité tropicale"
+    ],
+    "bestSeasons": [
+      "saison_seche",
+      "petite_saison_pluies"
+    ],
+    "seasonAdvice": "Saison sèche pour des pistes praticables ; les cascades sont plus spectaculaires en fin de saison des pluies.",
+    "entryFee": {
+      "isFree": false,
+      "residentPrice": 1000,
+      "nonResidentPrice": 2000,
+      "childPrice": 500,
+      "currency": "XAF",
+      "notes": "Droit d'entrée du site ; guide recommandé."
+    },
+    "tips": [
+      "Vêtements qui sèchent vite et anti-moustiques indispensables.",
+      "Un guide est conseillé pour ne pas se perdre sur les pistes.",
+      "Prévoyez des espèces (FCFA) : les paiements par carte sont rares hors des grandes villes."
+    ],
+    "transportOptions": [
+      {
+        "mode": "bus",
+        "description": "En car depuis Yaoundé (agences : Touristique Express, Général Voyages…).",
+        "indicativePrice": "3 000 – 12 000 FCFA",
+        "duration": "~4 – 8 h selon la distance",
+        "tips": "Réservez la veille en haute saison."
+      },
+      {
+        "mode": "moto_taxi",
+        "description": "Pour les derniers kilomètres et se déplacer sur place.",
+        "indicativePrice": "200 – 1 000 FCFA",
+        "tips": "Négociez avant de monter ; casque conseillé."
+      }
     ]
   },
   {
@@ -481,6 +1143,39 @@
     "activities": [
       "Découverte Pygmées Baka",
       "Forêt primaire UNESCO"
+    ],
+    "bestSeasons": [
+      "saison_seche",
+      "petite_saison_pluies"
+    ],
+    "seasonAdvice": "Saison sèche pour des pistes praticables ; les cascades sont plus spectaculaires en fin de saison des pluies.",
+    "entryFee": {
+      "isFree": false,
+      "residentPrice": 1000,
+      "nonResidentPrice": 2000,
+      "childPrice": 500,
+      "currency": "XAF",
+      "notes": "Droit d'entrée du site ; guide recommandé."
+    },
+    "tips": [
+      "Vêtements qui sèchent vite et anti-moustiques indispensables.",
+      "Un guide est conseillé pour ne pas se perdre sur les pistes.",
+      "Prévoyez des espèces (FCFA) : les paiements par carte sont rares hors des grandes villes."
+    ],
+    "transportOptions": [
+      {
+        "mode": "bus",
+        "description": "En car depuis Yaoundé (agences : Touristique Express, Général Voyages…).",
+        "indicativePrice": "3 000 – 12 000 FCFA",
+        "duration": "~4 – 8 h selon la distance",
+        "tips": "Réservez la veille en haute saison."
+      },
+      {
+        "mode": "moto_taxi",
+        "description": "Pour les derniers kilomètres et se déplacer sur place.",
+        "indicativePrice": "200 – 1 000 FCFA",
+        "tips": "Négociez avant de monter ; casque conseillé."
+      }
     ]
   },
   {
@@ -505,6 +1200,45 @@
       "Détente",
       "Pique-nique",
       "Photographie"
+    ],
+    "bestSeasons": [
+      "saison_seche"
+    ],
+    "seasonAdvice": "La saison sèche (déc.-avr.) concentre la faune autour des points d'eau — meilleure période pour le safari.",
+    "entryFee": {
+      "isFree": false,
+      "residentPrice": 3000,
+      "nonResidentPrice": 5000,
+      "childPrice": 1500,
+      "currency": "XAF",
+      "notes": "Guide obligatoire pour le safari ; véhicule 4x4 conseillé."
+    },
+    "tips": [
+      "Réservez un guide agréé à l'entrée et partez tôt le matin.",
+      "Jumelles et appareil photo avec zoom recommandés pour la faune.",
+      "Prévoyez des espèces (FCFA) : les paiements par carte sont rares hors des grandes villes."
+    ],
+    "transportOptions": [
+      {
+        "mode": "avion",
+        "description": "Vols Camair-Co vers Garoua ou Maroua, puis route.",
+        "indicativePrice": "depuis 80 000 FCFA",
+        "duration": "~1 h 30 de vol",
+        "tips": "Option la plus rapide pour le Grand Nord."
+      },
+      {
+        "mode": "bus",
+        "description": "En car depuis Yaoundé (agences : Touristique Express, Général Voyages…).",
+        "indicativePrice": "3 000 – 12 000 FCFA",
+        "duration": "~4 – 8 h selon la distance",
+        "tips": "Réservez la veille en haute saison."
+      },
+      {
+        "mode": "moto_taxi",
+        "description": "Pour les derniers kilomètres et se déplacer sur place.",
+        "indicativePrice": "200 – 1 000 FCFA",
+        "tips": "Négociez avant de monter ; casque conseillé."
+      }
     ]
   },
   {
@@ -528,6 +1262,36 @@
     "activities": [
       "Culture Bamiléké",
       "Visite de Chefferies"
+    ],
+    "bestSeasons": [
+      "saison_seche",
+      "petite_saison_pluies"
+    ],
+    "seasonAdvice": "Agréable toute l'année ; la saison sèche (nov.-févr.) facilite les déplacements.",
+    "entryFee": {
+      "isFree": true,
+      "currency": "XAF",
+      "notes": "Ville en accès libre ; musées et sites payants séparément."
+    },
+    "tips": [
+      "Privilégiez les taxis identifiés et évitez d'exhiber des objets de valeur.",
+      "Goûtez la street-food locale dans les quartiers animés en soirée.",
+      "Prévoyez des espèces (FCFA) : les paiements par carte sont rares hors des grandes villes."
+    ],
+    "transportOptions": [
+      {
+        "mode": "bus",
+        "description": "En car depuis Douala (agences : Touristique Express, Général Voyages…).",
+        "indicativePrice": "3 000 – 12 000 FCFA",
+        "duration": "~4 – 8 h selon la distance",
+        "tips": "Réservez la veille en haute saison."
+      },
+      {
+        "mode": "moto_taxi",
+        "description": "Pour les derniers kilomètres et se déplacer sur place.",
+        "indicativePrice": "200 – 1 000 FCFA",
+        "tips": "Négociez avant de monter ; casque conseillé."
+      }
     ]
   },
   {
@@ -551,6 +1315,39 @@
       "Pirogue",
       "Pêcheurs locaux",
       "Baignade"
+    ],
+    "bestSeasons": [
+      "saison_seche",
+      "petite_saison_pluies"
+    ],
+    "seasonAdvice": "Idéal de novembre à février : mer calme, ciel dégagé et chaleur agréable. Évitez juillet-août, pic des pluies.",
+    "entryFee": {
+      "isFree": false,
+      "residentPrice": 500,
+      "nonResidentPrice": 1000,
+      "childPrice": 300,
+      "currency": "XAF",
+      "notes": "Accès plage ; certains sites privés facturent un supplément."
+    },
+    "tips": [
+      "Négociez le prix du poisson grillé et des pirogues avant de monter.",
+      "Protégez-vous du soleil : la côte est très ensoleillée à midi.",
+      "Prévoyez des espèces (FCFA) : les paiements par carte sont rares hors des grandes villes."
+    ],
+    "transportOptions": [
+      {
+        "mode": "bus",
+        "description": "En car depuis Yaoundé (agences : Touristique Express, Général Voyages…).",
+        "indicativePrice": "3 000 – 12 000 FCFA",
+        "duration": "~4 – 8 h selon la distance",
+        "tips": "Réservez la veille en haute saison."
+      },
+      {
+        "mode": "moto_taxi",
+        "description": "Pour les derniers kilomètres et se déplacer sur place.",
+        "indicativePrice": "200 – 1 000 FCFA",
+        "tips": "Négociez avant de monter ; casque conseillé."
+      }
     ]
   },
   {
@@ -574,6 +1371,39 @@
       "Pistage intensif",
       "Survie en forêt",
       "Faune rare"
+    ],
+    "bestSeasons": [
+      "saison_seche",
+      "petite_saison_pluies"
+    ],
+    "seasonAdvice": "Saison sèche pour des pistes praticables ; les cascades sont plus spectaculaires en fin de saison des pluies.",
+    "entryFee": {
+      "isFree": false,
+      "residentPrice": 1000,
+      "nonResidentPrice": 2000,
+      "childPrice": 500,
+      "currency": "XAF",
+      "notes": "Droit d'entrée du site ; guide recommandé."
+    },
+    "tips": [
+      "Vêtements qui sèchent vite et anti-moustiques indispensables.",
+      "Un guide est conseillé pour ne pas se perdre sur les pistes.",
+      "Prévoyez des espèces (FCFA) : les paiements par carte sont rares hors des grandes villes."
+    ],
+    "transportOptions": [
+      {
+        "mode": "bus",
+        "description": "En car depuis Yaoundé (agences : Touristique Express, Général Voyages…).",
+        "indicativePrice": "3 000 – 12 000 FCFA",
+        "duration": "~4 – 8 h selon la distance",
+        "tips": "Réservez la veille en haute saison."
+      },
+      {
+        "mode": "moto_taxi",
+        "description": "Pour les derniers kilomètres et se déplacer sur place.",
+        "indicativePrice": "200 – 1 000 FCFA",
+        "tips": "Négociez avant de monter ; casque conseillé."
+      }
     ]
   },
   {
@@ -597,6 +1427,42 @@
       "Spéléologie",
       "Escalade",
       "Découverte géologique"
+    ],
+    "bestSeasons": [
+      "saison_seche"
+    ],
+    "seasonAdvice": "De novembre à février : sentiers secs et panoramas dégagés. La brume domine en saison des pluies.",
+    "entryFee": {
+      "isFree": true,
+      "currency": "XAF",
+      "notes": "Accès libre ; guide d'ascension payant (négociable sur place)."
+    },
+    "tips": [
+      "Prévoyez de bonnes chaussures et de l'eau ; un guide local est recommandé.",
+      "Les matinées sont les plus dégagées pour les panoramas.",
+      "Prévoyez des espèces (FCFA) : les paiements par carte sont rares hors des grandes villes."
+    ],
+    "transportOptions": [
+      {
+        "mode": "avion",
+        "description": "Vols Camair-Co vers Garoua ou Maroua, puis route.",
+        "indicativePrice": "depuis 80 000 FCFA",
+        "duration": "~1 h 30 de vol",
+        "tips": "Option la plus rapide pour le Grand Nord."
+      },
+      {
+        "mode": "bus",
+        "description": "En car depuis Douala (agences : Touristique Express, Général Voyages…).",
+        "indicativePrice": "3 000 – 12 000 FCFA",
+        "duration": "~4 – 8 h selon la distance",
+        "tips": "Réservez la veille en haute saison."
+      },
+      {
+        "mode": "moto_taxi",
+        "description": "Pour les derniers kilomètres et se déplacer sur place.",
+        "indicativePrice": "200 – 1 000 FCFA",
+        "tips": "Négociez avant de monter ; casque conseillé."
+      }
     ]
   },
   {
@@ -620,6 +1486,36 @@
       "Histoire royale",
       "Culture tribale",
       "Danse de l'Abia"
+    ],
+    "bestSeasons": [
+      "saison_seche",
+      "petite_saison_pluies"
+    ],
+    "seasonAdvice": "Agréable toute l'année ; la saison sèche (nov.-févr.) facilite les déplacements.",
+    "entryFee": {
+      "isFree": true,
+      "currency": "XAF",
+      "notes": "Ville en accès libre ; musées et sites payants séparément."
+    },
+    "tips": [
+      "Privilégiez les taxis identifiés et évitez d'exhiber des objets de valeur.",
+      "Goûtez la street-food locale dans les quartiers animés en soirée.",
+      "Prévoyez des espèces (FCFA) : les paiements par carte sont rares hors des grandes villes."
+    ],
+    "transportOptions": [
+      {
+        "mode": "bus",
+        "description": "En car depuis Douala (agences : Touristique Express, Général Voyages…).",
+        "indicativePrice": "3 000 – 12 000 FCFA",
+        "duration": "~4 – 8 h selon la distance",
+        "tips": "Réservez la veille en haute saison."
+      },
+      {
+        "mode": "moto_taxi",
+        "description": "Pour les derniers kilomètres et se déplacer sur place.",
+        "indicativePrice": "200 – 1 000 FCFA",
+        "tips": "Négociez avant de monter ; casque conseillé."
+      }
     ]
   },
   {
@@ -643,6 +1539,38 @@
       "Méditation",
       "Découverte",
       "Randonnée lacustre"
+    ],
+    "bestSeasons": [
+      "saison_seche"
+    ],
+    "seasonAdvice": "La saison sèche (déc.-avr.) concentre la faune autour des points d'eau — meilleure période pour le safari.",
+    "entryFee": {
+      "isFree": false,
+      "residentPrice": 3000,
+      "nonResidentPrice": 5000,
+      "childPrice": 1500,
+      "currency": "XAF",
+      "notes": "Guide obligatoire pour le safari ; véhicule 4x4 conseillé."
+    },
+    "tips": [
+      "Réservez un guide agréé à l'entrée et partez tôt le matin.",
+      "Jumelles et appareil photo avec zoom recommandés pour la faune.",
+      "Prévoyez des espèces (FCFA) : les paiements par carte sont rares hors des grandes villes."
+    ],
+    "transportOptions": [
+      {
+        "mode": "bus",
+        "description": "En car depuis Douala (agences : Touristique Express, Général Voyages…).",
+        "indicativePrice": "3 000 – 12 000 FCFA",
+        "duration": "~4 – 8 h selon la distance",
+        "tips": "Réservez la veille en haute saison."
+      },
+      {
+        "mode": "moto_taxi",
+        "description": "Pour les derniers kilomètres et se déplacer sur place.",
+        "indicativePrice": "200 – 1 000 FCFA",
+        "tips": "Négociez avant de monter ; casque conseillé."
+      }
     ]
   },
   {
@@ -665,6 +1593,39 @@
     "activities": [
       "Paysages sauvages",
       "Photographie Nature"
+    ],
+    "bestSeasons": [
+      "saison_seche",
+      "petite_saison_pluies"
+    ],
+    "seasonAdvice": "Saison sèche pour des pistes praticables ; les cascades sont plus spectaculaires en fin de saison des pluies.",
+    "entryFee": {
+      "isFree": false,
+      "residentPrice": 1000,
+      "nonResidentPrice": 2000,
+      "childPrice": 500,
+      "currency": "XAF",
+      "notes": "Droit d'entrée du site ; guide recommandé."
+    },
+    "tips": [
+      "Vêtements qui sèchent vite et anti-moustiques indispensables.",
+      "Un guide est conseillé pour ne pas se perdre sur les pistes.",
+      "Prévoyez des espèces (FCFA) : les paiements par carte sont rares hors des grandes villes."
+    ],
+    "transportOptions": [
+      {
+        "mode": "bus",
+        "description": "En car depuis Douala (agences : Touristique Express, Général Voyages…).",
+        "indicativePrice": "3 000 – 12 000 FCFA",
+        "duration": "~4 – 8 h selon la distance",
+        "tips": "Réservez la veille en haute saison."
+      },
+      {
+        "mode": "moto_taxi",
+        "description": "Pour les derniers kilomètres et se déplacer sur place.",
+        "indicativePrice": "200 – 1 000 FCFA",
+        "tips": "Négociez avant de monter ; casque conseillé."
+      }
     ]
   },
   {
@@ -689,6 +1650,36 @@
       "Ascension",
       "Trekking mythique",
       "Camping"
+    ],
+    "bestSeasons": [
+      "saison_seche",
+      "petite_saison_pluies"
+    ],
+    "seasonAdvice": "De novembre à février : sentiers secs et panoramas dégagés. La brume domine en saison des pluies.",
+    "entryFee": {
+      "isFree": true,
+      "currency": "XAF",
+      "notes": "Accès libre ; guide d'ascension payant (négociable sur place)."
+    },
+    "tips": [
+      "Prévoyez de bonnes chaussures et de l'eau ; un guide local est recommandé.",
+      "Les matinées sont les plus dégagées pour les panoramas.",
+      "Prévoyez des espèces (FCFA) : les paiements par carte sont rares hors des grandes villes."
+    ],
+    "transportOptions": [
+      {
+        "mode": "bus",
+        "description": "En car depuis Douala (agences : Touristique Express, Général Voyages…).",
+        "indicativePrice": "3 000 – 12 000 FCFA",
+        "duration": "~4 – 8 h selon la distance",
+        "tips": "Réservez la veille en haute saison."
+      },
+      {
+        "mode": "moto_taxi",
+        "description": "Pour les derniers kilomètres et se déplacer sur place.",
+        "indicativePrice": "200 – 1 000 FCFA",
+        "tips": "Négociez avant de monter ; casque conseillé."
+      }
     ]
   },
   {
@@ -711,6 +1702,36 @@
     "activities": [
       "Histoire de Douala",
       "Architecture coloniale"
+    ],
+    "bestSeasons": [
+      "saison_seche",
+      "petite_saison_pluies"
+    ],
+    "seasonAdvice": "Agréable toute l'année ; la saison sèche (nov.-févr.) facilite les déplacements.",
+    "entryFee": {
+      "isFree": true,
+      "currency": "XAF",
+      "notes": "Ville en accès libre ; musées et sites payants séparément."
+    },
+    "tips": [
+      "Privilégiez les taxis identifiés et évitez d'exhiber des objets de valeur.",
+      "Goûtez la street-food locale dans les quartiers animés en soirée.",
+      "Prévoyez des espèces (FCFA) : les paiements par carte sont rares hors des grandes villes."
+    ],
+    "transportOptions": [
+      {
+        "mode": "bus",
+        "description": "En car depuis Douala (agences : Touristique Express, Général Voyages…).",
+        "indicativePrice": "3 000 – 12 000 FCFA",
+        "duration": "~4 – 8 h selon la distance",
+        "tips": "Réservez la veille en haute saison."
+      },
+      {
+        "mode": "moto_taxi",
+        "description": "Pour les derniers kilomètres et se déplacer sur place.",
+        "indicativePrice": "200 – 1 000 FCFA",
+        "tips": "Négociez avant de monter ; casque conseillé."
+      }
     ]
   },
   {
@@ -733,6 +1754,36 @@
     "activities": [
       "Culture générale",
       "Histoire politique"
+    ],
+    "bestSeasons": [
+      "saison_seche",
+      "petite_saison_pluies"
+    ],
+    "seasonAdvice": "Agréable toute l'année ; la saison sèche (nov.-févr.) facilite les déplacements.",
+    "entryFee": {
+      "isFree": true,
+      "currency": "XAF",
+      "notes": "Ville en accès libre ; musées et sites payants séparément."
+    },
+    "tips": [
+      "Privilégiez les taxis identifiés et évitez d'exhiber des objets de valeur.",
+      "Goûtez la street-food locale dans les quartiers animés en soirée.",
+      "Prévoyez des espèces (FCFA) : les paiements par carte sont rares hors des grandes villes."
+    ],
+    "transportOptions": [
+      {
+        "mode": "bus",
+        "description": "En car depuis Yaoundé (agences : Touristique Express, Général Voyages…).",
+        "indicativePrice": "3 000 – 12 000 FCFA",
+        "duration": "~4 – 8 h selon la distance",
+        "tips": "Réservez la veille en haute saison."
+      },
+      {
+        "mode": "moto_taxi",
+        "description": "Pour les derniers kilomètres et se déplacer sur place.",
+        "indicativePrice": "200 – 1 000 FCFA",
+        "tips": "Négociez avant de monter ; casque conseillé."
+      }
     ]
   },
   {
@@ -755,6 +1806,42 @@
     "activities": [
       "Commerce sahélien",
       "Berges du Logone"
+    ],
+    "bestSeasons": [
+      "saison_seche"
+    ],
+    "seasonAdvice": "Agréable toute l'année ; la saison sèche (nov.-févr.) facilite les déplacements.",
+    "entryFee": {
+      "isFree": true,
+      "currency": "XAF",
+      "notes": "Ville en accès libre ; musées et sites payants séparément."
+    },
+    "tips": [
+      "Privilégiez les taxis identifiés et évitez d'exhiber des objets de valeur.",
+      "Goûtez la street-food locale dans les quartiers animés en soirée.",
+      "Prévoyez des espèces (FCFA) : les paiements par carte sont rares hors des grandes villes."
+    ],
+    "transportOptions": [
+      {
+        "mode": "avion",
+        "description": "Vols Camair-Co vers Garoua ou Maroua, puis route.",
+        "indicativePrice": "depuis 80 000 FCFA",
+        "duration": "~1 h 30 de vol",
+        "tips": "Option la plus rapide pour le Grand Nord."
+      },
+      {
+        "mode": "bus",
+        "description": "En car depuis Douala (agences : Touristique Express, Général Voyages…).",
+        "indicativePrice": "3 000 – 12 000 FCFA",
+        "duration": "~4 – 8 h selon la distance",
+        "tips": "Réservez la veille en haute saison."
+      },
+      {
+        "mode": "moto_taxi",
+        "description": "Pour les derniers kilomètres et se déplacer sur place.",
+        "indicativePrice": "200 – 1 000 FCFA",
+        "tips": "Négociez avant de monter ; casque conseillé."
+      }
     ]
   },
   {
@@ -777,6 +1864,36 @@
     "activities": [
       "Exploration forestière",
       "Bases routières"
+    ],
+    "bestSeasons": [
+      "saison_seche",
+      "petite_saison_pluies"
+    ],
+    "seasonAdvice": "Agréable toute l'année ; la saison sèche (nov.-févr.) facilite les déplacements.",
+    "entryFee": {
+      "isFree": true,
+      "currency": "XAF",
+      "notes": "Ville en accès libre ; musées et sites payants séparément."
+    },
+    "tips": [
+      "Privilégiez les taxis identifiés et évitez d'exhiber des objets de valeur.",
+      "Goûtez la street-food locale dans les quartiers animés en soirée.",
+      "Prévoyez des espèces (FCFA) : les paiements par carte sont rares hors des grandes villes."
+    ],
+    "transportOptions": [
+      {
+        "mode": "bus",
+        "description": "En car depuis Yaoundé (agences : Touristique Express, Général Voyages…).",
+        "indicativePrice": "3 000 – 12 000 FCFA",
+        "duration": "~4 – 8 h selon la distance",
+        "tips": "Réservez la veille en haute saison."
+      },
+      {
+        "mode": "moto_taxi",
+        "description": "Pour les derniers kilomètres et se déplacer sur place.",
+        "indicativePrice": "200 – 1 000 FCFA",
+        "tips": "Négociez avant de monter ; casque conseillé."
+      }
     ]
   },
   {
@@ -801,6 +1918,36 @@
       "Dégustation miel blanc",
       "Endémisme aviaire",
       "Trekking"
+    ],
+    "bestSeasons": [
+      "saison_seche",
+      "petite_saison_pluies"
+    ],
+    "seasonAdvice": "De novembre à février : sentiers secs et panoramas dégagés. La brume domine en saison des pluies.",
+    "entryFee": {
+      "isFree": true,
+      "currency": "XAF",
+      "notes": "Accès libre ; guide d'ascension payant (négociable sur place)."
+    },
+    "tips": [
+      "Prévoyez de bonnes chaussures et de l'eau ; un guide local est recommandé.",
+      "Les matinées sont les plus dégagées pour les panoramas.",
+      "Prévoyez des espèces (FCFA) : les paiements par carte sont rares hors des grandes villes."
+    ],
+    "transportOptions": [
+      {
+        "mode": "bus",
+        "description": "En car depuis Douala (agences : Touristique Express, Général Voyages…).",
+        "indicativePrice": "3 000 – 12 000 FCFA",
+        "duration": "~4 – 8 h selon la distance",
+        "tips": "Réservez la veille en haute saison."
+      },
+      {
+        "mode": "moto_taxi",
+        "description": "Pour les derniers kilomètres et se déplacer sur place.",
+        "indicativePrice": "200 – 1 000 FCFA",
+        "tips": "Négociez avant de monter ; casque conseillé."
+      }
     ]
   },
   {
@@ -823,6 +1970,39 @@
     "activities": [
       "Découverte de tradition",
       "Cascades"
+    ],
+    "bestSeasons": [
+      "saison_seche",
+      "petite_saison_pluies"
+    ],
+    "seasonAdvice": "Saison sèche pour des pistes praticables ; les cascades sont plus spectaculaires en fin de saison des pluies.",
+    "entryFee": {
+      "isFree": false,
+      "residentPrice": 1000,
+      "nonResidentPrice": 2000,
+      "childPrice": 500,
+      "currency": "XAF",
+      "notes": "Droit d'entrée du site ; guide recommandé."
+    },
+    "tips": [
+      "Vêtements qui sèchent vite et anti-moustiques indispensables.",
+      "Un guide est conseillé pour ne pas se perdre sur les pistes.",
+      "Prévoyez des espèces (FCFA) : les paiements par carte sont rares hors des grandes villes."
+    ],
+    "transportOptions": [
+      {
+        "mode": "bus",
+        "description": "En car depuis Douala (agences : Touristique Express, Général Voyages…).",
+        "indicativePrice": "3 000 – 12 000 FCFA",
+        "duration": "~4 – 8 h selon la distance",
+        "tips": "Réservez la veille en haute saison."
+      },
+      {
+        "mode": "moto_taxi",
+        "description": "Pour les derniers kilomètres et se déplacer sur place.",
+        "indicativePrice": "200 – 1 000 FCFA",
+        "tips": "Négociez avant de monter ; casque conseillé."
+      }
     ]
   },
   {
@@ -846,6 +2026,45 @@
       "Safari exceptionnel",
       "Pêche au Campement",
       "Faune fluviale"
+    ],
+    "bestSeasons": [
+      "saison_seche"
+    ],
+    "seasonAdvice": "La saison sèche (déc.-avr.) concentre la faune autour des points d'eau — meilleure période pour le safari.",
+    "entryFee": {
+      "isFree": false,
+      "residentPrice": 3000,
+      "nonResidentPrice": 5000,
+      "childPrice": 1500,
+      "currency": "XAF",
+      "notes": "Guide obligatoire pour le safari ; véhicule 4x4 conseillé."
+    },
+    "tips": [
+      "Réservez un guide agréé à l'entrée et partez tôt le matin.",
+      "Jumelles et appareil photo avec zoom recommandés pour la faune.",
+      "Prévoyez des espèces (FCFA) : les paiements par carte sont rares hors des grandes villes."
+    ],
+    "transportOptions": [
+      {
+        "mode": "avion",
+        "description": "Vols Camair-Co vers Garoua ou Maroua, puis route.",
+        "indicativePrice": "depuis 80 000 FCFA",
+        "duration": "~1 h 30 de vol",
+        "tips": "Option la plus rapide pour le Grand Nord."
+      },
+      {
+        "mode": "bus",
+        "description": "En car depuis Douala (agences : Touristique Express, Général Voyages…).",
+        "indicativePrice": "3 000 – 12 000 FCFA",
+        "duration": "~4 – 8 h selon la distance",
+        "tips": "Réservez la veille en haute saison."
+      },
+      {
+        "mode": "moto_taxi",
+        "description": "Pour les derniers kilomètres et se déplacer sur place.",
+        "indicativePrice": "200 – 1 000 FCFA",
+        "tips": "Négociez avant de monter ; casque conseillé."
+      }
     ]
   },
   {
@@ -870,6 +2089,36 @@
       "Birdwatching",
       "Récits traditionnels Bakossi",
       "Ascension"
+    ],
+    "bestSeasons": [
+      "saison_seche",
+      "petite_saison_pluies"
+    ],
+    "seasonAdvice": "De novembre à février : sentiers secs et panoramas dégagés. La brume domine en saison des pluies.",
+    "entryFee": {
+      "isFree": true,
+      "currency": "XAF",
+      "notes": "Accès libre ; guide d'ascension payant (négociable sur place)."
+    },
+    "tips": [
+      "Prévoyez de bonnes chaussures et de l'eau ; un guide local est recommandé.",
+      "Les matinées sont les plus dégagées pour les panoramas.",
+      "Prévoyez des espèces (FCFA) : les paiements par carte sont rares hors des grandes villes."
+    ],
+    "transportOptions": [
+      {
+        "mode": "bus",
+        "description": "En car depuis Douala (agences : Touristique Express, Général Voyages…).",
+        "indicativePrice": "3 000 – 12 000 FCFA",
+        "duration": "~4 – 8 h selon la distance",
+        "tips": "Réservez la veille en haute saison."
+      },
+      {
+        "mode": "moto_taxi",
+        "description": "Pour les derniers kilomètres et se déplacer sur place.",
+        "indicativePrice": "200 – 1 000 FCFA",
+        "tips": "Négociez avant de monter ; casque conseillé."
+      }
     ]
   },
   {
@@ -892,6 +2141,38 @@
     "activities": [
       "Méditation spirituelle",
       "Vue panoramique"
+    ],
+    "bestSeasons": [
+      "saison_seche"
+    ],
+    "seasonAdvice": "La saison sèche (déc.-avr.) concentre la faune autour des points d'eau — meilleure période pour le safari.",
+    "entryFee": {
+      "isFree": false,
+      "residentPrice": 3000,
+      "nonResidentPrice": 5000,
+      "childPrice": 1500,
+      "currency": "XAF",
+      "notes": "Guide obligatoire pour le safari ; véhicule 4x4 conseillé."
+    },
+    "tips": [
+      "Réservez un guide agréé à l'entrée et partez tôt le matin.",
+      "Jumelles et appareil photo avec zoom recommandés pour la faune.",
+      "Prévoyez des espèces (FCFA) : les paiements par carte sont rares hors des grandes villes."
+    ],
+    "transportOptions": [
+      {
+        "mode": "bus",
+        "description": "En car depuis Douala (agences : Touristique Express, Général Voyages…).",
+        "indicativePrice": "3 000 – 12 000 FCFA",
+        "duration": "~4 – 8 h selon la distance",
+        "tips": "Réservez la veille en haute saison."
+      },
+      {
+        "mode": "moto_taxi",
+        "description": "Pour les derniers kilomètres et se déplacer sur place.",
+        "indicativePrice": "200 – 1 000 FCFA",
+        "tips": "Négociez avant de monter ; casque conseillé."
+      }
     ]
   },
   {
@@ -914,6 +2195,36 @@
     "activities": [
       "Gastronomie du Centre-Sud",
       "Escales forestières"
+    ],
+    "bestSeasons": [
+      "saison_seche",
+      "petite_saison_pluies"
+    ],
+    "seasonAdvice": "Agréable toute l'année ; la saison sèche (nov.-févr.) facilite les déplacements.",
+    "entryFee": {
+      "isFree": true,
+      "currency": "XAF",
+      "notes": "Ville en accès libre ; musées et sites payants séparément."
+    },
+    "tips": [
+      "Privilégiez les taxis identifiés et évitez d'exhiber des objets de valeur.",
+      "Goûtez la street-food locale dans les quartiers animés en soirée.",
+      "Prévoyez des espèces (FCFA) : les paiements par carte sont rares hors des grandes villes."
+    ],
+    "transportOptions": [
+      {
+        "mode": "bus",
+        "description": "En car depuis Yaoundé (agences : Touristique Express, Général Voyages…).",
+        "indicativePrice": "3 000 – 12 000 FCFA",
+        "duration": "~4 – 8 h selon la distance",
+        "tips": "Réservez la veille en haute saison."
+      },
+      {
+        "mode": "moto_taxi",
+        "description": "Pour les derniers kilomètres et se déplacer sur place.",
+        "indicativePrice": "200 – 1 000 FCFA",
+        "tips": "Négociez avant de monter ; casque conseillé."
+      }
     ]
   },
   {
@@ -936,6 +2247,39 @@
     "activities": [
       "Exploration de cavités",
       "Récits mythologiques"
+    ],
+    "bestSeasons": [
+      "saison_seche",
+      "petite_saison_pluies"
+    ],
+    "seasonAdvice": "Saison sèche pour des pistes praticables ; les cascades sont plus spectaculaires en fin de saison des pluies.",
+    "entryFee": {
+      "isFree": false,
+      "residentPrice": 1000,
+      "nonResidentPrice": 2000,
+      "childPrice": 500,
+      "currency": "XAF",
+      "notes": "Droit d'entrée du site ; guide recommandé."
+    },
+    "tips": [
+      "Vêtements qui sèchent vite et anti-moustiques indispensables.",
+      "Un guide est conseillé pour ne pas se perdre sur les pistes.",
+      "Prévoyez des espèces (FCFA) : les paiements par carte sont rares hors des grandes villes."
+    ],
+    "transportOptions": [
+      {
+        "mode": "bus",
+        "description": "En car depuis Yaoundé (agences : Touristique Express, Général Voyages…).",
+        "indicativePrice": "3 000 – 12 000 FCFA",
+        "duration": "~4 – 8 h selon la distance",
+        "tips": "Réservez la veille en haute saison."
+      },
+      {
+        "mode": "moto_taxi",
+        "description": "Pour les derniers kilomètres et se déplacer sur place.",
+        "indicativePrice": "200 – 1 000 FCFA",
+        "tips": "Négociez avant de monter ; casque conseillé."
+      }
     ]
   },
   {
@@ -959,6 +2303,36 @@
       "Agriculture locale",
       "Tourisme rural",
       "Cacao"
+    ],
+    "bestSeasons": [
+      "saison_seche",
+      "petite_saison_pluies"
+    ],
+    "seasonAdvice": "Agréable toute l'année ; la saison sèche (nov.-févr.) facilite les déplacements.",
+    "entryFee": {
+      "isFree": true,
+      "currency": "XAF",
+      "notes": "Ville en accès libre ; musées et sites payants séparément."
+    },
+    "tips": [
+      "Privilégiez les taxis identifiés et évitez d'exhiber des objets de valeur.",
+      "Goûtez la street-food locale dans les quartiers animés en soirée.",
+      "Prévoyez des espèces (FCFA) : les paiements par carte sont rares hors des grandes villes."
+    ],
+    "transportOptions": [
+      {
+        "mode": "bus",
+        "description": "En car depuis Yaoundé (agences : Touristique Express, Général Voyages…).",
+        "indicativePrice": "3 000 – 12 000 FCFA",
+        "duration": "~4 – 8 h selon la distance",
+        "tips": "Réservez la veille en haute saison."
+      },
+      {
+        "mode": "moto_taxi",
+        "description": "Pour les derniers kilomètres et se déplacer sur place.",
+        "indicativePrice": "200 – 1 000 FCFA",
+        "tips": "Négociez avant de monter ; casque conseillé."
+      }
     ]
   },
   {
@@ -983,6 +2357,42 @@
       "Elevage",
       "Culture Foulbé",
       "Campement de berger"
+    ],
+    "bestSeasons": [
+      "saison_seche"
+    ],
+    "seasonAdvice": "De novembre à février : sentiers secs et panoramas dégagés. La brume domine en saison des pluies.",
+    "entryFee": {
+      "isFree": true,
+      "currency": "XAF",
+      "notes": "Accès libre ; guide d'ascension payant (négociable sur place)."
+    },
+    "tips": [
+      "Prévoyez de bonnes chaussures et de l'eau ; un guide local est recommandé.",
+      "Les matinées sont les plus dégagées pour les panoramas.",
+      "Prévoyez des espèces (FCFA) : les paiements par carte sont rares hors des grandes villes."
+    ],
+    "transportOptions": [
+      {
+        "mode": "avion",
+        "description": "Vols Camair-Co vers Garoua ou Maroua, puis route.",
+        "indicativePrice": "depuis 80 000 FCFA",
+        "duration": "~1 h 30 de vol",
+        "tips": "Option la plus rapide pour le Grand Nord."
+      },
+      {
+        "mode": "bus",
+        "description": "En car depuis Yaoundé (agences : Touristique Express, Général Voyages…).",
+        "indicativePrice": "3 000 – 12 000 FCFA",
+        "duration": "~4 – 8 h selon la distance",
+        "tips": "Réservez la veille en haute saison."
+      },
+      {
+        "mode": "moto_taxi",
+        "description": "Pour les derniers kilomètres et se déplacer sur place.",
+        "indicativePrice": "200 – 1 000 FCFA",
+        "tips": "Négociez avant de monter ; casque conseillé."
+      }
     ]
   },
   {
@@ -1005,6 +2415,42 @@
     "activities": [
       "Marché de bétail authentique",
       "Immersion totale Sahélienne"
+    ],
+    "bestSeasons": [
+      "saison_seche"
+    ],
+    "seasonAdvice": "Agréable toute l'année ; la saison sèche (nov.-févr.) facilite les déplacements.",
+    "entryFee": {
+      "isFree": true,
+      "currency": "XAF",
+      "notes": "Ville en accès libre ; musées et sites payants séparément."
+    },
+    "tips": [
+      "Privilégiez les taxis identifiés et évitez d'exhiber des objets de valeur.",
+      "Goûtez la street-food locale dans les quartiers animés en soirée.",
+      "Prévoyez des espèces (FCFA) : les paiements par carte sont rares hors des grandes villes."
+    ],
+    "transportOptions": [
+      {
+        "mode": "avion",
+        "description": "Vols Camair-Co vers Garoua ou Maroua, puis route.",
+        "indicativePrice": "depuis 80 000 FCFA",
+        "duration": "~1 h 30 de vol",
+        "tips": "Option la plus rapide pour le Grand Nord."
+      },
+      {
+        "mode": "bus",
+        "description": "En car depuis Douala (agences : Touristique Express, Général Voyages…).",
+        "indicativePrice": "3 000 – 12 000 FCFA",
+        "duration": "~4 – 8 h selon la distance",
+        "tips": "Réservez la veille en haute saison."
+      },
+      {
+        "mode": "moto_taxi",
+        "description": "Pour les derniers kilomètres et se déplacer sur place.",
+        "indicativePrice": "200 – 1 000 FCFA",
+        "tips": "Négociez avant de monter ; casque conseillé."
+      }
     ]
   },
   {
@@ -1027,6 +2473,42 @@
     "activities": [
       "Transition culturelle",
       "Artisanat Gbaya"
+    ],
+    "bestSeasons": [
+      "saison_seche"
+    ],
+    "seasonAdvice": "Agréable toute l'année ; la saison sèche (nov.-févr.) facilite les déplacements.",
+    "entryFee": {
+      "isFree": true,
+      "currency": "XAF",
+      "notes": "Ville en accès libre ; musées et sites payants séparément."
+    },
+    "tips": [
+      "Privilégiez les taxis identifiés et évitez d'exhiber des objets de valeur.",
+      "Goûtez la street-food locale dans les quartiers animés en soirée.",
+      "Prévoyez des espèces (FCFA) : les paiements par carte sont rares hors des grandes villes."
+    ],
+    "transportOptions": [
+      {
+        "mode": "avion",
+        "description": "Vols Camair-Co vers Garoua ou Maroua, puis route.",
+        "indicativePrice": "depuis 80 000 FCFA",
+        "duration": "~1 h 30 de vol",
+        "tips": "Option la plus rapide pour le Grand Nord."
+      },
+      {
+        "mode": "bus",
+        "description": "En car depuis Yaoundé (agences : Touristique Express, Général Voyages…).",
+        "indicativePrice": "3 000 – 12 000 FCFA",
+        "duration": "~4 – 8 h selon la distance",
+        "tips": "Réservez la veille en haute saison."
+      },
+      {
+        "mode": "moto_taxi",
+        "description": "Pour les derniers kilomètres et se déplacer sur place.",
+        "indicativePrice": "200 – 1 000 FCFA",
+        "tips": "Négociez avant de monter ; casque conseillé."
+      }
     ]
   },
   {
@@ -1050,6 +2532,39 @@
       "Détente ultime",
       "Surf",
       "Evasion solitaire"
+    ],
+    "bestSeasons": [
+      "saison_seche",
+      "petite_saison_pluies"
+    ],
+    "seasonAdvice": "Idéal de novembre à février : mer calme, ciel dégagé et chaleur agréable. Évitez juillet-août, pic des pluies.",
+    "entryFee": {
+      "isFree": false,
+      "residentPrice": 500,
+      "nonResidentPrice": 1000,
+      "childPrice": 300,
+      "currency": "XAF",
+      "notes": "Accès plage ; certains sites privés facturent un supplément."
+    },
+    "tips": [
+      "Négociez le prix du poisson grillé et des pirogues avant de monter.",
+      "Protégez-vous du soleil : la côte est très ensoleillée à midi.",
+      "Prévoyez des espèces (FCFA) : les paiements par carte sont rares hors des grandes villes."
+    ],
+    "transportOptions": [
+      {
+        "mode": "bus",
+        "description": "En car depuis Douala (agences : Touristique Express, Général Voyages…).",
+        "indicativePrice": "3 000 – 12 000 FCFA",
+        "duration": "~4 – 8 h selon la distance",
+        "tips": "Réservez la veille en haute saison."
+      },
+      {
+        "mode": "moto_taxi",
+        "description": "Pour les derniers kilomètres et se déplacer sur place.",
+        "indicativePrice": "200 – 1 000 FCFA",
+        "tips": "Négociez avant de monter ; casque conseillé."
+      }
     ]
   },
   {
@@ -1072,6 +2587,36 @@
     "activities": [
       "Architecture",
       "Mémoire nationale"
+    ],
+    "bestSeasons": [
+      "saison_seche",
+      "petite_saison_pluies"
+    ],
+    "seasonAdvice": "Agréable toute l'année ; la saison sèche (nov.-févr.) facilite les déplacements.",
+    "entryFee": {
+      "isFree": true,
+      "currency": "XAF",
+      "notes": "Ville en accès libre ; musées et sites payants séparément."
+    },
+    "tips": [
+      "Privilégiez les taxis identifiés et évitez d'exhiber des objets de valeur.",
+      "Goûtez la street-food locale dans les quartiers animés en soirée.",
+      "Prévoyez des espèces (FCFA) : les paiements par carte sont rares hors des grandes villes."
+    ],
+    "transportOptions": [
+      {
+        "mode": "bus",
+        "description": "En car depuis Yaoundé (agences : Touristique Express, Général Voyages…).",
+        "indicativePrice": "3 000 – 12 000 FCFA",
+        "duration": "~4 – 8 h selon la distance",
+        "tips": "Réservez la veille en haute saison."
+      },
+      {
+        "mode": "moto_taxi",
+        "description": "Pour les derniers kilomètres et se déplacer sur place.",
+        "indicativePrice": "200 – 1 000 FCFA",
+        "tips": "Négociez avant de monter ; casque conseillé."
+      }
     ]
   },
   {
@@ -1095,6 +2640,36 @@
     "activities": [
       "Tourisme de luxe",
       "Excursions panoramiques"
+    ],
+    "bestSeasons": [
+      "saison_seche",
+      "petite_saison_pluies"
+    ],
+    "seasonAdvice": "De novembre à février : sentiers secs et panoramas dégagés. La brume domine en saison des pluies.",
+    "entryFee": {
+      "isFree": true,
+      "currency": "XAF",
+      "notes": "Accès libre ; guide d'ascension payant (négociable sur place)."
+    },
+    "tips": [
+      "Prévoyez de bonnes chaussures et de l'eau ; un guide local est recommandé.",
+      "Les matinées sont les plus dégagées pour les panoramas.",
+      "Prévoyez des espèces (FCFA) : les paiements par carte sont rares hors des grandes villes."
+    ],
+    "transportOptions": [
+      {
+        "mode": "bus",
+        "description": "En car depuis Douala (agences : Touristique Express, Général Voyages…).",
+        "indicativePrice": "3 000 – 12 000 FCFA",
+        "duration": "~4 – 8 h selon la distance",
+        "tips": "Réservez la veille en haute saison."
+      },
+      {
+        "mode": "moto_taxi",
+        "description": "Pour les derniers kilomètres et se déplacer sur place.",
+        "indicativePrice": "200 – 1 000 FCFA",
+        "tips": "Négociez avant de monter ; casque conseillé."
+      }
     ]
   },
   {
@@ -1117,6 +2692,45 @@
     "activities": [
       "Nuit en campement",
       "Aventure faunique"
+    ],
+    "bestSeasons": [
+      "saison_seche"
+    ],
+    "seasonAdvice": "La saison sèche (déc.-avr.) concentre la faune autour des points d'eau — meilleure période pour le safari.",
+    "entryFee": {
+      "isFree": false,
+      "residentPrice": 3000,
+      "nonResidentPrice": 5000,
+      "childPrice": 1500,
+      "currency": "XAF",
+      "notes": "Guide obligatoire pour le safari ; véhicule 4x4 conseillé."
+    },
+    "tips": [
+      "Réservez un guide agréé à l'entrée et partez tôt le matin.",
+      "Jumelles et appareil photo avec zoom recommandés pour la faune.",
+      "Prévoyez des espèces (FCFA) : les paiements par carte sont rares hors des grandes villes."
+    ],
+    "transportOptions": [
+      {
+        "mode": "avion",
+        "description": "Vols Camair-Co vers Garoua ou Maroua, puis route.",
+        "indicativePrice": "depuis 80 000 FCFA",
+        "duration": "~1 h 30 de vol",
+        "tips": "Option la plus rapide pour le Grand Nord."
+      },
+      {
+        "mode": "bus",
+        "description": "En car depuis Douala (agences : Touristique Express, Général Voyages…).",
+        "indicativePrice": "3 000 – 12 000 FCFA",
+        "duration": "~4 – 8 h selon la distance",
+        "tips": "Réservez la veille en haute saison."
+      },
+      {
+        "mode": "moto_taxi",
+        "description": "Pour les derniers kilomètres et se déplacer sur place.",
+        "indicativePrice": "200 – 1 000 FCFA",
+        "tips": "Négociez avant de monter ; casque conseillé."
+      }
     ]
   },
   {
@@ -1139,6 +2753,45 @@
     "activities": [
       "Expédition sahélo-soudanienne",
       "Botanique sèche"
+    ],
+    "bestSeasons": [
+      "saison_seche"
+    ],
+    "seasonAdvice": "La saison sèche (déc.-avr.) concentre la faune autour des points d'eau — meilleure période pour le safari.",
+    "entryFee": {
+      "isFree": false,
+      "residentPrice": 3000,
+      "nonResidentPrice": 5000,
+      "childPrice": 1500,
+      "currency": "XAF",
+      "notes": "Guide obligatoire pour le safari ; véhicule 4x4 conseillé."
+    },
+    "tips": [
+      "Réservez un guide agréé à l'entrée et partez tôt le matin.",
+      "Jumelles et appareil photo avec zoom recommandés pour la faune.",
+      "Prévoyez des espèces (FCFA) : les paiements par carte sont rares hors des grandes villes."
+    ],
+    "transportOptions": [
+      {
+        "mode": "avion",
+        "description": "Vols Camair-Co vers Garoua ou Maroua, puis route.",
+        "indicativePrice": "depuis 80 000 FCFA",
+        "duration": "~1 h 30 de vol",
+        "tips": "Option la plus rapide pour le Grand Nord."
+      },
+      {
+        "mode": "bus",
+        "description": "En car depuis Douala (agences : Touristique Express, Général Voyages…).",
+        "indicativePrice": "3 000 – 12 000 FCFA",
+        "duration": "~4 – 8 h selon la distance",
+        "tips": "Réservez la veille en haute saison."
+      },
+      {
+        "mode": "moto_taxi",
+        "description": "Pour les derniers kilomètres et se déplacer sur place.",
+        "indicativePrice": "200 – 1 000 FCFA",
+        "tips": "Négociez avant de monter ; casque conseillé."
+      }
     ]
   }
 ]

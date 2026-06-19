@@ -3,39 +3,1111 @@
     "id": "guide_kribi_paul",
     "name": "Paul Ngoma",
     "photoPath": "assets/images/guides/paul.png",
-    "languages": ["Français", "Anglais"],
-    "specialties": ["Plages", "Chutes de la Lobé", "Pêche"],
+    "languages": [
+      "Français",
+      "Anglais"
+    ],
+    "specialties": [
+      "Plages",
+      "Chutes de la Lobé",
+      "Pêche"
+    ],
     "phone": "+237600000001",
     "whatsapp": "+237600000001",
     "rating": 4.8,
     "pricePerDay": 15000,
     "bio": "Natif de Kribi, Paul accompagne les visiteurs sur les plages et les chutes depuis 10 ans. Spécialiste des sorties en pirogue.",
-    "destinationIds": ["kribi"]
+    "destinationIds": [
+      "kribi"
+    ]
   },
   {
     "id": "guide_limbe_grace",
     "name": "Grace Mbella",
     "photoPath": "assets/images/guides/grace.png",
-    "languages": ["Anglais", "Français", "Pidgin"],
-    "specialties": ["Mont Cameroun", "Jardin botanique", "Faune"],
+    "languages": [
+      "Anglais",
+      "Français",
+      "Pidgin"
+    ],
+    "specialties": [
+      "Mont Cameroun",
+      "Jardin botanique",
+      "Faune"
+    ],
     "phone": "+237600000002",
     "whatsapp": "+237600000002",
     "rating": 4.9,
     "pricePerDay": 18000,
     "bio": "Guide certifiée du Sud-Ouest, Grace connaît les sentiers du Mont Cameroun et l'histoire du jardin botanique de Limbe.",
-    "destinationIds": ["limbe"]
+    "destinationIds": [
+      "limbe"
+    ]
   },
   {
     "id": "guide_waza_ali",
     "name": "Ali Bakari",
     "photoPath": "assets/images/guides/ali.png",
-    "languages": ["Français", "Fulfulde", "Anglais"],
-    "specialties": ["Safari", "Ornithologie", "Savane"],
+    "languages": [
+      "Français",
+      "Fulfulde",
+      "Anglais"
+    ],
+    "specialties": [
+      "Safari",
+      "Ornithologie",
+      "Savane"
+    ],
     "phone": "+237600000003",
     "whatsapp": "+237600000003",
     "rating": 4.7,
     "pricePerDay": 25000,
     "bio": "Guide agréé du parc de Waza, Ali repère lions et éléphants comme personne. Indispensable pour un safari réussi.",
-    "destinationIds": ["waza"]
+    "destinationIds": [
+      "waza"
+    ]
+  },
+  {
+    "id": "douala_guide",
+    "name": "Aïcha Ngono",
+    "photoPath": "https://loremflickr.com/200/200/portrait,african?lock=202",
+    "languages": [
+      "Français",
+      "Anglais"
+    ],
+    "specialties": [
+      "Histoire",
+      "Culture",
+      "City tour"
+    ],
+    "phone": "+237 6 968 52 88 22",
+    "whatsapp": "+237 6 968 52 88 22",
+    "rating": 4.4,
+    "pricePerDay": 25000,
+    "bio": "Guide local passionné, Aïcha vous fait découvrir Douala et ses environs hors des sentiers battus.",
+    "destinationIds": [
+      "douala"
+    ]
+  },
+  {
+    "id": "yaounde_guide",
+    "name": "Bertrand Eyenga",
+    "photoPath": "https://loremflickr.com/200/200/portrait,african?lock=203",
+    "languages": [
+      "Français",
+      "Anglais"
+    ],
+    "specialties": [
+      "Histoire",
+      "Culture",
+      "City tour"
+    ],
+    "phone": "+237 6 971 59 11 39",
+    "whatsapp": "+237 6 971 59 11 39",
+    "rating": 4.5,
+    "pricePerDay": 30000,
+    "bio": "Guide local passionné, Bertrand vous fait découvrir Yaoundé et ses environs hors des sentiers battus.",
+    "destinationIds": [
+      "yaounde"
+    ]
+  },
+  {
+    "id": "bamenda_guide",
+    "name": "Mireille Biya",
+    "photoPath": "https://loremflickr.com/200/200/portrait,african?lock=204",
+    "languages": [
+      "Français",
+      "Anglais",
+      "Pidgin"
+    ],
+    "specialties": [
+      "Randonnée",
+      "Trekking",
+      "Ascension"
+    ],
+    "phone": "+237 6 984 66 24 56",
+    "whatsapp": "+237 6 984 66 24 56",
+    "rating": 4.2,
+    "pricePerDay": 15000,
+    "bio": "Guide local passionné, Mireille vous fait découvrir Bamenda et ses environs hors des sentiers battus.",
+    "destinationIds": [
+      "bamenda"
+    ]
+  },
+  {
+    "id": "foumban_guide",
+    "name": "Estelle Mbarga",
+    "photoPath": "https://loremflickr.com/200/200/portrait,african?lock=206",
+    "languages": [
+      "Français",
+      "Anglais"
+    ],
+    "specialties": [
+      "Histoire",
+      "Culture",
+      "City tour"
+    ],
+    "phone": "+237 6 910 80 50 90",
+    "whatsapp": "+237 6 910 80 50 90",
+    "rating": 4.4,
+    "pricePerDay": 25000,
+    "bio": "Guide local passionné, Estelle vous fait découvrir Foumban et ses environs hors des sentiers battus.",
+    "destinationIds": [
+      "foumban"
+    ]
+  },
+  {
+    "id": "mont_cameroun_guide",
+    "name": "Armand Fotso",
+    "photoPath": "https://loremflickr.com/200/200/portrait,african?lock=207",
+    "languages": [
+      "Français",
+      "Anglais",
+      "Pidgin"
+    ],
+    "specialties": [
+      "Randonnée",
+      "Trekking",
+      "Ascension"
+    ],
+    "phone": "+237 6 923 87 63 17",
+    "whatsapp": "+237 6 923 87 63 17",
+    "rating": 4.5,
+    "pricePerDay": 30000,
+    "bio": "Guide local passionné, Armand vous fait découvrir Mont Cameroun et ses environs hors des sentiers battus.",
+    "destinationIds": [
+      "mont_cameroun"
+    ]
+  },
+  {
+    "id": "ekom_nkam_guide",
+    "name": "Brice Ngono",
+    "photoPath": "https://loremflickr.com/200/200/portrait,african?lock=208",
+    "languages": [
+      "Français",
+      "Anglais"
+    ],
+    "specialties": [
+      "Randonnée",
+      "Botanique",
+      "Cascades"
+    ],
+    "phone": "+237 6 936 94 76 34",
+    "whatsapp": "+237 6 936 94 76 34",
+    "rating": 4.2,
+    "pricePerDay": 15000,
+    "bio": "Guide local passionné, Brice vous fait découvrir Chutes d'Ekom Nkam et ses environs hors des sentiers battus.",
+    "destinationIds": [
+      "ekom_nkam"
+    ]
+  },
+  {
+    "id": "buea_guide",
+    "name": "Carine Eyenga",
+    "photoPath": "https://loremflickr.com/200/200/portrait,african?lock=209",
+    "languages": [
+      "Français",
+      "Anglais",
+      "Pidgin"
+    ],
+    "specialties": [
+      "Histoire",
+      "Culture",
+      "City tour"
+    ],
+    "phone": "+237 6 949 11 89 51",
+    "whatsapp": "+237 6 949 11 89 51",
+    "rating": 4.3,
+    "pricePerDay": 20000,
+    "bio": "Guide local passionné, Carine vous fait découvrir Buéa et ses environs hors des sentiers battus.",
+    "destinationIds": [
+      "buea"
+    ]
+  },
+  {
+    "id": "rhumsiki_guide",
+    "name": "Hervé Biya",
+    "photoPath": "https://loremflickr.com/200/200/portrait,african?lock=210",
+    "languages": [
+      "Français",
+      "Anglais"
+    ],
+    "specialties": [
+      "Randonnée",
+      "Trekking",
+      "Ascension"
+    ],
+    "phone": "+237 6 952 18 12 68",
+    "whatsapp": "+237 6 952 18 12 68",
+    "rating": 4.4,
+    "pricePerDay": 25000,
+    "bio": "Guide local passionné, Hervé vous fait découvrir Pics de Rhumsiki et ses environs hors des sentiers battus.",
+    "destinationIds": [
+      "rhumsiki"
+    ]
+  },
+  {
+    "id": "korup_guide",
+    "name": "Nadège Kamga",
+    "photoPath": "https://loremflickr.com/200/200/portrait,african?lock=211",
+    "languages": [
+      "Français",
+      "Anglais",
+      "Pidgin"
+    ],
+    "specialties": [
+      "Randonnée",
+      "Botanique",
+      "Cascades"
+    ],
+    "phone": "+237 6 965 25 25 85",
+    "whatsapp": "+237 6 965 25 25 85",
+    "rating": 4.5,
+    "pricePerDay": 30000,
+    "bio": "Guide local passionné, Nadège vous fait découvrir Parc National de Korup et ses environs hors des sentiers battus.",
+    "destinationIds": [
+      "korup"
+    ]
+  },
+  {
+    "id": "ebogo_guide",
+    "name": "Jean Mbarga",
+    "photoPath": "https://loremflickr.com/200/200/portrait,african?lock=212",
+    "languages": [
+      "Français",
+      "Anglais"
+    ],
+    "specialties": [
+      "Randonnée",
+      "Botanique",
+      "Cascades"
+    ],
+    "phone": "+237 6 978 32 38 12",
+    "whatsapp": "+237 6 978 32 38 12",
+    "rating": 4.2,
+    "pricePerDay": 15000,
+    "bio": "Guide local passionné, Jean vous fait découvrir Site Écotouristique d'Ebogo et ses environs hors des sentiers battus.",
+    "destinationIds": [
+      "ebogo"
+    ]
+  },
+  {
+    "id": "garoua_guide",
+    "name": "Patrice Fotso",
+    "photoPath": "https://loremflickr.com/200/200/portrait,african?lock=213",
+    "languages": [
+      "Français",
+      "Anglais"
+    ],
+    "specialties": [
+      "Histoire",
+      "Culture",
+      "City tour"
+    ],
+    "phone": "+237 6 981 39 51 29",
+    "whatsapp": "+237 6 981 39 51 29",
+    "rating": 4.3,
+    "pricePerDay": 20000,
+    "bio": "Guide local passionné, Patrice vous fait découvrir Garoua et ses environs hors des sentiers battus.",
+    "destinationIds": [
+      "garoua"
+    ]
+  },
+  {
+    "id": "maroua_guide",
+    "name": "Aïcha Ngono",
+    "photoPath": "https://loremflickr.com/200/200/portrait,african?lock=214",
+    "languages": [
+      "Français",
+      "Anglais"
+    ],
+    "specialties": [
+      "Histoire",
+      "Culture",
+      "City tour"
+    ],
+    "phone": "+237 6 904 46 64 46",
+    "whatsapp": "+237 6 904 46 64 46",
+    "rating": 4.4,
+    "pricePerDay": 25000,
+    "bio": "Guide local passionné, Aïcha vous fait découvrir Maroua et ses environs hors des sentiers battus.",
+    "destinationIds": [
+      "maroua"
+    ]
+  },
+  {
+    "id": "dschang_guide",
+    "name": "Bertrand Eyenga",
+    "photoPath": "https://loremflickr.com/200/200/portrait,african?lock=215",
+    "languages": [
+      "Français",
+      "Anglais"
+    ],
+    "specialties": [
+      "Randonnée",
+      "Trekking",
+      "Ascension"
+    ],
+    "phone": "+237 6 917 53 77 63",
+    "whatsapp": "+237 6 917 53 77 63",
+    "rating": 4.5,
+    "pricePerDay": 30000,
+    "bio": "Guide local passionné, Bertrand vous fait découvrir Dschang et ses environs hors des sentiers battus.",
+    "destinationIds": [
+      "dschang"
+    ]
+  },
+  {
+    "id": "lac_ossa_guide",
+    "name": "Mireille Biya",
+    "photoPath": "https://loremflickr.com/200/200/portrait,african?lock=216",
+    "languages": [
+      "Français",
+      "Anglais"
+    ],
+    "specialties": [
+      "Safari",
+      "Faune",
+      "Ornithologie"
+    ],
+    "phone": "+237 6 920 60 90 80",
+    "whatsapp": "+237 6 920 60 90 80",
+    "rating": 4.2,
+    "pricePerDay": 15000,
+    "bio": "Guide local passionné, Mireille vous fait découvrir Reserve du Lac Ossa et ses environs hors des sentiers battus.",
+    "destinationIds": [
+      "lac_ossa"
+    ]
+  },
+  {
+    "id": "ngaoundere_guide",
+    "name": "Serge Kamga",
+    "photoPath": "https://loremflickr.com/200/200/portrait,african?lock=217",
+    "languages": [
+      "Français",
+      "Anglais"
+    ],
+    "specialties": [
+      "Histoire",
+      "Culture",
+      "City tour"
+    ],
+    "phone": "+237 6 933 67 13 97",
+    "whatsapp": "+237 6 933 67 13 97",
+    "rating": 4.3,
+    "pricePerDay": 20000,
+    "bio": "Guide local passionné, Serge vous fait découvrir Ngaoundéré et ses environs hors des sentiers battus.",
+    "destinationIds": [
+      "ngaoundere"
+    ]
+  },
+  {
+    "id": "boubandjida_guide",
+    "name": "Estelle Mbarga",
+    "photoPath": "https://loremflickr.com/200/200/portrait,african?lock=218",
+    "languages": [
+      "Français",
+      "Anglais"
+    ],
+    "specialties": [
+      "Safari",
+      "Faune",
+      "Ornithologie"
+    ],
+    "phone": "+237 6 946 74 26 24",
+    "whatsapp": "+237 6 946 74 26 24",
+    "rating": 4.4,
+    "pricePerDay": 25000,
+    "bio": "Guide local passionné, Estelle vous fait découvrir Parc National de Bouba Ndjida et ses environs hors des sentiers battus.",
+    "destinationIds": [
+      "boubandjida"
+    ]
+  },
+  {
+    "id": "campomaan_guide",
+    "name": "Armand Fotso",
+    "photoPath": "https://loremflickr.com/200/200/portrait,african?lock=219",
+    "languages": [
+      "Français",
+      "Anglais"
+    ],
+    "specialties": [
+      "Randonnée",
+      "Botanique",
+      "Cascades"
+    ],
+    "phone": "+237 6 959 81 39 41",
+    "whatsapp": "+237 6 959 81 39 41",
+    "rating": 4.5,
+    "pricePerDay": 30000,
+    "bio": "Guide local passionné, Armand vous fait découvrir Parc National de Campo Ma'an et ses environs hors des sentiers battus.",
+    "destinationIds": [
+      "campomaan"
+    ]
+  },
+  {
+    "id": "reserve_dja_guide",
+    "name": "Brice Ngono",
+    "photoPath": "https://loremflickr.com/200/200/portrait,african?lock=220",
+    "languages": [
+      "Français",
+      "Anglais"
+    ],
+    "specialties": [
+      "Randonnée",
+      "Botanique",
+      "Cascades"
+    ],
+    "phone": "+237 6 962 88 52 58",
+    "whatsapp": "+237 6 962 88 52 58",
+    "rating": 4.2,
+    "pricePerDay": 15000,
+    "bio": "Guide local passionné, Brice vous fait découvrir Réserve de Faune du Dja et ses environs hors des sentiers battus.",
+    "destinationIds": [
+      "reserve_dja"
+    ]
+  },
+  {
+    "id": "lac_tison_guide",
+    "name": "Carine Eyenga",
+    "photoPath": "https://loremflickr.com/200/200/portrait,african?lock=221",
+    "languages": [
+      "Français",
+      "Anglais"
+    ],
+    "specialties": [
+      "Safari",
+      "Faune",
+      "Ornithologie"
+    ],
+    "phone": "+237 6 975 95 65 75",
+    "whatsapp": "+237 6 975 95 65 75",
+    "rating": 4.3,
+    "pricePerDay": 20000,
+    "bio": "Guide local passionné, Carine vous fait découvrir Lac Tison et ses environs hors des sentiers battus.",
+    "destinationIds": [
+      "lac_tison"
+    ]
+  },
+  {
+    "id": "bafoussam_guide",
+    "name": "Hervé Biya",
+    "photoPath": "https://loremflickr.com/200/200/portrait,african?lock=222",
+    "languages": [
+      "Français",
+      "Anglais"
+    ],
+    "specialties": [
+      "Histoire",
+      "Culture",
+      "City tour"
+    ],
+    "phone": "+237 6 988 12 78 92",
+    "whatsapp": "+237 6 988 12 78 92",
+    "rating": 4.4,
+    "pricePerDay": 25000,
+    "bio": "Guide local passionné, Hervé vous fait découvrir Bafoussam et ses environs hors des sentiers battus.",
+    "destinationIds": [
+      "bafoussam"
+    ]
+  },
+  {
+    "id": "chutes_lobe_guide",
+    "name": "Nadège Kamga",
+    "photoPath": "https://loremflickr.com/200/200/portrait,african?lock=223",
+    "languages": [
+      "Français",
+      "Anglais"
+    ],
+    "specialties": [
+      "Plage",
+      "Pêche",
+      "Sorties pirogue"
+    ],
+    "phone": "+237 6 901 19 91 19",
+    "whatsapp": "+237 6 901 19 91 19",
+    "rating": 4.5,
+    "pricePerDay": 30000,
+    "bio": "Guide local passionné, Nadège vous fait découvrir Chutes de la Lobé et ses environs hors des sentiers battus.",
+    "destinationIds": [
+      "chutes_lobe"
+    ]
+  },
+  {
+    "id": "lobeke_guide",
+    "name": "Jean Mbarga",
+    "photoPath": "https://loremflickr.com/200/200/portrait,african?lock=224",
+    "languages": [
+      "Français",
+      "Anglais"
+    ],
+    "specialties": [
+      "Randonnée",
+      "Botanique",
+      "Cascades"
+    ],
+    "phone": "+237 6 914 26 14 36",
+    "whatsapp": "+237 6 914 26 14 36",
+    "rating": 4.2,
+    "pricePerDay": 15000,
+    "bio": "Guide local passionné, Jean vous fait découvrir Parc National de Lobéké et ses environs hors des sentiers battus.",
+    "destinationIds": [
+      "lobeke"
+    ]
+  },
+  {
+    "id": "gorges_kola_guide",
+    "name": "Patrice Fotso",
+    "photoPath": "https://loremflickr.com/200/200/portrait,african?lock=225",
+    "languages": [
+      "Français",
+      "Anglais"
+    ],
+    "specialties": [
+      "Randonnée",
+      "Trekking",
+      "Ascension"
+    ],
+    "phone": "+237 6 927 33 27 53",
+    "whatsapp": "+237 6 927 33 27 53",
+    "rating": 4.3,
+    "pricePerDay": 20000,
+    "bio": "Guide local passionné, Patrice vous fait découvrir Gorges de Kola et ses environs hors des sentiers battus.",
+    "destinationIds": [
+      "gorges_kola"
+    ]
+  },
+  {
+    "id": "chefferie_bafut_guide",
+    "name": "Aïcha Ngono",
+    "photoPath": "https://loremflickr.com/200/200/portrait,african?lock=226",
+    "languages": [
+      "Français",
+      "Anglais",
+      "Pidgin"
+    ],
+    "specialties": [
+      "Histoire",
+      "Culture",
+      "City tour"
+    ],
+    "phone": "+237 6 930 40 40 70",
+    "whatsapp": "+237 6 930 40 40 70",
+    "rating": 4.4,
+    "pricePerDay": 25000,
+    "bio": "Guide local passionné, Aïcha vous fait découvrir Chefferie de Bafut et ses environs hors des sentiers battus.",
+    "destinationIds": [
+      "chefferie_bafut"
+    ]
+  },
+  {
+    "id": "lac_awing_guide",
+    "name": "Bertrand Eyenga",
+    "photoPath": "https://loremflickr.com/200/200/portrait,african?lock=227",
+    "languages": [
+      "Français",
+      "Anglais",
+      "Pidgin"
+    ],
+    "specialties": [
+      "Safari",
+      "Faune",
+      "Ornithologie"
+    ],
+    "phone": "+237 6 943 47 53 87",
+    "whatsapp": "+237 6 943 47 53 87",
+    "rating": 4.5,
+    "pricePerDay": 30000,
+    "bio": "Guide local passionné, Bertrand vous fait découvrir Lac Awing et ses environs hors des sentiers battus.",
+    "destinationIds": [
+      "lac_awing"
+    ]
+  },
+  {
+    "id": "menchum_falls_guide",
+    "name": "Mireille Biya",
+    "photoPath": "https://loremflickr.com/200/200/portrait,african?lock=228",
+    "languages": [
+      "Français",
+      "Anglais",
+      "Pidgin"
+    ],
+    "specialties": [
+      "Randonnée",
+      "Botanique",
+      "Cascades"
+    ],
+    "phone": "+237 6 956 54 66 14",
+    "whatsapp": "+237 6 956 54 66 14",
+    "rating": 4.2,
+    "pricePerDay": 15000,
+    "bio": "Guide local passionné, Mireille vous fait découvrir Chutes de la Menchum et ses environs hors des sentiers battus.",
+    "destinationIds": [
+      "menchum_falls"
+    ]
+  },
+  {
+    "id": "lacs_jumeaux_guide",
+    "name": "Serge Kamga",
+    "photoPath": "https://loremflickr.com/200/200/portrait,african?lock=229",
+    "languages": [
+      "Français",
+      "Anglais"
+    ],
+    "specialties": [
+      "Randonnée",
+      "Trekking",
+      "Ascension"
+    ],
+    "phone": "+237 6 969 61 79 31",
+    "whatsapp": "+237 6 969 61 79 31",
+    "rating": 4.3,
+    "pricePerDay": 20000,
+    "bio": "Guide local passionné, Serge vous fait découvrir Lacs Jumeaux du Manengouba et ses environs hors des sentiers battus.",
+    "destinationIds": [
+      "lacs_jumeaux"
+    ]
+  },
+  {
+    "id": "palais_kings_bell_guide",
+    "name": "Estelle Mbarga",
+    "photoPath": "https://loremflickr.com/200/200/portrait,african?lock=230",
+    "languages": [
+      "Français",
+      "Anglais"
+    ],
+    "specialties": [
+      "Histoire",
+      "Culture",
+      "City tour"
+    ],
+    "phone": "+237 6 972 68 92 48",
+    "whatsapp": "+237 6 972 68 92 48",
+    "rating": 4.4,
+    "pricePerDay": 25000,
+    "bio": "Guide local passionné, Estelle vous fait découvrir La Pagode (Palais des Rois Bell) et ses environs hors des sentiers battus.",
+    "destinationIds": [
+      "palais_kings_bell"
+    ]
+  },
+  {
+    "id": "musee_national_guide",
+    "name": "Armand Fotso",
+    "photoPath": "https://loremflickr.com/200/200/portrait,african?lock=231",
+    "languages": [
+      "Français",
+      "Anglais"
+    ],
+    "specialties": [
+      "Histoire",
+      "Culture",
+      "City tour"
+    ],
+    "phone": "+237 6 985 75 15 65",
+    "whatsapp": "+237 6 985 75 15 65",
+    "rating": 4.5,
+    "pricePerDay": 30000,
+    "bio": "Guide local passionné, Armand vous fait découvrir Musée National et ses environs hors des sentiers battus.",
+    "destinationIds": [
+      "musee_national"
+    ]
+  },
+  {
+    "id": "kousseri_guide",
+    "name": "Brice Ngono",
+    "photoPath": "https://loremflickr.com/200/200/portrait,african?lock=232",
+    "languages": [
+      "Français",
+      "Anglais"
+    ],
+    "specialties": [
+      "Histoire",
+      "Culture",
+      "City tour"
+    ],
+    "phone": "+237 6 908 82 28 82",
+    "whatsapp": "+237 6 908 82 28 82",
+    "rating": 4.2,
+    "pricePerDay": 15000,
+    "bio": "Guide local passionné, Brice vous fait découvrir Kousséri et ses environs hors des sentiers battus.",
+    "destinationIds": [
+      "kousseri"
+    ]
+  },
+  {
+    "id": "bertoua_guide",
+    "name": "Carine Eyenga",
+    "photoPath": "https://loremflickr.com/200/200/portrait,african?lock=233",
+    "languages": [
+      "Français",
+      "Anglais"
+    ],
+    "specialties": [
+      "Histoire",
+      "Culture",
+      "City tour"
+    ],
+    "phone": "+237 6 911 89 41 99",
+    "whatsapp": "+237 6 911 89 41 99",
+    "rating": 4.3,
+    "pricePerDay": 20000,
+    "bio": "Guide local passionné, Carine vous fait découvrir Bertoua et ses environs hors des sentiers battus.",
+    "destinationIds": [
+      "bertoua"
+    ]
+  },
+  {
+    "id": "mont_oku_guide",
+    "name": "Hervé Biya",
+    "photoPath": "https://loremflickr.com/200/200/portrait,african?lock=234",
+    "languages": [
+      "Français",
+      "Anglais",
+      "Pidgin"
+    ],
+    "specialties": [
+      "Randonnée",
+      "Trekking",
+      "Ascension"
+    ],
+    "phone": "+237 6 924 96 54 26",
+    "whatsapp": "+237 6 924 96 54 26",
+    "rating": 4.4,
+    "pricePerDay": 25000,
+    "bio": "Guide local passionné, Hervé vous fait découvrir Mont Oku et ses environs hors des sentiers battus.",
+    "destinationIds": [
+      "mont_oku"
+    ]
+  },
+  {
+    "id": "chutes_metche_guide",
+    "name": "Nadège Kamga",
+    "photoPath": "https://loremflickr.com/200/200/portrait,african?lock=235",
+    "languages": [
+      "Français",
+      "Anglais"
+    ],
+    "specialties": [
+      "Randonnée",
+      "Botanique",
+      "Cascades"
+    ],
+    "phone": "+237 6 937 13 67 43",
+    "whatsapp": "+237 6 937 13 67 43",
+    "rating": 4.5,
+    "pricePerDay": 30000,
+    "bio": "Guide local passionné, Nadège vous fait découvrir Chutes de la Métché et ses environs hors des sentiers battus.",
+    "destinationIds": [
+      "chutes_metche"
+    ]
+  },
+  {
+    "id": "benoue_guide",
+    "name": "Jean Mbarga",
+    "photoPath": "https://loremflickr.com/200/200/portrait,african?lock=236",
+    "languages": [
+      "Français",
+      "Anglais"
+    ],
+    "specialties": [
+      "Safari",
+      "Faune",
+      "Ornithologie"
+    ],
+    "phone": "+237 6 940 20 80 60",
+    "whatsapp": "+237 6 940 20 80 60",
+    "rating": 4.2,
+    "pricePerDay": 15000,
+    "bio": "Guide local passionné, Jean vous fait découvrir Parc National de la Bénoué et ses environs hors des sentiers battus.",
+    "destinationIds": [
+      "benoue"
+    ]
+  },
+  {
+    "id": "mont_koupe_guide",
+    "name": "Patrice Fotso",
+    "photoPath": "https://loremflickr.com/200/200/portrait,african?lock=237",
+    "languages": [
+      "Français",
+      "Anglais",
+      "Pidgin"
+    ],
+    "specialties": [
+      "Randonnée",
+      "Trekking",
+      "Ascension"
+    ],
+    "phone": "+237 6 953 27 93 77",
+    "whatsapp": "+237 6 953 27 93 77",
+    "rating": 4.3,
+    "pricePerDay": 20000,
+    "bio": "Guide local passionné, Patrice vous fait découvrir Mont Koupé et ses environs hors des sentiers battus.",
+    "destinationIds": [
+      "mont_koupe"
+    ]
+  },
+  {
+    "id": "lac_baleng_guide",
+    "name": "Aïcha Ngono",
+    "photoPath": "https://loremflickr.com/200/200/portrait,african?lock=238",
+    "languages": [
+      "Français",
+      "Anglais"
+    ],
+    "specialties": [
+      "Safari",
+      "Faune",
+      "Ornithologie"
+    ],
+    "phone": "+237 6 966 34 16 94",
+    "whatsapp": "+237 6 966 34 16 94",
+    "rating": 4.4,
+    "pricePerDay": 25000,
+    "bio": "Guide local passionné, Aïcha vous fait découvrir Lac Baleng et ses environs hors des sentiers battus.",
+    "destinationIds": [
+      "lac_baleng"
+    ]
+  },
+  {
+    "id": "sangmelima_guide",
+    "name": "Bertrand Eyenga",
+    "photoPath": "https://loremflickr.com/200/200/portrait,african?lock=239",
+    "languages": [
+      "Français",
+      "Anglais"
+    ],
+    "specialties": [
+      "Histoire",
+      "Culture",
+      "City tour"
+    ],
+    "phone": "+237 6 979 41 29 21",
+    "whatsapp": "+237 6 979 41 29 21",
+    "rating": 4.5,
+    "pricePerDay": 30000,
+    "bio": "Guide local passionné, Bertrand vous fait découvrir Sangmélima et ses environs hors des sentiers battus.",
+    "destinationIds": [
+      "sangmelima"
+    ]
+  },
+  {
+    "id": "akok_bekoe_guide",
+    "name": "Mireille Biya",
+    "photoPath": "https://loremflickr.com/200/200/portrait,african?lock=240",
+    "languages": [
+      "Français",
+      "Anglais"
+    ],
+    "specialties": [
+      "Randonnée",
+      "Botanique",
+      "Cascades"
+    ],
+    "phone": "+237 6 982 48 42 38",
+    "whatsapp": "+237 6 982 48 42 38",
+    "rating": 4.2,
+    "pricePerDay": 15000,
+    "bio": "Guide local passionné, Mireille vous fait découvrir Grottes d'Akok Bekoe et ses environs hors des sentiers battus.",
+    "destinationIds": [
+      "akok_bekoe"
+    ]
+  },
+  {
+    "id": "ebolowa_guide",
+    "name": "Serge Kamga",
+    "photoPath": "https://loremflickr.com/200/200/portrait,african?lock=241",
+    "languages": [
+      "Français",
+      "Anglais"
+    ],
+    "specialties": [
+      "Histoire",
+      "Culture",
+      "City tour"
+    ],
+    "phone": "+237 6 905 55 55 55",
+    "whatsapp": "+237 6 905 55 55 55",
+    "rating": 4.3,
+    "pricePerDay": 20000,
+    "bio": "Guide local passionné, Serge vous fait découvrir Ebolowa et ses environs hors des sentiers battus.",
+    "destinationIds": [
+      "ebolowa"
+    ]
+  },
+  {
+    "id": "banyo_guide",
+    "name": "Estelle Mbarga",
+    "photoPath": "https://loremflickr.com/200/200/portrait,african?lock=242",
+    "languages": [
+      "Français",
+      "Anglais"
+    ],
+    "specialties": [
+      "Randonnée",
+      "Trekking",
+      "Ascension"
+    ],
+    "phone": "+237 6 918 62 68 72",
+    "whatsapp": "+237 6 918 62 68 72",
+    "rating": 4.4,
+    "pricePerDay": 25000,
+    "bio": "Guide local passionné, Estelle vous fait découvrir Mayo Banyo et ses environs hors des sentiers battus.",
+    "destinationIds": [
+      "banyo"
+    ]
+  },
+  {
+    "id": "pitoa_guide",
+    "name": "Armand Fotso",
+    "photoPath": "https://loremflickr.com/200/200/portrait,african?lock=243",
+    "languages": [
+      "Français",
+      "Anglais"
+    ],
+    "specialties": [
+      "Histoire",
+      "Culture",
+      "City tour"
+    ],
+    "phone": "+237 6 921 69 81 89",
+    "whatsapp": "+237 6 921 69 81 89",
+    "rating": 4.5,
+    "pricePerDay": 30000,
+    "bio": "Guide local passionné, Armand vous fait découvrir Pitoa et ses environs hors des sentiers battus.",
+    "destinationIds": [
+      "pitoa"
+    ]
+  },
+  {
+    "id": "meiganga_guide",
+    "name": "Brice Ngono",
+    "photoPath": "https://loremflickr.com/200/200/portrait,african?lock=244",
+    "languages": [
+      "Français",
+      "Anglais"
+    ],
+    "specialties": [
+      "Histoire",
+      "Culture",
+      "City tour"
+    ],
+    "phone": "+237 6 934 76 94 16",
+    "whatsapp": "+237 6 934 76 94 16",
+    "rating": 4.2,
+    "pricePerDay": 15000,
+    "bio": "Guide local passionné, Brice vous fait découvrir Meiganga et ses environs hors des sentiers battus.",
+    "destinationIds": [
+      "meiganga"
+    ]
+  },
+  {
+    "id": "plage_yoyo_guide",
+    "name": "Carine Eyenga",
+    "photoPath": "https://loremflickr.com/200/200/portrait,african?lock=245",
+    "languages": [
+      "Français",
+      "Anglais"
+    ],
+    "specialties": [
+      "Plage",
+      "Pêche",
+      "Sorties pirogue"
+    ],
+    "phone": "+237 6 947 83 17 33",
+    "whatsapp": "+237 6 947 83 17 33",
+    "rating": 4.3,
+    "pricePerDay": 20000,
+    "bio": "Guide local passionné, Carine vous fait découvrir Plage de Yoyo et ses environs hors des sentiers battus.",
+    "destinationIds": [
+      "plage_yoyo"
+    ]
+  },
+  {
+    "id": "monument_reunification_guide",
+    "name": "Hervé Biya",
+    "photoPath": "https://loremflickr.com/200/200/portrait,african?lock=246",
+    "languages": [
+      "Français",
+      "Anglais"
+    ],
+    "specialties": [
+      "Histoire",
+      "Culture",
+      "City tour"
+    ],
+    "phone": "+237 6 950 90 30 50",
+    "whatsapp": "+237 6 950 90 30 50",
+    "rating": 4.4,
+    "pricePerDay": 25000,
+    "bio": "Guide local passionné, Hervé vous fait découvrir Monument de la Réunification et ses environs hors des sentiers battus.",
+    "destinationIds": [
+      "monument_reunification"
+    ]
+  },
+  {
+    "id": "bana_guide",
+    "name": "Nadège Kamga",
+    "photoPath": "https://loremflickr.com/200/200/portrait,african?lock=247",
+    "languages": [
+      "Français",
+      "Anglais"
+    ],
+    "specialties": [
+      "Randonnée",
+      "Trekking",
+      "Ascension"
+    ],
+    "phone": "+237 6 963 97 43 67",
+    "whatsapp": "+237 6 963 97 43 67",
+    "rating": 4.5,
+    "pricePerDay": 30000,
+    "bio": "Guide local passionné, Nadège vous fait découvrir Haut-Plateau de Bana et ses environs hors des sentiers battus.",
+    "destinationIds": [
+      "bana"
+    ]
+  },
+  {
+    "id": "campement_rhino_guide",
+    "name": "Jean Mbarga",
+    "photoPath": "https://loremflickr.com/200/200/portrait,african?lock=248",
+    "languages": [
+      "Français",
+      "Anglais"
+    ],
+    "specialties": [
+      "Safari",
+      "Faune",
+      "Ornithologie"
+    ],
+    "phone": "+237 6 976 14 56 84",
+    "whatsapp": "+237 6 976 14 56 84",
+    "rating": 4.2,
+    "pricePerDay": 15000,
+    "bio": "Guide local passionné, Jean vous fait découvrir Campement des Éléphants et ses environs hors des sentiers battus.",
+    "destinationIds": [
+      "campement_rhino"
+    ]
+  },
+  {
+    "id": "faro_guide",
+    "name": "Patrice Fotso",
+    "photoPath": "https://loremflickr.com/200/200/portrait,african?lock=249",
+    "languages": [
+      "Français",
+      "Anglais"
+    ],
+    "specialties": [
+      "Safari",
+      "Faune",
+      "Ornithologie"
+    ],
+    "phone": "+237 6 989 21 69 11",
+    "whatsapp": "+237 6 989 21 69 11",
+    "rating": 4.3,
+    "pricePerDay": 20000,
+    "bio": "Guide local passionné, Patrice vous fait découvrir Réserve du Faro et ses environs hors des sentiers battus.",
+    "destinationIds": [
+      "faro"
+    ]
   }
 ]

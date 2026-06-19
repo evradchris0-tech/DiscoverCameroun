@@ -64,6 +64,9 @@ class AppColors {
   /// Parc naturel — or savane (réutilise l'or de marque).
   static const Color catParc = gold;
 
+  /// Bleu « ma position » (point GPS de l'utilisateur sur la carte).
+  static const Color userLocation = Color(0xFF2F6FED);
+
   // --- États sémantiques --------------------------------------------------
   /// Rouge d'urgence/danger (contacts d'urgence, erreurs critiques).
   static const Color danger = Color(0xFFC0392B);

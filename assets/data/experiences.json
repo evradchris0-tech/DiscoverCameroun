@@ -4,7 +4,9 @@
     "title": "Atelier poisson braisé sur la plage",
     "type": "culinaire",
     "description": "Apprenez à préparer le poisson braisé camerounais avec un pêcheur local : choix du poisson, marinade aux épices, cuisson au feu de bois. Dégustation face à l'océan.",
-    "photoPaths": ["assets/images/experiences/poisson.png"],
+    "photoPaths": [
+      "assets/images/experiences/poisson.png"
+    ],
     "duration": "3 h",
     "price": 8000,
     "currency": "XAF",
@@ -15,7 +17,9 @@
     "title": "Sortie en pirogue aux chutes de la Lobé",
     "type": "nature",
     "description": "Remontez la Lobé en pirogue traditionnelle jusqu'aux chutes qui se jettent dans l'océan, à la rencontre des communautés de pêcheurs.",
-    "photoPaths": ["assets/images/experiences/pirogue.png"],
+    "photoPaths": [
+      "assets/images/experiences/pirogue.png"
+    ],
     "duration": "2 h",
     "price": 6000,
     "currency": "XAF",
@@ -26,7 +30,9 @@
     "title": "Visite guidée du Jardin botanique (1892)",
     "type": "nature",
     "description": "Parcourez l'un des plus anciens jardins botaniques d'Afrique avec un guide naturaliste : plantes médicinales, arbres centenaires et histoire coloniale.",
-    "photoPaths": ["assets/images/experiences/botanique.png"],
+    "photoPaths": [
+      "assets/images/experiences/botanique.png"
+    ],
     "duration": "1 h 30",
     "price": 5000,
     "currency": "XAF",
@@ -37,7 +43,9 @@
     "title": "Cours de cuisine : le ndolè",
     "type": "culinaire",
     "description": "Cuisinez le plat emblématique de Douala — ndolè aux crevettes et viande — avec une cuisinière locale, du marché à l'assiette.",
-    "photoPaths": ["assets/images/experiences/ndole.png"],
+    "photoPaths": [
+      "assets/images/experiences/ndole.png"
+    ],
     "duration": "3 h",
     "price": 10000,
     "currency": "XAF",
@@ -48,7 +56,9 @@
     "title": "Parcours art & histoire au Musée national",
     "type": "peinture",
     "description": "Découverte commentée des collections d'art camerounais et rencontre avec un artiste peintre local dans son atelier.",
-    "photoPaths": ["assets/images/experiences/musee.png"],
+    "photoPaths": [
+      "assets/images/experiences/musee.png"
+    ],
     "duration": "2 h",
     "price": 7000,
     "currency": "XAF",
@@ -59,7 +69,9 @@
     "title": "Atelier vannerie « paniers souvenir mboa »",
     "type": "atelier_vannerie",
     "description": "Initiez-vous au tressage traditionnel des Grassfields auprès d'artisans : repartez avec votre propre panier « souvenir mboa » fabriqué à la main.",
-    "photoPaths": ["assets/images/experiences/paniers.png"],
+    "photoPaths": [
+      "assets/images/experiences/paniers.png"
+    ],
     "duration": "2 h 30",
     "price": 9000,
     "currency": "XAF",
@@ -70,10 +82,623 @@
     "title": "Safari guidé au lever du jour",
     "type": "nature",
     "description": "Safari matinal en 4x4 avec un guide agréé à la recherche des lions, éléphants et girafes autour des points d'eau de la savane.",
-    "photoPaths": ["assets/images/experiences/safari.png"],
+    "photoPaths": [
+      "assets/images/experiences/safari.png"
+    ],
     "duration": "4 h",
     "price": 20000,
     "currency": "XAF",
     "destinationId": "waza"
+  },
+  {
+    "id": "douala_exp",
+    "title": "Visite d'ateliers d'artisans locaux à Douala",
+    "type": "artisanat",
+    "description": "Une immersion authentique à Douala encadrée par un acteur local.",
+    "photoPaths": [
+      "https://loremflickr.com/600/400/craft,handmade,africa?lock=302"
+    ],
+    "duration": "2 h",
+    "price": 6000,
+    "currency": "XAF",
+    "destinationId": "douala"
+  },
+  {
+    "id": "yaounde_exp",
+    "title": "Visite d'ateliers d'artisans locaux à Yaoundé",
+    "type": "artisanat",
+    "description": "Une immersion authentique à Yaoundé encadrée par un acteur local.",
+    "photoPaths": [
+      "https://loremflickr.com/600/400/craft,handmade,africa?lock=303"
+    ],
+    "duration": "2 h",
+    "price": 6000,
+    "currency": "XAF",
+    "destinationId": "yaounde"
+  },
+  {
+    "id": "bamenda_exp",
+    "title": "Randonnée guidée et panoramas à Bamenda",
+    "type": "nature",
+    "description": "Une immersion authentique à Bamenda encadrée par un acteur local.",
+    "photoPaths": [
+      "https://loremflickr.com/600/400/hiking,mountain,africa?lock=304"
+    ],
+    "duration": "Demi-journée",
+    "price": 15000,
+    "currency": "XAF",
+    "destinationId": "bamenda"
+  },
+  {
+    "id": "foumban_exp",
+    "title": "Visite d'ateliers d'artisans locaux à Foumban",
+    "type": "artisanat",
+    "description": "Une immersion authentique à Foumban encadrée par un acteur local.",
+    "photoPaths": [
+      "https://loremflickr.com/600/400/craft,handmade,africa?lock=306"
+    ],
+    "duration": "2 h",
+    "price": 6000,
+    "currency": "XAF",
+    "destinationId": "foumban"
+  },
+  {
+    "id": "mont_cameroun_exp",
+    "title": "Randonnée guidée et panoramas à Mont Cameroun",
+    "type": "nature",
+    "description": "Une immersion authentique à Mont Cameroun encadrée par un acteur local.",
+    "photoPaths": [
+      "https://loremflickr.com/600/400/hiking,mountain,africa?lock=307"
+    ],
+    "duration": "Demi-journée",
+    "price": 15000,
+    "currency": "XAF",
+    "destinationId": "mont_cameroun"
+  },
+  {
+    "id": "ekom_nkam_exp",
+    "title": "Marche en forêt et baignade aux cascades à Chutes d'Ekom Nkam",
+    "type": "nature",
+    "description": "Une immersion authentique à Chutes d'Ekom Nkam encadrée par un acteur local.",
+    "photoPaths": [
+      "https://loremflickr.com/600/400/forest,waterfall,africa?lock=308"
+    ],
+    "duration": "3 h",
+    "price": 10000,
+    "currency": "XAF",
+    "destinationId": "ekom_nkam"
+  },
+  {
+    "id": "buea_exp",
+    "title": "Visite d'ateliers d'artisans locaux à Buéa",
+    "type": "artisanat",
+    "description": "Une immersion authentique à Buéa encadrée par un acteur local.",
+    "photoPaths": [
+      "https://loremflickr.com/600/400/craft,handmade,africa?lock=309"
+    ],
+    "duration": "2 h",
+    "price": 6000,
+    "currency": "XAF",
+    "destinationId": "buea"
+  },
+  {
+    "id": "rhumsiki_exp",
+    "title": "Randonnée guidée et panoramas à Pics de Rhumsiki",
+    "type": "nature",
+    "description": "Une immersion authentique à Pics de Rhumsiki encadrée par un acteur local.",
+    "photoPaths": [
+      "https://loremflickr.com/600/400/hiking,mountain,africa?lock=310"
+    ],
+    "duration": "Demi-journée",
+    "price": 15000,
+    "currency": "XAF",
+    "destinationId": "rhumsiki"
+  },
+  {
+    "id": "korup_exp",
+    "title": "Marche en forêt et baignade aux cascades à Parc National de Korup",
+    "type": "nature",
+    "description": "Une immersion authentique à Parc National de Korup encadrée par un acteur local.",
+    "photoPaths": [
+      "https://loremflickr.com/600/400/forest,waterfall,africa?lock=311"
+    ],
+    "duration": "3 h",
+    "price": 10000,
+    "currency": "XAF",
+    "destinationId": "korup"
+  },
+  {
+    "id": "ebogo_exp",
+    "title": "Marche en forêt et baignade aux cascades à Site Écotouristique d'Ebogo",
+    "type": "nature",
+    "description": "Une immersion authentique à Site Écotouristique d'Ebogo encadrée par un acteur local.",
+    "photoPaths": [
+      "https://loremflickr.com/600/400/forest,waterfall,africa?lock=312"
+    ],
+    "duration": "3 h",
+    "price": 10000,
+    "currency": "XAF",
+    "destinationId": "ebogo"
+  },
+  {
+    "id": "garoua_exp",
+    "title": "Visite d'ateliers d'artisans locaux à Garoua",
+    "type": "artisanat",
+    "description": "Une immersion authentique à Garoua encadrée par un acteur local.",
+    "photoPaths": [
+      "https://loremflickr.com/600/400/craft,handmade,africa?lock=313"
+    ],
+    "duration": "2 h",
+    "price": 6000,
+    "currency": "XAF",
+    "destinationId": "garoua"
+  },
+  {
+    "id": "maroua_exp",
+    "title": "Visite d'ateliers d'artisans locaux à Maroua",
+    "type": "artisanat",
+    "description": "Une immersion authentique à Maroua encadrée par un acteur local.",
+    "photoPaths": [
+      "https://loremflickr.com/600/400/craft,handmade,africa?lock=314"
+    ],
+    "duration": "2 h",
+    "price": 6000,
+    "currency": "XAF",
+    "destinationId": "maroua"
+  },
+  {
+    "id": "dschang_exp",
+    "title": "Randonnée guidée et panoramas à Dschang",
+    "type": "nature",
+    "description": "Une immersion authentique à Dschang encadrée par un acteur local.",
+    "photoPaths": [
+      "https://loremflickr.com/600/400/hiking,mountain,africa?lock=315"
+    ],
+    "duration": "Demi-journée",
+    "price": 15000,
+    "currency": "XAF",
+    "destinationId": "dschang"
+  },
+  {
+    "id": "lac_ossa_exp",
+    "title": "Safari d'observation de la faune à Reserve du Lac Ossa",
+    "type": "nature",
+    "description": "Une immersion authentique à Reserve du Lac Ossa encadrée par un acteur local.",
+    "photoPaths": [
+      "https://loremflickr.com/600/400/safari,wildlife,africa?lock=316"
+    ],
+    "duration": "Demi-journée",
+    "price": 20000,
+    "currency": "XAF",
+    "destinationId": "lac_ossa"
+  },
+  {
+    "id": "ngaoundere_exp",
+    "title": "Visite d'ateliers d'artisans locaux à Ngaoundéré",
+    "type": "artisanat",
+    "description": "Une immersion authentique à Ngaoundéré encadrée par un acteur local.",
+    "photoPaths": [
+      "https://loremflickr.com/600/400/craft,handmade,africa?lock=317"
+    ],
+    "duration": "2 h",
+    "price": 6000,
+    "currency": "XAF",
+    "destinationId": "ngaoundere"
+  },
+  {
+    "id": "boubandjida_exp",
+    "title": "Safari d'observation de la faune à Parc National de Bouba Ndjida",
+    "type": "nature",
+    "description": "Une immersion authentique à Parc National de Bouba Ndjida encadrée par un acteur local.",
+    "photoPaths": [
+      "https://loremflickr.com/600/400/safari,wildlife,africa?lock=318"
+    ],
+    "duration": "Demi-journée",
+    "price": 20000,
+    "currency": "XAF",
+    "destinationId": "boubandjida"
+  },
+  {
+    "id": "campomaan_exp",
+    "title": "Marche en forêt et baignade aux cascades à Parc National de Campo Ma'an",
+    "type": "nature",
+    "description": "Une immersion authentique à Parc National de Campo Ma'an encadrée par un acteur local.",
+    "photoPaths": [
+      "https://loremflickr.com/600/400/forest,waterfall,africa?lock=319"
+    ],
+    "duration": "3 h",
+    "price": 10000,
+    "currency": "XAF",
+    "destinationId": "campomaan"
+  },
+  {
+    "id": "reserve_dja_exp",
+    "title": "Marche en forêt et baignade aux cascades à Réserve de Faune du Dja",
+    "type": "nature",
+    "description": "Une immersion authentique à Réserve de Faune du Dja encadrée par un acteur local.",
+    "photoPaths": [
+      "https://loremflickr.com/600/400/forest,waterfall,africa?lock=320"
+    ],
+    "duration": "3 h",
+    "price": 10000,
+    "currency": "XAF",
+    "destinationId": "reserve_dja"
+  },
+  {
+    "id": "lac_tison_exp",
+    "title": "Safari d'observation de la faune à Lac Tison",
+    "type": "nature",
+    "description": "Une immersion authentique à Lac Tison encadrée par un acteur local.",
+    "photoPaths": [
+      "https://loremflickr.com/600/400/safari,wildlife,africa?lock=321"
+    ],
+    "duration": "Demi-journée",
+    "price": 20000,
+    "currency": "XAF",
+    "destinationId": "lac_tison"
+  },
+  {
+    "id": "bafoussam_exp",
+    "title": "Visite d'ateliers d'artisans locaux à Bafoussam",
+    "type": "artisanat",
+    "description": "Une immersion authentique à Bafoussam encadrée par un acteur local.",
+    "photoPaths": [
+      "https://loremflickr.com/600/400/craft,handmade,africa?lock=322"
+    ],
+    "duration": "2 h",
+    "price": 6000,
+    "currency": "XAF",
+    "destinationId": "bafoussam"
+  },
+  {
+    "id": "chutes_lobe_exp",
+    "title": "Atelier poisson braisé & fruits de mer à Chutes de la Lobé",
+    "type": "culinaire",
+    "description": "Une immersion authentique à Chutes de la Lobé encadrée par un acteur local.",
+    "photoPaths": [
+      "https://loremflickr.com/600/400/food,seafood,africa?lock=323"
+    ],
+    "duration": "2 h",
+    "price": 8000,
+    "currency": "XAF",
+    "destinationId": "chutes_lobe"
+  },
+  {
+    "id": "lobeke_exp",
+    "title": "Marche en forêt et baignade aux cascades à Parc National de Lobéké",
+    "type": "nature",
+    "description": "Une immersion authentique à Parc National de Lobéké encadrée par un acteur local.",
+    "photoPaths": [
+      "https://loremflickr.com/600/400/forest,waterfall,africa?lock=324"
+    ],
+    "duration": "3 h",
+    "price": 10000,
+    "currency": "XAF",
+    "destinationId": "lobeke"
+  },
+  {
+    "id": "gorges_kola_exp",
+    "title": "Randonnée guidée et panoramas à Gorges de Kola",
+    "type": "nature",
+    "description": "Une immersion authentique à Gorges de Kola encadrée par un acteur local.",
+    "photoPaths": [
+      "https://loremflickr.com/600/400/hiking,mountain,africa?lock=325"
+    ],
+    "duration": "Demi-journée",
+    "price": 15000,
+    "currency": "XAF",
+    "destinationId": "gorges_kola"
+  },
+  {
+    "id": "chefferie_bafut_exp",
+    "title": "Visite d'ateliers d'artisans locaux à Chefferie de Bafut",
+    "type": "artisanat",
+    "description": "Une immersion authentique à Chefferie de Bafut encadrée par un acteur local.",
+    "photoPaths": [
+      "https://loremflickr.com/600/400/craft,handmade,africa?lock=326"
+    ],
+    "duration": "2 h",
+    "price": 6000,
+    "currency": "XAF",
+    "destinationId": "chefferie_bafut"
+  },
+  {
+    "id": "lac_awing_exp",
+    "title": "Safari d'observation de la faune à Lac Awing",
+    "type": "nature",
+    "description": "Une immersion authentique à Lac Awing encadrée par un acteur local.",
+    "photoPaths": [
+      "https://loremflickr.com/600/400/safari,wildlife,africa?lock=327"
+    ],
+    "duration": "Demi-journée",
+    "price": 20000,
+    "currency": "XAF",
+    "destinationId": "lac_awing"
+  },
+  {
+    "id": "menchum_falls_exp",
+    "title": "Marche en forêt et baignade aux cascades à Chutes de la Menchum",
+    "type": "nature",
+    "description": "Une immersion authentique à Chutes de la Menchum encadrée par un acteur local.",
+    "photoPaths": [
+      "https://loremflickr.com/600/400/forest,waterfall,africa?lock=328"
+    ],
+    "duration": "3 h",
+    "price": 10000,
+    "currency": "XAF",
+    "destinationId": "menchum_falls"
+  },
+  {
+    "id": "lacs_jumeaux_exp",
+    "title": "Randonnée guidée et panoramas à Lacs Jumeaux du Manengouba",
+    "type": "nature",
+    "description": "Une immersion authentique à Lacs Jumeaux du Manengouba encadrée par un acteur local.",
+    "photoPaths": [
+      "https://loremflickr.com/600/400/hiking,mountain,africa?lock=329"
+    ],
+    "duration": "Demi-journée",
+    "price": 15000,
+    "currency": "XAF",
+    "destinationId": "lacs_jumeaux"
+  },
+  {
+    "id": "palais_kings_bell_exp",
+    "title": "Visite d'ateliers d'artisans locaux à La Pagode (Palais des Rois Bell)",
+    "type": "artisanat",
+    "description": "Une immersion authentique à La Pagode (Palais des Rois Bell) encadrée par un acteur local.",
+    "photoPaths": [
+      "https://loremflickr.com/600/400/craft,handmade,africa?lock=330"
+    ],
+    "duration": "2 h",
+    "price": 6000,
+    "currency": "XAF",
+    "destinationId": "palais_kings_bell"
+  },
+  {
+    "id": "musee_national_exp",
+    "title": "Visite d'ateliers d'artisans locaux à Musée National",
+    "type": "artisanat",
+    "description": "Une immersion authentique à Musée National encadrée par un acteur local.",
+    "photoPaths": [
+      "https://loremflickr.com/600/400/craft,handmade,africa?lock=331"
+    ],
+    "duration": "2 h",
+    "price": 6000,
+    "currency": "XAF",
+    "destinationId": "musee_national"
+  },
+  {
+    "id": "kousseri_exp",
+    "title": "Visite d'ateliers d'artisans locaux à Kousséri",
+    "type": "artisanat",
+    "description": "Une immersion authentique à Kousséri encadrée par un acteur local.",
+    "photoPaths": [
+      "https://loremflickr.com/600/400/craft,handmade,africa?lock=332"
+    ],
+    "duration": "2 h",
+    "price": 6000,
+    "currency": "XAF",
+    "destinationId": "kousseri"
+  },
+  {
+    "id": "bertoua_exp",
+    "title": "Visite d'ateliers d'artisans locaux à Bertoua",
+    "type": "artisanat",
+    "description": "Une immersion authentique à Bertoua encadrée par un acteur local.",
+    "photoPaths": [
+      "https://loremflickr.com/600/400/craft,handmade,africa?lock=333"
+    ],
+    "duration": "2 h",
+    "price": 6000,
+    "currency": "XAF",
+    "destinationId": "bertoua"
+  },
+  {
+    "id": "mont_oku_exp",
+    "title": "Randonnée guidée et panoramas à Mont Oku",
+    "type": "nature",
+    "description": "Une immersion authentique à Mont Oku encadrée par un acteur local.",
+    "photoPaths": [
+      "https://loremflickr.com/600/400/hiking,mountain,africa?lock=334"
+    ],
+    "duration": "Demi-journée",
+    "price": 15000,
+    "currency": "XAF",
+    "destinationId": "mont_oku"
+  },
+  {
+    "id": "chutes_metche_exp",
+    "title": "Marche en forêt et baignade aux cascades à Chutes de la Métché",
+    "type": "nature",
+    "description": "Une immersion authentique à Chutes de la Métché encadrée par un acteur local.",
+    "photoPaths": [
+      "https://loremflickr.com/600/400/forest,waterfall,africa?lock=335"
+    ],
+    "duration": "3 h",
+    "price": 10000,
+    "currency": "XAF",
+    "destinationId": "chutes_metche"
+  },
+  {
+    "id": "benoue_exp",
+    "title": "Safari d'observation de la faune à Parc National de la Bénoué",
+    "type": "nature",
+    "description": "Une immersion authentique à Parc National de la Bénoué encadrée par un acteur local.",
+    "photoPaths": [
+      "https://loremflickr.com/600/400/safari,wildlife,africa?lock=336"
+    ],
+    "duration": "Demi-journée",
+    "price": 20000,
+    "currency": "XAF",
+    "destinationId": "benoue"
+  },
+  {
+    "id": "mont_koupe_exp",
+    "title": "Randonnée guidée et panoramas à Mont Koupé",
+    "type": "nature",
+    "description": "Une immersion authentique à Mont Koupé encadrée par un acteur local.",
+    "photoPaths": [
+      "https://loremflickr.com/600/400/hiking,mountain,africa?lock=337"
+    ],
+    "duration": "Demi-journée",
+    "price": 15000,
+    "currency": "XAF",
+    "destinationId": "mont_koupe"
+  },
+  {
+    "id": "lac_baleng_exp",
+    "title": "Safari d'observation de la faune à Lac Baleng",
+    "type": "nature",
+    "description": "Une immersion authentique à Lac Baleng encadrée par un acteur local.",
+    "photoPaths": [
+      "https://loremflickr.com/600/400/safari,wildlife,africa?lock=338"
+    ],
+    "duration": "Demi-journée",
+    "price": 20000,
+    "currency": "XAF",
+    "destinationId": "lac_baleng"
+  },
+  {
+    "id": "sangmelima_exp",
+    "title": "Visite d'ateliers d'artisans locaux à Sangmélima",
+    "type": "artisanat",
+    "description": "Une immersion authentique à Sangmélima encadrée par un acteur local.",
+    "photoPaths": [
+      "https://loremflickr.com/600/400/craft,handmade,africa?lock=339"
+    ],
+    "duration": "2 h",
+    "price": 6000,
+    "currency": "XAF",
+    "destinationId": "sangmelima"
+  },
+  {
+    "id": "akok_bekoe_exp",
+    "title": "Marche en forêt et baignade aux cascades à Grottes d'Akok Bekoe",
+    "type": "nature",
+    "description": "Une immersion authentique à Grottes d'Akok Bekoe encadrée par un acteur local.",
+    "photoPaths": [
+      "https://loremflickr.com/600/400/forest,waterfall,africa?lock=340"
+    ],
+    "duration": "3 h",
+    "price": 10000,
+    "currency": "XAF",
+    "destinationId": "akok_bekoe"
+  },
+  {
+    "id": "ebolowa_exp",
+    "title": "Visite d'ateliers d'artisans locaux à Ebolowa",
+    "type": "artisanat",
+    "description": "Une immersion authentique à Ebolowa encadrée par un acteur local.",
+    "photoPaths": [
+      "https://loremflickr.com/600/400/craft,handmade,africa?lock=341"
+    ],
+    "duration": "2 h",
+    "price": 6000,
+    "currency": "XAF",
+    "destinationId": "ebolowa"
+  },
+  {
+    "id": "banyo_exp",
+    "title": "Randonnée guidée et panoramas à Mayo Banyo",
+    "type": "nature",
+    "description": "Une immersion authentique à Mayo Banyo encadrée par un acteur local.",
+    "photoPaths": [
+      "https://loremflickr.com/600/400/hiking,mountain,africa?lock=342"
+    ],
+    "duration": "Demi-journée",
+    "price": 15000,
+    "currency": "XAF",
+    "destinationId": "banyo"
+  },
+  {
+    "id": "pitoa_exp",
+    "title": "Visite d'ateliers d'artisans locaux à Pitoa",
+    "type": "artisanat",
+    "description": "Une immersion authentique à Pitoa encadrée par un acteur local.",
+    "photoPaths": [
+      "https://loremflickr.com/600/400/craft,handmade,africa?lock=343"
+    ],
+    "duration": "2 h",
+    "price": 6000,
+    "currency": "XAF",
+    "destinationId": "pitoa"
+  },
+  {
+    "id": "meiganga_exp",
+    "title": "Visite d'ateliers d'artisans locaux à Meiganga",
+    "type": "artisanat",
+    "description": "Une immersion authentique à Meiganga encadrée par un acteur local.",
+    "photoPaths": [
+      "https://loremflickr.com/600/400/craft,handmade,africa?lock=344"
+    ],
+    "duration": "2 h",
+    "price": 6000,
+    "currency": "XAF",
+    "destinationId": "meiganga"
+  },
+  {
+    "id": "plage_yoyo_exp",
+    "title": "Atelier poisson braisé & fruits de mer à Plage de Yoyo",
+    "type": "culinaire",
+    "description": "Une immersion authentique à Plage de Yoyo encadrée par un acteur local.",
+    "photoPaths": [
+      "https://loremflickr.com/600/400/food,seafood,africa?lock=345"
+    ],
+    "duration": "2 h",
+    "price": 8000,
+    "currency": "XAF",
+    "destinationId": "plage_yoyo"
+  },
+  {
+    "id": "monument_reunification_exp",
+    "title": "Visite d'ateliers d'artisans locaux à Monument de la Réunification",
+    "type": "artisanat",
+    "description": "Une immersion authentique à Monument de la Réunification encadrée par un acteur local.",
+    "photoPaths": [
+      "https://loremflickr.com/600/400/craft,handmade,africa?lock=346"
+    ],
+    "duration": "2 h",
+    "price": 6000,
+    "currency": "XAF",
+    "destinationId": "monument_reunification"
+  },
+  {
+    "id": "bana_exp",
+    "title": "Randonnée guidée et panoramas à Haut-Plateau de Bana",
+    "type": "nature",
+    "description": "Une immersion authentique à Haut-Plateau de Bana encadrée par un acteur local.",
+    "photoPaths": [
+      "https://loremflickr.com/600/400/hiking,mountain,africa?lock=347"
+    ],
+    "duration": "Demi-journée",
+    "price": 15000,
+    "currency": "XAF",
+    "destinationId": "bana"
+  },
+  {
+    "id": "campement_rhino_exp",
+    "title": "Safari d'observation de la faune à Campement des Éléphants",
+    "type": "nature",
+    "description": "Une immersion authentique à Campement des Éléphants encadrée par un acteur local.",
+    "photoPaths": [
+      "https://loremflickr.com/600/400/safari,wildlife,africa?lock=348"
+    ],
+    "duration": "Demi-journée",
+    "price": 20000,
+    "currency": "XAF",
+    "destinationId": "campement_rhino"
+  },
+  {
+    "id": "faro_exp",
+    "title": "Safari d'observation de la faune à Réserve du Faro",
+    "type": "nature",
+    "description": "Une immersion authentique à Réserve du Faro encadrée par un acteur local.",
+    "photoPaths": [
+      "https://loremflickr.com/600/400/safari,wildlife,africa?lock=349"
+    ],
+    "duration": "Demi-journée",
+    "price": 20000,
+    "currency": "XAF",
+    "destinationId": "faro"
   }
 ]

@@ -8,6 +8,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../enums/destination_category.dart';
 import '../l10n/app_localizations.dart';
 import '../models/destination.dart';
+import '../providers/catalog_providers.dart';
 import '../providers/destinations_provider.dart';
 import '../providers/locale_provider.dart';
 import '../theme/app_colors.dart';
@@ -18,6 +19,7 @@ import '../widgets/animated_list_item.dart';
 import '../widgets/popular_stay_card.dart';
 import '../widgets/section_header.dart';
 import '../widgets/smart_image.dart';
+import '../widgets/sponsor_card.dart';
 import 'detail_screen.dart';
 import 'emergency_screen.dart';
 
@@ -170,9 +172,49 @@ class HomeScreen extends ConsumerWidget {
                   ],
           ),
 
+          // Partenaires / sponsors (modèle de revenus)
+          if (query.isEmpty)
+            const SliverToBoxAdapter(child: _SponsorSection()),
+
           const SliverToBoxAdapter(child: SizedBox(height: AppSpacing.xxl)),
         ],
       ),
+    );
+  }
+}
+
+class _SponsorSection extends ConsumerWidget {
+  const _SponsorSection();
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final l10n = AppLocalizations.of(context);
+    final sponsorsAsync = ref.watch(sponsorsProvider);
+
+    return sponsorsAsync.maybeWhen(
+      data: (sponsors) {
+        if (sponsors.isEmpty) return const SizedBox.shrink();
+        return Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            const SizedBox(height: AppSpacing.lg),
+            SectionHeader(title: l10n.sectionSponsors),
+            const SizedBox(height: AppSpacing.md),
+            SizedBox(
+              height: 230,
+              child: ListView.separated(
+                scrollDirection: Axis.horizontal,
+                padding: const EdgeInsets.symmetric(horizontal: AppSpacing.lg),
+                itemCount: sponsors.length,
+                separatorBuilder: (_, __) =>
+                    const SizedBox(width: AppSpacing.md),
+                itemBuilder: (context, i) => SponsorCard(sponsor: sponsors[i]),
+              ),
+            ),
+          ],
+        );
+      },
+      orElse: () => const SizedBox.shrink(),
     );
   }
 }
@@ -189,11 +231,12 @@ class _EmptyState extends StatelessWidget {
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
-            Icon(Icons.explore_off, size: 56, color: Colors.grey.shade300),
+            const Icon(Icons.explore_off, size: 56, color: AppColors.textLight),
             const SizedBox(height: AppSpacing.md),
             Text(
               l10n.emptyNoDestinations,
-              style: AppTypography.emptyTitle.copyWith(color: Colors.grey.shade400),
+              style:
+                  AppTypography.emptyTitle.copyWith(color: AppColors.textLight),
             ),
           ],
         ),

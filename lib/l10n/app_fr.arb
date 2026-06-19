@@ -76,10 +76,28 @@
   "mapMyLocation": "Ma position",
   "mapZoomIn": "Zoom avant",
   "mapZoomOut": "Zoom arrière",
+  "mapLayers": "Type de carte",
   "actionView": "Voir",
 
   "sectionRegions": "Découvrir le Cameroun par région",
   "sectionPopularStays": "Séjours populaires",
   "priceFrom": "À partir de {price}",
-  "regionDestinationsCount": "{count, plural, one{{count} destination} other{{count} destinations}}"
+  "regionDestinationsCount": "{count, plural, one{{count} destination} other{{count} destinations}}",
+
+  "navProfile": "Profil",
+  "profileTitle": "Profil",
+  "profileTraveler": "Voyageur",
+  "profileTagline": "Explorez le Cameroun",
+  "statDestinations": "Destinations",
+  "statFavorites": "Favoris",
+  "profileLanguage": "Langue",
+  "profileAbout": "À propos",
+
+  "sectionSponsors": "Nos partenaires",
+  "navDiscover": "Découvrir",
+  "tabHotels": "Hôtels",
+  "tabRestaurants": "Restaurants",
+  "tabGuides": "Guides",
+  "accommodationsEmpty": "Aucun hébergement référencé.",
+  "restaurantsEmpty": "Aucun restaurant référencé."
 }

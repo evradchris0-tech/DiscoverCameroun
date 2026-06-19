@@ -2,9 +2,19 @@
   {
     "id": "resto_kribi_belle_plage",
     "name": "Restaurant La Belle Plage",
-    "photoPaths": ["assets/images/restaurants/belle_plage.png"],
-    "cuisines": ["Camerounaise", "Fruits de mer", "Grillades"],
-    "signatureDishes": ["Poisson braisé", "Crevettes grillées", "Bobolo"],
+    "photoPaths": [
+      "assets/images/restaurants/belle_plage.png"
+    ],
+    "cuisines": [
+      "Camerounaise",
+      "Fruits de mer",
+      "Grillades"
+    ],
+    "signatureDishes": [
+      "Poisson braisé",
+      "Crevettes grillées",
+      "Bobolo"
+    ],
     "priceRange": "€€",
     "rating": 4.6,
     "address": "Front de mer, Kribi",
@@ -16,13 +26,22 @@
   {
     "id": "resto_limbe_hot_spot",
     "name": "Hot Spot Down Beach",
-    "photoPaths": ["assets/images/restaurants/hotspot.png"],
-    "cuisines": ["Camerounaise", "Fruits de mer"],
-    "signatureDishes": ["Poisson pepe soup", "Plantain", "Eru"],
+    "photoPaths": [
+      "assets/images/restaurants/hotspot.png"
+    ],
+    "cuisines": [
+      "Camerounaise",
+      "Fruits de mer"
+    ],
+    "signatureDishes": [
+      "Poisson pepe soup",
+      "Plantain",
+      "Eru"
+    ],
     "priceRange": "€",
     "rating": 4.3,
     "address": "Down Beach, Limbe",
-    "latitude": 4.0030,
+    "latitude": 4.003,
     "longitude": 9.2015,
     "phone": "+237620000002",
     "destinationId": "limbe"
@@ -30,15 +49,1997 @@
   {
     "id": "resto_douala_fokou",
     "name": "Chez Fokou",
-    "photoPaths": ["assets/images/restaurants/fokou.png"],
-    "cuisines": ["Camerounaise"],
-    "signatureDishes": ["Ndolè", "Poulet DG", "Miondo"],
+    "photoPaths": [
+      "assets/images/restaurants/fokou.png"
+    ],
+    "cuisines": [
+      "Camerounaise"
+    ],
+    "signatureDishes": [
+      "Ndolè",
+      "Poulet DG",
+      "Miondo"
+    ],
     "priceRange": "€€",
     "rating": 4.5,
     "address": "Akwa, Douala",
     "latitude": 4.0489,
-    "longitude": 9.7010,
+    "longitude": 9.701,
     "phone": "+237620000003",
     "destinationId": "douala"
+  },
+  {
+    "id": "douala_resto1",
+    "name": "Le Douala Gourmet",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Grillades"
+    ],
+    "signatureDishes": [
+      "Eru",
+      "Koki",
+      "Poisson braisé"
+    ],
+    "priceRange": "€€",
+    "rating": 4.2,
+    "address": "Centre-ville, Douala",
+    "latitude": 4.0541,
+    "longitude": 9.7639,
+    "phone": "+237 6 942 38 62 78",
+    "destinationId": "douala"
+  },
+  {
+    "id": "douala_resto2",
+    "name": "Maquis Chez Fotso",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Maquis"
+    ],
+    "signatureDishes": [
+      "Brochettes",
+      "Mbongo Tchobi",
+      "Achu"
+    ],
+    "priceRange": "€",
+    "rating": 4.1,
+    "address": "Marché de Douala",
+    "latitude": 4.0481,
+    "longitude": 9.764899999999999,
+    "phone": "+237 6 955 45 75 95",
+    "destinationId": "douala"
+  },
+  {
+    "id": "yaounde_resto1",
+    "name": "Le Yaoundé Gourmet",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Grillades"
+    ],
+    "signatureDishes": [
+      "Koki",
+      "Poisson braisé",
+      "Brochettes"
+    ],
+    "priceRange": "€€",
+    "rating": 4.3,
+    "address": "Centre-ville, Yaoundé",
+    "latitude": 3.851,
+    "longitude": 11.4981,
+    "phone": "+237 6 955 45 75 95",
+    "destinationId": "yaounde"
+  },
+  {
+    "id": "yaounde_resto2",
+    "name": "Maquis Chez Abena",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Maquis"
+    ],
+    "signatureDishes": [
+      "Mbongo Tchobi",
+      "Achu",
+      "Taro sauce jaune"
+    ],
+    "priceRange": "€",
+    "rating": 4.2,
+    "address": "Marché de Yaoundé",
+    "latitude": 3.8449999999999998,
+    "longitude": 11.4991,
+    "phone": "+237 6 968 52 88 22",
+    "destinationId": "yaounde"
+  },
+  {
+    "id": "bamenda_resto1",
+    "name": "Le Bamenda Gourmet",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Grillades"
+    ],
+    "signatureDishes": [
+      "Poisson braisé",
+      "Brochettes",
+      "Mbongo Tchobi"
+    ],
+    "priceRange": "€€",
+    "rating": 4.4,
+    "address": "Centre-ville, Bamenda",
+    "latitude": 5.9661,
+    "longitude": 10.155100000000001,
+    "phone": "+237 6 968 52 88 22",
+    "destinationId": "bamenda"
+  },
+  {
+    "id": "bamenda_resto2",
+    "name": "Maquis Chez Ngono",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Maquis"
+    ],
+    "signatureDishes": [
+      "Ndolè",
+      "Poulet DG",
+      "Eru"
+    ],
+    "priceRange": "€",
+    "rating": 4.3,
+    "address": "Marché de Bamenda",
+    "latitude": 5.9601,
+    "longitude": 10.1561,
+    "phone": "+237 6 971 59 11 39",
+    "destinationId": "bamenda"
+  },
+  {
+    "id": "foumban_resto1",
+    "name": "Le Foumban Gourmet",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Grillades"
+    ],
+    "signatureDishes": [
+      "Mbongo Tchobi",
+      "Achu",
+      "Taro sauce jaune"
+    ],
+    "priceRange": "€€",
+    "rating": 4.1,
+    "address": "Centre-ville, Foumban",
+    "latitude": 5.7319,
+    "longitude": 10.8957,
+    "phone": "+237 6 984 66 24 56",
+    "destinationId": "foumban"
+  },
+  {
+    "id": "foumban_resto2",
+    "name": "Maquis Chez Eyenga",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Maquis"
+    ],
+    "signatureDishes": [
+      "Eru",
+      "Koki",
+      "Poisson braisé"
+    ],
+    "priceRange": "€",
+    "rating": 3.9,
+    "address": "Marché de Foumban",
+    "latitude": 5.7259,
+    "longitude": 10.8967,
+    "phone": "+237 6 907 73 37 73",
+    "destinationId": "foumban"
+  },
+  {
+    "id": "mont_cameroun_resto1",
+    "name": "Le Mont Cameroun Gourmet",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Grillades"
+    ],
+    "signatureDishes": [
+      "Ndolè",
+      "Poulet DG",
+      "Eru"
+    ],
+    "priceRange": "€€",
+    "rating": 4.2,
+    "address": "Centre-ville, Mont Cameroun",
+    "latitude": 4.2075000000000005,
+    "longitude": 9.1692,
+    "phone": "+237 6 907 73 37 73",
+    "destinationId": "mont_cameroun"
+  },
+  {
+    "id": "mont_cameroun_resto2",
+    "name": "Maquis Chez Manga",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Maquis"
+    ],
+    "signatureDishes": [
+      "Koki",
+      "Poisson braisé",
+      "Brochettes"
+    ],
+    "priceRange": "€",
+    "rating": 4.0,
+    "address": "Marché de Mont Cameroun",
+    "latitude": 4.2015,
+    "longitude": 9.1702,
+    "phone": "+237 6 910 80 50 90",
+    "destinationId": "mont_cameroun"
+  },
+  {
+    "id": "ekom_nkam_resto1",
+    "name": "Le Chutes d'Ekom Nkam Gourmet",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Grillades"
+    ],
+    "signatureDishes": [
+      "Poulet DG",
+      "Eru",
+      "Koki"
+    ],
+    "priceRange": "€€",
+    "rating": 4.3,
+    "address": "Centre-ville, Chutes d'Ekom Nkam",
+    "latitude": 4.9113,
+    "longitude": 9.8668,
+    "phone": "+237 6 910 80 50 90",
+    "destinationId": "ekom_nkam"
+  },
+  {
+    "id": "ekom_nkam_resto2",
+    "name": "Maquis Chez Biya",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Maquis"
+    ],
+    "signatureDishes": [
+      "Poisson braisé",
+      "Brochettes",
+      "Mbongo Tchobi"
+    ],
+    "priceRange": "€",
+    "rating": 4.1,
+    "address": "Marché de Chutes d'Ekom Nkam",
+    "latitude": 4.9052999999999995,
+    "longitude": 9.867799999999999,
+    "phone": "+237 6 923 87 63 17",
+    "destinationId": "ekom_nkam"
+  },
+  {
+    "id": "buea_resto1",
+    "name": "Le Buéa Gourmet",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Grillades"
+    ],
+    "signatureDishes": [
+      "Eru",
+      "Koki",
+      "Poisson braisé"
+    ],
+    "priceRange": "€€",
+    "rating": 4.4,
+    "address": "Centre-ville, Buéa",
+    "latitude": 4.1583000000000006,
+    "longitude": 9.2395,
+    "phone": "+237 6 923 87 63 17",
+    "destinationId": "buea"
+  },
+  {
+    "id": "buea_resto2",
+    "name": "Maquis Chez Onana",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Maquis"
+    ],
+    "signatureDishes": [
+      "Brochettes",
+      "Mbongo Tchobi",
+      "Achu"
+    ],
+    "priceRange": "€",
+    "rating": 4.2,
+    "address": "Marché de Buéa",
+    "latitude": 4.1523,
+    "longitude": 9.240499999999999,
+    "phone": "+237 6 936 94 76 34",
+    "destinationId": "buea"
+  },
+  {
+    "id": "rhumsiki_resto1",
+    "name": "Le Pics de Rhumsiki Gourmet",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Grillades"
+    ],
+    "signatureDishes": [
+      "Koki",
+      "Poisson braisé",
+      "Brochettes"
+    ],
+    "priceRange": "€€",
+    "rating": 4.0,
+    "address": "Centre-ville, Pics de Rhumsiki",
+    "latitude": 10.5724,
+    "longitude": 13.5782,
+    "phone": "+237 6 936 94 76 34",
+    "destinationId": "rhumsiki"
+  },
+  {
+    "id": "rhumsiki_resto2",
+    "name": "Maquis Chez Kamga",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Maquis"
+    ],
+    "signatureDishes": [
+      "Mbongo Tchobi",
+      "Achu",
+      "Taro sauce jaune"
+    ],
+    "priceRange": "€",
+    "rating": 4.3,
+    "address": "Marché de Pics de Rhumsiki",
+    "latitude": 10.5664,
+    "longitude": 13.5792,
+    "phone": "+237 6 949 11 89 51",
+    "destinationId": "rhumsiki"
+  },
+  {
+    "id": "korup_resto1",
+    "name": "Le Parc National de Korup Gourmet",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Grillades"
+    ],
+    "signatureDishes": [
+      "Poisson braisé",
+      "Brochettes",
+      "Mbongo Tchobi"
+    ],
+    "priceRange": "€€",
+    "rating": 4.1,
+    "address": "Centre-ville, Parc National de Korup",
+    "latitude": 5.0697,
+    "longitude": 8.8627,
+    "phone": "+237 6 949 11 89 51",
+    "destinationId": "korup"
+  },
+  {
+    "id": "korup_resto2",
+    "name": "Maquis Chez Njoya",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Maquis"
+    ],
+    "signatureDishes": [
+      "Ndolè",
+      "Poulet DG",
+      "Eru"
+    ],
+    "priceRange": "€",
+    "rating": 4.4,
+    "address": "Marché de Parc National de Korup",
+    "latitude": 5.0637,
+    "longitude": 8.8637,
+    "phone": "+237 6 952 18 12 68",
+    "destinationId": "korup"
+  },
+  {
+    "id": "ebogo_resto1",
+    "name": "Le Site Écotouristique d'Ebogo Gourmet",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Grillades"
+    ],
+    "signatureDishes": [
+      "Brochettes",
+      "Mbongo Tchobi",
+      "Achu"
+    ],
+    "priceRange": "€€",
+    "rating": 4.2,
+    "address": "Centre-ville, Site Écotouristique d'Ebogo",
+    "latitude": 3.4016,
+    "longitude": 11.4512,
+    "phone": "+237 6 952 18 12 68",
+    "destinationId": "ebogo"
+  },
+  {
+    "id": "ebogo_resto2",
+    "name": "Maquis Chez Mbarga",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Maquis"
+    ],
+    "signatureDishes": [
+      "Poulet DG",
+      "Eru",
+      "Koki"
+    ],
+    "priceRange": "€",
+    "rating": 3.9,
+    "address": "Marché de Site Écotouristique d'Ebogo",
+    "latitude": 3.3956,
+    "longitude": 11.4522,
+    "phone": "+237 6 965 25 25 85",
+    "destinationId": "ebogo"
+  },
+  {
+    "id": "garoua_resto1",
+    "name": "Le Garoua Gourmet",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Grillades"
+    ],
+    "signatureDishes": [
+      "Mbongo Tchobi",
+      "Achu",
+      "Taro sauce jaune"
+    ],
+    "priceRange": "€€",
+    "rating": 4.3,
+    "address": "Centre-ville, Garoua",
+    "latitude": 9.303,
+    "longitude": 13.3918,
+    "phone": "+237 6 965 25 25 85",
+    "destinationId": "garoua"
+  },
+  {
+    "id": "garoua_resto2",
+    "name": "Maquis Chez Nkeng",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Maquis"
+    ],
+    "signatureDishes": [
+      "Eru",
+      "Koki",
+      "Poisson braisé"
+    ],
+    "priceRange": "€",
+    "rating": 4.0,
+    "address": "Marché de Garoua",
+    "latitude": 9.297,
+    "longitude": 13.3928,
+    "phone": "+237 6 978 32 38 12",
+    "destinationId": "garoua"
+  },
+  {
+    "id": "maroua_resto1",
+    "name": "Le Maroua Gourmet",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Grillades"
+    ],
+    "signatureDishes": [
+      "Ndolè",
+      "Poulet DG",
+      "Eru"
+    ],
+    "priceRange": "€€",
+    "rating": 4.4,
+    "address": "Centre-ville, Maroua",
+    "latitude": 10.599,
+    "longitude": 14.312000000000001,
+    "phone": "+237 6 978 32 38 12",
+    "destinationId": "maroua"
+  },
+  {
+    "id": "maroua_resto2",
+    "name": "Maquis Chez Fotso",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Maquis"
+    ],
+    "signatureDishes": [
+      "Koki",
+      "Poisson braisé",
+      "Brochettes"
+    ],
+    "priceRange": "€",
+    "rating": 4.1,
+    "address": "Marché de Maroua",
+    "latitude": 10.593,
+    "longitude": 14.313,
+    "phone": "+237 6 981 39 51 29",
+    "destinationId": "maroua"
+  },
+  {
+    "id": "dschang_resto1",
+    "name": "Le Dschang Gourmet",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Grillades"
+    ],
+    "signatureDishes": [
+      "Poulet DG",
+      "Eru",
+      "Koki"
+    ],
+    "priceRange": "€€",
+    "rating": 4.0,
+    "address": "Centre-ville, Dschang",
+    "latitude": 5.4482,
+    "longitude": 10.0495,
+    "phone": "+237 6 981 39 51 29",
+    "destinationId": "dschang"
+  },
+  {
+    "id": "dschang_resto2",
+    "name": "Maquis Chez Abena",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Maquis"
+    ],
+    "signatureDishes": [
+      "Poisson braisé",
+      "Brochettes",
+      "Mbongo Tchobi"
+    ],
+    "priceRange": "€",
+    "rating": 4.2,
+    "address": "Marché de Dschang",
+    "latitude": 5.4422,
+    "longitude": 10.0505,
+    "phone": "+237 6 904 46 64 46",
+    "destinationId": "dschang"
+  },
+  {
+    "id": "lac_ossa_resto1",
+    "name": "Le Reserve du Lac Ossa Gourmet",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Grillades"
+    ],
+    "signatureDishes": [
+      "Eru",
+      "Koki",
+      "Poisson braisé"
+    ],
+    "priceRange": "€€",
+    "rating": 4.1,
+    "address": "Centre-ville, Reserve du Lac Ossa",
+    "latitude": 3.8233,
+    "longitude": 10.0518,
+    "phone": "+237 6 904 46 64 46",
+    "destinationId": "lac_ossa"
+  },
+  {
+    "id": "lac_ossa_resto2",
+    "name": "Maquis Chez Ngono",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Maquis"
+    ],
+    "signatureDishes": [
+      "Brochettes",
+      "Mbongo Tchobi",
+      "Achu"
+    ],
+    "priceRange": "€",
+    "rating": 4.3,
+    "address": "Marché de Reserve du Lac Ossa",
+    "latitude": 3.8173,
+    "longitude": 10.0528,
+    "phone": "+237 6 917 53 77 63",
+    "destinationId": "lac_ossa"
+  },
+  {
+    "id": "ngaoundere_resto1",
+    "name": "Le Ngaoundéré Gourmet",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Grillades"
+    ],
+    "signatureDishes": [
+      "Koki",
+      "Poisson braisé",
+      "Brochettes"
+    ],
+    "priceRange": "€€",
+    "rating": 4.2,
+    "address": "Centre-ville, Ngaoundéré",
+    "latitude": 7.323,
+    "longitude": 13.5793,
+    "phone": "+237 6 917 53 77 63",
+    "destinationId": "ngaoundere"
+  },
+  {
+    "id": "ngaoundere_resto2",
+    "name": "Maquis Chez Tchami",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Maquis"
+    ],
+    "signatureDishes": [
+      "Mbongo Tchobi",
+      "Achu",
+      "Taro sauce jaune"
+    ],
+    "priceRange": "€",
+    "rating": 4.4,
+    "address": "Marché de Ngaoundéré",
+    "latitude": 7.317,
+    "longitude": 13.5803,
+    "phone": "+237 6 920 60 90 80",
+    "destinationId": "ngaoundere"
+  },
+  {
+    "id": "boubandjida_resto1",
+    "name": "Le Parc National de Bouba Ndjida Gourmet",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Grillades"
+    ],
+    "signatureDishes": [
+      "Poisson braisé",
+      "Brochettes",
+      "Mbongo Tchobi"
+    ],
+    "priceRange": "€€",
+    "rating": 4.3,
+    "address": "Centre-ville, Parc National de Bouba Ndjida",
+    "latitude": 8.637,
+    "longitude": 14.6494,
+    "phone": "+237 6 920 60 90 80",
+    "destinationId": "boubandjida"
+  },
+  {
+    "id": "boubandjida_resto2",
+    "name": "Maquis Chez Eyenga",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Maquis"
+    ],
+    "signatureDishes": [
+      "Ndolè",
+      "Poulet DG",
+      "Eru"
+    ],
+    "priceRange": "€",
+    "rating": 3.9,
+    "address": "Marché de Parc National de Bouba Ndjida",
+    "latitude": 8.631,
+    "longitude": 14.6504,
+    "phone": "+237 6 933 67 13 97",
+    "destinationId": "boubandjida"
+  },
+  {
+    "id": "campomaan_resto1",
+    "name": "Le Parc National de Campo Ma'an Gourmet",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Grillades"
+    ],
+    "signatureDishes": [
+      "Brochettes",
+      "Mbongo Tchobi",
+      "Achu"
+    ],
+    "priceRange": "€€",
+    "rating": 4.4,
+    "address": "Centre-ville, Parc National de Campo Ma'an",
+    "latitude": 2.3512,
+    "longitude": 10.020900000000001,
+    "phone": "+237 6 933 67 13 97",
+    "destinationId": "campomaan"
+  },
+  {
+    "id": "campomaan_resto2",
+    "name": "Maquis Chez Manga",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Maquis"
+    ],
+    "signatureDishes": [
+      "Poulet DG",
+      "Eru",
+      "Koki"
+    ],
+    "priceRange": "€",
+    "rating": 4.0,
+    "address": "Marché de Parc National de Campo Ma'an",
+    "latitude": 2.3451999999999997,
+    "longitude": 10.0219,
+    "phone": "+237 6 946 74 26 24",
+    "destinationId": "campomaan"
+  },
+  {
+    "id": "reserve_dja_resto1",
+    "name": "Le Réserve de Faune du Dja Gourmet",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Grillades"
+    ],
+    "signatureDishes": [
+      "Mbongo Tchobi",
+      "Achu",
+      "Taro sauce jaune"
+    ],
+    "priceRange": "€€",
+    "rating": 4.0,
+    "address": "Centre-ville, Réserve de Faune du Dja",
+    "latitude": 3.0063,
+    "longitude": 12.996,
+    "phone": "+237 6 946 74 26 24",
+    "destinationId": "reserve_dja"
+  },
+  {
+    "id": "reserve_dja_resto2",
+    "name": "Maquis Chez Biya",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Maquis"
+    ],
+    "signatureDishes": [
+      "Eru",
+      "Koki",
+      "Poisson braisé"
+    ],
+    "priceRange": "€",
+    "rating": 4.1,
+    "address": "Marché de Réserve de Faune du Dja",
+    "latitude": 3.0002999999999997,
+    "longitude": 12.997,
+    "phone": "+237 6 959 81 39 41",
+    "destinationId": "reserve_dja"
+  },
+  {
+    "id": "lac_tison_resto1",
+    "name": "Le Lac Tison Gourmet",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Grillades"
+    ],
+    "signatureDishes": [
+      "Ndolè",
+      "Poulet DG",
+      "Eru"
+    ],
+    "priceRange": "€€",
+    "rating": 4.1,
+    "address": "Centre-ville, Lac Tison",
+    "latitude": 7.2215,
+    "longitude": 13.559000000000001,
+    "phone": "+237 6 959 81 39 41",
+    "destinationId": "lac_tison"
+  },
+  {
+    "id": "lac_tison_resto2",
+    "name": "Maquis Chez Onana",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Maquis"
+    ],
+    "signatureDishes": [
+      "Koki",
+      "Poisson braisé",
+      "Brochettes"
+    ],
+    "priceRange": "€",
+    "rating": 4.2,
+    "address": "Marché de Lac Tison",
+    "latitude": 7.2155,
+    "longitude": 13.56,
+    "phone": "+237 6 962 88 52 58",
+    "destinationId": "lac_tison"
+  },
+  {
+    "id": "bafoussam_resto1",
+    "name": "Le Bafoussam Gourmet",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Grillades"
+    ],
+    "signatureDishes": [
+      "Poulet DG",
+      "Eru",
+      "Koki"
+    ],
+    "priceRange": "€€",
+    "rating": 4.2,
+    "address": "Centre-ville, Bafoussam",
+    "latitude": 5.4807,
+    "longitude": 10.4133,
+    "phone": "+237 6 962 88 52 58",
+    "destinationId": "bafoussam"
+  },
+  {
+    "id": "bafoussam_resto2",
+    "name": "Maquis Chez Kamga",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Maquis"
+    ],
+    "signatureDishes": [
+      "Poisson braisé",
+      "Brochettes",
+      "Mbongo Tchobi"
+    ],
+    "priceRange": "€",
+    "rating": 4.3,
+    "address": "Marché de Bafoussam",
+    "latitude": 5.4746999999999995,
+    "longitude": 10.414299999999999,
+    "phone": "+237 6 975 95 65 75",
+    "destinationId": "bafoussam"
+  },
+  {
+    "id": "chutes_lobe_resto1",
+    "name": "Le Chutes de la Lobé Gourmet",
+    "photoPaths": [],
+    "cuisines": [
+      "Poisson & fruits de mer",
+      "Grillades"
+    ],
+    "signatureDishes": [
+      "Eru",
+      "Koki",
+      "Poisson braisé"
+    ],
+    "priceRange": "€€",
+    "rating": 4.3,
+    "address": "Centre-ville, Chutes de la Lobé",
+    "latitude": 2.8930000000000002,
+    "longitude": 9.8903,
+    "phone": "+237 6 975 95 65 75",
+    "destinationId": "chutes_lobe"
+  },
+  {
+    "id": "chutes_lobe_resto2",
+    "name": "Maquis Chez Njoya",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Maquis"
+    ],
+    "signatureDishes": [
+      "Brochettes",
+      "Mbongo Tchobi",
+      "Achu"
+    ],
+    "priceRange": "€",
+    "rating": 4.4,
+    "address": "Marché de Chutes de la Lobé",
+    "latitude": 2.887,
+    "longitude": 9.8913,
+    "phone": "+237 6 988 12 78 92",
+    "destinationId": "chutes_lobe"
+  },
+  {
+    "id": "lobeke_resto1",
+    "name": "Le Parc National de Lobéké Gourmet",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Grillades"
+    ],
+    "signatureDishes": [
+      "Koki",
+      "Poisson braisé",
+      "Brochettes"
+    ],
+    "priceRange": "€€",
+    "rating": 4.4,
+    "address": "Centre-ville, Parc National de Lobéké",
+    "latitude": 2.3819,
+    "longitude": 15.934700000000001,
+    "phone": "+237 6 988 12 78 92",
+    "destinationId": "lobeke"
+  },
+  {
+    "id": "lobeke_resto2",
+    "name": "Maquis Chez Mbarga",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Maquis"
+    ],
+    "signatureDishes": [
+      "Mbongo Tchobi",
+      "Achu",
+      "Taro sauce jaune"
+    ],
+    "priceRange": "€",
+    "rating": 3.9,
+    "address": "Marché de Parc National de Lobéké",
+    "latitude": 2.3758999999999997,
+    "longitude": 15.9357,
+    "phone": "+237 6 901 19 91 19",
+    "destinationId": "lobeke"
+  },
+  {
+    "id": "gorges_kola_resto1",
+    "name": "Le Gorges de Kola Gourmet",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Grillades"
+    ],
+    "signatureDishes": [
+      "Poisson braisé",
+      "Brochettes",
+      "Mbongo Tchobi"
+    ],
+    "priceRange": "€€",
+    "rating": 4.0,
+    "address": "Centre-ville, Gorges de Kola",
+    "latitude": 9.7748,
+    "longitude": 13.9745,
+    "phone": "+237 6 901 19 91 19",
+    "destinationId": "gorges_kola"
+  },
+  {
+    "id": "gorges_kola_resto2",
+    "name": "Maquis Chez Nkeng",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Maquis"
+    ],
+    "signatureDishes": [
+      "Ndolè",
+      "Poulet DG",
+      "Eru"
+    ],
+    "priceRange": "€",
+    "rating": 4.0,
+    "address": "Marché de Gorges de Kola",
+    "latitude": 9.7688,
+    "longitude": 13.9755,
+    "phone": "+237 6 914 26 14 36",
+    "destinationId": "gorges_kola"
+  },
+  {
+    "id": "chefferie_bafut_resto1",
+    "name": "Le Chefferie de Bafut Gourmet",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Grillades"
+    ],
+    "signatureDishes": [
+      "Brochettes",
+      "Mbongo Tchobi",
+      "Achu"
+    ],
+    "priceRange": "€€",
+    "rating": 4.1,
+    "address": "Centre-ville, Chefferie de Bafut",
+    "latitude": 6.0916,
+    "longitude": 10.107800000000001,
+    "phone": "+237 6 914 26 14 36",
+    "destinationId": "chefferie_bafut"
+  },
+  {
+    "id": "chefferie_bafut_resto2",
+    "name": "Maquis Chez Fotso",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Maquis"
+    ],
+    "signatureDishes": [
+      "Poulet DG",
+      "Eru",
+      "Koki"
+    ],
+    "priceRange": "€",
+    "rating": 4.1,
+    "address": "Marché de Chefferie de Bafut",
+    "latitude": 6.0855999999999995,
+    "longitude": 10.1088,
+    "phone": "+237 6 927 33 27 53",
+    "destinationId": "chefferie_bafut"
+  },
+  {
+    "id": "lac_awing_resto1",
+    "name": "Le Lac Awing Gourmet",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Grillades"
+    ],
+    "signatureDishes": [
+      "Mbongo Tchobi",
+      "Achu",
+      "Taro sauce jaune"
+    ],
+    "priceRange": "€€",
+    "rating": 4.2,
+    "address": "Centre-ville, Lac Awing",
+    "latitude": 5.8727,
+    "longitude": 10.270100000000001,
+    "phone": "+237 6 927 33 27 53",
+    "destinationId": "lac_awing"
+  },
+  {
+    "id": "lac_awing_resto2",
+    "name": "Maquis Chez Abena",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Maquis"
+    ],
+    "signatureDishes": [
+      "Eru",
+      "Koki",
+      "Poisson braisé"
+    ],
+    "priceRange": "€",
+    "rating": 4.2,
+    "address": "Marché de Lac Awing",
+    "latitude": 5.8667,
+    "longitude": 10.2711,
+    "phone": "+237 6 930 40 40 70",
+    "destinationId": "lac_awing"
+  },
+  {
+    "id": "menchum_falls_resto1",
+    "name": "Le Chutes de la Menchum Gourmet",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Grillades"
+    ],
+    "signatureDishes": [
+      "Ndolè",
+      "Poulet DG",
+      "Eru"
+    ],
+    "priceRange": "€€",
+    "rating": 4.3,
+    "address": "Centre-ville, Chutes de la Menchum",
+    "latitude": 6.26,
+    "longitude": 10.034,
+    "phone": "+237 6 930 40 40 70",
+    "destinationId": "menchum_falls"
+  },
+  {
+    "id": "menchum_falls_resto2",
+    "name": "Maquis Chez Ngono",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Maquis"
+    ],
+    "signatureDishes": [
+      "Koki",
+      "Poisson braisé",
+      "Brochettes"
+    ],
+    "priceRange": "€",
+    "rating": 4.3,
+    "address": "Marché de Chutes de la Menchum",
+    "latitude": 6.254,
+    "longitude": 10.035,
+    "phone": "+237 6 943 47 53 87",
+    "destinationId": "menchum_falls"
+  },
+  {
+    "id": "lacs_jumeaux_resto1",
+    "name": "Le Lacs Jumeaux du Manengouba Gourmet",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Grillades"
+    ],
+    "signatureDishes": [
+      "Poulet DG",
+      "Eru",
+      "Koki"
+    ],
+    "priceRange": "€€",
+    "rating": 4.4,
+    "address": "Centre-ville, Lacs Jumeaux du Manengouba",
+    "latitude": 5.0345,
+    "longitude": 9.8289,
+    "phone": "+237 6 943 47 53 87",
+    "destinationId": "lacs_jumeaux"
+  },
+  {
+    "id": "lacs_jumeaux_resto2",
+    "name": "Maquis Chez Tchami",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Maquis"
+    ],
+    "signatureDishes": [
+      "Poisson braisé",
+      "Brochettes",
+      "Mbongo Tchobi"
+    ],
+    "priceRange": "€",
+    "rating": 4.4,
+    "address": "Marché de Lacs Jumeaux du Manengouba",
+    "latitude": 5.0285,
+    "longitude": 9.8299,
+    "phone": "+237 6 956 54 66 14",
+    "destinationId": "lacs_jumeaux"
+  },
+  {
+    "id": "palais_kings_bell_resto1",
+    "name": "Le La Pagode (Palais des Rois Bell) Gourmet",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Grillades"
+    ],
+    "signatureDishes": [
+      "Eru",
+      "Koki",
+      "Poisson braisé"
+    ],
+    "priceRange": "€€",
+    "rating": 4.0,
+    "address": "Centre-ville, La Pagode (Palais des Rois Bell)",
+    "latitude": 4.0446,
+    "longitude": 9.682500000000001,
+    "phone": "+237 6 956 54 66 14",
+    "destinationId": "palais_kings_bell"
+  },
+  {
+    "id": "palais_kings_bell_resto2",
+    "name": "Maquis Chez Eyenga",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Maquis"
+    ],
+    "signatureDishes": [
+      "Brochettes",
+      "Mbongo Tchobi",
+      "Achu"
+    ],
+    "priceRange": "€",
+    "rating": 3.9,
+    "address": "Marché de La Pagode (Palais des Rois Bell)",
+    "latitude": 4.0386,
+    "longitude": 9.6835,
+    "phone": "+237 6 969 61 79 31",
+    "destinationId": "palais_kings_bell"
+  },
+  {
+    "id": "musee_national_resto1",
+    "name": "Le Musée National Gourmet",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Grillades"
+    ],
+    "signatureDishes": [
+      "Koki",
+      "Poisson braisé",
+      "Brochettes"
+    ],
+    "priceRange": "€€",
+    "rating": 4.1,
+    "address": "Centre-ville, Musée National",
+    "latitude": 3.8712,
+    "longitude": 11.512500000000001,
+    "phone": "+237 6 969 61 79 31",
+    "destinationId": "musee_national"
+  },
+  {
+    "id": "musee_national_resto2",
+    "name": "Maquis Chez Manga",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Maquis"
+    ],
+    "signatureDishes": [
+      "Mbongo Tchobi",
+      "Achu",
+      "Taro sauce jaune"
+    ],
+    "priceRange": "€",
+    "rating": 4.0,
+    "address": "Marché de Musée National",
+    "latitude": 3.8651999999999997,
+    "longitude": 11.5135,
+    "phone": "+237 6 972 68 92 48",
+    "destinationId": "musee_national"
+  },
+  {
+    "id": "kousseri_resto1",
+    "name": "Le Kousséri Gourmet",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Grillades"
+    ],
+    "signatureDishes": [
+      "Poisson braisé",
+      "Brochettes",
+      "Mbongo Tchobi"
+    ],
+    "priceRange": "€€",
+    "rating": 4.2,
+    "address": "Centre-ville, Kousséri",
+    "latitude": 12.0798,
+    "longitude": 15.0266,
+    "phone": "+237 6 972 68 92 48",
+    "destinationId": "kousseri"
+  },
+  {
+    "id": "kousseri_resto2",
+    "name": "Maquis Chez Biya",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Maquis"
+    ],
+    "signatureDishes": [
+      "Ndolè",
+      "Poulet DG",
+      "Eru"
+    ],
+    "priceRange": "€",
+    "rating": 4.1,
+    "address": "Marché de Kousséri",
+    "latitude": 12.0738,
+    "longitude": 15.0276,
+    "phone": "+237 6 985 75 15 65",
+    "destinationId": "kousseri"
+  },
+  {
+    "id": "bertoua_resto1",
+    "name": "Le Bertoua Gourmet",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Grillades"
+    ],
+    "signatureDishes": [
+      "Brochettes",
+      "Mbongo Tchobi",
+      "Achu"
+    ],
+    "priceRange": "€€",
+    "rating": 4.3,
+    "address": "Centre-ville, Bertoua",
+    "latitude": 4.5863000000000005,
+    "longitude": 13.6793,
+    "phone": "+237 6 985 75 15 65",
+    "destinationId": "bertoua"
+  },
+  {
+    "id": "bertoua_resto2",
+    "name": "Maquis Chez Onana",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Maquis"
+    ],
+    "signatureDishes": [
+      "Poulet DG",
+      "Eru",
+      "Koki"
+    ],
+    "priceRange": "€",
+    "rating": 4.2,
+    "address": "Marché de Bertoua",
+    "latitude": 4.5803,
+    "longitude": 13.680299999999999,
+    "phone": "+237 6 908 82 28 82",
+    "destinationId": "bertoua"
+  },
+  {
+    "id": "mont_oku_resto1",
+    "name": "Le Mont Oku Gourmet",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Grillades"
+    ],
+    "signatureDishes": [
+      "Mbongo Tchobi",
+      "Achu",
+      "Taro sauce jaune"
+    ],
+    "priceRange": "€€",
+    "rating": 4.4,
+    "address": "Centre-ville, Mont Oku",
+    "latitude": 6.2111,
+    "longitude": 10.453800000000001,
+    "phone": "+237 6 908 82 28 82",
+    "destinationId": "mont_oku"
+  },
+  {
+    "id": "mont_oku_resto2",
+    "name": "Maquis Chez Kamga",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Maquis"
+    ],
+    "signatureDishes": [
+      "Eru",
+      "Koki",
+      "Poisson braisé"
+    ],
+    "priceRange": "€",
+    "rating": 4.3,
+    "address": "Marché de Mont Oku",
+    "latitude": 6.2051,
+    "longitude": 10.4548,
+    "phone": "+237 6 911 89 41 99",
+    "destinationId": "mont_oku"
+  },
+  {
+    "id": "chutes_metche_resto1",
+    "name": "Le Chutes de la Métché Gourmet",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Grillades"
+    ],
+    "signatureDishes": [
+      "Ndolè",
+      "Poulet DG",
+      "Eru"
+    ],
+    "priceRange": "€€",
+    "rating": 4.0,
+    "address": "Centre-ville, Chutes de la Métché",
+    "latitude": 5.5427,
+    "longitude": 10.330400000000001,
+    "phone": "+237 6 911 89 41 99",
+    "destinationId": "chutes_metche"
+  },
+  {
+    "id": "chutes_metche_resto2",
+    "name": "Maquis Chez Njoya",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Maquis"
+    ],
+    "signatureDishes": [
+      "Koki",
+      "Poisson braisé",
+      "Brochettes"
+    ],
+    "priceRange": "€",
+    "rating": 4.4,
+    "address": "Marché de Chutes de la Métché",
+    "latitude": 5.5367,
+    "longitude": 10.3314,
+    "phone": "+237 6 924 96 54 26",
+    "destinationId": "chutes_metche"
+  },
+  {
+    "id": "benoue_resto1",
+    "name": "Le Parc National de la Bénoué Gourmet",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Grillades"
+    ],
+    "signatureDishes": [
+      "Poulet DG",
+      "Eru",
+      "Koki"
+    ],
+    "priceRange": "€€",
+    "rating": 4.1,
+    "address": "Centre-ville, Parc National de la Bénoué",
+    "latitude": 8.3615,
+    "longitude": 13.8008,
+    "phone": "+237 6 924 96 54 26",
+    "destinationId": "benoue"
+  },
+  {
+    "id": "benoue_resto2",
+    "name": "Maquis Chez Mbarga",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Maquis"
+    ],
+    "signatureDishes": [
+      "Poisson braisé",
+      "Brochettes",
+      "Mbongo Tchobi"
+    ],
+    "priceRange": "€",
+    "rating": 3.9,
+    "address": "Marché de Parc National de la Bénoué",
+    "latitude": 8.3555,
+    "longitude": 13.8018,
+    "phone": "+237 6 937 13 67 43",
+    "destinationId": "benoue"
+  },
+  {
+    "id": "mont_koupe_resto1",
+    "name": "Le Mont Koupé Gourmet",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Grillades"
+    ],
+    "signatureDishes": [
+      "Eru",
+      "Koki",
+      "Poisson braisé"
+    ],
+    "priceRange": "€€",
+    "rating": 4.2,
+    "address": "Centre-ville, Mont Koupé",
+    "latitude": 4.812,
+    "longitude": 9.7158,
+    "phone": "+237 6 937 13 67 43",
+    "destinationId": "mont_koupe"
+  },
+  {
+    "id": "mont_koupe_resto2",
+    "name": "Maquis Chez Nkeng",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Maquis"
+    ],
+    "signatureDishes": [
+      "Brochettes",
+      "Mbongo Tchobi",
+      "Achu"
+    ],
+    "priceRange": "€",
+    "rating": 4.0,
+    "address": "Marché de Mont Koupé",
+    "latitude": 4.806,
+    "longitude": 9.7168,
+    "phone": "+237 6 940 20 80 60",
+    "destinationId": "mont_koupe"
+  },
+  {
+    "id": "lac_baleng_resto1",
+    "name": "Le Lac Baleng Gourmet",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Grillades"
+    ],
+    "signatureDishes": [
+      "Koki",
+      "Poisson braisé",
+      "Brochettes"
+    ],
+    "priceRange": "€€",
+    "rating": 4.3,
+    "address": "Centre-ville, Lac Baleng",
+    "latitude": 5.5216,
+    "longitude": 10.4246,
+    "phone": "+237 6 940 20 80 60",
+    "destinationId": "lac_baleng"
+  },
+  {
+    "id": "lac_baleng_resto2",
+    "name": "Maquis Chez Fotso",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Maquis"
+    ],
+    "signatureDishes": [
+      "Mbongo Tchobi",
+      "Achu",
+      "Taro sauce jaune"
+    ],
+    "priceRange": "€",
+    "rating": 4.1,
+    "address": "Marché de Lac Baleng",
+    "latitude": 5.5156,
+    "longitude": 10.4256,
+    "phone": "+237 6 953 27 93 77",
+    "destinationId": "lac_baleng"
+  },
+  {
+    "id": "sangmelima_resto1",
+    "name": "Le Sangmélima Gourmet",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Grillades"
+    ],
+    "signatureDishes": [
+      "Poisson braisé",
+      "Brochettes",
+      "Mbongo Tchobi"
+    ],
+    "priceRange": "€€",
+    "rating": 4.4,
+    "address": "Centre-ville, Sangmélima",
+    "latitude": 2.9363,
+    "longitude": 11.9793,
+    "phone": "+237 6 953 27 93 77",
+    "destinationId": "sangmelima"
+  },
+  {
+    "id": "sangmelima_resto2",
+    "name": "Maquis Chez Abena",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Maquis"
+    ],
+    "signatureDishes": [
+      "Ndolè",
+      "Poulet DG",
+      "Eru"
+    ],
+    "priceRange": "€",
+    "rating": 4.2,
+    "address": "Marché de Sangmélima",
+    "latitude": 2.9303,
+    "longitude": 11.9803,
+    "phone": "+237 6 966 34 16 94",
+    "destinationId": "sangmelima"
+  },
+  {
+    "id": "akok_bekoe_resto1",
+    "name": "Le Grottes d'Akok Bekoe Gourmet",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Grillades"
+    ],
+    "signatureDishes": [
+      "Brochettes",
+      "Mbongo Tchobi",
+      "Achu"
+    ],
+    "priceRange": "€€",
+    "rating": 4.0,
+    "address": "Centre-ville, Grottes d'Akok Bekoe",
+    "latitude": 3.398,
+    "longitude": 11.328100000000001,
+    "phone": "+237 6 966 34 16 94",
+    "destinationId": "akok_bekoe"
+  },
+  {
+    "id": "akok_bekoe_resto2",
+    "name": "Maquis Chez Ngono",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Maquis"
+    ],
+    "signatureDishes": [
+      "Poulet DG",
+      "Eru",
+      "Koki"
+    ],
+    "priceRange": "€",
+    "rating": 4.3,
+    "address": "Marché de Grottes d'Akok Bekoe",
+    "latitude": 3.392,
+    "longitude": 11.3291,
+    "phone": "+237 6 979 41 29 21",
+    "destinationId": "akok_bekoe"
+  },
+  {
+    "id": "ebolowa_resto1",
+    "name": "Le Ebolowa Gourmet",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Grillades"
+    ],
+    "signatureDishes": [
+      "Mbongo Tchobi",
+      "Achu",
+      "Taro sauce jaune"
+    ],
+    "priceRange": "€€",
+    "rating": 4.1,
+    "address": "Centre-ville, Ebolowa",
+    "latitude": 2.9197,
+    "longitude": 11.146,
+    "phone": "+237 6 979 41 29 21",
+    "destinationId": "ebolowa"
+  },
+  {
+    "id": "ebolowa_resto2",
+    "name": "Maquis Chez Tchami",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Maquis"
+    ],
+    "signatureDishes": [
+      "Eru",
+      "Koki",
+      "Poisson braisé"
+    ],
+    "priceRange": "€",
+    "rating": 4.4,
+    "address": "Marché de Ebolowa",
+    "latitude": 2.9137,
+    "longitude": 11.147,
+    "phone": "+237 6 982 48 42 38",
+    "destinationId": "ebolowa"
+  },
+  {
+    "id": "banyo_resto1",
+    "name": "Le Mayo Banyo Gourmet",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Grillades"
+    ],
+    "signatureDishes": [
+      "Ndolè",
+      "Poulet DG",
+      "Eru"
+    ],
+    "priceRange": "€€",
+    "rating": 4.2,
+    "address": "Centre-ville, Mayo Banyo",
+    "latitude": 6.7592,
+    "longitude": 11.811300000000001,
+    "phone": "+237 6 982 48 42 38",
+    "destinationId": "banyo"
+  },
+  {
+    "id": "banyo_resto2",
+    "name": "Maquis Chez Eyenga",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Maquis"
+    ],
+    "signatureDishes": [
+      "Koki",
+      "Poisson braisé",
+      "Brochettes"
+    ],
+    "priceRange": "€",
+    "rating": 3.9,
+    "address": "Marché de Mayo Banyo",
+    "latitude": 6.7532,
+    "longitude": 11.8123,
+    "phone": "+237 6 905 55 55 55",
+    "destinationId": "banyo"
+  },
+  {
+    "id": "pitoa_resto1",
+    "name": "Le Pitoa Gourmet",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Grillades"
+    ],
+    "signatureDishes": [
+      "Poulet DG",
+      "Eru",
+      "Koki"
+    ],
+    "priceRange": "€€",
+    "rating": 4.3,
+    "address": "Centre-ville, Pitoa",
+    "latitude": 9.3935,
+    "longitude": 13.517800000000001,
+    "phone": "+237 6 905 55 55 55",
+    "destinationId": "pitoa"
+  },
+  {
+    "id": "pitoa_resto2",
+    "name": "Maquis Chez Manga",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Maquis"
+    ],
+    "signatureDishes": [
+      "Poisson braisé",
+      "Brochettes",
+      "Mbongo Tchobi"
+    ],
+    "priceRange": "€",
+    "rating": 4.0,
+    "address": "Marché de Pitoa",
+    "latitude": 9.3875,
+    "longitude": 13.5188,
+    "phone": "+237 6 918 62 68 72",
+    "destinationId": "pitoa"
+  },
+  {
+    "id": "meiganga_resto1",
+    "name": "Le Meiganga Gourmet",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Grillades"
+    ],
+    "signatureDishes": [
+      "Eru",
+      "Koki",
+      "Poisson braisé"
+    ],
+    "priceRange": "€€",
+    "rating": 4.4,
+    "address": "Centre-ville, Meiganga",
+    "latitude": 6.5197,
+    "longitude": 14.296000000000001,
+    "phone": "+237 6 918 62 68 72",
+    "destinationId": "meiganga"
+  },
+  {
+    "id": "meiganga_resto2",
+    "name": "Maquis Chez Biya",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Maquis"
+    ],
+    "signatureDishes": [
+      "Brochettes",
+      "Mbongo Tchobi",
+      "Achu"
+    ],
+    "priceRange": "€",
+    "rating": 4.1,
+    "address": "Marché de Meiganga",
+    "latitude": 6.5137,
+    "longitude": 14.297,
+    "phone": "+237 6 921 69 81 89",
+    "destinationId": "meiganga"
+  },
+  {
+    "id": "plage_yoyo_resto1",
+    "name": "Le Plage de Yoyo Gourmet",
+    "photoPaths": [],
+    "cuisines": [
+      "Poisson & fruits de mer",
+      "Grillades"
+    ],
+    "signatureDishes": [
+      "Koki",
+      "Poisson braisé",
+      "Brochettes"
+    ],
+    "priceRange": "€€",
+    "rating": 4.0,
+    "address": "Centre-ville, Plage de Yoyo",
+    "latitude": 3.5163,
+    "longitude": 9.6065,
+    "phone": "+237 6 921 69 81 89",
+    "destinationId": "plage_yoyo"
+  },
+  {
+    "id": "plage_yoyo_resto2",
+    "name": "Maquis Chez Onana",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Maquis"
+    ],
+    "signatureDishes": [
+      "Mbongo Tchobi",
+      "Achu",
+      "Taro sauce jaune"
+    ],
+    "priceRange": "€",
+    "rating": 4.2,
+    "address": "Marché de Plage de Yoyo",
+    "latitude": 3.5103,
+    "longitude": 9.6075,
+    "phone": "+237 6 934 76 94 16",
+    "destinationId": "plage_yoyo"
+  },
+  {
+    "id": "monument_reunification_resto1",
+    "name": "Le Monument de la Réunification Gourmet",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Grillades"
+    ],
+    "signatureDishes": [
+      "Poisson braisé",
+      "Brochettes",
+      "Mbongo Tchobi"
+    ],
+    "priceRange": "€€",
+    "rating": 4.1,
+    "address": "Centre-ville, Monument de la Réunification",
+    "latitude": 3.8675,
+    "longitude": 11.512500000000001,
+    "phone": "+237 6 934 76 94 16",
+    "destinationId": "monument_reunification"
+  },
+  {
+    "id": "monument_reunification_resto2",
+    "name": "Maquis Chez Kamga",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Maquis"
+    ],
+    "signatureDishes": [
+      "Ndolè",
+      "Poulet DG",
+      "Eru"
+    ],
+    "priceRange": "€",
+    "rating": 4.3,
+    "address": "Marché de Monument de la Réunification",
+    "latitude": 3.8615,
+    "longitude": 11.5135,
+    "phone": "+237 6 947 83 17 33",
+    "destinationId": "monument_reunification"
+  },
+  {
+    "id": "bana_resto1",
+    "name": "Le Haut-Plateau de Bana Gourmet",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Grillades"
+    ],
+    "signatureDishes": [
+      "Brochettes",
+      "Mbongo Tchobi",
+      "Achu"
+    ],
+    "priceRange": "€€",
+    "rating": 4.2,
+    "address": "Centre-ville, Haut-Plateau de Bana",
+    "latitude": 5.164,
+    "longitude": 10.272300000000001,
+    "phone": "+237 6 947 83 17 33",
+    "destinationId": "bana"
+  },
+  {
+    "id": "bana_resto2",
+    "name": "Maquis Chez Njoya",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Maquis"
+    ],
+    "signatureDishes": [
+      "Poulet DG",
+      "Eru",
+      "Koki"
+    ],
+    "priceRange": "€",
+    "rating": 4.4,
+    "address": "Marché de Haut-Plateau de Bana",
+    "latitude": 5.1579999999999995,
+    "longitude": 10.2733,
+    "phone": "+237 6 950 90 30 50",
+    "destinationId": "bana"
+  },
+  {
+    "id": "campement_rhino_resto1",
+    "name": "Le Campement des Éléphants Gourmet",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Grillades"
+    ],
+    "signatureDishes": [
+      "Mbongo Tchobi",
+      "Achu",
+      "Taro sauce jaune"
+    ],
+    "priceRange": "€€",
+    "rating": 4.3,
+    "address": "Centre-ville, Campement des Éléphants",
+    "latitude": 8.8783,
+    "longitude": 14.1165,
+    "phone": "+237 6 950 90 30 50",
+    "destinationId": "campement_rhino"
+  },
+  {
+    "id": "campement_rhino_resto2",
+    "name": "Maquis Chez Mbarga",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Maquis"
+    ],
+    "signatureDishes": [
+      "Eru",
+      "Koki",
+      "Poisson braisé"
+    ],
+    "priceRange": "€",
+    "rating": 3.9,
+    "address": "Marché de Campement des Éléphants",
+    "latitude": 8.8723,
+    "longitude": 14.1175,
+    "phone": "+237 6 963 97 43 67",
+    "destinationId": "campement_rhino"
+  },
+  {
+    "id": "faro_resto1",
+    "name": "Le Réserve du Faro Gourmet",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Grillades"
+    ],
+    "signatureDishes": [
+      "Ndolè",
+      "Poulet DG",
+      "Eru"
+    ],
+    "priceRange": "€€",
+    "rating": 4.4,
+    "address": "Centre-ville, Réserve du Faro",
+    "latitude": 8.3615,
+    "longitude": 12.866,
+    "phone": "+237 6 963 97 43 67",
+    "destinationId": "faro"
+  },
+  {
+    "id": "faro_resto2",
+    "name": "Maquis Chez Nkeng",
+    "photoPaths": [],
+    "cuisines": [
+      "Camerounaise",
+      "Maquis"
+    ],
+    "signatureDishes": [
+      "Koki",
+      "Poisson braisé",
+      "Brochettes"
+    ],
+    "priceRange": "€",
+    "rating": 4.0,
+    "address": "Marché de Réserve du Faro",
+    "latitude": 8.3555,
+    "longitude": 12.866999999999999,
+    "phone": "+237 6 976 14 56 84",
+    "destinationId": "faro"
   }
 ]

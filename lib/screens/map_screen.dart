@@ -1,6 +1,6 @@
-// NOTE : Carte interactive du Cameroun avec pins par catégorie, aperçu au tap,
-// position de l'utilisateur, contrôles zoom/recentrage et fond de carte épuré (CARTO).
-// Concept mis en avant : flutter_map + MapController + état de sélection local.
+// NOTE : Carte du Cameroun « façon Google » sans clé : flutter_map + bascule
+// Plan / Satellite (imagerie Esri), animations de caméra, pins par catégorie,
+// aperçu au tap, position de l'utilisateur et contrôles zoom/recentrage.
 
 import 'package:flutter/material.dart';
 import 'package:flutter_map/flutter_map.dart';
@@ -22,6 +22,8 @@ import '../theme/category_style.dart';
 import '../widgets/smart_image.dart';
 import 'detail_screen.dart';
 
+enum _MapType { plan, satellite }
+
 class MapScreen extends ConsumerStatefulWidget {
   const MapScreen({super.key});
 
@@ -29,22 +31,113 @@ class MapScreen extends ConsumerStatefulWidget {
   ConsumerState<MapScreen> createState() => _MapScreenState();
 }
 
-class _MapScreenState extends ConsumerState<MapScreen> {
+class _MapScreenState extends ConsumerState<MapScreen>
+    with TickerProviderStateMixin {
   static const _cameroonCenter = LatLng(4.5, 11.5);
   static const _initialZoom = 5.5;
+  static const _minZoom = 4.0;
+  static const _maxZoom = 18.0;
 
-  // Fond de carte épuré CARTO Voyager (cohérent avec le thème éditorial).
-  static const _tileUrl =
+  // Plan : CARTO Voyager (style clair proche de Google).
+  static const _planUrl =
       'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png';
-  static const _subdomains = ['a', 'b', 'c', 'd'];
+  static const _planSubdomains = ['a', 'b', 'c', 'd'];
+  // Satellite : imagerie Esri + couche de labels (vue hybride type Google).
+  static const _satUrl =
+      'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}';
+  static const _satLabelsUrl =
+      'https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}';
 
   final MapController _mapController = MapController();
+  AnimationController? _moveCtrl;
   DestinationCategory? _filter;
   Destination? _selected;
+  _MapType _mapType = _MapType.plan;
+
+  @override
+  void dispose() {
+    _moveCtrl?.dispose();
+    super.dispose();
+  }
+
+  /// Déplacement animé de la caméra (fly-to façon Google Maps).
+  void _animatedMove(LatLng dest, double zoom) {
+    final cam = _mapController.camera;
+    final latTween = Tween(begin: cam.center.latitude, end: dest.latitude);
+    final lngTween = Tween(begin: cam.center.longitude, end: dest.longitude);
+    final zoomTween =
+        Tween(begin: cam.zoom, end: zoom.clamp(_minZoom, _maxZoom));
+
+    _moveCtrl?.dispose();
+    final ctrl = AnimationController(
+        vsync: this, duration: const Duration(milliseconds: 550));
+    _moveCtrl = ctrl;
+    final anim = CurvedAnimation(parent: ctrl, curve: Curves.easeInOutCubic);
+    ctrl.addListener(() {
+      _mapController.move(
+        LatLng(latTween.evaluate(anim), lngTween.evaluate(anim)),
+        zoomTween.evaluate(anim),
+      );
+    });
+    ctrl.forward();
+  }
 
   void _zoomBy(double delta) {
     final cam = _mapController.camera;
-    _mapController.move(cam.center, cam.zoom + delta);
+    _animatedMove(cam.center, cam.zoom + delta);
+  }
+
+  List<Widget> _baseLayers() {
+    if (_mapType == _MapType.satellite) {
+      return [
+        TileLayer(
+          urlTemplate: _satUrl,
+          userAgentPackageName: 'com.example.discover_cameroon',
+          maxNativeZoom: 18,
+        ),
+        TileLayer(
+          urlTemplate: _satLabelsUrl,
+          userAgentPackageName: 'com.example.discover_cameroon',
+          maxNativeZoom: 18,
+        ),
+      ];
+    }
+    return [
+      TileLayer(
+        urlTemplate: _planUrl,
+        subdomains: _planSubdomains,
+        userAgentPackageName: 'com.example.discover_cameroon',
+      ),
+    ];
+  }
+
+  RichAttributionWidget _attribution() {
+    if (_mapType == _MapType.satellite) {
+      return RichAttributionWidget(
+        alignment: AttributionAlignment.bottomLeft,
+        attributions: [
+          TextSourceAttribution(
+            'Esri, Maxar, Earthstar Geographics',
+            onTap: () => launchUrl(
+              Uri.parse('https://www.esri.com'),
+              mode: LaunchMode.externalApplication,
+            ),
+          ),
+        ],
+      );
+    }
+    return RichAttributionWidget(
+      alignment: AttributionAlignment.bottomLeft,
+      attributions: [
+        TextSourceAttribution('OpenStreetMap',
+            onTap: () => launchUrl(
+                Uri.parse('https://www.openstreetmap.org/copyright'),
+                mode: LaunchMode.externalApplication)),
+        TextSourceAttribution('CARTO',
+            onTap: () => launchUrl(Uri.parse('https://carto.com/attributions'),
+                mode: LaunchMode.externalApplication)),
+      ],
+    );
   }
 
   @override
@@ -70,46 +163,22 @@ class _MapScreenState extends ConsumerState<MapScreen> {
                 options: MapOptions(
                   initialCenter: _cameroonCenter,
                   initialZoom: _initialZoom,
-                  minZoom: 4,
-                  maxZoom: 16,
+                  minZoom: _minZoom,
+                  maxZoom: _maxZoom,
                   onTap: (_, __) => setState(() => _selected = null),
                 ),
                 children: [
-                  TileLayer(
-                    urlTemplate: _tileUrl,
-                    subdomains: _subdomains,
-                    userAgentPackageName: 'com.example.discover_cameroon',
-                  ),
+                  ..._baseLayers(),
                   MarkerLayer(
                     markers: [
-                      for (final dest in filtered)
-                        _destinationMarker(dest),
+                      for (final dest in filtered) _destinationMarker(dest),
                       if (userLocation != null) _userMarker(userLocation),
                     ],
                   ),
-                  RichAttributionWidget(
-                    alignment: AttributionAlignment.bottomLeft,
-                    attributions: [
-                      TextSourceAttribution(
-                        'OpenStreetMap',
-                        onTap: () => launchUrl(
-                          Uri.parse('https://www.openstreetmap.org/copyright'),
-                          mode: LaunchMode.externalApplication,
-                        ),
-                      ),
-                      TextSourceAttribution(
-                        'CARTO',
-                        onTap: () => launchUrl(
-                          Uri.parse('https://carto.com/attributions'),
-                          mode: LaunchMode.externalApplication,
-                        ),
-                      ),
-                    ],
-                  ),
+                  _attribution(),
                 ],
               ),
 
-              // Filtres par catégorie (en haut)
               _FilterOverlay(
                 selected: _filter,
                 onSelected: (cat) => setState(() {
@@ -118,12 +187,21 @@ class _MapScreenState extends ConsumerState<MapScreen> {
                 }),
               ),
 
-              // Contrôles (zoom, ma position, recentrage)
+              // Contrôles (calques, zoom, position, recentrage)
               Positioned(
                 right: AppSpacing.md,
                 top: 72,
                 child: Column(
                   children: [
+                    _MapButton(
+                      icon: Icons.layers_outlined,
+                      tooltip: l10n.mapLayers,
+                      active: _mapType == _MapType.satellite,
+                      onTap: () => setState(() => _mapType =
+                          _mapType == _MapType.plan
+                              ? _MapType.satellite
+                              : _MapType.plan),
+                    ),
                     _MapButton(
                       icon: Icons.add,
                       tooltip: l10n.mapZoomIn,
@@ -139,7 +217,7 @@ class _MapScreenState extends ConsumerState<MapScreen> {
                       tooltip: l10n.mapMyLocation,
                       onTap: () {
                         if (userLocation != null) {
-                          _mapController.move(userLocation, 12);
+                          _animatedMove(userLocation, 12);
                         } else {
                           ref.invalidate(userLocationProvider);
                         }
@@ -148,14 +226,12 @@ class _MapScreenState extends ConsumerState<MapScreen> {
                     _MapButton(
                       icon: Icons.center_focus_strong,
                       tooltip: l10n.mapRecenter,
-                      onTap: () =>
-                          _mapController.move(_cameroonCenter, _initialZoom),
+                      onTap: () => _animatedMove(_cameroonCenter, _initialZoom),
                     ),
                   ],
                 ),
               ),
 
-              // Aperçu de la destination sélectionnée (en bas)
               Positioned(
                 left: AppSpacing.md,
                 right: AppSpacing.md,
@@ -206,8 +282,8 @@ class _MapScreenState extends ConsumerState<MapScreen> {
       child: GestureDetector(
         onTap: () {
           setState(() => _selected = dest);
-          _mapController.move(
-              LatLng(dest.latitude, dest.longitude), _mapController.camera.zoom);
+          _animatedMove(LatLng(dest.latitude, dest.longitude),
+              _mapController.camera.zoom);
         },
         child: AnimatedContainer(
           duration: const Duration(milliseconds: 200),
@@ -239,12 +315,10 @@ class _MapScreenState extends ConsumerState<MapScreen> {
       height: 22,
       child: Container(
         decoration: BoxDecoration(
-          color: Colors.blueAccent,
+          color: AppColors.userLocation,
           shape: BoxShape.circle,
           border: Border.all(color: Colors.white, width: 3),
-          boxShadow: const [
-            BoxShadow(color: AppColors.shadow, blurRadius: 4),
-          ],
+          boxShadow: const [BoxShadow(color: AppColors.shadow, blurRadius: 4)],
         ),
       ),
     );
@@ -255,16 +329,20 @@ class _MapButton extends StatelessWidget {
   final IconData icon;
   final String tooltip;
   final VoidCallback onTap;
+  final bool active;
 
   const _MapButton(
-      {required this.icon, required this.tooltip, required this.onTap});
+      {required this.icon,
+      required this.tooltip,
+      required this.onTap,
+      this.active = false});
 
   @override
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.only(bottom: AppSpacing.sm),
       child: Material(
-        color: AppColors.surface,
+        color: active ? AppColors.primary : AppColors.surface,
         shape: const CircleBorder(),
         elevation: 3,
         shadowColor: AppColors.shadow,
@@ -276,7 +354,8 @@ class _MapButton extends StatelessWidget {
             child: SizedBox(
               width: 42,
               height: 42,
-              child: Icon(icon, color: AppColors.primary, size: 22),
+              child: Icon(icon,
+                  color: active ? Colors.white : AppColors.primary, size: 22),
             ),
           ),
         ),
@@ -354,8 +433,8 @@ class _DestinationPreview extends StatelessWidget {
                   customBorder: const CircleBorder(),
                   child: const Padding(
                     padding: EdgeInsets.all(AppSpacing.xxs),
-                    child: Icon(Icons.close,
-                        size: 18, color: AppColors.textLight),
+                    child:
+                        Icon(Icons.close, size: 18, color: AppColors.textLight),
                   ),
                 ),
               ],
@@ -427,8 +506,7 @@ class _FilterOverlay extends StatelessWidget {
         avatar: icon == null
             ? null
             : Icon(icon,
-                size: 16,
-                color: isSelected ? Colors.white : category?.color),
+                size: 16, color: isSelected ? Colors.white : category?.color),
         label: Text(label),
         selected: isSelected,
         showCheckmark: false,

@@ -9,6 +9,7 @@ import '../theme/app_colors.dart';
 import '../theme/app_radius.dart';
 import '../theme/app_spacing.dart';
 import '../theme/app_typography.dart';
+import 'smart_image.dart';
 
 class ExperienceCard extends StatelessWidget {
   final TouristExperience experience;
@@ -53,10 +54,12 @@ class ExperienceCard extends StatelessWidget {
                 height: 130,
                 width: double.infinity,
                 child: experience.photoPaths.isNotEmpty
-                    ? Image.asset(
-                        experience.photoPaths.first,
-                        fit: BoxFit.cover,
-                        errorBuilder: (_, __, ___) => _fallback(),
+                    ? SmartImage(
+                        source: experience.photoPaths.first,
+                        width: double.infinity,
+                        height: 130,
+                        fallbackColor: AppColors.primary,
+                        fallbackIcon: Icons.image_outlined,
                       )
                     : _fallback(),
               ),

@@ -11,6 +11,7 @@ import '../data/repositories/emergency_repository.dart';
 import '../data/repositories/experience_repository.dart';
 import '../data/repositories/guide_repository.dart';
 import '../data/repositories/restaurant_repository.dart';
+import '../data/repositories/sponsor_repository.dart';
 
 /// Source de données bas-niveau (JSON local aujourd'hui).
 final localJsonDataSourceProvider =
@@ -38,4 +39,8 @@ final experienceRepositoryProvider = Provider<ExperienceRepository>(
 
 final emergencyRepositoryProvider = Provider<EmergencyRepository>(
   (ref) => EmergencyRepository(ref.watch(localJsonDataSourceProvider)),
+);
+
+final sponsorRepositoryProvider = Provider<SponsorRepository>(
+  (ref) => SponsorRepository(ref.watch(localJsonDataSourceProvider)),
 );

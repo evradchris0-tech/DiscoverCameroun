@@ -4,8 +4,10 @@
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+import '../theme/app_colors.dart';
 import '../theme/app_radius.dart';
 import '../theme/app_spacing.dart';
+import '../theme/app_typography.dart';
 
 class LikeButton extends StatefulWidget {
   final int initialLikes;
@@ -102,12 +104,12 @@ class _LikeButtonState extends State<LikeButton>
         decoration: BoxDecoration(
           color: _isLiked
               ? colorScheme.primary.withValues(alpha: 0.12)
-              : Colors.grey.withValues(alpha: 0.08),
+              : AppColors.textLight.withValues(alpha: 0.08),
           borderRadius: BorderRadius.circular(AppRadius.pill),
           border: Border.all(
             color: _isLiked
                 ? colorScheme.primary.withValues(alpha: 0.5)
-                : Colors.grey.shade300,
+                : AppColors.outline,
           ),
         ),
         child: Row(
@@ -117,7 +119,7 @@ class _LikeButtonState extends State<LikeButton>
               scale: _pulseAnim,
               child: Icon(
                 _isLiked ? Icons.favorite : Icons.favorite_border,
-                color: _isLiked ? colorScheme.primary : Colors.grey,
+                color: _isLiked ? colorScheme.primary : AppColors.textLight,
                 size: 20,
               ),
             ),
@@ -136,10 +138,10 @@ class _LikeButtonState extends State<LikeButton>
               child: Text(
                 '$_likeCount',
                 key: ValueKey(_likeCount),
-                style: TextStyle(
-                  color: _isLiked ? colorScheme.primary : Colors.grey.shade700,
-                  fontWeight: FontWeight.w600,
+                style: AppTypography.sans(
                   fontSize: 14,
+                  fontWeight: FontWeight.w600,
+                  color: _isLiked ? colorScheme.primary : AppColors.textMedium,
                 ),
               ),
             ),

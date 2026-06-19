@@ -218,6 +218,9 @@ class AppLocalizationsFr extends AppLocalizations {
   String get mapZoomOut => 'Zoom arrière';
 
   @override
+  String get mapLayers => 'Type de carte';
+
+  @override
   String get actionView => 'Voir';
 
   @override
@@ -241,4 +244,49 @@ class AppLocalizationsFr extends AppLocalizations {
     );
     return '$_temp0';
   }
+
+  @override
+  String get navProfile => 'Profil';
+
+  @override
+  String get profileTitle => 'Profil';
+
+  @override
+  String get profileTraveler => 'Voyageur';
+
+  @override
+  String get profileTagline => 'Explorez le Cameroun';
+
+  @override
+  String get statDestinations => 'Destinations';
+
+  @override
+  String get statFavorites => 'Favoris';
+
+  @override
+  String get profileLanguage => 'Langue';
+
+  @override
+  String get profileAbout => 'À propos';
+
+  @override
+  String get sectionSponsors => 'Nos partenaires';
+
+  @override
+  String get navDiscover => 'Découvrir';
+
+  @override
+  String get tabHotels => 'Hôtels';
+
+  @override
+  String get tabRestaurants => 'Restaurants';
+
+  @override
+  String get tabGuides => 'Guides';
+
+  @override
+  String get accommodationsEmpty => 'Aucun hébergement référencé.';
+
+  @override
+  String get restaurantsEmpty => 'Aucun restaurant référencé.';
 }

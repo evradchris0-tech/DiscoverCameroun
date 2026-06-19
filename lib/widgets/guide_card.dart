@@ -12,6 +12,7 @@ import '../theme/app_radius.dart';
 import '../theme/app_spacing.dart';
 import '../theme/app_typography.dart';
 import 'rating_stars.dart';
+import 'smart_image.dart';
 
 class GuideCard extends StatelessWidget {
   final TourGuide guide;
@@ -144,24 +145,30 @@ class _Avatar extends StatelessWidget {
       child: SizedBox(
         width: 56,
         height: 56,
-        child: Image.asset(
-          photoPath,
-          fit: BoxFit.cover,
-          errorBuilder: (_, __, ___) => Container(
-            color: AppColors.primaryContainer,
-            alignment: Alignment.center,
-            child: Text(
-              name.isNotEmpty ? name[0] : '?',
-              style: AppTypography.serif(
-                  fontSize: 22,
-                  fontWeight: FontWeight.w700,
-                  color: AppColors.primary),
-            ),
-          ),
-        ),
+        child: photoPath.isEmpty
+            ? _initials()
+            : SmartImage(
+                source: photoPath,
+                width: 56,
+                height: 56,
+                fallbackColor: AppColors.primaryContainer,
+                fallbackIcon: Icons.person,
+              ),
       ),
     );
   }
+
+  Widget _initials() => Container(
+        color: AppColors.primaryContainer,
+        alignment: Alignment.center,
+        child: Text(
+          name.isNotEmpty ? name[0] : '?',
+          style: AppTypography.serif(
+              fontSize: 22,
+              fontWeight: FontWeight.w700,
+              color: AppColors.primary),
+        ),
+      );
 }
 
 class _Tag extends StatelessWidget {

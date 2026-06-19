@@ -476,6 +476,12 @@ abstract class AppLocalizations {
   /// **'Zoom out'**
   String get mapZoomOut;
 
+  /// No description provided for @mapLayers.
+  ///
+  /// In en, this message translates to:
+  /// **'Map type'**
+  String get mapLayers;
+
   /// No description provided for @actionView.
   ///
   /// In en, this message translates to:
@@ -505,6 +511,96 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'{count, plural, one{{count} destination} other{{count} destinations}}'**
   String regionDestinationsCount(int count);
+
+  /// No description provided for @navProfile.
+  ///
+  /// In en, this message translates to:
+  /// **'Profile'**
+  String get navProfile;
+
+  /// No description provided for @profileTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Profile'**
+  String get profileTitle;
+
+  /// No description provided for @profileTraveler.
+  ///
+  /// In en, this message translates to:
+  /// **'Traveller'**
+  String get profileTraveler;
+
+  /// No description provided for @profileTagline.
+  ///
+  /// In en, this message translates to:
+  /// **'Explore Cameroon'**
+  String get profileTagline;
+
+  /// No description provided for @statDestinations.
+  ///
+  /// In en, this message translates to:
+  /// **'Destinations'**
+  String get statDestinations;
+
+  /// No description provided for @statFavorites.
+  ///
+  /// In en, this message translates to:
+  /// **'Favorites'**
+  String get statFavorites;
+
+  /// No description provided for @profileLanguage.
+  ///
+  /// In en, this message translates to:
+  /// **'Language'**
+  String get profileLanguage;
+
+  /// No description provided for @profileAbout.
+  ///
+  /// In en, this message translates to:
+  /// **'About'**
+  String get profileAbout;
+
+  /// No description provided for @sectionSponsors.
+  ///
+  /// In en, this message translates to:
+  /// **'Our partners'**
+  String get sectionSponsors;
+
+  /// No description provided for @navDiscover.
+  ///
+  /// In en, this message translates to:
+  /// **'Discover'**
+  String get navDiscover;
+
+  /// No description provided for @tabHotels.
+  ///
+  /// In en, this message translates to:
+  /// **'Hotels'**
+  String get tabHotels;
+
+  /// No description provided for @tabRestaurants.
+  ///
+  /// In en, this message translates to:
+  /// **'Restaurants'**
+  String get tabRestaurants;
+
+  /// No description provided for @tabGuides.
+  ///
+  /// In en, this message translates to:
+  /// **'Guides'**
+  String get tabGuides;
+
+  /// No description provided for @accommodationsEmpty.
+  ///
+  /// In en, this message translates to:
+  /// **'No accommodation listed.'**
+  String get accommodationsEmpty;
+
+  /// No description provided for @restaurantsEmpty.
+  ///
+  /// In en, this message translates to:
+  /// **'No restaurant listed.'**
+  String get restaurantsEmpty;
 }
 
 class _AppLocalizationsDelegate

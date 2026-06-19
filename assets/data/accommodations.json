@@ -3,14 +3,21 @@
     "id": "acc_kribi_tara",
     "name": "Tara Plage Hôtel",
     "type": "hotel",
-    "photoPaths": ["assets/images/accommodations/tara.png"],
+    "photoPaths": [
+      "assets/images/accommodations/tara.png"
+    ],
     "priceFrom": 35000,
     "currency": "XAF",
     "rating": 4.5,
     "address": "Bord de mer, Kribi",
     "latitude": 2.9378,
     "longitude": 9.9089,
-    "amenities": ["Wifi", "Piscine", "Restaurant", "Plage privée"],
+    "amenities": [
+      "Wifi",
+      "Piscine",
+      "Restaurant",
+      "Plage privée"
+    ],
     "phone": "+237610000001",
     "destinationId": "kribi"
   },
@@ -18,14 +25,20 @@
     "id": "acc_kribi_ilomba",
     "name": "Ilomba Resort",
     "type": "residence",
-    "photoPaths": ["assets/images/accommodations/ilomba.png"],
+    "photoPaths": [
+      "assets/images/accommodations/ilomba.png"
+    ],
     "priceFrom": 25000,
     "currency": "XAF",
     "rating": 4.2,
     "address": "Route de la Lobé, Kribi",
     "latitude": 2.9201,
     "longitude": 9.9105,
-    "amenities": ["Wifi", "Climatisation", "Parking"],
+    "amenities": [
+      "Wifi",
+      "Climatisation",
+      "Parking"
+    ],
     "phone": "+237610000002",
     "destinationId": "kribi"
   },
@@ -33,14 +46,21 @@
     "id": "acc_limbe_seme",
     "name": "Seme Beach Hôtel",
     "type": "hotel",
-    "photoPaths": ["assets/images/accommodations/seme.png"],
+    "photoPaths": [
+      "assets/images/accommodations/seme.png"
+    ],
     "priceFrom": 40000,
     "currency": "XAF",
     "rating": 4.4,
     "address": "Down Beach, Limbe",
     "latitude": 4.0025,
-    "longitude": 9.2010,
-    "amenities": ["Wifi", "Piscine", "Plage de sable noir", "Restaurant"],
+    "longitude": 9.201,
+    "amenities": [
+      "Wifi",
+      "Piscine",
+      "Plage de sable noir",
+      "Restaurant"
+    ],
     "phone": "+237610000003",
     "destinationId": "limbe"
   },
@@ -48,15 +68,1853 @@
     "id": "acc_waza_campement",
     "name": "Campement de Waza",
     "type": "campement",
-    "photoPaths": ["assets/images/accommodations/waza_camp.png"],
+    "photoPaths": [
+      "assets/images/accommodations/waza_camp.png"
+    ],
     "priceFrom": 20000,
     "currency": "XAF",
     "rating": 3.9,
     "address": "Abords du parc, Waza",
-    "latitude": 11.3920,
-    "longitude": 14.6600,
-    "amenities": ["Restauration", "Guide sur place"],
+    "latitude": 11.392,
+    "longitude": 14.66,
+    "amenities": [
+      "Restauration",
+      "Guide sur place"
+    ],
     "phone": "+237610000004",
     "destinationId": "waza"
+  },
+  {
+    "id": "douala_hotel",
+    "name": "Hôtel Douala",
+    "type": "hotel",
+    "photoPaths": [],
+    "priceFrom": 35000,
+    "currency": "XAF",
+    "rating": 4.2,
+    "address": "Centre, Douala",
+    "latitude": 4.0550999999999995,
+    "longitude": 9.771899999999999,
+    "amenities": [
+      "Parking",
+      "Climatisation",
+      "Petit-déjeuner",
+      "Eau chaude"
+    ],
+    "phone": "+237 6 926 24 36 44",
+    "destinationId": "douala"
+  },
+  {
+    "id": "douala_auberge",
+    "name": "Auberge de Douala",
+    "type": "auberge",
+    "photoPaths": [],
+    "priceFrom": 16000,
+    "currency": "XAF",
+    "rating": 4.0,
+    "address": "Quartier Douala",
+    "latitude": 4.0461,
+    "longitude": 9.7709,
+    "amenities": [
+      "Wifi",
+      "Petit-déjeuner",
+      "Parking"
+    ],
+    "phone": "+237 6 939 31 49 61",
+    "destinationId": "douala"
+  },
+  {
+    "id": "yaounde_hotel",
+    "name": "Hôtel Yaoundé",
+    "type": "hotel",
+    "photoPaths": [],
+    "priceFrom": 40000,
+    "currency": "XAF",
+    "rating": 4.3,
+    "address": "Centre, Yaoundé",
+    "latitude": 3.852,
+    "longitude": 11.5061,
+    "amenities": [
+      "Climatisation",
+      "Petit-déjeuner",
+      "Eau chaude",
+      "Groupe électrogène"
+    ],
+    "phone": "+237 6 939 31 49 61",
+    "destinationId": "yaounde"
+  },
+  {
+    "id": "yaounde_auberge",
+    "name": "Auberge de Yaoundé",
+    "type": "auberge",
+    "photoPaths": [],
+    "priceFrom": 18000,
+    "currency": "XAF",
+    "rating": 4.1,
+    "address": "Quartier Yaoundé",
+    "latitude": 3.843,
+    "longitude": 11.5051,
+    "amenities": [
+      "Wifi",
+      "Petit-déjeuner",
+      "Parking"
+    ],
+    "phone": "+237 6 942 38 62 78",
+    "destinationId": "yaounde"
+  },
+  {
+    "id": "bamenda_hotel",
+    "name": "Hôtel Bamenda",
+    "type": "hotel",
+    "photoPaths": [],
+    "priceFrom": 45000,
+    "currency": "XAF",
+    "rating": 4.4,
+    "address": "Centre, Bamenda",
+    "latitude": 5.967099999999999,
+    "longitude": 10.1631,
+    "amenities": [
+      "Wifi",
+      "Restaurant",
+      "Parking",
+      "Climatisation"
+    ],
+    "phone": "+237 6 942 38 62 78",
+    "destinationId": "bamenda"
+  },
+  {
+    "id": "bamenda_auberge",
+    "name": "Auberge de Bamenda",
+    "type": "auberge",
+    "photoPaths": [],
+    "priceFrom": 12000,
+    "currency": "XAF",
+    "rating": 4.2,
+    "address": "Quartier Bamenda",
+    "latitude": 5.9581,
+    "longitude": 10.1621,
+    "amenities": [
+      "Wifi",
+      "Petit-déjeuner",
+      "Parking"
+    ],
+    "phone": "+237 6 955 45 75 95",
+    "destinationId": "bamenda"
+  },
+  {
+    "id": "foumban_hotel",
+    "name": "Hôtel Foumban",
+    "type": "hotel",
+    "photoPaths": [],
+    "priceFrom": 30000,
+    "currency": "XAF",
+    "rating": 4.0,
+    "address": "Centre, Foumban",
+    "latitude": 5.7329,
+    "longitude": 10.903699999999999,
+    "amenities": [
+      "Parking",
+      "Climatisation",
+      "Petit-déjeuner",
+      "Eau chaude"
+    ],
+    "phone": "+237 6 968 52 88 22",
+    "destinationId": "foumban"
+  },
+  {
+    "id": "foumban_auberge",
+    "name": "Auberge de Foumban",
+    "type": "auberge",
+    "photoPaths": [],
+    "priceFrom": 16000,
+    "currency": "XAF",
+    "rating": 3.9,
+    "address": "Quartier Foumban",
+    "latitude": 5.7239,
+    "longitude": 10.9027,
+    "amenities": [
+      "Wifi",
+      "Petit-déjeuner",
+      "Parking"
+    ],
+    "phone": "+237 6 971 59 11 39",
+    "destinationId": "foumban"
+  },
+  {
+    "id": "mont_cameroun_hotel",
+    "name": "Hôtel Mont Cameroun",
+    "type": "hotel",
+    "photoPaths": [],
+    "priceFrom": 35000,
+    "currency": "XAF",
+    "rating": 4.1,
+    "address": "Centre, Mont Cameroun",
+    "latitude": 4.2085,
+    "longitude": 9.1772,
+    "amenities": [
+      "Climatisation",
+      "Petit-déjeuner",
+      "Eau chaude",
+      "Groupe électrogène"
+    ],
+    "phone": "+237 6 971 59 11 39",
+    "destinationId": "mont_cameroun"
+  },
+  {
+    "id": "mont_cameroun_auberge",
+    "name": "Auberge de Mont Cameroun",
+    "type": "auberge",
+    "photoPaths": [],
+    "priceFrom": 18000,
+    "currency": "XAF",
+    "rating": 4.0,
+    "address": "Quartier Mont Cameroun",
+    "latitude": 4.1995000000000005,
+    "longitude": 9.1762,
+    "amenities": [
+      "Wifi",
+      "Petit-déjeuner",
+      "Parking"
+    ],
+    "phone": "+237 6 984 66 24 56",
+    "destinationId": "mont_cameroun"
+  },
+  {
+    "id": "ekom_nkam_hotel",
+    "name": "Hôtel Chutes d'Ekom Nkam",
+    "type": "hotel",
+    "photoPaths": [],
+    "priceFrom": 40000,
+    "currency": "XAF",
+    "rating": 4.2,
+    "address": "Centre, Chutes d'Ekom Nkam",
+    "latitude": 4.912299999999999,
+    "longitude": 9.874799999999999,
+    "amenities": [
+      "Wifi",
+      "Restaurant",
+      "Parking",
+      "Climatisation"
+    ],
+    "phone": "+237 6 984 66 24 56",
+    "destinationId": "ekom_nkam"
+  },
+  {
+    "id": "ekom_nkam_auberge",
+    "name": "Auberge de Chutes d'Ekom Nkam",
+    "type": "auberge",
+    "photoPaths": [],
+    "priceFrom": 12000,
+    "currency": "XAF",
+    "rating": 4.1,
+    "address": "Quartier Chutes d'Ekom Nkam",
+    "latitude": 4.9033,
+    "longitude": 9.8738,
+    "amenities": [
+      "Wifi",
+      "Petit-déjeuner",
+      "Parking"
+    ],
+    "phone": "+237 6 907 73 37 73",
+    "destinationId": "ekom_nkam"
+  },
+  {
+    "id": "buea_hotel",
+    "name": "Hôtel Buéa",
+    "type": "hotel",
+    "photoPaths": [],
+    "priceFrom": 45000,
+    "currency": "XAF",
+    "rating": 4.3,
+    "address": "Centre, Buéa",
+    "latitude": 4.1593,
+    "longitude": 9.247499999999999,
+    "amenities": [
+      "Restaurant",
+      "Parking",
+      "Climatisation",
+      "Petit-déjeuner"
+    ],
+    "phone": "+237 6 907 73 37 73",
+    "destinationId": "buea"
+  },
+  {
+    "id": "buea_auberge",
+    "name": "Auberge de Buéa",
+    "type": "auberge",
+    "photoPaths": [],
+    "priceFrom": 14000,
+    "currency": "XAF",
+    "rating": 4.2,
+    "address": "Quartier Buéa",
+    "latitude": 4.1503000000000005,
+    "longitude": 9.2465,
+    "amenities": [
+      "Wifi",
+      "Petit-déjeuner",
+      "Parking"
+    ],
+    "phone": "+237 6 910 80 50 90",
+    "destinationId": "buea"
+  },
+  {
+    "id": "rhumsiki_hotel",
+    "name": "Hôtel Pics de Rhumsiki",
+    "type": "hotel",
+    "photoPaths": [],
+    "priceFrom": 25000,
+    "currency": "XAF",
+    "rating": 4.4,
+    "address": "Centre, Pics de Rhumsiki",
+    "latitude": 10.5734,
+    "longitude": 13.5862,
+    "amenities": [
+      "Parking",
+      "Climatisation",
+      "Petit-déjeuner",
+      "Eau chaude"
+    ],
+    "phone": "+237 6 910 80 50 90",
+    "destinationId": "rhumsiki"
+  },
+  {
+    "id": "rhumsiki_auberge",
+    "name": "Auberge de Pics de Rhumsiki",
+    "type": "auberge",
+    "photoPaths": [],
+    "priceFrom": 16000,
+    "currency": "XAF",
+    "rating": 3.8,
+    "address": "Quartier Pics de Rhumsiki",
+    "latitude": 10.5644,
+    "longitude": 13.5852,
+    "amenities": [
+      "Wifi",
+      "Petit-déjeuner",
+      "Parking"
+    ],
+    "phone": "+237 6 923 87 63 17",
+    "destinationId": "rhumsiki"
+  },
+  {
+    "id": "korup_hotel",
+    "name": "Lodge Parc National de Korup",
+    "type": "hotel",
+    "photoPaths": [],
+    "priceFrom": 30000,
+    "currency": "XAF",
+    "rating": 4.5,
+    "address": "Centre, Parc National de Korup",
+    "latitude": 5.0706999999999995,
+    "longitude": 8.8707,
+    "amenities": [
+      "Climatisation",
+      "Petit-déjeuner",
+      "Eau chaude",
+      "Groupe électrogène"
+    ],
+    "phone": "+237 6 923 87 63 17",
+    "destinationId": "korup"
+  },
+  {
+    "id": "korup_auberge",
+    "name": "Auberge de Parc National de Korup",
+    "type": "auberge",
+    "photoPaths": [],
+    "priceFrom": 18000,
+    "currency": "XAF",
+    "rating": 3.9,
+    "address": "Quartier Parc National de Korup",
+    "latitude": 5.0617,
+    "longitude": 8.8697,
+    "amenities": [
+      "Wifi",
+      "Petit-déjeuner",
+      "Parking"
+    ],
+    "phone": "+237 6 936 94 76 34",
+    "destinationId": "korup"
+  },
+  {
+    "id": "ebogo_hotel",
+    "name": "Hôtel Site Écotouristique d'Ebogo",
+    "type": "hotel",
+    "photoPaths": [],
+    "priceFrom": 35000,
+    "currency": "XAF",
+    "rating": 4.0,
+    "address": "Centre, Site Écotouristique d'Ebogo",
+    "latitude": 3.4026,
+    "longitude": 11.4592,
+    "amenities": [
+      "Wifi",
+      "Restaurant",
+      "Parking",
+      "Climatisation"
+    ],
+    "phone": "+237 6 936 94 76 34",
+    "destinationId": "ebogo"
+  },
+  {
+    "id": "ebogo_auberge",
+    "name": "Auberge de Site Écotouristique d'Ebogo",
+    "type": "auberge",
+    "photoPaths": [],
+    "priceFrom": 12000,
+    "currency": "XAF",
+    "rating": 4.0,
+    "address": "Quartier Site Écotouristique d'Ebogo",
+    "latitude": 3.3936,
+    "longitude": 11.4582,
+    "amenities": [
+      "Wifi",
+      "Petit-déjeuner",
+      "Parking"
+    ],
+    "phone": "+237 6 949 11 89 51",
+    "destinationId": "ebogo"
+  },
+  {
+    "id": "garoua_hotel",
+    "name": "Hôtel Garoua",
+    "type": "hotel",
+    "photoPaths": [],
+    "priceFrom": 40000,
+    "currency": "XAF",
+    "rating": 4.1,
+    "address": "Centre, Garoua",
+    "latitude": 9.304,
+    "longitude": 13.399799999999999,
+    "amenities": [
+      "Restaurant",
+      "Parking",
+      "Climatisation",
+      "Petit-déjeuner"
+    ],
+    "phone": "+237 6 949 11 89 51",
+    "destinationId": "garoua"
+  },
+  {
+    "id": "garoua_auberge",
+    "name": "Auberge de Garoua",
+    "type": "auberge",
+    "photoPaths": [],
+    "priceFrom": 14000,
+    "currency": "XAF",
+    "rating": 4.1,
+    "address": "Quartier Garoua",
+    "latitude": 9.295,
+    "longitude": 13.3988,
+    "amenities": [
+      "Wifi",
+      "Petit-déjeuner",
+      "Parking"
+    ],
+    "phone": "+237 6 952 18 12 68",
+    "destinationId": "garoua"
+  },
+  {
+    "id": "maroua_hotel",
+    "name": "Hôtel Maroua",
+    "type": "hotel",
+    "photoPaths": [],
+    "priceFrom": 45000,
+    "currency": "XAF",
+    "rating": 4.2,
+    "address": "Centre, Maroua",
+    "latitude": 10.6,
+    "longitude": 14.32,
+    "amenities": [
+      "Parking",
+      "Climatisation",
+      "Petit-déjeuner",
+      "Eau chaude"
+    ],
+    "phone": "+237 6 952 18 12 68",
+    "destinationId": "maroua"
+  },
+  {
+    "id": "maroua_auberge",
+    "name": "Auberge de Maroua",
+    "type": "auberge",
+    "photoPaths": [],
+    "priceFrom": 16000,
+    "currency": "XAF",
+    "rating": 4.2,
+    "address": "Quartier Maroua",
+    "latitude": 10.591,
+    "longitude": 14.319,
+    "amenities": [
+      "Wifi",
+      "Petit-déjeuner",
+      "Parking"
+    ],
+    "phone": "+237 6 965 25 25 85",
+    "destinationId": "maroua"
+  },
+  {
+    "id": "dschang_hotel",
+    "name": "Hôtel Dschang",
+    "type": "hotel",
+    "photoPaths": [],
+    "priceFrom": 25000,
+    "currency": "XAF",
+    "rating": 4.3,
+    "address": "Centre, Dschang",
+    "latitude": 5.449199999999999,
+    "longitude": 10.0575,
+    "amenities": [
+      "Climatisation",
+      "Petit-déjeuner",
+      "Eau chaude",
+      "Groupe électrogène"
+    ],
+    "phone": "+237 6 965 25 25 85",
+    "destinationId": "dschang"
+  },
+  {
+    "id": "dschang_auberge",
+    "name": "Auberge de Dschang",
+    "type": "auberge",
+    "photoPaths": [],
+    "priceFrom": 18000,
+    "currency": "XAF",
+    "rating": 3.8,
+    "address": "Quartier Dschang",
+    "latitude": 5.4402,
+    "longitude": 10.0565,
+    "amenities": [
+      "Wifi",
+      "Petit-déjeuner",
+      "Parking"
+    ],
+    "phone": "+237 6 978 32 38 12",
+    "destinationId": "dschang"
+  },
+  {
+    "id": "lac_ossa_hotel",
+    "name": "Hôtel Reserve du Lac Ossa",
+    "type": "hotel",
+    "photoPaths": [],
+    "priceFrom": 30000,
+    "currency": "XAF",
+    "rating": 4.4,
+    "address": "Centre, Reserve du Lac Ossa",
+    "latitude": 3.8243,
+    "longitude": 10.0598,
+    "amenities": [
+      "Wifi",
+      "Restaurant",
+      "Parking",
+      "Climatisation"
+    ],
+    "phone": "+237 6 978 32 38 12",
+    "destinationId": "lac_ossa"
+  },
+  {
+    "id": "lac_ossa_auberge",
+    "name": "Auberge de Reserve du Lac Ossa",
+    "type": "auberge",
+    "photoPaths": [],
+    "priceFrom": 12000,
+    "currency": "XAF",
+    "rating": 3.9,
+    "address": "Quartier Reserve du Lac Ossa",
+    "latitude": 3.8153,
+    "longitude": 10.0588,
+    "amenities": [
+      "Wifi",
+      "Petit-déjeuner",
+      "Parking"
+    ],
+    "phone": "+237 6 981 39 51 29",
+    "destinationId": "lac_ossa"
+  },
+  {
+    "id": "ngaoundere_hotel",
+    "name": "Hôtel Ngaoundéré",
+    "type": "hotel",
+    "photoPaths": [],
+    "priceFrom": 35000,
+    "currency": "XAF",
+    "rating": 4.5,
+    "address": "Centre, Ngaoundéré",
+    "latitude": 7.324,
+    "longitude": 13.587299999999999,
+    "amenities": [
+      "Restaurant",
+      "Parking",
+      "Climatisation",
+      "Petit-déjeuner"
+    ],
+    "phone": "+237 6 981 39 51 29",
+    "destinationId": "ngaoundere"
+  },
+  {
+    "id": "ngaoundere_auberge",
+    "name": "Auberge de Ngaoundéré",
+    "type": "auberge",
+    "photoPaths": [],
+    "priceFrom": 14000,
+    "currency": "XAF",
+    "rating": 4.0,
+    "address": "Quartier Ngaoundéré",
+    "latitude": 7.315,
+    "longitude": 13.5863,
+    "amenities": [
+      "Wifi",
+      "Petit-déjeuner",
+      "Parking"
+    ],
+    "phone": "+237 6 904 46 64 46",
+    "destinationId": "ngaoundere"
+  },
+  {
+    "id": "boubandjida_hotel",
+    "name": "Lodge Parc National de Bouba Ndjida",
+    "type": "hotel",
+    "photoPaths": [],
+    "priceFrom": 40000,
+    "currency": "XAF",
+    "rating": 4.0,
+    "address": "Centre, Parc National de Bouba Ndjida",
+    "latitude": 8.638,
+    "longitude": 14.657399999999999,
+    "amenities": [
+      "Parking",
+      "Climatisation",
+      "Petit-déjeuner",
+      "Eau chaude"
+    ],
+    "phone": "+237 6 904 46 64 46",
+    "destinationId": "boubandjida"
+  },
+  {
+    "id": "boubandjida_auberge",
+    "name": "Auberge de Parc National de Bouba Ndjida",
+    "type": "auberge",
+    "photoPaths": [],
+    "priceFrom": 16000,
+    "currency": "XAF",
+    "rating": 4.1,
+    "address": "Quartier Parc National de Bouba Ndjida",
+    "latitude": 8.629,
+    "longitude": 14.6564,
+    "amenities": [
+      "Wifi",
+      "Petit-déjeuner",
+      "Parking"
+    ],
+    "phone": "+237 6 917 53 77 63",
+    "destinationId": "boubandjida"
+  },
+  {
+    "id": "campomaan_hotel",
+    "name": "Lodge Parc National de Campo Ma'an",
+    "type": "hotel",
+    "photoPaths": [],
+    "priceFrom": 45000,
+    "currency": "XAF",
+    "rating": 4.1,
+    "address": "Centre, Parc National de Campo Ma'an",
+    "latitude": 2.3522,
+    "longitude": 10.0289,
+    "amenities": [
+      "Climatisation",
+      "Petit-déjeuner",
+      "Eau chaude",
+      "Groupe électrogène"
+    ],
+    "phone": "+237 6 917 53 77 63",
+    "destinationId": "campomaan"
+  },
+  {
+    "id": "campomaan_auberge",
+    "name": "Auberge de Parc National de Campo Ma'an",
+    "type": "auberge",
+    "photoPaths": [],
+    "priceFrom": 18000,
+    "currency": "XAF",
+    "rating": 4.2,
+    "address": "Quartier Parc National de Campo Ma'an",
+    "latitude": 2.3432,
+    "longitude": 10.0279,
+    "amenities": [
+      "Wifi",
+      "Petit-déjeuner",
+      "Parking"
+    ],
+    "phone": "+237 6 920 60 90 80",
+    "destinationId": "campomaan"
+  },
+  {
+    "id": "reserve_dja_hotel",
+    "name": "Hôtel Réserve de Faune du Dja",
+    "type": "hotel",
+    "photoPaths": [],
+    "priceFrom": 25000,
+    "currency": "XAF",
+    "rating": 4.2,
+    "address": "Centre, Réserve de Faune du Dja",
+    "latitude": 3.0073,
+    "longitude": 13.004,
+    "amenities": [
+      "Wifi",
+      "Restaurant",
+      "Parking",
+      "Climatisation"
+    ],
+    "phone": "+237 6 920 60 90 80",
+    "destinationId": "reserve_dja"
+  },
+  {
+    "id": "reserve_dja_auberge",
+    "name": "Auberge de Réserve de Faune du Dja",
+    "type": "auberge",
+    "photoPaths": [],
+    "priceFrom": 12000,
+    "currency": "XAF",
+    "rating": 3.8,
+    "address": "Quartier Réserve de Faune du Dja",
+    "latitude": 2.9983,
+    "longitude": 13.003,
+    "amenities": [
+      "Wifi",
+      "Petit-déjeuner",
+      "Parking"
+    ],
+    "phone": "+237 6 933 67 13 97",
+    "destinationId": "reserve_dja"
+  },
+  {
+    "id": "lac_tison_hotel",
+    "name": "Hôtel Lac Tison",
+    "type": "hotel",
+    "photoPaths": [],
+    "priceFrom": 30000,
+    "currency": "XAF",
+    "rating": 4.3,
+    "address": "Centre, Lac Tison",
+    "latitude": 7.222499999999999,
+    "longitude": 13.567,
+    "amenities": [
+      "Restaurant",
+      "Parking",
+      "Climatisation",
+      "Petit-déjeuner"
+    ],
+    "phone": "+237 6 933 67 13 97",
+    "destinationId": "lac_tison"
+  },
+  {
+    "id": "lac_tison_auberge",
+    "name": "Auberge de Lac Tison",
+    "type": "auberge",
+    "photoPaths": [],
+    "priceFrom": 14000,
+    "currency": "XAF",
+    "rating": 3.9,
+    "address": "Quartier Lac Tison",
+    "latitude": 7.2135,
+    "longitude": 13.566,
+    "amenities": [
+      "Wifi",
+      "Petit-déjeuner",
+      "Parking"
+    ],
+    "phone": "+237 6 946 74 26 24",
+    "destinationId": "lac_tison"
+  },
+  {
+    "id": "bafoussam_hotel",
+    "name": "Hôtel Bafoussam",
+    "type": "hotel",
+    "photoPaths": [],
+    "priceFrom": 35000,
+    "currency": "XAF",
+    "rating": 4.4,
+    "address": "Centre, Bafoussam",
+    "latitude": 5.481699999999999,
+    "longitude": 10.421299999999999,
+    "amenities": [
+      "Parking",
+      "Climatisation",
+      "Petit-déjeuner",
+      "Eau chaude"
+    ],
+    "phone": "+237 6 946 74 26 24",
+    "destinationId": "bafoussam"
+  },
+  {
+    "id": "bafoussam_auberge",
+    "name": "Auberge de Bafoussam",
+    "type": "auberge",
+    "photoPaths": [],
+    "priceFrom": 16000,
+    "currency": "XAF",
+    "rating": 4.0,
+    "address": "Quartier Bafoussam",
+    "latitude": 5.4727,
+    "longitude": 10.4203,
+    "amenities": [
+      "Wifi",
+      "Petit-déjeuner",
+      "Parking"
+    ],
+    "phone": "+237 6 959 81 39 41",
+    "destinationId": "bafoussam"
+  },
+  {
+    "id": "chutes_lobe_hotel",
+    "name": "Hôtel Chutes de la Lobé",
+    "type": "hotel",
+    "photoPaths": [],
+    "priceFrom": 40000,
+    "currency": "XAF",
+    "rating": 4.5,
+    "address": "Centre, Chutes de la Lobé",
+    "latitude": 2.894,
+    "longitude": 9.898299999999999,
+    "amenities": [
+      "Climatisation",
+      "Petit-déjeuner",
+      "Eau chaude",
+      "Groupe électrogène"
+    ],
+    "phone": "+237 6 959 81 39 41",
+    "destinationId": "chutes_lobe"
+  },
+  {
+    "id": "chutes_lobe_auberge",
+    "name": "Auberge de Chutes de la Lobé",
+    "type": "auberge",
+    "photoPaths": [],
+    "priceFrom": 18000,
+    "currency": "XAF",
+    "rating": 4.1,
+    "address": "Quartier Chutes de la Lobé",
+    "latitude": 2.8850000000000002,
+    "longitude": 9.8973,
+    "amenities": [
+      "Wifi",
+      "Petit-déjeuner",
+      "Parking"
+    ],
+    "phone": "+237 6 962 88 52 58",
+    "destinationId": "chutes_lobe"
+  },
+  {
+    "id": "lobeke_hotel",
+    "name": "Lodge Parc National de Lobéké",
+    "type": "hotel",
+    "photoPaths": [],
+    "priceFrom": 45000,
+    "currency": "XAF",
+    "rating": 4.0,
+    "address": "Centre, Parc National de Lobéké",
+    "latitude": 2.3829,
+    "longitude": 15.9427,
+    "amenities": [
+      "Wifi",
+      "Restaurant",
+      "Parking",
+      "Climatisation"
+    ],
+    "phone": "+237 6 962 88 52 58",
+    "destinationId": "lobeke"
+  },
+  {
+    "id": "lobeke_auberge",
+    "name": "Auberge de Parc National de Lobéké",
+    "type": "auberge",
+    "photoPaths": [],
+    "priceFrom": 12000,
+    "currency": "XAF",
+    "rating": 4.2,
+    "address": "Quartier Parc National de Lobéké",
+    "latitude": 2.3739,
+    "longitude": 15.9417,
+    "amenities": [
+      "Wifi",
+      "Petit-déjeuner",
+      "Parking"
+    ],
+    "phone": "+237 6 975 95 65 75",
+    "destinationId": "lobeke"
+  },
+  {
+    "id": "gorges_kola_hotel",
+    "name": "Hôtel Gorges de Kola",
+    "type": "hotel",
+    "photoPaths": [],
+    "priceFrom": 25000,
+    "currency": "XAF",
+    "rating": 4.1,
+    "address": "Centre, Gorges de Kola",
+    "latitude": 9.7758,
+    "longitude": 13.9825,
+    "amenities": [
+      "Restaurant",
+      "Parking",
+      "Climatisation",
+      "Petit-déjeuner"
+    ],
+    "phone": "+237 6 975 95 65 75",
+    "destinationId": "gorges_kola"
+  },
+  {
+    "id": "gorges_kola_auberge",
+    "name": "Auberge de Gorges de Kola",
+    "type": "auberge",
+    "photoPaths": [],
+    "priceFrom": 14000,
+    "currency": "XAF",
+    "rating": 3.8,
+    "address": "Quartier Gorges de Kola",
+    "latitude": 9.7668,
+    "longitude": 13.9815,
+    "amenities": [
+      "Wifi",
+      "Petit-déjeuner",
+      "Parking"
+    ],
+    "phone": "+237 6 988 12 78 92",
+    "destinationId": "gorges_kola"
+  },
+  {
+    "id": "chefferie_bafut_hotel",
+    "name": "Hôtel Chefferie de Bafut",
+    "type": "hotel",
+    "photoPaths": [],
+    "priceFrom": 30000,
+    "currency": "XAF",
+    "rating": 4.2,
+    "address": "Centre, Chefferie de Bafut",
+    "latitude": 6.092599999999999,
+    "longitude": 10.1158,
+    "amenities": [
+      "Parking",
+      "Climatisation",
+      "Petit-déjeuner",
+      "Eau chaude"
+    ],
+    "phone": "+237 6 988 12 78 92",
+    "destinationId": "chefferie_bafut"
+  },
+  {
+    "id": "chefferie_bafut_auberge",
+    "name": "Auberge de Chefferie de Bafut",
+    "type": "auberge",
+    "photoPaths": [],
+    "priceFrom": 16000,
+    "currency": "XAF",
+    "rating": 3.9,
+    "address": "Quartier Chefferie de Bafut",
+    "latitude": 6.0836,
+    "longitude": 10.1148,
+    "amenities": [
+      "Wifi",
+      "Petit-déjeuner",
+      "Parking"
+    ],
+    "phone": "+237 6 901 19 91 19",
+    "destinationId": "chefferie_bafut"
+  },
+  {
+    "id": "lac_awing_hotel",
+    "name": "Hôtel Lac Awing",
+    "type": "hotel",
+    "photoPaths": [],
+    "priceFrom": 35000,
+    "currency": "XAF",
+    "rating": 4.3,
+    "address": "Centre, Lac Awing",
+    "latitude": 5.8736999999999995,
+    "longitude": 10.2781,
+    "amenities": [
+      "Climatisation",
+      "Petit-déjeuner",
+      "Eau chaude",
+      "Groupe électrogène"
+    ],
+    "phone": "+237 6 901 19 91 19",
+    "destinationId": "lac_awing"
+  },
+  {
+    "id": "lac_awing_auberge",
+    "name": "Auberge de Lac Awing",
+    "type": "auberge",
+    "photoPaths": [],
+    "priceFrom": 18000,
+    "currency": "XAF",
+    "rating": 4.0,
+    "address": "Quartier Lac Awing",
+    "latitude": 5.8647,
+    "longitude": 10.2771,
+    "amenities": [
+      "Wifi",
+      "Petit-déjeuner",
+      "Parking"
+    ],
+    "phone": "+237 6 914 26 14 36",
+    "destinationId": "lac_awing"
+  },
+  {
+    "id": "menchum_falls_hotel",
+    "name": "Hôtel Chutes de la Menchum",
+    "type": "hotel",
+    "photoPaths": [],
+    "priceFrom": 40000,
+    "currency": "XAF",
+    "rating": 4.4,
+    "address": "Centre, Chutes de la Menchum",
+    "latitude": 6.260999999999999,
+    "longitude": 10.042,
+    "amenities": [
+      "Wifi",
+      "Restaurant",
+      "Parking",
+      "Climatisation"
+    ],
+    "phone": "+237 6 914 26 14 36",
+    "destinationId": "menchum_falls"
+  },
+  {
+    "id": "menchum_falls_auberge",
+    "name": "Auberge de Chutes de la Menchum",
+    "type": "auberge",
+    "photoPaths": [],
+    "priceFrom": 12000,
+    "currency": "XAF",
+    "rating": 4.1,
+    "address": "Quartier Chutes de la Menchum",
+    "latitude": 6.252,
+    "longitude": 10.041,
+    "amenities": [
+      "Wifi",
+      "Petit-déjeuner",
+      "Parking"
+    ],
+    "phone": "+237 6 927 33 27 53",
+    "destinationId": "menchum_falls"
+  },
+  {
+    "id": "lacs_jumeaux_hotel",
+    "name": "Hôtel Lacs Jumeaux du Manengouba",
+    "type": "hotel",
+    "photoPaths": [],
+    "priceFrom": 45000,
+    "currency": "XAF",
+    "rating": 4.5,
+    "address": "Centre, Lacs Jumeaux du Manengouba",
+    "latitude": 5.0355,
+    "longitude": 9.8369,
+    "amenities": [
+      "Restaurant",
+      "Parking",
+      "Climatisation",
+      "Petit-déjeuner"
+    ],
+    "phone": "+237 6 927 33 27 53",
+    "destinationId": "lacs_jumeaux"
+  },
+  {
+    "id": "lacs_jumeaux_auberge",
+    "name": "Auberge de Lacs Jumeaux du Manengouba",
+    "type": "auberge",
+    "photoPaths": [],
+    "priceFrom": 14000,
+    "currency": "XAF",
+    "rating": 4.2,
+    "address": "Quartier Lacs Jumeaux du Manengouba",
+    "latitude": 5.0265,
+    "longitude": 9.8359,
+    "amenities": [
+      "Wifi",
+      "Petit-déjeuner",
+      "Parking"
+    ],
+    "phone": "+237 6 930 40 40 70",
+    "destinationId": "lacs_jumeaux"
+  },
+  {
+    "id": "palais_kings_bell_hotel",
+    "name": "Hôtel La Pagode (Palais des Rois Bell)",
+    "type": "hotel",
+    "photoPaths": [],
+    "priceFrom": 25000,
+    "currency": "XAF",
+    "rating": 4.0,
+    "address": "Centre, La Pagode (Palais des Rois Bell)",
+    "latitude": 4.045599999999999,
+    "longitude": 9.6905,
+    "amenities": [
+      "Parking",
+      "Climatisation",
+      "Petit-déjeuner",
+      "Eau chaude"
+    ],
+    "phone": "+237 6 930 40 40 70",
+    "destinationId": "palais_kings_bell"
+  },
+  {
+    "id": "palais_kings_bell_auberge",
+    "name": "Auberge de La Pagode (Palais des Rois Bell)",
+    "type": "auberge",
+    "photoPaths": [],
+    "priceFrom": 16000,
+    "currency": "XAF",
+    "rating": 3.8,
+    "address": "Quartier La Pagode (Palais des Rois Bell)",
+    "latitude": 4.0366,
+    "longitude": 9.6895,
+    "amenities": [
+      "Wifi",
+      "Petit-déjeuner",
+      "Parking"
+    ],
+    "phone": "+237 6 943 47 53 87",
+    "destinationId": "palais_kings_bell"
+  },
+  {
+    "id": "musee_national_hotel",
+    "name": "Hôtel Musée National",
+    "type": "hotel",
+    "photoPaths": [],
+    "priceFrom": 30000,
+    "currency": "XAF",
+    "rating": 4.1,
+    "address": "Centre, Musée National",
+    "latitude": 3.8722,
+    "longitude": 11.5205,
+    "amenities": [
+      "Climatisation",
+      "Petit-déjeuner",
+      "Eau chaude",
+      "Groupe électrogène"
+    ],
+    "phone": "+237 6 943 47 53 87",
+    "destinationId": "musee_national"
+  },
+  {
+    "id": "musee_national_auberge",
+    "name": "Auberge de Musée National",
+    "type": "auberge",
+    "photoPaths": [],
+    "priceFrom": 18000,
+    "currency": "XAF",
+    "rating": 3.9,
+    "address": "Quartier Musée National",
+    "latitude": 3.8632,
+    "longitude": 11.5195,
+    "amenities": [
+      "Wifi",
+      "Petit-déjeuner",
+      "Parking"
+    ],
+    "phone": "+237 6 956 54 66 14",
+    "destinationId": "musee_national"
+  },
+  {
+    "id": "kousseri_hotel",
+    "name": "Hôtel Kousséri",
+    "type": "hotel",
+    "photoPaths": [],
+    "priceFrom": 35000,
+    "currency": "XAF",
+    "rating": 4.2,
+    "address": "Centre, Kousséri",
+    "latitude": 12.0808,
+    "longitude": 15.0346,
+    "amenities": [
+      "Wifi",
+      "Restaurant",
+      "Parking",
+      "Climatisation"
+    ],
+    "phone": "+237 6 956 54 66 14",
+    "destinationId": "kousseri"
+  },
+  {
+    "id": "kousseri_auberge",
+    "name": "Auberge de Kousséri",
+    "type": "auberge",
+    "photoPaths": [],
+    "priceFrom": 12000,
+    "currency": "XAF",
+    "rating": 4.0,
+    "address": "Quartier Kousséri",
+    "latitude": 12.0718,
+    "longitude": 15.0336,
+    "amenities": [
+      "Wifi",
+      "Petit-déjeuner",
+      "Parking"
+    ],
+    "phone": "+237 6 969 61 79 31",
+    "destinationId": "kousseri"
+  },
+  {
+    "id": "bertoua_hotel",
+    "name": "Hôtel Bertoua",
+    "type": "hotel",
+    "photoPaths": [],
+    "priceFrom": 40000,
+    "currency": "XAF",
+    "rating": 4.3,
+    "address": "Centre, Bertoua",
+    "latitude": 4.5873,
+    "longitude": 13.687299999999999,
+    "amenities": [
+      "Restaurant",
+      "Parking",
+      "Climatisation",
+      "Petit-déjeuner"
+    ],
+    "phone": "+237 6 969 61 79 31",
+    "destinationId": "bertoua"
+  },
+  {
+    "id": "bertoua_auberge",
+    "name": "Auberge de Bertoua",
+    "type": "auberge",
+    "photoPaths": [],
+    "priceFrom": 14000,
+    "currency": "XAF",
+    "rating": 4.1,
+    "address": "Quartier Bertoua",
+    "latitude": 4.5783000000000005,
+    "longitude": 13.6863,
+    "amenities": [
+      "Wifi",
+      "Petit-déjeuner",
+      "Parking"
+    ],
+    "phone": "+237 6 972 68 92 48",
+    "destinationId": "bertoua"
+  },
+  {
+    "id": "mont_oku_hotel",
+    "name": "Hôtel Mont Oku",
+    "type": "hotel",
+    "photoPaths": [],
+    "priceFrom": 45000,
+    "currency": "XAF",
+    "rating": 4.4,
+    "address": "Centre, Mont Oku",
+    "latitude": 6.2120999999999995,
+    "longitude": 10.4618,
+    "amenities": [
+      "Parking",
+      "Climatisation",
+      "Petit-déjeuner",
+      "Eau chaude"
+    ],
+    "phone": "+237 6 972 68 92 48",
+    "destinationId": "mont_oku"
+  },
+  {
+    "id": "mont_oku_auberge",
+    "name": "Auberge de Mont Oku",
+    "type": "auberge",
+    "photoPaths": [],
+    "priceFrom": 16000,
+    "currency": "XAF",
+    "rating": 4.2,
+    "address": "Quartier Mont Oku",
+    "latitude": 6.2031,
+    "longitude": 10.4608,
+    "amenities": [
+      "Wifi",
+      "Petit-déjeuner",
+      "Parking"
+    ],
+    "phone": "+237 6 985 75 15 65",
+    "destinationId": "mont_oku"
+  },
+  {
+    "id": "chutes_metche_hotel",
+    "name": "Hôtel Chutes de la Métché",
+    "type": "hotel",
+    "photoPaths": [],
+    "priceFrom": 25000,
+    "currency": "XAF",
+    "rating": 4.5,
+    "address": "Centre, Chutes de la Métché",
+    "latitude": 5.543699999999999,
+    "longitude": 10.3384,
+    "amenities": [
+      "Climatisation",
+      "Petit-déjeuner",
+      "Eau chaude",
+      "Groupe électrogène"
+    ],
+    "phone": "+237 6 985 75 15 65",
+    "destinationId": "chutes_metche"
+  },
+  {
+    "id": "chutes_metche_auberge",
+    "name": "Auberge de Chutes de la Métché",
+    "type": "auberge",
+    "photoPaths": [],
+    "priceFrom": 18000,
+    "currency": "XAF",
+    "rating": 3.8,
+    "address": "Quartier Chutes de la Métché",
+    "latitude": 5.5347,
+    "longitude": 10.3374,
+    "amenities": [
+      "Wifi",
+      "Petit-déjeuner",
+      "Parking"
+    ],
+    "phone": "+237 6 908 82 28 82",
+    "destinationId": "chutes_metche"
+  },
+  {
+    "id": "benoue_hotel",
+    "name": "Lodge Parc National de la Bénoué",
+    "type": "hotel",
+    "photoPaths": [],
+    "priceFrom": 30000,
+    "currency": "XAF",
+    "rating": 4.0,
+    "address": "Centre, Parc National de la Bénoué",
+    "latitude": 8.362499999999999,
+    "longitude": 13.8088,
+    "amenities": [
+      "Wifi",
+      "Restaurant",
+      "Parking",
+      "Climatisation"
+    ],
+    "phone": "+237 6 908 82 28 82",
+    "destinationId": "benoue"
+  },
+  {
+    "id": "benoue_auberge",
+    "name": "Auberge de Parc National de la Bénoué",
+    "type": "auberge",
+    "photoPaths": [],
+    "priceFrom": 12000,
+    "currency": "XAF",
+    "rating": 3.9,
+    "address": "Quartier Parc National de la Bénoué",
+    "latitude": 8.353499999999999,
+    "longitude": 13.8078,
+    "amenities": [
+      "Wifi",
+      "Petit-déjeuner",
+      "Parking"
+    ],
+    "phone": "+237 6 911 89 41 99",
+    "destinationId": "benoue"
+  },
+  {
+    "id": "mont_koupe_hotel",
+    "name": "Hôtel Mont Koupé",
+    "type": "hotel",
+    "photoPaths": [],
+    "priceFrom": 35000,
+    "currency": "XAF",
+    "rating": 4.1,
+    "address": "Centre, Mont Koupé",
+    "latitude": 4.813,
+    "longitude": 9.723799999999999,
+    "amenities": [
+      "Restaurant",
+      "Parking",
+      "Climatisation",
+      "Petit-déjeuner"
+    ],
+    "phone": "+237 6 911 89 41 99",
+    "destinationId": "mont_koupe"
+  },
+  {
+    "id": "mont_koupe_auberge",
+    "name": "Auberge de Mont Koupé",
+    "type": "auberge",
+    "photoPaths": [],
+    "priceFrom": 14000,
+    "currency": "XAF",
+    "rating": 4.0,
+    "address": "Quartier Mont Koupé",
+    "latitude": 4.804,
+    "longitude": 9.7228,
+    "amenities": [
+      "Wifi",
+      "Petit-déjeuner",
+      "Parking"
+    ],
+    "phone": "+237 6 924 96 54 26",
+    "destinationId": "mont_koupe"
+  },
+  {
+    "id": "lac_baleng_hotel",
+    "name": "Hôtel Lac Baleng",
+    "type": "hotel",
+    "photoPaths": [],
+    "priceFrom": 40000,
+    "currency": "XAF",
+    "rating": 4.2,
+    "address": "Centre, Lac Baleng",
+    "latitude": 5.5226,
+    "longitude": 10.432599999999999,
+    "amenities": [
+      "Parking",
+      "Climatisation",
+      "Petit-déjeuner",
+      "Eau chaude"
+    ],
+    "phone": "+237 6 924 96 54 26",
+    "destinationId": "lac_baleng"
+  },
+  {
+    "id": "lac_baleng_auberge",
+    "name": "Auberge de Lac Baleng",
+    "type": "auberge",
+    "photoPaths": [],
+    "priceFrom": 16000,
+    "currency": "XAF",
+    "rating": 4.1,
+    "address": "Quartier Lac Baleng",
+    "latitude": 5.5136,
+    "longitude": 10.4316,
+    "amenities": [
+      "Wifi",
+      "Petit-déjeuner",
+      "Parking"
+    ],
+    "phone": "+237 6 937 13 67 43",
+    "destinationId": "lac_baleng"
+  },
+  {
+    "id": "sangmelima_hotel",
+    "name": "Hôtel Sangmélima",
+    "type": "hotel",
+    "photoPaths": [],
+    "priceFrom": 45000,
+    "currency": "XAF",
+    "rating": 4.3,
+    "address": "Centre, Sangmélima",
+    "latitude": 2.9373,
+    "longitude": 11.9873,
+    "amenities": [
+      "Climatisation",
+      "Petit-déjeuner",
+      "Eau chaude",
+      "Groupe électrogène"
+    ],
+    "phone": "+237 6 937 13 67 43",
+    "destinationId": "sangmelima"
+  },
+  {
+    "id": "sangmelima_auberge",
+    "name": "Auberge de Sangmélima",
+    "type": "auberge",
+    "photoPaths": [],
+    "priceFrom": 18000,
+    "currency": "XAF",
+    "rating": 4.2,
+    "address": "Quartier Sangmélima",
+    "latitude": 2.9283,
+    "longitude": 11.9863,
+    "amenities": [
+      "Wifi",
+      "Petit-déjeuner",
+      "Parking"
+    ],
+    "phone": "+237 6 940 20 80 60",
+    "destinationId": "sangmelima"
+  },
+  {
+    "id": "akok_bekoe_hotel",
+    "name": "Hôtel Grottes d'Akok Bekoe",
+    "type": "hotel",
+    "photoPaths": [],
+    "priceFrom": 25000,
+    "currency": "XAF",
+    "rating": 4.4,
+    "address": "Centre, Grottes d'Akok Bekoe",
+    "latitude": 3.399,
+    "longitude": 11.3361,
+    "amenities": [
+      "Wifi",
+      "Restaurant",
+      "Parking",
+      "Climatisation"
+    ],
+    "phone": "+237 6 940 20 80 60",
+    "destinationId": "akok_bekoe"
+  },
+  {
+    "id": "akok_bekoe_auberge",
+    "name": "Auberge de Grottes d'Akok Bekoe",
+    "type": "auberge",
+    "photoPaths": [],
+    "priceFrom": 12000,
+    "currency": "XAF",
+    "rating": 3.8,
+    "address": "Quartier Grottes d'Akok Bekoe",
+    "latitude": 3.39,
+    "longitude": 11.3351,
+    "amenities": [
+      "Wifi",
+      "Petit-déjeuner",
+      "Parking"
+    ],
+    "phone": "+237 6 953 27 93 77",
+    "destinationId": "akok_bekoe"
+  },
+  {
+    "id": "ebolowa_hotel",
+    "name": "Hôtel Ebolowa",
+    "type": "hotel",
+    "photoPaths": [],
+    "priceFrom": 30000,
+    "currency": "XAF",
+    "rating": 4.5,
+    "address": "Centre, Ebolowa",
+    "latitude": 2.9207,
+    "longitude": 11.154,
+    "amenities": [
+      "Restaurant",
+      "Parking",
+      "Climatisation",
+      "Petit-déjeuner"
+    ],
+    "phone": "+237 6 953 27 93 77",
+    "destinationId": "ebolowa"
+  },
+  {
+    "id": "ebolowa_auberge",
+    "name": "Auberge de Ebolowa",
+    "type": "auberge",
+    "photoPaths": [],
+    "priceFrom": 14000,
+    "currency": "XAF",
+    "rating": 3.9,
+    "address": "Quartier Ebolowa",
+    "latitude": 2.9117,
+    "longitude": 11.153,
+    "amenities": [
+      "Wifi",
+      "Petit-déjeuner",
+      "Parking"
+    ],
+    "phone": "+237 6 966 34 16 94",
+    "destinationId": "ebolowa"
+  },
+  {
+    "id": "banyo_hotel",
+    "name": "Hôtel Mayo Banyo",
+    "type": "hotel",
+    "photoPaths": [],
+    "priceFrom": 35000,
+    "currency": "XAF",
+    "rating": 4.0,
+    "address": "Centre, Mayo Banyo",
+    "latitude": 6.760199999999999,
+    "longitude": 11.8193,
+    "amenities": [
+      "Parking",
+      "Climatisation",
+      "Petit-déjeuner",
+      "Eau chaude"
+    ],
+    "phone": "+237 6 966 34 16 94",
+    "destinationId": "banyo"
+  },
+  {
+    "id": "banyo_auberge",
+    "name": "Auberge de Mayo Banyo",
+    "type": "auberge",
+    "photoPaths": [],
+    "priceFrom": 16000,
+    "currency": "XAF",
+    "rating": 4.0,
+    "address": "Quartier Mayo Banyo",
+    "latitude": 6.7512,
+    "longitude": 11.8183,
+    "amenities": [
+      "Wifi",
+      "Petit-déjeuner",
+      "Parking"
+    ],
+    "phone": "+237 6 979 41 29 21",
+    "destinationId": "banyo"
+  },
+  {
+    "id": "pitoa_hotel",
+    "name": "Hôtel Pitoa",
+    "type": "hotel",
+    "photoPaths": [],
+    "priceFrom": 40000,
+    "currency": "XAF",
+    "rating": 4.1,
+    "address": "Centre, Pitoa",
+    "latitude": 9.394499999999999,
+    "longitude": 13.5258,
+    "amenities": [
+      "Climatisation",
+      "Petit-déjeuner",
+      "Eau chaude",
+      "Groupe électrogène"
+    ],
+    "phone": "+237 6 979 41 29 21",
+    "destinationId": "pitoa"
+  },
+  {
+    "id": "pitoa_auberge",
+    "name": "Auberge de Pitoa",
+    "type": "auberge",
+    "photoPaths": [],
+    "priceFrom": 18000,
+    "currency": "XAF",
+    "rating": 4.1,
+    "address": "Quartier Pitoa",
+    "latitude": 9.385499999999999,
+    "longitude": 13.5248,
+    "amenities": [
+      "Wifi",
+      "Petit-déjeuner",
+      "Parking"
+    ],
+    "phone": "+237 6 982 48 42 38",
+    "destinationId": "pitoa"
+  },
+  {
+    "id": "meiganga_hotel",
+    "name": "Hôtel Meiganga",
+    "type": "hotel",
+    "photoPaths": [],
+    "priceFrom": 45000,
+    "currency": "XAF",
+    "rating": 4.2,
+    "address": "Centre, Meiganga",
+    "latitude": 6.5207,
+    "longitude": 14.304,
+    "amenities": [
+      "Wifi",
+      "Restaurant",
+      "Parking",
+      "Climatisation"
+    ],
+    "phone": "+237 6 982 48 42 38",
+    "destinationId": "meiganga"
+  },
+  {
+    "id": "meiganga_auberge",
+    "name": "Auberge de Meiganga",
+    "type": "auberge",
+    "photoPaths": [],
+    "priceFrom": 12000,
+    "currency": "XAF",
+    "rating": 4.2,
+    "address": "Quartier Meiganga",
+    "latitude": 6.5117,
+    "longitude": 14.303,
+    "amenities": [
+      "Wifi",
+      "Petit-déjeuner",
+      "Parking"
+    ],
+    "phone": "+237 6 905 55 55 55",
+    "destinationId": "meiganga"
+  },
+  {
+    "id": "plage_yoyo_hotel",
+    "name": "Hôtel Plage de Yoyo",
+    "type": "hotel",
+    "photoPaths": [],
+    "priceFrom": 25000,
+    "currency": "XAF",
+    "rating": 4.3,
+    "address": "Centre, Plage de Yoyo",
+    "latitude": 3.5173,
+    "longitude": 9.6145,
+    "amenities": [
+      "Restaurant",
+      "Parking",
+      "Climatisation",
+      "Petit-déjeuner"
+    ],
+    "phone": "+237 6 905 55 55 55",
+    "destinationId": "plage_yoyo"
+  },
+  {
+    "id": "plage_yoyo_auberge",
+    "name": "Auberge de Plage de Yoyo",
+    "type": "auberge",
+    "photoPaths": [],
+    "priceFrom": 14000,
+    "currency": "XAF",
+    "rating": 3.8,
+    "address": "Quartier Plage de Yoyo",
+    "latitude": 3.5083,
+    "longitude": 9.6135,
+    "amenities": [
+      "Wifi",
+      "Petit-déjeuner",
+      "Parking"
+    ],
+    "phone": "+237 6 918 62 68 72",
+    "destinationId": "plage_yoyo"
+  },
+  {
+    "id": "monument_reunification_hotel",
+    "name": "Hôtel Monument de la Réunification",
+    "type": "hotel",
+    "photoPaths": [],
+    "priceFrom": 30000,
+    "currency": "XAF",
+    "rating": 4.4,
+    "address": "Centre, Monument de la Réunification",
+    "latitude": 3.8685,
+    "longitude": 11.5205,
+    "amenities": [
+      "Parking",
+      "Climatisation",
+      "Petit-déjeuner",
+      "Eau chaude"
+    ],
+    "phone": "+237 6 918 62 68 72",
+    "destinationId": "monument_reunification"
+  },
+  {
+    "id": "monument_reunification_auberge",
+    "name": "Auberge de Monument de la Réunification",
+    "type": "auberge",
+    "photoPaths": [],
+    "priceFrom": 16000,
+    "currency": "XAF",
+    "rating": 3.9,
+    "address": "Quartier Monument de la Réunification",
+    "latitude": 3.8595,
+    "longitude": 11.5195,
+    "amenities": [
+      "Wifi",
+      "Petit-déjeuner",
+      "Parking"
+    ],
+    "phone": "+237 6 921 69 81 89",
+    "destinationId": "monument_reunification"
+  },
+  {
+    "id": "bana_hotel",
+    "name": "Hôtel Haut-Plateau de Bana",
+    "type": "hotel",
+    "photoPaths": [],
+    "priceFrom": 35000,
+    "currency": "XAF",
+    "rating": 4.5,
+    "address": "Centre, Haut-Plateau de Bana",
+    "latitude": 5.164999999999999,
+    "longitude": 10.2803,
+    "amenities": [
+      "Climatisation",
+      "Petit-déjeuner",
+      "Eau chaude",
+      "Groupe électrogène"
+    ],
+    "phone": "+237 6 921 69 81 89",
+    "destinationId": "bana"
+  },
+  {
+    "id": "bana_auberge",
+    "name": "Auberge de Haut-Plateau de Bana",
+    "type": "auberge",
+    "photoPaths": [],
+    "priceFrom": 18000,
+    "currency": "XAF",
+    "rating": 4.0,
+    "address": "Quartier Haut-Plateau de Bana",
+    "latitude": 5.156,
+    "longitude": 10.279300000000001,
+    "amenities": [
+      "Wifi",
+      "Petit-déjeuner",
+      "Parking"
+    ],
+    "phone": "+237 6 934 76 94 16",
+    "destinationId": "bana"
+  },
+  {
+    "id": "campement_rhino_hotel",
+    "name": "Hôtel Campement des Éléphants",
+    "type": "hotel",
+    "photoPaths": [],
+    "priceFrom": 40000,
+    "currency": "XAF",
+    "rating": 4.0,
+    "address": "Centre, Campement des Éléphants",
+    "latitude": 8.879299999999999,
+    "longitude": 14.1245,
+    "amenities": [
+      "Wifi",
+      "Restaurant",
+      "Parking",
+      "Climatisation"
+    ],
+    "phone": "+237 6 934 76 94 16",
+    "destinationId": "campement_rhino"
+  },
+  {
+    "id": "campement_rhino_auberge",
+    "name": "Auberge de Campement des Éléphants",
+    "type": "auberge",
+    "photoPaths": [],
+    "priceFrom": 12000,
+    "currency": "XAF",
+    "rating": 4.1,
+    "address": "Quartier Campement des Éléphants",
+    "latitude": 8.870299999999999,
+    "longitude": 14.1235,
+    "amenities": [
+      "Wifi",
+      "Petit-déjeuner",
+      "Parking"
+    ],
+    "phone": "+237 6 947 83 17 33",
+    "destinationId": "campement_rhino"
+  },
+  {
+    "id": "faro_hotel",
+    "name": "Hôtel Réserve du Faro",
+    "type": "hotel",
+    "photoPaths": [],
+    "priceFrom": 45000,
+    "currency": "XAF",
+    "rating": 4.1,
+    "address": "Centre, Réserve du Faro",
+    "latitude": 8.362499999999999,
+    "longitude": 12.873999999999999,
+    "amenities": [
+      "Restaurant",
+      "Parking",
+      "Climatisation",
+      "Petit-déjeuner"
+    ],
+    "phone": "+237 6 947 83 17 33",
+    "destinationId": "faro"
+  },
+  {
+    "id": "faro_auberge",
+    "name": "Auberge de Réserve du Faro",
+    "type": "auberge",
+    "photoPaths": [],
+    "priceFrom": 14000,
+    "currency": "XAF",
+    "rating": 4.2,
+    "address": "Quartier Réserve du Faro",
+    "latitude": 8.353499999999999,
+    "longitude": 12.873,
+    "amenities": [
+      "Wifi",
+      "Petit-déjeuner",
+      "Parking"
+    ],
+    "phone": "+237 6 950 90 30 50",
+    "destinationId": "faro"
   }
 ]

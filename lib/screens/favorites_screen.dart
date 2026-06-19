@@ -6,6 +6,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../l10n/app_localizations.dart';
 import '../providers/favorites_provider.dart';
+import '../theme/app_colors.dart';
 import '../theme/app_spacing.dart';
 import '../theme/app_typography.dart';
 import '../widgets/destination_card.dart';
@@ -30,18 +31,20 @@ class FavoritesScreen extends ConsumerWidget {
               child: Column(
                 mainAxisSize: MainAxisSize.min,
                 children: [
-                  const Icon(Icons.bookmark_border, size: 64, color: Colors.grey),
+                  const Icon(Icons.bookmark_border,
+                      size: 64, color: AppColors.textLight),
                   const SizedBox(height: AppSpacing.md),
                   Text(
                     l10n.favoritesEmptyTitle,
-                    style: AppTypography.emptyTitle.copyWith(color: Colors.grey),
+                    style: AppTypography.emptyTitle
+                        .copyWith(color: AppColors.textLight),
                   ),
                   const SizedBox(height: AppSpacing.xs),
                   Text(
                     l10n.favoritesEmptyHint,
                     textAlign: TextAlign.center,
                     style: AppTypography.emptySubtitle
-                        .copyWith(color: Colors.grey.shade400),
+                        .copyWith(color: AppColors.textLight),
                   ),
                 ],
               ),

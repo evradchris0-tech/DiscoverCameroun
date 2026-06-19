@@ -35,7 +35,7 @@ class DetailScreen extends ConsumerWidget {
     final text =
         '${destination.name} — ${destination.region}\n\n'
         '${destination.description}\n\n'
-        'Découvert via Discover Cameroon';
+        'Découvert via KmerTour';
     Clipboard.setData(ClipboardData(text: text));
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(

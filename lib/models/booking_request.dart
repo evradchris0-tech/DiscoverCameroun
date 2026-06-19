@@ -52,7 +52,7 @@ class BookingRequest {
         '${arrivalDate.year}';
 
     final buf = StringBuffer();
-    buf.writeln('Bonjour, je contacte via *Discover Cameroon* 📱');
+    buf.writeln('Bonjour, je contacte via *KmerTour* 📱');
     buf.writeln();
     buf.writeln('${type.emoji} *Demande de réservation — ${type.label}*');
     buf.writeln('━━━━━━━━━━━━━━━━━━━━');

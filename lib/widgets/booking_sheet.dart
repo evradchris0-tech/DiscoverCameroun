@@ -1,6 +1,6 @@
 // NOTE : Bottom-sheet de réservation multi-étapes.
 // Concept mis en avant : stepper manuel (3 pages animées) + WhatsApp pré-rempli.
-// Le numéro WhatsApp de contact Discover Cameroon est câblé ici ; c'est le seul endroit.
+// Le numéro WhatsApp de contact KmerTour est câblé ici ; c'est le seul endroit.
 
 import 'package:flutter/material.dart';
 
@@ -11,7 +11,7 @@ import '../theme/app_radius.dart';
 import '../theme/app_spacing.dart';
 import '../theme/app_typography.dart';
 
-// Numéro WhatsApp centralisé Discover Cameroon.
+// Numéro WhatsApp centralisé KmerTour.
 const String _kDiscoverCameroonWhatsApp = '+237655746714';
 
 /// Ouvre la feuille de réservation pour un élément donné.

@@ -74,6 +74,17 @@ class ProfileScreen extends ConsumerWidget {
 
           const SizedBox(height: AppSpacing.xl),
 
+          // Logo KmerTour
+          Center(
+            child: Image.asset(
+              'assets/images/kmertour_logo.png',
+              height: 56,
+              fit: BoxFit.contain,
+            ),
+          ),
+
+          const SizedBox(height: AppSpacing.xl),
+
           // Statistiques
           Row(
             children: [

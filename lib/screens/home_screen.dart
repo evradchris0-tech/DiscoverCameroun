@@ -201,7 +201,7 @@ class _SponsorSection extends ConsumerWidget {
             SectionHeader(title: l10n.sectionSponsors),
             const SizedBox(height: AppSpacing.md),
             SizedBox(
-              height: 230,
+              height: 270,
               child: ListView.separated(
                 scrollDirection: Axis.horizontal,
                 padding: const EdgeInsets.symmetric(horizontal: AppSpacing.lg),

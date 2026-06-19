@@ -36,7 +36,7 @@ class GuideCard extends StatelessWidget {
   Future<void> _whatsapp(BuildContext context) async {
     final number = guide.whatsapp ?? guide.phone;
     final ok = await AppLauncher.whatsapp(number,
-        message: 'Bonjour ${guide.name}, je vous contacte via Discover Cameroon.');
+        message: 'Bonjour ${guide.name}, je vous contacte via KmerTour.');
     if (!ok && context.mounted) {
       _toast(context, AppLocalizations.of(context).snackWhatsappUnavailable);
     }

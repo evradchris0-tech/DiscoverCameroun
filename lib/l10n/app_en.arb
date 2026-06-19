@@ -1,6 +1,6 @@
 {
   "@@locale": "en",
-  "appTitle": "Discover Cameroon",
+  "appTitle": "KmerTour",
   "navHome": "Home",
   "navExperiences": "Experiences",
   "navMap": "Map",
@@ -98,7 +98,7 @@
   "mapLayers": "Map type",
   "actionView": "View",
 
-  "sectionRegions": "Discover Cameroon by region",
+  "sectionRegions": "Explore KmerTour by region",
   "sectionPopularStays": "Popular stays",
   "priceFrom": "From {price}",
   "@priceFrom": {

@@ -35,7 +35,6 @@ class _SplashScreenState extends State<SplashScreen>
       vsync: this,
     );
 
-    // Chaque Interval définit la plage de temps pendant laquelle l'animation s'active.
     final logoInterval = CurvedAnimation(
       parent: _controller,
       curve: const Interval(0.0, 0.6, curve: Curves.elasticOut),
@@ -56,7 +55,6 @@ class _SplashScreenState extends State<SplashScreen>
         curve: const Interval(0.0, 0.4, curve: Curves.easeIn),
       ),
     );
-    // Offset(0, 0.4) = décalé de 40% vers le bas au départ.
     _titleSlide = Tween<Offset>(
       begin: const Offset(0, 0.4),
       end: Offset.zero,
@@ -67,7 +65,6 @@ class _SplashScreenState extends State<SplashScreen>
     _controller.forward().then((_) {
       Future.delayed(const Duration(milliseconds: 500), () {
         if (!mounted) return;
-        // pushReplacement : l'utilisateur ne peut pas revenir au splash en arrière.
         Navigator.pushReplacement(
           context,
           _buildFadeRoute(const MainScreen()),
@@ -91,7 +88,6 @@ class _SplashScreenState extends State<SplashScreen>
 
   @override
   void dispose() {
-    // Toujours libérer l'AnimationController pour éviter les fuites mémoire.
     _controller.dispose();
     super.dispose();
   }
@@ -104,26 +100,33 @@ class _SplashScreenState extends State<SplashScreen>
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            // Logo : ScaleTransition + FadeTransition combinés.
+            // Logo KmerTour — cercle blanc + image PNG
             ScaleTransition(
               scale: _logoScale,
               child: FadeTransition(
                 opacity: _logoFade,
                 child: Container(
-                  width: 100,
-                  height: 100,
+                  width: 160,
+                  height: 160,
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
-                    color: Colors.white.withValues(alpha: 0.1),
-                    border: Border.all(
-                      color: AppColors.gold,
-                      width: 2,
-                    ),
+                    color: Colors.white,
+                    boxShadow: [
+                      BoxShadow(
+                        color: Colors.black.withValues(alpha: 0.25),
+                        blurRadius: 24,
+                        offset: const Offset(0, 8),
+                      ),
+                    ],
                   ),
-                  child: const Icon(
-                    Icons.explore,
-                    color: AppColors.gold,
-                    size: 50,
+                  child: ClipOval(
+                    child: Padding(
+                      padding: const EdgeInsets.all(12),
+                      child: Image.asset(
+                        'assets/images/kmertour_logo.png',
+                        fit: BoxFit.contain,
+                      ),
+                    ),
                   ),
                 ),
               ),
@@ -131,26 +134,26 @@ class _SplashScreenState extends State<SplashScreen>
 
             const SizedBox(height: AppSpacing.xxxl),
 
-            // Titre : vient du bas grâce à SlideTransition + fondu.
+            // Nom de marque : « Kmer » blanc · « Tour » doré
             SlideTransition(
               position: _titleSlide,
               child: FadeTransition(
                 opacity: _titleFade,
-                child: Text(
-                  'Discover',
-                  style: AppTypography.splashTitle.copyWith(color: Colors.white),
-                ),
-              ),
-            ),
-
-            SlideTransition(
-              position: _titleSlide,
-              child: FadeTransition(
-                opacity: _titleFade,
-                child: Text(
-                  'Cameroon',
-                  style:
-                      AppTypography.splashTitle.copyWith(color: AppColors.gold),
+                child: RichText(
+                  text: TextSpan(
+                    children: [
+                      TextSpan(
+                        text: 'Kmer',
+                        style: AppTypography.splashTitle
+                            .copyWith(color: Colors.white),
+                      ),
+                      TextSpan(
+                        text: 'Tour',
+                        style: AppTypography.splashTitle
+                            .copyWith(color: AppColors.gold),
+                      ),
+                    ],
+                  ),
                 ),
               ),
             ),
@@ -160,9 +163,9 @@ class _SplashScreenState extends State<SplashScreen>
             FadeTransition(
               opacity: _taglineFade,
               child: Text(
-                'Guide touristique officiel',
+                "Explorez l'Afrique en miniature",
                 style: AppTypography.tagline
-                    .copyWith(color: Colors.white.withValues(alpha: 0.55)),
+                    .copyWith(color: Colors.white.withValues(alpha: 0.75)),
               ),
             ),
 

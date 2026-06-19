@@ -31,7 +31,7 @@ class DiscoverCameroonApp extends ConsumerWidget {
     final locale = ref.watch(localeProvider);
 
     return MaterialApp(
-      title: 'Discover Cameroon',
+      title: 'KmerTour',
       debugShowCheckedModeBanner: false,
       // Tout le Design System (couleurs, typo, rayons, espacements) vit dans theme/.
       theme: AppTheme.light,

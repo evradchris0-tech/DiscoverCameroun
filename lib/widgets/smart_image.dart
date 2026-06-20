@@ -1,10 +1,12 @@
-// NOTE : Affiche une image qu'elle soit distante (URL réseau) ou locale (asset),
-// avec indicateur de chargement et repli coloré en cas d'échec.
-// Concept mis en avant : une seule API d'image pour les deux schémas de données.
+// NOTE : Affiche une image distante (URL) ou locale (asset). Les images réseau sont
+// mises en cache (cached_network_image) avec un placeholder shimmer + fondu d'apparition.
+// Concept mis en avant : une seule API d'image, performante et moderne.
 
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 
 import '../theme/app_colors.dart';
+import 'skeleton.dart';
 
 class SmartImage extends StatelessWidget {
   final String source;
@@ -39,27 +41,15 @@ class SmartImage extends StatelessWidget {
     if (source.isEmpty) return _fallback();
 
     if (_isNetwork) {
-      return Image.network(
-        source,
+      return CachedNetworkImage(
+        imageUrl: source,
         width: width,
         height: height,
         fit: fit,
-        loadingBuilder: (context, child, progress) {
-          if (progress == null) return child;
-          return Container(
-            width: width,
-            height: height,
-            color: fallbackColor.withValues(alpha: 0.15),
-            child: const Center(
-              child: SizedBox(
-                width: 22,
-                height: 22,
-                child: CircularProgressIndicator(strokeWidth: 2),
-              ),
-            ),
-          );
-        },
-        errorBuilder: (_, __, ___) => _fallback(),
+        fadeInDuration: const Duration(milliseconds: 300),
+        placeholder: (_, __) =>
+            Skeleton(width: width, height: height, radius: 0),
+        errorWidget: (_, __, ___) => _fallback(),
       );
     }
 

@@ -142,7 +142,7 @@ class _BookingSheetState extends State<_BookingSheet>
                 Text('Demande envoyée via WhatsApp !'),
               ],
             ),
-            backgroundColor: const Color(0xFF25D366), // vert WhatsApp
+            backgroundColor: AppColors.whatsapp,
             behavior: SnackBarBehavior.floating,
             shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(AppRadius.snackbar)),
@@ -295,7 +295,7 @@ class _BookingSheetState extends State<_BookingSheet>
             icon: const Icon(Icons.send, size: 18),
             label: const Text('Envoyer via WhatsApp'),
             style: ElevatedButton.styleFrom(
-              backgroundColor: const Color(0xFF25D366),
+              backgroundColor: AppColors.whatsapp,
               foregroundColor: Colors.white,
               padding: const EdgeInsets.symmetric(vertical: AppSpacing.smPlus),
               shape: RoundedRectangleBorder(
@@ -365,7 +365,7 @@ class _BookingHeader extends StatelessWidget {
             borderRadius: BorderRadius.circular(AppRadius.chip),
           ),
           child: Text(
-            '${type.emoji} ${type.label} · $destinationName',
+            '${type.label} · $destinationName',
             style: AppTypography.chipLabel.copyWith(color: AppColors.onGoldContainer),
           ),
         ),
@@ -676,13 +676,13 @@ class _StepConfirm extends StatelessWidget {
         Container(
           padding: const EdgeInsets.all(AppSpacing.md),
           decoration: BoxDecoration(
-            color: const Color(0xFFE8F5E9),
+            color: AppColors.whatsappContainer,
             borderRadius: AppRadius.cardBorder,
-            border: Border.all(color: const Color(0xFF25D366).withValues(alpha: 0.4)),
+            border: Border.all(color: AppColors.whatsapp.withValues(alpha: 0.4)),
           ),
           child: Row(
             children: [
-              Icon(Icons.chat, color: Color(0xFF25D366), size: 24),
+              const Icon(Icons.chat, color: AppColors.whatsapp, size: 24),
               const SizedBox(width: AppSpacing.md),
               Expanded(
                 child: Text(
@@ -690,7 +690,7 @@ class _StepConfirm extends StatelessWidget {
                   'votre message sera pré-rempli dans l\'application WhatsApp '
                   'vers notre équipe.',
                   style: AppTypography.meta.copyWith(
-                      color: const Color(0xFF1B5E20), fontSize: 12),
+                      color: AppColors.onWhatsappContainer, fontSize: 12),
                 ),
               ),
             ],

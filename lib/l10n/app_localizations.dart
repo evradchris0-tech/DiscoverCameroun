@@ -494,6 +494,18 @@ abstract class AppLocalizations {
   /// **'Share'**
   String get actionShare;
 
+  /// No description provided for @actionBook.
+  ///
+  /// In en, this message translates to:
+  /// **'Book'**
+  String get actionBook;
+
+  /// No description provided for @actionBookGuide.
+  ///
+  /// In en, this message translates to:
+  /// **'Book this guide'**
+  String get actionBookGuide;
+
   /// No description provided for @sectionRegions.
   ///
   /// In en, this message translates to:

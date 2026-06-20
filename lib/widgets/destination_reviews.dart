@@ -197,11 +197,11 @@ class _RatingSummaryCard extends StatelessWidget {
             children: [
               Text(
                 average.toStringAsFixed(1),
-                style: const TextStyle(
-                  color: Colors.white,
+                style: AppTypography.sans(
                   fontSize: 52,
                   fontWeight: FontWeight.w800,
                   height: 1,
+                  color: Colors.white,
                 ),
               ),
               const SizedBox(height: AppSpacing.xs),
@@ -222,8 +222,8 @@ class _RatingSummaryCard extends StatelessWidget {
               ),
               const SizedBox(height: AppSpacing.xs),
               Text(
-                '$totalCount ${totalCount > 1 ? "avis" : "avis"}',
-                style: const TextStyle(color: Colors.white70, fontSize: 12),
+                '$totalCount avis',
+                style: AppTypography.sans(fontSize: 12, color: Colors.white70),
               ),
             ],
           ),
@@ -244,8 +244,8 @@ class _RatingSummaryCard extends StatelessWidget {
                     children: [
                       Text(
                         '$star',
-                        style: const TextStyle(
-                            color: Colors.white70, fontSize: 11),
+                        style:
+                            AppTypography.sans(fontSize: 11, color: Colors.white70),
                       ),
                       const SizedBox(width: 4),
                       const Icon(Icons.star, size: 10, color: AppColors.gold),

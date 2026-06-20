@@ -227,6 +227,12 @@ class AppLocalizationsFr extends AppLocalizations {
   String get actionShare => 'Partager';
 
   @override
+  String get actionBook => 'Réserver';
+
+  @override
+  String get actionBookGuide => 'Réserver ce guide';
+
+  @override
   String get sectionRegions => 'Découvrir le Cameroun par région';
 
   @override

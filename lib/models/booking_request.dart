@@ -12,13 +12,6 @@ extension BookingTypeX on BookingType {
       case BookingType.guide:         return 'Guide';
     }
   }
-  String get emoji {
-    switch (this) {
-      case BookingType.accommodation: return '🏨';
-      case BookingType.experience:    return '🎯';
-      case BookingType.guide:         return '🧭';
-    }
-  }
 }
 
 class BookingRequest {
@@ -52,24 +45,22 @@ class BookingRequest {
         '${arrivalDate.year}';
 
     final buf = StringBuffer();
-    buf.writeln('Bonjour, je contacte via *KmerTour* 📱');
+    buf.writeln('Bonjour, je vous contacte via *KmerTour*.');
     buf.writeln();
-    buf.writeln('${type.emoji} *Demande de réservation — ${type.label}*');
-    buf.writeln('━━━━━━━━━━━━━━━━━━━━');
-    buf.writeln('📍 Destination : *$destinationName*');
-    buf.writeln('🏷️ ${type.label} : *$itemName*');
-    buf.writeln('━━━━━━━━━━━━━━━━━━━━');
-    buf.writeln('👤 Nom : $guestName');
-    if (guestPhone.isNotEmpty) buf.writeln('📞 Mon numéro : $guestPhone');
-    buf.writeln('📅 Arrivée : $dateStr');
-    if (nights > 0) buf.writeln('🌙 Durée : $nights nuit${nights > 1 ? 's' : ''}');
-    buf.writeln('👥 Voyageurs : $guests personne${guests > 1 ? 's' : ''}');
+    buf.writeln('*Demande de réservation — ${type.label}*');
+    buf.writeln('Destination : *$destinationName*');
+    buf.writeln('${type.label} : *$itemName*');
+    buf.writeln('Nom : $guestName');
+    if (guestPhone.isNotEmpty) buf.writeln('Mon numéro : $guestPhone');
+    buf.writeln('Arrivée : $dateStr');
+    if (nights > 0) buf.writeln('Durée : $nights nuit${nights > 1 ? 's' : ''}');
+    buf.writeln('Voyageurs : $guests personne${guests > 1 ? 's' : ''}');
     if (message != null && message!.isNotEmpty) {
       buf.writeln();
-      buf.writeln('💬 Message : $message');
+      buf.writeln('Message : $message');
     }
     buf.writeln();
-    buf.writeln('Merci de me confirmer la disponibilité 🙏');
+    buf.writeln('Merci de me confirmer la disponibilité.');
     return buf.toString().trim();
   }
 }

@@ -98,6 +98,8 @@
   "mapLayers": "Map type",
   "actionView": "View",
   "actionShare": "Share",
+  "actionBook": "Book",
+  "actionBookGuide": "Book this guide",
 
   "sectionRegions": "Explore KmerTour by region",
   "sectionPopularStays": "Popular stays",

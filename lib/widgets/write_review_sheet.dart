@@ -241,11 +241,11 @@ class _StarSelector extends StatelessWidget {
   const _StarSelector({required this.value, required this.onChanged});
 
   String _label(double v) {
-    if (v >= 5) return 'Exceptionnel ✨';
-    if (v >= 4) return 'Très bien 😊';
-    if (v >= 3) return 'Bien 👍';
-    if (v >= 2) return 'Passable 😐';
-    return 'Décevant 😞';
+    if (v >= 5) return 'Exceptionnel';
+    if (v >= 4) return 'Très bien';
+    if (v >= 3) return 'Bien';
+    if (v >= 2) return 'Passable';
+    return 'Décevant';
   }
 
   @override

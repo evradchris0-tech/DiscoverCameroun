@@ -11,6 +11,7 @@ import '../theme/app_colors.dart';
 import '../theme/app_spacing.dart';
 import '../theme/app_typography.dart';
 import '../widgets/experience_card.dart';
+import '../widgets/skeleton.dart';
 
 class ExperiencesView extends ConsumerStatefulWidget {
   final String query;
@@ -29,7 +30,7 @@ class _ExperiencesViewState extends ConsumerState<ExperiencesView> {
     final experiencesAsync = ref.watch(experiencesProvider);
 
     return experiencesAsync.when(
-      loading: () => const Center(child: CircularProgressIndicator()),
+      loading: () => const SkeletonList(item: TileSkeleton()),
       error: (e, _) => Center(child: Text('Erreur : $e')),
       data: (all) {
         final q = widget.query.trim().toLowerCase();

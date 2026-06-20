@@ -1,5 +1,5 @@
-// NOTE : Carte d'un hébergement à proximité (rubrique « hébergement »).
-// Concept mis en avant : actions « itinéraire » et « appeler » via AppLauncher.
+// NOTE : Hébergement — tuile compacte → fiche détaillée (adresse, équipements,
+// itinéraire, appel, réservation) en bottom sheet.
 
 import 'package:flutter/material.dart';
 
@@ -13,6 +13,7 @@ import '../theme/app_radius.dart';
 import '../theme/app_spacing.dart';
 import '../theme/app_typography.dart';
 import 'booking_sheet.dart';
+import 'catalog_tile.dart';
 import 'rating_stars.dart';
 import 'route_info.dart';
 
@@ -20,131 +21,144 @@ class AccommodationCard extends StatelessWidget {
   final Accommodation accommodation;
   final String destinationName;
 
-  const AccommodationCard({
-    super.key,
-    required this.accommodation,
-    this.destinationName = '',
-  });
+  const AccommodationCard(
+      {super.key, required this.accommodation, this.destinationName = ''});
 
   @override
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context);
     final a = accommodation;
-    return Container(
-      margin: const EdgeInsets.only(bottom: AppSpacing.md),
-      padding: const EdgeInsets.all(AppSpacing.md),
-      decoration: BoxDecoration(
-        color: AppColors.surface,
-        borderRadius: AppRadius.cardBorder,
-        border: Border.all(color: AppColors.outlineVariant),
-      ),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
+    return CompactTile(
+      leading: const CatalogIcon(icon: Icons.hotel),
+      title: a.name,
+      subtitle: Row(
         children: [
-          Row(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Expanded(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(a.name, style: AppTypography.cardTitle),
-                    const SizedBox(height: AppSpacing.xxs),
-                    Row(children: [
-                      _TypePill(label: a.type.label),
-                      const SizedBox(width: AppSpacing.sm),
-                      RatingStars(rating: a.rating),
-                    ]),
-                  ],
-                ),
-              ),
-              if (a.priceFrom != null)
-                Column(
-                  crossAxisAlignment: CrossAxisAlignment.end,
-                  children: [
-                    Text(l10n.labelFrom, style: AppTypography.caption),
-                    Text(formatFcfa(a.priceFrom!),
-                        style: AppTypography.sans(
-                            fontSize: 13,
-                            fontWeight: FontWeight.w700,
-                            color: AppColors.primary)),
-                    Text(l10n.labelPerNight, style: AppTypography.caption),
-                  ],
-                ),
-            ],
-          ),
-          if (a.address.isNotEmpty) ...[
-            const SizedBox(height: AppSpacing.sm),
-            Row(children: [
-              const Icon(Icons.location_on,
-                  size: 14, color: AppColors.textLight),
-              const SizedBox(width: AppSpacing.xxs),
-              Expanded(child: Text(a.address, style: AppTypography.caption)),
-            ]),
-          ],
-          if (a.amenities.isNotEmpty) ...[
-            const SizedBox(height: AppSpacing.sm),
-            Wrap(
-              spacing: AppSpacing.xs,
-              runSpacing: AppSpacing.xs,
-              children:
-                  a.amenities.map((m) => _Amenity(label: m)).toList(),
-            ),
-          ],
-          const SizedBox(height: AppSpacing.md),
-          if (a.latitude != null && a.longitude != null)
-            RouteInfo(lat: a.latitude!, lng: a.longitude!),
-          Row(children: [
-            if (a.latitude != null && a.longitude != null)
-              Expanded(
-                child: OutlinedButton.icon(
-                  onPressed: () => AppLauncher.openDirections(
-                      a.latitude!, a.longitude!,
-                      label: a.name),
-                  icon: const Icon(Icons.directions, size: 16),
-                  label: Text(l10n.actionDirections),
-                  style: OutlinedButton.styleFrom(
-                    foregroundColor: AppColors.primary,
-                    side: const BorderSide(color: AppColors.primary),
-                    shape: RoundedRectangleBorder(
-                        borderRadius: AppRadius.buttonBorder),
-                  ),
-                ),
-              ),
-            if (a.phone != null) ...[
-              const SizedBox(width: AppSpacing.sm),
-              Expanded(
-                child: ElevatedButton.icon(
-                  onPressed: () => AppLauncher.call(a.phone!),
-                  icon: const Icon(Icons.call, size: 16),
-                  label: Text(l10n.actionCall),
-                ),
-              ),
-            ],
-          ]),
-          const SizedBox(height: AppSpacing.sm),
-          // Bouton Réserver
-          SizedBox(
-            width: double.infinity,
-            child: ElevatedButton.icon(
-              onPressed: () => showBookingSheet(
-                context,
-                type: BookingType.accommodation,
-                itemName: a.name,
-                destinationName: destinationName,
-              ),
-              icon: const Icon(Icons.bookmark_add_outlined, size: 16),
-              label: const Text('Réserver'),
-              style: ElevatedButton.styleFrom(
-                backgroundColor: AppColors.gold,
-                foregroundColor: Colors.white,
-                shape: RoundedRectangleBorder(
-                    borderRadius: AppRadius.buttonBorder),
-              ),
-            ),
+          RatingStars(rating: a.rating),
+          const SizedBox(width: AppSpacing.sm),
+          Flexible(
+            child: Text(a.type.label,
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
+                style: AppTypography.caption),
           ),
         ],
       ),
+      trailing: a.priceFrom == null
+          ? null
+          : Column(
+              crossAxisAlignment: CrossAxisAlignment.end,
+              children: [
+                Text(formatFcfa(a.priceFrom!),
+                    style: AppTypography.sans(
+                        fontSize: 13,
+                        fontWeight: FontWeight.w700,
+                        color: AppColors.primary)),
+                Text(l10n.labelPerNight, style: AppTypography.caption),
+              ],
+            ),
+      onTap: () => showCatalogSheet(context,
+          child: _AccommodationSheet(
+              accommodation: a, destinationName: destinationName)),
+    );
+  }
+}
+
+class _AccommodationSheet extends StatelessWidget {
+  final Accommodation accommodation;
+  final String destinationName;
+
+  const _AccommodationSheet(
+      {required this.accommodation, required this.destinationName});
+
+  @override
+  Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context);
+    final a = accommodation;
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(a.name, style: AppTypography.sectionTitle),
+        const SizedBox(height: AppSpacing.xs),
+        Row(children: [
+          _TypePill(label: a.type.label),
+          const SizedBox(width: AppSpacing.sm),
+          RatingStars(rating: a.rating),
+          const Spacer(),
+          if (a.priceFrom != null)
+            Text('${l10n.labelFrom} ${formatFcfa(a.priceFrom!)}',
+                style: AppTypography.sans(
+                    fontSize: 13,
+                    fontWeight: FontWeight.w700,
+                    color: AppColors.primary)),
+        ]),
+        if (a.address.isNotEmpty) ...[
+          const SizedBox(height: AppSpacing.md),
+          Row(children: [
+            const Icon(Icons.location_on, size: 14, color: AppColors.textLight),
+            const SizedBox(width: AppSpacing.xxs),
+            Expanded(child: Text(a.address, style: AppTypography.caption)),
+          ]),
+        ],
+        if (a.amenities.isNotEmpty) ...[
+          const SizedBox(height: AppSpacing.md),
+          Wrap(
+            spacing: AppSpacing.xs,
+            runSpacing: AppSpacing.xs,
+            children: a.amenities.map((m) => _Amenity(label: m)).toList(),
+          ),
+        ],
+        const SizedBox(height: AppSpacing.lg),
+        if (a.latitude != null && a.longitude != null)
+          RouteInfo(lat: a.latitude!, lng: a.longitude!),
+        Row(children: [
+          if (a.latitude != null && a.longitude != null)
+            Expanded(
+              child: OutlinedButton.icon(
+                onPressed: () => AppLauncher.openDirections(
+                    a.latitude!, a.longitude!,
+                    label: a.name),
+                icon: const Icon(Icons.directions, size: 16),
+                label: Text(l10n.actionDirections),
+                style: OutlinedButton.styleFrom(
+                  foregroundColor: AppColors.primary,
+                  side: const BorderSide(color: AppColors.primary),
+                  shape: RoundedRectangleBorder(
+                      borderRadius: AppRadius.buttonBorder),
+                ),
+              ),
+            ),
+          if (a.phone != null) ...[
+            const SizedBox(width: AppSpacing.sm),
+            Expanded(
+              child: ElevatedButton.icon(
+                onPressed: () => AppLauncher.call(a.phone!),
+                icon: const Icon(Icons.call, size: 16),
+                label: Text(l10n.actionCall),
+              ),
+            ),
+          ],
+        ]),
+        const SizedBox(height: AppSpacing.sm),
+        SizedBox(
+          width: double.infinity,
+          child: ElevatedButton.icon(
+            onPressed: () => showBookingSheet(
+              context,
+              type: BookingType.accommodation,
+              itemName: a.name,
+              destinationName: destinationName,
+            ),
+            icon: const Icon(Icons.bookmark_add_outlined, size: 16),
+            label: Text(l10n.actionBook),
+            style: ElevatedButton.styleFrom(
+              backgroundColor: AppColors.gold,
+              foregroundColor: Colors.white,
+              shape:
+                  RoundedRectangleBorder(borderRadius: AppRadius.buttonBorder),
+            ),
+          ),
+        ),
+      ],
     );
   }
 }

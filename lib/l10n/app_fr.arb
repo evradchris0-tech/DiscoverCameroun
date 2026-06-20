@@ -79,6 +79,8 @@
   "mapLayers": "Type de carte",
   "actionView": "Voir",
   "actionShare": "Partager",
+  "actionBook": "Réserver",
+  "actionBookGuide": "Réserver ce guide",
 
   "sectionRegions": "Découvrir le Cameroun par région",
   "sectionPopularStays": "Séjours populaires",

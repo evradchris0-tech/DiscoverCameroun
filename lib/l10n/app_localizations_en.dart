@@ -227,6 +227,12 @@ class AppLocalizationsEn extends AppLocalizations {
   String get actionShare => 'Share';
 
   @override
+  String get actionBook => 'Book';
+
+  @override
+  String get actionBookGuide => 'Book this guide';
+
+  @override
   String get sectionRegions => 'Explore KmerTour by region';
 
   @override

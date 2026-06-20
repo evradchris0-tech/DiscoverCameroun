@@ -18,6 +18,7 @@ import '../theme/app_typography.dart';
 import '../widgets/animated_list_item.dart';
 import '../widgets/popular_stay_card.dart';
 import '../widgets/section_header.dart';
+import '../widgets/skeleton.dart';
 import '../widgets/smart_image.dart';
 import '../widgets/sponsor_card.dart';
 import 'all_destinations_screen.dart';
@@ -101,10 +102,10 @@ class HomeScreen extends ConsumerWidget {
 
           ...filteredAsync.when(
             loading: () => [
-              const SliverToBoxAdapter(
-                child: Padding(
-                  padding: EdgeInsets.all(48),
-                  child: Center(child: CircularProgressIndicator()),
+              SliverList(
+                delegate: SliverChildBuilderDelegate(
+                  (_, __) => const StayCardSkeleton(),
+                  childCount: 4,
                 ),
               ),
             ],

@@ -18,12 +18,12 @@ class ReviewCard extends StatelessWidget {
   /// Génère une couleur d'avatar cohérente à partir du nom de l'auteur.
   Color _avatarColor(String name) {
     const palette = [
-      Color(0xFF1A3C34), // vert forêt
-      Color(0xFFC8973A), // or
-      Color(0xFF2A9D8F), // turquoise
-      Color(0xFF9C6B3F), // terre
-      Color(0xFF577590), // ardoise
-      Color(0xFF2D6A4F), // vert clair
+      AppColors.primary,
+      AppColors.gold,
+      AppColors.catPlage,
+      AppColors.catMontagne,
+      AppColors.catVille,
+      AppColors.primaryLight,
     ];
     final index = name.codeUnits.fold(0, (a, b) => a + b) % palette.length;
     return palette[index];
@@ -73,10 +73,10 @@ class ReviewCard extends StatelessWidget {
                 backgroundColor: color,
                 child: Text(
                   _initials(review.authorName),
-                  style: const TextStyle(
-                    color: Colors.white,
-                    fontWeight: FontWeight.w700,
+                  style: AppTypography.sans(
                     fontSize: 14,
+                    fontWeight: FontWeight.w700,
+                    color: Colors.white,
                   ),
                 ),
               ),

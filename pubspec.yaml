@@ -36,6 +36,10 @@ dependencies:
   geolocator: ^13.0.0
   http: ^1.2.0
 
+  # Images réseau en cache + effets de chargement (shimmer)
+  cached_network_image: ^3.4.1
+  shimmer: ^3.0.0
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

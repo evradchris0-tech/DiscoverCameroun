@@ -34,6 +34,9 @@ class AppRadius {
   /// 24 px — éléments entièrement arrondis (bouton « j'aime »).
   static const double pill = 24;
 
+  /// 28 px — barre de navigation flottante.
+  static const double navBar = 28;
+
   // --- Raccourcis pratiques ----------------------------------------------
   /// `BorderRadius.circular(AppRadius.card)` prêt à l'emploi.
   static BorderRadius get cardBorder => BorderRadius.circular(card);

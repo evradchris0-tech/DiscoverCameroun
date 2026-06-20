@@ -63,69 +63,104 @@ class DetailScreen extends ConsumerWidget {
         ref.watch(favoritesProvider).contains(destination.id);
     final colorScheme = Theme.of(context).colorScheme;
 
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(destination.name),
-        leading: Padding(
-          padding: const EdgeInsets.all(AppSpacing.sm),
-          child: CircleAvatar(
-            backgroundColor: Colors.white.withValues(alpha: 0.2),
-            child: IconButton(
-              icon: const Icon(Icons.arrow_back_ios,
-                  color: Colors.white, size: 16),
-              onPressed: () => Navigator.pop(context),
-            ),
+    // Menu 3 points : partager / copier / signet (évite de surcharger l'en-tête)
+    final menu = PopupMenuButton<String>(
+      icon: const Icon(Icons.more_vert),
+      onSelected: (value) {
+        switch (value) {
+          case 'share':
+            Share.share(l10n.shareDestinationText(
+                destination.name, destination.region));
+          case 'copy':
+            _copyToClipboard(context);
+          case 'fav':
+            ref.read(favoritesProvider.notifier).toggle(destination.id);
+        }
+      },
+      itemBuilder: (context) => [
+        PopupMenuItem(
+          value: 'share',
+          child: _MenuRow(icon: Icons.share_outlined, label: l10n.actionShare),
+        ),
+        PopupMenuItem(
+          value: 'copy',
+          child: _MenuRow(icon: Icons.copy, label: l10n.tooltipCopy),
+        ),
+        PopupMenuItem(
+          value: 'fav',
+          child: _MenuRow(
+            icon: isFavorite ? Icons.bookmark : Icons.bookmark_border,
+            label: isFavorite ? l10n.tooltipRemoveFav : l10n.tooltipAddFav,
           ),
         ),
-        actions: [
-          // Menu 3 points : partager / copier / signet (évite de surcharger l'en-tête)
-          PopupMenuButton<String>(
-            icon: const Icon(Icons.more_vert),
-            onSelected: (value) {
-              switch (value) {
-                case 'share':
-                  Share.share(l10n.shareDestinationText(
-                      destination.name, destination.region));
-                case 'copy':
-                  _copyToClipboard(context);
-                case 'fav':
-                  ref.read(favoritesProvider.notifier).toggle(destination.id);
-              }
-            },
-            itemBuilder: (context) => [
-              PopupMenuItem(
-                value: 'share',
-                child: _MenuRow(icon: Icons.share_outlined, label: l10n.actionShare),
-              ),
-              PopupMenuItem(
-                value: 'copy',
-                child: _MenuRow(icon: Icons.copy, label: l10n.tooltipCopy),
-              ),
-              PopupMenuItem(
-                value: 'fav',
-                child: _MenuRow(
-                  icon: isFavorite ? Icons.bookmark : Icons.bookmark_border,
-                  label: isFavorite ? l10n.tooltipRemoveFav : l10n.tooltipAddFav,
+      ],
+    );
+
+    return Scaffold(
+      body: CustomScrollView(
+        slivers: [
+          // En-tête rétractable avec galerie en parallax
+          SliverAppBar(
+            expandedHeight: 300,
+            pinned: true,
+            stretch: true,
+            backgroundColor: AppColors.primary,
+            foregroundColor: Colors.white,
+            leading: Padding(
+              padding: const EdgeInsets.all(AppSpacing.sm),
+              child: CircleAvatar(
+                backgroundColor: Colors.black.withValues(alpha: 0.3),
+                child: IconButton(
+                  icon: const Icon(Icons.arrow_back_ios,
+                      color: Colors.white, size: 16),
+                  onPressed: () => Navigator.pop(context),
                 ),
               ),
-            ],
-          ),
-        ],
-      ),
-
-      body: SingleChildScrollView(
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            // Galerie d'images avec Hero sur le premier élément.
-            ImageGallery(
-              images: destination.gallery,
-              heroTag: 'hero-${destination.id}',
-              fallbackColor: destination.category.color,
-              fallbackIcon: destination.category.icon,
             ),
-
-            Padding(
+            actions: [menu],
+            flexibleSpace: FlexibleSpaceBar(
+              collapseMode: CollapseMode.parallax,
+              stretchModes: const [StretchMode.zoomBackground],
+              titlePadding: const EdgeInsets.only(
+                  left: 56, right: 56, bottom: AppSpacing.md),
+              title: Text(
+                destination.name,
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
+                style: AppTypography.sans(
+                    fontSize: 16,
+                    fontWeight: FontWeight.w700,
+                    color: Colors.white),
+              ),
+              background: Stack(
+                fit: StackFit.expand,
+                children: [
+                  ImageGallery(
+                    images: destination.gallery,
+                    heroTag: 'hero-${destination.id}',
+                    fallbackColor: destination.category.color,
+                    fallbackIcon: destination.category.icon,
+                  ),
+                  IgnorePointer(
+                    child: DecoratedBox(
+                      decoration: BoxDecoration(
+                        gradient: LinearGradient(
+                          begin: Alignment.center,
+                          end: Alignment.bottomCenter,
+                          colors: [
+                            Colors.transparent,
+                            Colors.black.withValues(alpha: 0.55),
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ),
+          SliverToBoxAdapter(
+            child: Padding(
               padding: const EdgeInsets.all(AppSpacing.xl),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -314,8 +349,8 @@ class DetailScreen extends ConsumerWidget {
                 ],
               ),
             ),
-          ],
-        ),
+          ),
+        ],
       ),
     );
   }

@@ -67,6 +67,16 @@ class AppColors {
   /// Bleu « ma position » (point GPS de l'utilisateur sur la carte).
   static const Color userLocation = Color(0xFF2F6FED);
 
+  // --- WhatsApp (réservation / contact) -----------------------------------
+  /// Vert de marque WhatsApp.
+  static const Color whatsapp = Color(0xFF25D366);
+
+  /// Fond vert clair pour les encarts WhatsApp.
+  static const Color whatsappContainer = Color(0xFFE8F5E9);
+
+  /// Texte vert foncé posé sur [whatsappContainer].
+  static const Color onWhatsappContainer = Color(0xFF1B5E20);
+
   // --- États sémantiques --------------------------------------------------
   /// Rouge d'urgence/danger (contacts d'urgence, erreurs critiques).
   static const Color danger = Color(0xFFC0392B);

@@ -38,32 +38,34 @@ class _ImageGalleryState extends State<ImageGallery> {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
+    // Remplit l'espace disponible (utilisée comme fond d'en-tête rétractable).
+    return Stack(
+      fit: StackFit.expand,
       children: [
-        SizedBox(
-          height: 280,
-          child: PageView.builder(
-            controller: _pageController,
-            itemCount: widget.images.length,
-            onPageChanged: (i) => setState(() => _currentPage = i),
-            itemBuilder: (context, i) {
-              final image = SmartImage(
-                source: widget.images[i],
-                width: double.infinity,
-                height: 280,
-                fallbackColor: widget.fallbackColor,
-                fallbackIcon: widget.fallbackIcon,
-              );
-              // Le premier élément porte le Hero pour la transition depuis la liste.
-              return i == 0 ? Hero(tag: widget.heroTag, child: image) : image;
-            },
-          ),
+        PageView.builder(
+          controller: _pageController,
+          itemCount: widget.images.length,
+          onPageChanged: (i) => setState(() => _currentPage = i),
+          itemBuilder: (context, i) {
+            final image = SmartImage(
+              source: widget.images[i],
+              width: double.infinity,
+              height: double.infinity,
+              fallbackColor: widget.fallbackColor,
+              fallbackIcon: widget.fallbackIcon,
+            );
+            // Le premier élément porte le Hero pour la transition depuis la liste.
+            return i == 0 ? Hero(tag: widget.heroTag, child: image) : image;
+          },
         ),
-        if (widget.images.length > 1) ...[
-          const SizedBox(height: AppSpacing.sm),
-          _DotsIndicator(
-              count: widget.images.length, current: _currentPage),
-        ],
+        if (widget.images.length > 1)
+          Positioned(
+            left: 0,
+            right: 0,
+            bottom: AppSpacing.md,
+            child: _DotsIndicator(
+                count: widget.images.length, current: _currentPage),
+          ),
       ],
     );
   }
@@ -87,8 +89,8 @@ class _DotsIndicator extends StatelessWidget {
           height: 6,
           decoration: BoxDecoration(
             color: i == current
-                ? AppColors.primary
-                : AppColors.primaryContainer,
+                ? Colors.white
+                : Colors.white.withValues(alpha: 0.5),
             borderRadius: BorderRadius.circular(AppRadius.dot),
           ),
         );

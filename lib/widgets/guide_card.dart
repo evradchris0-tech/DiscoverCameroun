@@ -1,5 +1,5 @@
-// NOTE : Carte d'un guide touristique local avec actions de contact (appel / WhatsApp).
-// Concept mis en avant : composant réutilisable + actions sortantes via AppLauncher.
+// NOTE : Guide local — tuile compacte (peu d'infos) qui ouvre une fiche détaillée
+// (bio, langues, spécialités, contact, réservation) en bottom sheet.
 
 import 'package:flutter/material.dart';
 
@@ -13,6 +13,7 @@ import '../theme/app_radius.dart';
 import '../theme/app_spacing.dart';
 import '../theme/app_typography.dart';
 import 'booking_sheet.dart';
+import 'catalog_tile.dart';
 import 'rating_stars.dart';
 import 'smart_image.dart';
 
@@ -20,11 +21,42 @@ class GuideCard extends StatelessWidget {
   final TourGuide guide;
   final String destinationName;
 
-  const GuideCard({
-    super.key,
-    required this.guide,
-    this.destinationName = '',
-  });
+  const GuideCard({super.key, required this.guide, this.destinationName = ''});
+
+  @override
+  Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context);
+    return CompactTile(
+      leading: _Avatar(photoPath: guide.photoPath, name: guide.name, size: 48),
+      title: guide.name,
+      subtitle: Row(
+        children: [
+          RatingStars(rating: guide.rating),
+          if (guide.languages.isNotEmpty) ...[
+            const SizedBox(width: AppSpacing.sm),
+            Flexible(
+              child: Text(guide.languages.join(' · '),
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
+                  style: AppTypography.caption),
+            ),
+          ],
+        ],
+      ),
+      trailing: guide.pricePerDay == null
+          ? null
+          : _PriceTag(amount: guide.pricePerDay!, unit: l10n.labelPerDay),
+      onTap: () => showCatalogSheet(context,
+          child: _GuideSheet(guide: guide, destinationName: destinationName)),
+    );
+  }
+}
+
+class _GuideSheet extends StatelessWidget {
+  final TourGuide guide;
+  final String destinationName;
+
+  const _GuideSheet({required this.guide, required this.destinationName});
 
   Future<void> _call(BuildContext context) async {
     final ok = await AppLauncher.call(guide.phone);
@@ -49,114 +81,112 @@ class GuideCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context);
-    return Container(
-      margin: const EdgeInsets.only(bottom: AppSpacing.md),
-      padding: const EdgeInsets.all(AppSpacing.md),
-      decoration: BoxDecoration(
-        color: AppColors.surface,
-        borderRadius: AppRadius.cardBorder,
-        border: Border.all(color: AppColors.outlineVariant),
-      ),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Row(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              _Avatar(photoPath: guide.photoPath, name: guide.name),
-              const SizedBox(width: AppSpacing.md),
-              Expanded(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(guide.name, style: AppTypography.cardTitle),
-                    const SizedBox(height: AppSpacing.xxs),
-                    RatingStars(rating: guide.rating),
-                    if (guide.languages.isNotEmpty) ...[
-                      const SizedBox(height: AppSpacing.xxs),
-                      Text(guide.languages.join(' · '),
-                          style: AppTypography.caption),
-                    ],
-                  ],
-                ),
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Row(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            _Avatar(photoPath: guide.photoPath, name: guide.name, size: 56),
+            const SizedBox(width: AppSpacing.md),
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(guide.name, style: AppTypography.sectionTitle),
+                  const SizedBox(height: AppSpacing.xxs),
+                  RatingStars(rating: guide.rating),
+                ],
               ),
-              if (guide.pricePerDay != null)
-                Column(
-                  crossAxisAlignment: CrossAxisAlignment.end,
-                  children: [
-                    Text(formatFcfa(guide.pricePerDay!),
-                        style: AppTypography.sans(
-                            fontSize: 13,
-                            fontWeight: FontWeight.w700,
-                            color: AppColors.primary)),
-                    Text(l10n.labelPerDay, style: AppTypography.caption),
-                  ],
-                ),
-            ],
-          ),
-          if (guide.bio.isNotEmpty) ...[
-            const SizedBox(height: AppSpacing.sm),
-            Text(guide.bio, style: AppTypography.cardBody),
-          ],
-          if (guide.specialties.isNotEmpty) ...[
-            const SizedBox(height: AppSpacing.sm),
-            Wrap(
-              spacing: AppSpacing.xs,
-              runSpacing: AppSpacing.xs,
-              children: guide.specialties
-                  .map((s) => _Tag(label: s))
-                  .toList(),
             ),
+            if (guide.pricePerDay != null)
+              _PriceTag(amount: guide.pricePerDay!, unit: l10n.labelPerDay),
           ],
+        ),
+        if (guide.languages.isNotEmpty) ...[
           const SizedBox(height: AppSpacing.md),
-          Row(
-            children: [
-              Expanded(
-                child: OutlinedButton.icon(
-                  onPressed: () => _call(context),
-                  icon: const Icon(Icons.call, size: 16),
-                  label: Text(l10n.actionCall),
-                  style: OutlinedButton.styleFrom(
-                    foregroundColor: AppColors.primary,
-                    side: const BorderSide(color: AppColors.primary),
-                    shape: RoundedRectangleBorder(
-                        borderRadius: AppRadius.buttonBorder),
-                  ),
-                ),
-              ),
-              const SizedBox(width: AppSpacing.sm),
-              Expanded(
-                child: ElevatedButton.icon(
-                  onPressed: () => _whatsapp(context),
-                  icon: const Icon(Icons.chat, size: 16),
-                  label: Text(l10n.actionWhatsApp),
-                ),
-              ),
-            ],
-          ),
+          Text(guide.languages.join(' · '), style: AppTypography.caption),
+        ],
+        if (guide.bio.isNotEmpty) ...[
           const SizedBox(height: AppSpacing.sm),
-          // Bouton Réserver un guide
-          SizedBox(
-            width: double.infinity,
-            child: ElevatedButton.icon(
-              onPressed: () => showBookingSheet(
-                context,
-                type: BookingType.guide,
-                itemName: guide.name,
-                destinationName: destinationName,
-              ),
-              icon: const Icon(Icons.bookmark_add_outlined, size: 16),
-              label: const Text('Réserver ce guide'),
-              style: ElevatedButton.styleFrom(
-                backgroundColor: AppColors.gold,
-                foregroundColor: Colors.white,
-                shape: RoundedRectangleBorder(
-                    borderRadius: AppRadius.buttonBorder),
-              ),
-            ),
+          Text(guide.bio, style: AppTypography.bodyText),
+        ],
+        if (guide.specialties.isNotEmpty) ...[
+          const SizedBox(height: AppSpacing.md),
+          Wrap(
+            spacing: AppSpacing.xs,
+            runSpacing: AppSpacing.xs,
+            children: guide.specialties.map((s) => _Tag(label: s)).toList(),
           ),
         ],
-      ),
+        const SizedBox(height: AppSpacing.lg),
+        Row(
+          children: [
+            Expanded(
+              child: OutlinedButton.icon(
+                onPressed: () => _call(context),
+                icon: const Icon(Icons.call, size: 16),
+                label: Text(l10n.actionCall),
+                style: OutlinedButton.styleFrom(
+                  foregroundColor: AppColors.primary,
+                  side: const BorderSide(color: AppColors.primary),
+                  shape: RoundedRectangleBorder(
+                      borderRadius: AppRadius.buttonBorder),
+                ),
+              ),
+            ),
+            const SizedBox(width: AppSpacing.sm),
+            Expanded(
+              child: ElevatedButton.icon(
+                onPressed: () => _whatsapp(context),
+                icon: const Icon(Icons.chat, size: 16),
+                label: Text(l10n.actionWhatsApp),
+              ),
+            ),
+          ],
+        ),
+        const SizedBox(height: AppSpacing.sm),
+        SizedBox(
+          width: double.infinity,
+          child: ElevatedButton.icon(
+            onPressed: () => showBookingSheet(
+              context,
+              type: BookingType.guide,
+              itemName: guide.name,
+              destinationName: destinationName,
+            ),
+            icon: const Icon(Icons.bookmark_add_outlined, size: 16),
+            label: Text(l10n.actionBookGuide),
+            style: ElevatedButton.styleFrom(
+              backgroundColor: AppColors.gold,
+              foregroundColor: Colors.white,
+              shape:
+                  RoundedRectangleBorder(borderRadius: AppRadius.buttonBorder),
+            ),
+          ),
+        ),
+      ],
+    );
+  }
+}
+
+class _PriceTag extends StatelessWidget {
+  final int amount;
+  final String unit;
+  const _PriceTag({required this.amount, required this.unit});
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.end,
+      children: [
+        Text(formatFcfa(amount),
+            style: AppTypography.sans(
+                fontSize: 13,
+                fontWeight: FontWeight.w700,
+                color: AppColors.primary)),
+        Text(unit, style: AppTypography.caption),
+      ],
     );
   }
 }
@@ -164,39 +194,39 @@ class GuideCard extends StatelessWidget {
 class _Avatar extends StatelessWidget {
   final String photoPath;
   final String name;
-  const _Avatar({required this.photoPath, required this.name});
+  final double size;
+  const _Avatar(
+      {required this.photoPath, required this.name, this.size = 56});
 
   @override
   Widget build(BuildContext context) {
     return ClipRRect(
       borderRadius: BorderRadius.circular(AppRadius.sm),
       child: SizedBox(
-        width: 56,
-        height: 56,
+        width: size,
+        height: size,
         child: photoPath.isEmpty
-            ? _initials()
+            ? Container(
+                color: AppColors.primaryContainer,
+                alignment: Alignment.center,
+                child: Text(
+                  name.isNotEmpty ? name[0] : '?',
+                  style: AppTypography.serif(
+                      fontSize: size * 0.4,
+                      fontWeight: FontWeight.w700,
+                      color: AppColors.primary),
+                ),
+              )
             : SmartImage(
                 source: photoPath,
-                width: 56,
-                height: 56,
+                width: size,
+                height: size,
                 fallbackColor: AppColors.primaryContainer,
                 fallbackIcon: Icons.person,
               ),
       ),
     );
   }
-
-  Widget _initials() => Container(
-        color: AppColors.primaryContainer,
-        alignment: Alignment.center,
-        child: Text(
-          name.isNotEmpty ? name[0] : '?',
-          style: AppTypography.serif(
-              fontSize: 22,
-              fontWeight: FontWeight.w700,
-              color: AppColors.primary),
-        ),
-      );
 }
 
 class _Tag extends StatelessWidget {
